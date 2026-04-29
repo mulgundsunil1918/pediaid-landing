@@ -1,0 +1,849 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="description" content="PediAid — Paediatric &amp; Neonatal Clinical Reference. Calculators, growth charts, drug formulary, bilirubin nomograms and NICU tools — designed for paediatricians, neonatologists and trainees." />
+<meta name="theme-color" content="#1e3a5f" />
+<title>PediAid — Paediatric &amp; Neonatal Clinical Reference</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    /* PediAid palette (matches Flutter app + frontend) */
+    --navy:        #1e3a5f;
+    --navy-2:      #2c5282;
+    --accent:      #3182ce;
+    --accent-2:    #4fa8e0;
+    --success:     #38a169;
+    --warning:     #d69e2e;
+    --danger:      #e53e3e;
+    --ink:         #2d3748;
+    --ink-muted:   #718096;
+    --bg:          #f7fafc;
+    --card:        #ffffff;
+    --border:      #e2e8f0;
+
+    /* Frosted glass tokens */
+    --glass-bg:        rgba(255, 255, 255, 0.62);
+    --glass-bg-strong: rgba(255, 255, 255, 0.78);
+    --glass-bg-dark:   rgba(30, 58, 95, 0.55);
+    --glass-border:    rgba(255, 255, 255, 0.55);
+    --glass-shadow:    0 10px 40px -12px rgba(15, 35, 70, 0.30),
+                       0 4px 14px -6px rgba(15, 35, 70, 0.18);
+    --glass-shadow-lg: 0 24px 60px -18px rgba(15, 35, 70, 0.35),
+                       0 8px 22px -8px rgba(15, 35, 70, 0.20);
+    --glass-blur:      18px;
+    --glass-blur-strong: 26px;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: var(--ink);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    background: #eef3fb;
+    overflow-x: hidden;
+  }
+
+  /* ─── Animated gradient + soft blobs behind everything ─────────────── */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: -10vmax;
+    z-index: -2;
+    background:
+      radial-gradient(40vmax 32vmax at 12% 18%, rgba(49, 130, 206, 0.45), transparent 60%),
+      radial-gradient(36vmax 30vmax at 88% 14%, rgba(79, 168, 224, 0.35), transparent 60%),
+      radial-gradient(48vmax 40vmax at 50% 92%, rgba(30, 58, 95, 0.55), transparent 60%),
+      linear-gradient(180deg, #dde7f6 0%, #c4d6ee 60%, #a9c2e5 100%);
+    animation: bgShift 22s ease-in-out infinite alternate;
+    filter: saturate(1.05);
+  }
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background-image:
+      radial-gradient(rgba(30, 58, 95, 0.06) 1px, transparent 1px);
+    background-size: 22px 22px;
+    pointer-events: none;
+    mask-image: linear-gradient(180deg, rgba(0,0,0,0.55), rgba(0,0,0,0.15) 70%, transparent);
+    -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0.55), rgba(0,0,0,0.15) 70%, transparent);
+  }
+  @keyframes bgShift {
+    0%   { transform: translate3d(0, 0, 0)        scale(1); }
+    50%  { transform: translate3d(2%, -1%, 0)     scale(1.04); }
+    100% { transform: translate3d(-2%, 1.5%, 0)   scale(1.02); }
+  }
+
+  /* ─── Layout primitives ─────────────────────────────────────────────── */
+  .wrap   { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+  .narrow { max-width: 880px;  margin: 0 auto; padding: 0 24px; }
+
+  section { padding: 88px 0; position: relative; }
+  section + section { padding-top: 56px; }
+
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: rgba(30, 58, 95, 0.08);
+    border: 1px solid rgba(30, 58, 95, 0.16);
+    color: var(--navy);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+  }
+  .eyebrow .dot {
+    width: 6px; height: 6px; border-radius: 999px;
+    background: var(--success);
+    box-shadow: 0 0 0 3px rgba(56, 161, 105, 0.18);
+  }
+
+  h1, h2, h3 { color: var(--navy); margin: 0; letter-spacing: -0.02em; }
+  h1 { font-weight: 900; font-size: clamp(36px, 5.4vw, 64px); line-height: 1.04; }
+  h2 { font-weight: 800; font-size: clamp(26px, 3.4vw, 40px); line-height: 1.12; }
+  h3 { font-weight: 700; font-size: 18px; line-height: 1.3; }
+
+  p { margin: 0; color: var(--ink); }
+  p.muted, .muted { color: var(--ink-muted); }
+  p.lead { font-size: clamp(15px, 1.4vw, 18px); line-height: 1.6; color: #3a4a64; }
+
+  /* ─── Glass primitives ──────────────────────────────────────────────── */
+  .glass {
+    background: var(--glass-bg);
+    backdrop-filter: blur(var(--glass-blur)) saturate(140%);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(140%);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow);
+    border-radius: 20px;
+  }
+  .glass-strong {
+    background: var(--glass-bg-strong);
+    backdrop-filter: blur(var(--glass-blur-strong)) saturate(150%);
+    -webkit-backdrop-filter: blur(var(--glass-blur-strong)) saturate(150%);
+    border: 1px solid rgba(255,255,255,0.7);
+    box-shadow: var(--glass-shadow-lg);
+    border-radius: 24px;
+  }
+  .glass-dark {
+    background: var(--glass-bg-dark);
+    backdrop-filter: blur(var(--glass-blur)) saturate(150%);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(150%);
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: var(--glass-shadow-lg);
+    border-radius: 22px;
+    color: #fff;
+  }
+
+  /* ─── Top nav ───────────────────────────────────────────────────────── */
+  .nav {
+    position: sticky; top: 14px; z-index: 50;
+    margin: 14px auto 0;
+    max-width: 1180px;
+    padding: 10px 14px;
+    display: flex; align-items: center; gap: 14px;
+  }
+  .nav .brand {
+    display: flex; align-items: center; gap: 10px;
+    font-weight: 800; color: var(--navy);
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .brand-logo {
+    width: 32px; height: 32px;
+    border-radius: 9px;
+    background: linear-gradient(135deg, var(--navy), var(--accent));
+    display: grid; place-items: center;
+    box-shadow: 0 6px 18px -6px rgba(30, 58, 95, 0.55);
+  }
+  .brand-logo svg { width: 18px; height: 18px; }
+  .nav-spacer { flex: 1; }
+  .nav-links { display: flex; gap: 4px; }
+  .nav-links a {
+    padding: 8px 12px;
+    color: var(--ink); text-decoration: none;
+    font-size: 13.5px; font-weight: 600;
+    border-radius: 10px;
+    transition: background 160ms ease, color 160ms ease;
+  }
+  .nav-links a:hover { background: rgba(30, 58, 95, 0.07); color: var(--navy); }
+  .nav-cta {
+    padding: 9px 14px;
+    border-radius: 10px;
+    background: var(--navy);
+    color: #fff !important;
+    font-size: 13.5px; font-weight: 700;
+    text-decoration: none;
+    transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+    box-shadow: 0 6px 18px -8px rgba(30, 58, 95, 0.55);
+  }
+  .nav-cta:hover { background: var(--navy-2); transform: translateY(-1px); }
+  @media (max-width: 720px) {
+    .nav-links { display: none; }
+  }
+
+  /* ─── Hero ──────────────────────────────────────────────────────────── */
+  .hero { padding: 64px 0 56px; }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    gap: 36px;
+    align-items: center;
+  }
+  @media (max-width: 880px) {
+    .hero-grid { grid-template-columns: 1fr; gap: 28px; }
+  }
+  .hero h1 strong {
+    background: linear-gradient(120deg, var(--accent) 10%, var(--navy) 90%);
+    -webkit-background-clip: text; background-clip: text;
+    color: transparent;
+  }
+  .hero p.lead { margin-top: 18px; max-width: 56ch; }
+
+  .hero-ctas {
+    display: flex; flex-wrap: wrap; gap: 12px;
+    margin-top: 26px;
+  }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+    padding: 12px 18px;
+    border-radius: 12px;
+    font-size: 14.5px; font-weight: 700;
+    text-decoration: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease, color 160ms ease;
+    white-space: nowrap;
+  }
+  .btn-primary {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--accent) 100%);
+    color: #fff;
+    box-shadow: 0 12px 28px -10px rgba(30, 58, 95, 0.6);
+  }
+  .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 14px 32px -10px rgba(30, 58, 95, 0.7); }
+  .btn-ghost {
+    background: rgba(255,255,255,0.65);
+    color: var(--navy);
+    border-color: rgba(30, 58, 95, 0.18);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+  .btn-ghost:hover { background: rgba(255,255,255,0.9); transform: translateY(-1px); }
+
+  /* Hero highlight chips */
+  .hero-stats {
+    display: flex; flex-wrap: wrap; gap: 10px;
+    margin-top: 28px;
+  }
+  .stat-chip {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 7px 12px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.7);
+    border: 1px solid rgba(30, 58, 95, 0.12);
+    font-size: 12px; font-weight: 600; color: #3a4a64;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+  .stat-chip .ico {
+    width: 16px; height: 16px; color: var(--accent);
+  }
+
+  /* Hero illustration card */
+  .hero-card {
+    padding: 22px;
+    border-radius: 28px;
+    position: relative;
+  }
+  .hero-card .top {
+    display: flex; align-items: center; gap: 10px;
+    margin-bottom: 14px;
+  }
+  .hero-card .top .blob {
+    width: 28px; height: 28px; border-radius: 9px;
+    background: linear-gradient(135deg, var(--navy), var(--accent));
+  }
+  .hero-card .top .label {
+    font-size: 12px; font-weight: 700; color: var(--navy);
+    letter-spacing: 0.4px; text-transform: uppercase;
+  }
+  .mini-grid {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;
+  }
+  .mini {
+    border-radius: 14px;
+    padding: 14px;
+    background: rgba(255,255,255,0.72);
+    border: 1px solid rgba(30, 58, 95, 0.10);
+  }
+  .mini .ico {
+    width: 32px; height: 32px; border-radius: 9px;
+    display: grid; place-items: center;
+    margin-bottom: 8px;
+    color: #fff;
+  }
+  .mini h4 { margin: 0; font-size: 13px; color: var(--navy); font-weight: 700; }
+  .mini p  { margin: 2px 0 0; font-size: 11.5px; color: var(--ink-muted); line-height: 1.4; }
+
+  .ico.bg-navy    { background: linear-gradient(135deg, #1e3a5f, #2c5282); }
+  .ico.bg-accent  { background: linear-gradient(135deg, #3182ce, #4fa8e0); }
+  .ico.bg-success { background: linear-gradient(135deg, #2f855a, #38a169); }
+  .ico.bg-warning { background: linear-gradient(135deg, #b7791f, #d69e2e); }
+  .ico.bg-danger  { background: linear-gradient(135deg, #c53030, #e53e3e); }
+
+  /* ─── Section heading ───────────────────────────────────────────────── */
+  .section-head { text-align: center; margin-bottom: 40px; }
+  .section-head .eyebrow { margin-bottom: 14px; }
+  .section-head p.lead { margin: 12px auto 0; max-width: 60ch; }
+
+  /* ─── Features grid ─────────────────────────────────────────────────── */
+  .features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  @media (max-width: 880px) { .features { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 560px) { .features { grid-template-columns: 1fr; } }
+
+  .feature {
+    padding: 22px;
+    border-radius: 18px;
+    transition: transform 200ms ease, box-shadow 200ms ease;
+  }
+  .feature:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--glass-shadow-lg);
+  }
+  .feature .ico {
+    width: 44px; height: 44px; border-radius: 12px;
+    display: grid; place-items: center;
+    color: #fff;
+    margin-bottom: 14px;
+    box-shadow: 0 8px 18px -8px rgba(30, 58, 95, 0.45);
+  }
+  .feature h3 { margin: 0 0 6px; }
+  .feature p  { color: var(--ink-muted); font-size: 13.5px; line-height: 1.55; }
+  .feature ul {
+    margin: 12px 0 0; padding: 0; list-style: none;
+    display: flex; flex-wrap: wrap; gap: 6px;
+  }
+  .feature li {
+    font-size: 11px; font-weight: 600;
+    color: var(--navy);
+    background: rgba(30, 58, 95, 0.07);
+    border: 1px solid rgba(30, 58, 95, 0.10);
+    padding: 4px 9px; border-radius: 999px;
+  }
+
+  /* ─── "Why" stripe ──────────────────────────────────────────────────── */
+  .why {
+    padding: 32px;
+    border-radius: 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+  }
+  @media (max-width: 880px) { .why { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 480px) { .why { grid-template-columns: 1fr; } }
+  .why .item h4 {
+    margin: 0 0 4px; font-size: 28px; font-weight: 800;
+    color: #fff; letter-spacing: -0.02em;
+  }
+  .why .item p { color: rgba(255,255,255,0.78); font-size: 13px; line-height: 1.5; }
+  .why .item .ico {
+    width: 40px; height: 40px; border-radius: 11px;
+    background: rgba(255,255,255,0.14);
+    border: 1px solid rgba(255,255,255,0.22);
+    display: grid; place-items: center;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+
+  /* ─── Tools / showcase strip ────────────────────────────────────────── */
+  .tools {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+  @media (max-width: 880px) { .tools { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 480px) { .tools { grid-template-columns: 1fr; } }
+  .tool {
+    padding: 16px;
+    border-radius: 14px;
+    background: rgba(255,255,255,0.72);
+    border: 1px solid rgba(30, 58, 95, 0.10);
+    transition: transform 160ms ease, background 160ms ease;
+  }
+  .tool:hover { transform: translateY(-2px); background: rgba(255,255,255,0.92); }
+  .tool h4 { margin: 0 0 4px; font-size: 14px; color: var(--navy); font-weight: 700; }
+  .tool p  { font-size: 12px; color: var(--ink-muted); }
+
+  /* ─── Platforms / Download section ──────────────────────────────────── */
+  .platforms {
+    padding: 36px;
+    border-radius: 28px;
+    text-align: center;
+  }
+  .platforms h2 { color: #fff; }
+  .platforms p.lead { color: rgba(255,255,255,0.85); margin: 12px auto 28px; max-width: 56ch; }
+
+  .store-row {
+    display: flex; flex-wrap: wrap; justify-content: center; gap: 14px;
+  }
+  .store-btn {
+    display: inline-flex; align-items: center; gap: 14px;
+    min-width: 220px;
+    padding: 14px 20px;
+    border-radius: 14px;
+    background: rgba(255,255,255,0.10);
+    border: 1px solid rgba(255,255,255,0.22);
+    color: #fff;
+    text-decoration: none;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: background 200ms ease, transform 200ms ease, opacity 200ms ease;
+    cursor: not-allowed;
+    opacity: 0.85;
+  }
+  .store-btn[aria-disabled="true"]::after {
+    content: "Coming soon";
+    position: absolute;
+    transform: translate(0, 0);
+  }
+  .store-btn .glyph {
+    width: 34px; height: 34px;
+    display: grid; place-items: center;
+    color: #fff;
+  }
+  .store-btn .txt { text-align: left; line-height: 1.1; }
+  .store-btn .small { font-size: 10.5px; opacity: 0.78; letter-spacing: 0.4px; text-transform: uppercase; font-weight: 600; }
+  .store-btn .big   { font-size: 17px; font-weight: 700; }
+  .store-btn .badge {
+    margin-left: auto;
+    padding: 4px 8px;
+    font-size: 9.5px; font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase;
+    background: rgba(255,255,255,0.14);
+    border: 1px solid rgba(255,255,255,0.22);
+    border-radius: 999px;
+  }
+  .store-btn:hover { background: rgba(255,255,255,0.18); }
+  .store-btn.live  { cursor: pointer; opacity: 1; }
+  .store-btn.live:hover { transform: translateY(-2px); }
+
+  /* ─── Disclaimer ────────────────────────────────────────────────────── */
+  .disclaimer {
+    margin-top: 28px;
+    padding: 18px 22px;
+    border-radius: 14px;
+    background: rgba(214, 158, 46, 0.10);
+    border: 1px solid rgba(214, 158, 46, 0.35);
+    color: #6b4f0a;
+    font-size: 12.5px;
+    line-height: 1.55;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+  }
+  .disclaimer strong { color: #5a3f02; }
+
+  /* ─── Footer ────────────────────────────────────────────────────────── */
+  footer {
+    padding: 36px 0 48px;
+    color: var(--ink-muted);
+    font-size: 12.5px;
+  }
+  .footer-row {
+    display: flex; flex-wrap: wrap; gap: 14px;
+    align-items: center; justify-content: space-between;
+    padding: 18px 22px;
+    border-radius: 18px;
+  }
+  .footer-row a { color: var(--navy); text-decoration: none; font-weight: 600; margin-right: 14px; }
+  .footer-row a:hover { text-decoration: underline; }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    body::before { animation: none; }
+    .feature, .tool, .btn-primary, .btn-ghost, .store-btn { transition: none; }
+    html { scroll-behavior: auto; }
+  }
+</style>
+</head>
+
+<body>
+
+<!-- ═══ NAV ═══ -->
+<nav class="nav glass">
+  <a class="brand" href="#top">
+    <span class="brand-logo" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none">
+        <path d="M12 2L3 7v10l9 5 9-5V7L12 2z" stroke="white" stroke-width="1.8" stroke-linejoin="round"/>
+        <path d="M12 7v10M7 9.5l5 2.5 5-2.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </span>
+    PediAid
+  </a>
+  <div class="nav-spacer"></div>
+  <div class="nav-links">
+    <a href="#features">Features</a>
+    <a href="#tools">Tools</a>
+    <a href="#why">Why PediAid</a>
+    <a href="#download">Get the app</a>
+  </div>
+  <a class="nav-cta" href="https://mulgundsunil1918.github.io/pediaid-flutter/" target="_blank" rel="noopener">
+    Open web app →
+  </a>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow"><span class="dot"></span> Paediatric &amp; Neonatal Clinical Reference</span>
+      <h1 style="margin-top:18px;">
+        Bedside-ready tools for <strong>paediatric &amp; neonatal</strong> care.
+      </h1>
+      <p class="lead">
+        PediAid brings together the calculators, growth charts, drug formulary and
+        decision-support tools that paediatricians, neonatologists, registrars
+        and nurses reach for every shift — in one fast, offline-friendly app.
+      </p>
+
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="https://mulgundsunil1918.github.io/pediaid-flutter/" target="_blank" rel="noopener">
+          Try the web app
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+        <a class="btn btn-ghost" href="#features">
+          Explore features
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <span class="stat-chip">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+          18+ calculators
+        </span>
+        <span class="stat-chip">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l4-4 4 4 5-7"/></svg>
+          WHO &amp; IAP growth charts
+        </span>
+        <span class="stat-chip">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6M9 5h6"/><rect x="4" y="8" width="16" height="13" rx="2"/></svg>
+          Neofax + Harriet Lane formulary
+        </span>
+        <span class="stat-chip">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-7-11a7 7 0 0 1 14 0c0 6.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          AAP 2022 + NICE CG98
+        </span>
+      </div>
+    </div>
+
+    <!-- Hero illustration card -->
+    <div class="hero-card glass-strong" aria-hidden="true">
+      <div class="top">
+        <span class="blob"></span>
+        <span class="label">Quick access</span>
+      </div>
+      <div class="mini-grid">
+        <div class="mini">
+          <div class="ico bg-navy">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M5 8l7-6 7 6"/><path d="M5 16l7 6 7-6"/></svg>
+          </div>
+          <h4>GIR Calculator</h4>
+          <p>Dextrose % &amp; two-stock mixing</p>
+        </div>
+        <div class="mini">
+          <div class="ico bg-accent">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l4-4 4 4 5-7"/></svg>
+          </div>
+          <h4>Growth Charts</h4>
+          <p>WHO · IAP · Fenton</p>
+        </div>
+        <div class="mini">
+          <div class="ico bg-warning">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          </div>
+          <h4>Bilirubin</h4>
+          <p>AAP 2022 · NICE CG98</p>
+        </div>
+        <div class="mini">
+          <div class="ico bg-success">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6M9 5h6"/><rect x="4" y="8" width="16" height="13" rx="2"/></svg>
+          </div>
+          <h4>Drug Formulary</h4>
+          <p>Neonatal &amp; paediatric dosing</p>
+        </div>
+        <div class="mini">
+          <div class="ico bg-danger">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
+          </div>
+          <h4>NICU Scores</h4>
+          <p>SNAPPE-II · Apgar · CRIB</p>
+        </div>
+        <div class="mini">
+          <div class="ico bg-navy">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-12V5l-8-3-8 3v5c0 8 8 12 8 12z"/></svg>
+          </div>
+          <h4>Lab Reference</h4>
+          <p>Age-banded normal values</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FEATURES ═══ -->
+<section id="features">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">What's inside</span>
+      <h2>Everything you reach for, in one place.</h2>
+      <p class="lead">
+        PediAid bundles the calculators, charts and reference data that
+        clinicians juggle across tabs, books and bookmarks — designed
+        around how paediatric care actually flows.
+      </p>
+    </div>
+
+    <div class="features">
+      <!-- Calculators -->
+      <div class="feature glass">
+        <div class="ico bg-navy">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h4"/></svg>
+        </div>
+        <h3>Clinical Calculators</h3>
+        <p>Eighteen+ tools — from GIR and maintenance fluids to blood-gas, BSA, CGA/PMA and Schwartz eGFR — with visible formulas and safety bands.</p>
+        <ul>
+          <li>GIR</li><li>Fluids</li><li>BSA</li><li>BP %ile</li><li>eGFR</li><li>TPN</li>
+        </ul>
+      </div>
+
+      <!-- Growth charts -->
+      <div class="feature glass">
+        <div class="ico bg-accent">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M6 17l4-6 4 3 5-9"/></svg>
+        </div>
+        <h3>Growth Charts</h3>
+        <p>Plot WHO and IAP percentiles or Fenton preterm growth curves with z-scores. Compare across visits, switch percentile / z-score views.</p>
+        <ul><li>WHO</li><li>IAP 2015</li><li>Fenton</li><li>Z-scores</li></ul>
+      </div>
+
+      <!-- Bilirubin -->
+      <div class="feature glass">
+        <div class="ico bg-warning">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        </div>
+        <h3>Jaundice Assessment</h3>
+        <p>Two complete pathways: AAP 2022 hour-specific thresholds for ≥35 weeks, and NICE CG98 graphical thresholds for 23 – 38+ weeks preterm.</p>
+        <ul><li>AAP 2022</li><li>NICE CG98</li><li>Phototherapy</li><li>Exchange</li></ul>
+      </div>
+
+      <!-- Drug formulary -->
+      <div class="feature glass">
+        <div class="ico bg-success">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6M9 5h6"/><rect x="4" y="8" width="16" height="13" rx="2"/><path d="M8 14h8M8 18h6"/></svg>
+        </div>
+        <h3>Drug Formulary</h3>
+        <p>Searchable Neofax (neonatal) and Harriet Lane (paediatric) drug entries — indications, dosing, intervals and key safety notes at a glance.</p>
+        <ul><li>Neofax</li><li>Harriet Lane</li><li>Search</li></ul>
+      </div>
+
+      <!-- NICU & scores -->
+      <div class="feature glass">
+        <div class="ico bg-danger">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
+        </div>
+        <h3>NICU Scores &amp; Tools</h3>
+        <p>Apgar, SNAPPE-II, CRIB, Downe, Silverman-Anderson — plus ventilator parameter helpers and exchange-transfusion volume calculator.</p>
+        <ul><li>SNAPPE-II</li><li>Apgar</li><li>Vent params</li></ul>
+      </div>
+
+      <!-- Reference -->
+      <div class="feature glass">
+        <div class="ico bg-navy">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h12a4 4 0 0 1 4 4v12H8a4 4 0 0 1-4-4V4z"/><path d="M4 16a4 4 0 0 1 4-4h12"/></svg>
+        </div>
+        <h3>Reference Library</h3>
+        <p>Age-banded lab normals, vaccine schedules, NRP material, PALS algorithms and a Lund-Browder burns chart — all bundled and offline-ready.</p>
+        <ul><li>Labs</li><li>Vaccines</li><li>NRP</li><li>PALS</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ WHY ═══ -->
+<section id="why">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Built for the bedside</span>
+      <h2>Designed around how paediatric clinicians actually work.</h2>
+    </div>
+
+    <div class="why glass-dark">
+      <div class="item">
+        <div class="ico">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+        </div>
+        <h4>Fast</h4>
+        <p>Native Flutter app with instant calculations and zero round-trips. Every tap responds in the same frame.</p>
+      </div>
+      <div class="item">
+        <div class="ico">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-12V5l-8-3-8 3v5c0 8 8 12 8 12z"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <h4>Trusted</h4>
+        <p>Thresholds digitised from AAP 2022, NICE CG98, WHO and IAP source documents — references shown on every screen.</p>
+      </div>
+      <div class="item">
+        <div class="ico">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a13 13 0 0 1 0 18M12 3a13 13 0 0 0 0 18"/></svg>
+        </div>
+        <h4>Cross-platform</h4>
+        <p>Web, Android, iOS, Windows, Linux and macOS from a single Flutter codebase. Same answers, every device.</p>
+      </div>
+      <div class="item">
+        <div class="ico">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9c.51.31.81.86.81 1.51H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        </div>
+        <h4>Open</h4>
+        <p>Source code is public on GitHub. Issues, suggestions and clinical feedback all welcome — built openly with the community.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TOOLS GRID ═══ -->
+<section id="tools">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Inside the toolbox</span>
+      <h2>A look at what's already shipping.</h2>
+      <p class="lead">A non-exhaustive sample of the tools available today across web and mobile — every one of them peer-reviewed against its source guideline.</p>
+    </div>
+
+    <div class="tools">
+      <div class="tool"><h4>GIR &amp; Dextrose Mix</h4><p>Required dextrose %, two-stock mixing instructions, central-line safety bands.</p></div>
+      <div class="tool"><h4>Maintenance Fluids</h4><p>Holliday-Segar with paediatric tweaks and electrolyte reminders.</p></div>
+      <div class="tool"><h4>Neonatal BP</h4><p>Gestation-adjusted MAP / SBP percentiles.</p></div>
+      <div class="tool"><h4>BP Percentile</h4><p>AAP 2017 paediatric BP percentile by age, sex, height.</p></div>
+
+      <div class="tool"><h4>Bilirubin (≥35 wk)</h4><p>AAP 2022 hour-specific TSB thresholds, neurotoxicity risk factors, B/A ratio.</p></div>
+      <div class="tool"><h4>Bilirubin (&lt;35 wk)</h4><p>NICE CG98 graphical thresholds, 23 – 38+ weeks, with intensified-zone logic.</p></div>
+      <div class="tool"><h4>WHO Growth Charts</h4><p>0 – 5 yr percentiles &amp; z-scores for weight, length/height, head circumference and BMI.</p></div>
+      <div class="tool"><h4>IAP Growth Charts</h4><p>5 – 18 yr Indian growth references (IAP 2015).</p></div>
+
+      <div class="tool"><h4>Fenton Preterm</h4><p>Fenton 2013 preterm growth curves up to 50 weeks.</p></div>
+      <div class="tool"><h4>Schwartz eGFR</h4><p>Bedside paediatric eGFR with creatinine and height.</p></div>
+      <div class="tool"><h4>Blood Gas Analyser</h4><p>Acid-base interpretation with compensation checks.</p></div>
+      <div class="tool"><h4>Ventilator Parameters</h4><p>Tidal volume, MAP, OI / OSI helpers.</p></div>
+
+      <div class="tool"><h4>Burn Mortality</h4><p>Lund-Browder body chart, %TBSA and Parkland fluids.</p></div>
+      <div class="tool"><h4>CGA / PMA</h4><p>Corrected gestational age and post-menstrual age.</p></div>
+      <div class="tool"><h4>NICU Scores</h4><p>Apgar, SNAPPE-II, CRIB, Downe, Silverman-Anderson.</p></div>
+      <div class="tool"><h4>Drug Formulary</h4><p>Neofax + Harriet Lane lookup with detail pages.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ DOWNLOAD / PLATFORMS ═══ -->
+<section id="download">
+  <div class="wrap">
+    <div class="platforms glass-dark">
+      <span class="eyebrow" style="background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.22); color:#fff;">
+        <span class="dot" style="background:#9ae6b4;"></span> Get PediAid
+      </span>
+      <h2 style="margin-top:14px;">Use it on the web today. Mobile apps on the way.</h2>
+      <p class="lead">
+        The full PediAid web app is live and free to use — no sign-up needed for the
+        clinical tools. Native Android and iOS builds are queued for the
+        Play Store and App Store; links will appear here on launch.
+      </p>
+
+      <div class="store-row" style="margin-bottom:18px;">
+        <a class="btn btn-primary live"
+           href="https://mulgundsunil1918.github.io/pediaid-flutter/"
+           target="_blank" rel="noopener"
+           style="background: linear-gradient(135deg, #fff, #e2eaf6); color: var(--navy);">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 0 20M12 2a15.3 15.3 0 0 0 0 20"/></svg>
+          Open the web app
+        </a>
+      </div>
+
+      <div class="store-row">
+        <!-- PLAY STORE — placeholder, link intentionally empty -->
+        <a class="store-btn" href="#" aria-disabled="true" data-store="play"
+           onclick="event.preventDefault();"
+           title="Play Store link will be added on launch">
+          <span class="glyph" aria-hidden="true">
+            <!-- Play triangle -->
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M4 3.5v17l14-8.5L4 3.5z" opacity=".95"/></svg>
+          </span>
+          <span class="txt">
+            <span class="small">Get it on</span><br/>
+            <span class="big">Google Play</span>
+          </span>
+          <span class="badge">Coming soon</span>
+        </a>
+
+        <!-- APP STORE — placeholder, link intentionally empty -->
+        <a class="store-btn" href="#" aria-disabled="true" data-store="apple"
+           onclick="event.preventDefault();"
+           title="App Store link will be added on launch">
+          <span class="glyph" aria-hidden="true">
+            <!-- Apple -->
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M16.4 12.3c0-2.5 2-3.7 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-2-.9-3.3-.8-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.6 1.3 10.1.9 1.2 1.9 2.6 3.3 2.5 1.3-.1 1.9-.9 3.5-.9 1.6 0 2.1.9 3.5.9 1.5 0 2.4-1.2 3.3-2.4 1-1.4 1.5-2.7 1.5-2.8-.1-.1-2.8-1.1-2.8-4.5zM13.9 4.4c.7-.9 1.2-2.1 1.1-3.4-1.1.1-2.4.7-3.1 1.6-.7.8-1.3 2.1-1.1 3.3 1.2.1 2.4-.6 3.1-1.5z"/></svg>
+          </span>
+          <span class="txt">
+            <span class="small">Download on the</span><br/>
+            <span class="big">App Store</span>
+          </span>
+          <span class="badge">Coming soon</span>
+        </a>
+      </div>
+
+      <div class="disclaimer">
+        <strong>For qualified clinicians.</strong>
+        PediAid is a clinical aid only. Calculations and reference data must be
+        verified against the patient's clinical context, the source guideline
+        and your local protocols before any treatment decision is made.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-row glass">
+      <div>
+        <strong style="color:var(--navy);">PediAid</strong> · Paediatric &amp; Neonatal Clinical Reference
+        <div class="muted" style="margin-top:2px;">© <span id="yr"></span> PediAid — built openly on GitHub.</div>
+      </div>
+      <div>
+        <a href="https://github.com/mulgundsunil1918/pediaid-flutter" target="_blank" rel="noopener">Flutter app</a>
+        <a href="https://github.com/mulgundsunil1918/pediaid-frontend" target="_blank" rel="noopener">Frontend</a>
+        <a href="https://github.com/mulgundsunil1918/pediaid-backend" target="_blank" rel="noopener">Backend</a>
+        <a href="https://mulgundsunil1918.github.io/pediaid-status/" target="_blank" rel="noopener">Status</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
