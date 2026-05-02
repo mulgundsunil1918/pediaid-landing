@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="description" content="PediAid privacy policy — what data we collect, how we use it, your rights." />
+<title>Privacy Policy — PediAid</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #1e3a5f;
+    --accent: #3182ce;
+    --ink: #2d3748;
+    --ink-muted: #718096;
+    --bg: #f7fafc;
+    --card: #ffffff;
+    --border: #e2e8f0;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+  .back {
+    display: inline-flex; align-items: center; gap: 6px;
+    color: var(--accent); font-size: 13px; font-weight: 600;
+    text-decoration: none; margin-bottom: 24px;
+  }
+  .back:hover { text-decoration: underline; }
+  .eyebrow {
+    display: inline-flex; padding: 4px 10px;
+    border-radius: 999px;
+    background: rgba(30, 58, 95, 0.08);
+    border: 1px solid rgba(30, 58, 95, 0.16);
+    color: var(--navy);
+    font-size: 11px; font-weight: 700;
+    letter-spacing: 0.6px; text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  h1 {
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 800;
+    color: var(--navy);
+    margin: 0 0 8px;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+  }
+  .meta { color: var(--ink-muted); font-size: 13px; margin: 0 0 32px; }
+  h2 {
+    font-size: 18px; font-weight: 700; color: var(--navy);
+    margin: 32px 0 10px; letter-spacing: -0.01em;
+  }
+  h3 {
+    font-size: 14.5px; font-weight: 700; color: var(--ink);
+    margin: 18px 0 6px;
+  }
+  p { font-size: 14.5px; margin: 0 0 12px; }
+  ul { font-size: 14.5px; padding-left: 22px; margin: 0 0 12px; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  a:hover { text-decoration: underline; }
+  code {
+    font-family: ui-monospace, SFMono-Regular, monospace;
+    font-size: 12.5px;
+    background: rgba(30, 58, 95, 0.06);
+    padding: 1px 6px; border-radius: 4px;
+    color: var(--navy);
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 22px;
+    margin-bottom: 22px;
+  }
+  .contact {
+    background: rgba(49, 130, 206, 0.05);
+    border-color: rgba(49, 130, 206, 0.25);
+  }
+  hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+  footer {
+    margin-top: 40px; padding-top: 18px;
+    border-top: 1px solid var(--border);
+    color: var(--ink-muted); font-size: 12.5px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/pediaid-landing/">← Back to PediAid</a>
+    <span class="eyebrow">Legal</span>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective date: 2 May 2026 · Last updated: 2 May 2026</p>
+
+    <p>
+      PediAid (the "<strong>App</strong>", "<strong>we</strong>", "<strong>us</strong>")
+      is a paediatric and neonatal clinical reference application developed by
+      Dr. Sunil Mulgund ("the developer"). This Privacy Policy explains what
+      personal information the App collects, how it is used and stored, and
+      the choices you have.
+    </p>
+    <p>
+      The App is provided as a clinical aid only. It is not a substitute for
+      professional medical judgement.
+    </p>
+
+    <h2>1. What we collect</h2>
+    <p>The App collects only the minimum personal data required to operate.</p>
+
+    <h3>Account information (only if you sign in)</h3>
+    <ul>
+      <li>Email address</li>
+      <li>Display name (optional)</li>
+      <li>Authentication tokens issued by our backend (<code>pediaid-backend.onrender.com</code>)</li>
+    </ul>
+    <p>
+      Authentication tokens are stored on your device using
+      <code>flutter_secure_storage</code> (Android Keystore / iOS Keychain).
+      They are never shared with third parties.
+    </p>
+
+    <h3>Local-only preferences</h3>
+    <ul>
+      <li>Theme choice (light / dark / system)</li>
+      <li>Calculator inputs you've entered, until you close the screen</li>
+      <li>Onboarding / tutorial flags so we don't re-show what you've seen</li>
+    </ul>
+    <p>
+      These are stored on your device only, in <code>SharedPreferences</code>.
+      They are not transmitted to our servers.
+    </p>
+
+    <h3>Diagnostic data</h3>
+    <p>
+      When you contact support via the in-app feedback form, your message
+      includes the App version, build number, OS, and the email associated
+      with your account, so we can help you faster.
+    </p>
+
+    <h3>What we do NOT collect</h3>
+    <ul>
+      <li>Any patient data you enter (weights, gestational ages, lab values, etc.) — these stay on your device, are never sent to our servers, and are forgotten when you close the calculator screen.</li>
+      <li>Health records, photos, location, contacts, microphone, camera</li>
+      <li>Advertising identifiers, behavioural analytics</li>
+      <li>Any data from children under 13</li>
+    </ul>
+
+    <h2>2. How we use the data</h2>
+    <ul>
+      <li>To authenticate your sign-in and keep you signed in across launches</li>
+      <li>To respond to support requests you initiate</li>
+      <li>To remember your preferences (theme, last-used inputs) on your device</li>
+    </ul>
+    <p>We do not use your data for advertising, profiling, or sale to any third party.</p>
+
+    <h2>3. Third-party services</h2>
+    <p>The App relies on the following third-party services:</p>
+    <ul>
+      <li><strong>Render</strong> (<a href="https://render.com/privacy" target="_blank" rel="noopener">render.com/privacy</a>) — hosts our backend API</li>
+      <li><strong>Neon</strong> (<a href="https://neon.tech/privacy-policy" target="_blank" rel="noopener">neon.tech/privacy-policy</a>) — hosts our PostgreSQL database</li>
+      <li><strong>GitHub Pages</strong> (<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">github.com/site-policy</a>) — hosts our web app, landing page and reference content</li>
+      <li><strong>Google Fonts</strong> (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>) — serves the Inter font on web</li>
+    </ul>
+    <p>
+      These providers process limited technical data (IP address, user-agent)
+      to deliver their service. We do not share your account information or
+      any patient data with them.
+    </p>
+
+    <h2>4. Data retention</h2>
+    <ul>
+      <li><strong>Account data:</strong> retained while your account exists. Deleted within 30 days of account deletion.</li>
+      <li><strong>Authentication tokens:</strong> stored on your device only, cleared on sign-out.</li>
+      <li><strong>Local preferences:</strong> stored on your device only, cleared on uninstall.</li>
+      <li><strong>Patient data you enter:</strong> never persisted anywhere — discarded as soon as you close the calculator screen.</li>
+      <li><strong>Support emails:</strong> retained for up to 12 months for follow-up, then deleted.</li>
+    </ul>
+
+    <h2>5. Your rights</h2>
+    <p>You can, at any time:</p>
+    <ul>
+      <li><strong>Access</strong> the personal data we hold about you (email us)</li>
+      <li><strong>Correct</strong> incorrect details (edit profile in the App)</li>
+      <li><strong>Delete</strong> your account and all associated data (Profile → Delete account in the App, or email us)</li>
+      <li><strong>Export</strong> your account data in a machine-readable format (email us)</li>
+      <li><strong>Withdraw consent</strong> by signing out and uninstalling the App</li>
+    </ul>
+    <p>
+      Account deletion takes effect immediately. There is no soft-delete or
+      grace period.
+    </p>
+
+    <h2>6. Children's privacy</h2>
+    <p>
+      The App is intended for use by qualified clinicians (paediatricians,
+      neonatologists, registrars, nurses, students). It is not directed at
+      children under 13 and we do not knowingly collect personal data from
+      anyone under 13. If you believe a child has provided us with personal
+      data, please contact us and we will delete it.
+    </p>
+
+    <h2>7. Security</h2>
+    <p>
+      We use industry-standard practices: HTTPS for all network traffic,
+      bcrypt for password hashing, JWT for authenticated API access, and
+      device-level secure storage for tokens. No system is perfectly secure,
+      and we encourage you to choose a strong, unique password.
+    </p>
+
+    <h2>8. Changes to this policy</h2>
+    <p>
+      We may update this policy from time to time. Material changes will be
+      announced in-app and the "Last updated" date at the top will be
+      changed. Continued use of the App after a change constitutes acceptance
+      of the revised policy.
+    </p>
+
+    <h2>9. Jurisdiction</h2>
+    <p>
+      This policy is governed by the laws of India. If you are in the EU,
+      EEA, UK or California, you have additional rights under the GDPR /
+      UK GDPR / CCPA respectively — exercise them by contacting us.
+    </p>
+
+    <div class="card contact">
+      <h2 style="margin-top:0;">10. Contact</h2>
+      <p style="margin-bottom: 6px;">
+        Questions, requests, or concerns about your data:<br>
+        <strong>Email:</strong> <a href="mailto:mulgundsunil@gmail.com">mulgundsunil@gmail.com</a><br>
+        <strong>Subject:</strong> "Privacy request"
+      </p>
+    </div>
+
+    <footer>
+      © PediAid · Built openly on
+      <a href="https://github.com/mulgundsunil1918">GitHub</a>.
+      This page is hosted at
+      <a href="https://mulgundsunil1918.github.io/pediaid-landing/privacy.html">mulgundsunil1918.github.io/pediaid-landing/privacy.html</a>.
+    </footer>
+  </div>
+</body>
+</html>
