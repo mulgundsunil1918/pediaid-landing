@@ -258,7 +258,7 @@ PAGE_TEMPLATE = """<!doctype html>
       <div>
         <a href="{app_domain}" target="_blank" rel="noopener">Open the app</a>
         <a href="../../privacy.html">Privacy</a>
-        <a href="mailto:mulgundsunil@gmail.com">Contact</a>
+        <a href="mailto:help@bridgr.co.in">Contact</a>
       </div>
     </div>
   </div>
@@ -402,7 +402,7 @@ def main():
       <div>
         <a href="{site["appDomain"]}" target="_blank" rel="noopener">Open the app</a>
         <a href="privacy.html">Privacy</a>
-        <a href="mailto:mulgundsunil@gmail.com">Contact</a>
+        <a href="mailto:help@bridgr.co.in">Contact</a>
       </div>
     </div>
   </div>
