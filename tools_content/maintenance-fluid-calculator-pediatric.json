@@ -1,0 +1,21 @@
+{
+  "slug": "maintenance-fluid-calculator-pediatric",
+  "intro": "This calculator determines IV maintenance fluid requirements for neonates and children from a patient's weight and age. For neonates (postnatal age 28 days or less), it uses day-of-life- and weight-band-specific neonatal fluid requirement tables, with separate ranges for preterm infants under 1.5 kg versus larger or term infants; for older infants and children it switches to the Holliday-Segar (100/50/20) rule. It reports total daily fluid volume, the equivalent hourly IV rate, and a per-kilogram rate, alongside a suggested fluid type and electrolyte guidance for the calculated group.",
+  "indications": [
+    "Prescribing initial IV maintenance fluids for a newborn in the first days/week of life, where requirements change day by day",
+    "Prescribing maintenance IV fluids for an infant or child older than 28 days using the Holliday-Segar rule",
+    "Determining an hourly IV pump rate (mL/hr) from a daily fluid volume",
+    "Selecting an appropriate starting fluid type and electrolyte additive by age/weight group, e.g. dextrose-only in the first 48 hours of life versus saline/dextrose mixes later",
+    "Prompting adjustment of calculated fluids for clinical conditions that increase or decrease requirements, such as phototherapy, a radiant warmer, fever, RDS, SIADH, renal failure, or excess losses"
+  ],
+  "method": "For age <=28 days, the tool looks up a mL/kg/day range from separate term and preterm (<1.5 kg) tables indexed by day of life for the first six days; from the second postnatal week onward (day 7+) both groups converge to a flat 140-160 mL/kg/day range. This range is multiplied by weight to get the daily volume. For age >28 days (or the edge case of weight <3.5 kg beyond 28 days, which still uses the post-first-week neonatal range), the tool applies the Holliday-Segar 100/50/20 rule: 100 mL/kg for the first 10 kg of weight, plus 50 mL/kg for the next 10 kg (10-20 kg), plus 20 mL/kg for each kg above 20 kg. The daily total is then divided by 24 to give an hourly rate.",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "What's the cutoff between the neonatal fluid table and the Holliday-Segar rule?", "a": "The calculator uses the neonatal, day-of-life-based table for postnatal age 28 days or less, and switches to the Holliday-Segar 100/50/20 rule beyond that, with a low-weight (<3.5 kg) exception that still uses the neonatal post-first-week range." },
+    { "q": "Why does the neonatal fluid range change day to day?", "a": "The app's neonatal table gives a different mL/kg/day range for each of the first six days of life, after which (day 7 onward) it plateaus at a flat 140-160 mL/kg/day for both term and preterm groups." },
+    { "q": "Does the preterm table differ from the term table?", "a": "Yes — the app uses a separate table for infants under 1.5 kg (preterm) that runs at different mL/kg/day ranges than the term/larger-infant table for the same day of life, until both converge after the first postnatal week." },
+    { "q": "What fluid type does the calculator suggest for a Day 1-2 neonate?", "a": "For Day 1-2 neonates it suggests typically 10% Dextrose with no electrolytes initially, adding sodium and potassium from around Day 2-3 once urine output is established." },
+    { "q": "Does the calculated volume account for phototherapy or fever?", "a": "No — the tool displays a warning that the calculated maintenance volume should be adjusted for clinical status such as phototherapy, a radiant warmer, fever, RDS, SIADH, renal failure, or excess losses, since these change requirements beyond the baseline formula." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/maintenance_fluid_calculator.dart"]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "mid-parental-height-calculator",
+  "intro": "The Mid-Parental Height Calculator estimates a child's genetic height potential from both parents' heights, as a way to contextualize the child's own growth-chart centile and screen for familial short or tall stature. It applies a different offset for boys versus girls and reports a target height range around the calculated mid-parental height.",
+  "indications": [
+    "Contextualizing a child's height percentile on a growth chart against their genetic (familial) height potential",
+    "Screening for familial short stature or familial tall stature as a possible explanation for a child's growth pattern",
+    "Providing parents or clinicians an approximate expected adult height range for counselling discussions",
+    "Supporting growth-monitoring discussions where a child's growth trajectory needs to be judged relative to parental heights rather than population norms alone"
+  ],
+  "method": "Boys: Mid-Parental Height = (Mother's height + Father's height)/2 + 6.5 cm. Girls: Mid-Parental Height = (Mother's height + Father's height)/2 - 6.5 cm. The app then reports a target height range of the calculated MPH +/- 6 cm.",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "Why is 6.5 cm added for boys but subtracted for girls?", "a": "This reflects the average height difference between adult men and women; the calculator adds 6.5 cm to the parental average for boys and subtracts 6.5 cm for girls, per the formula shown in the app." },
+    { "q": "What does the 'target height range' mean?", "a": "The app reports mid-parental height +/- 6 cm as an expected target range, reflecting normal variation around the genetic estimate." },
+    { "q": "Is mid-parental height a guarantee of a child's adult height?", "a": "No — the app's own disclaimer states this is a genetic potential estimate only, and actual adult height is also influenced by nutrition, health, and environmental factors." },
+    { "q": "What height ranges does the calculator accept as valid input?", "a": "The app validates mother's height between 120-200 cm and father's height between 130-220 cm." },
+    { "q": "Is this the same as plotting a growth chart?", "a": "No — this tool only computes the mid-parental height estimate; it's meant to be used alongside, not instead of, a standard growth chart when interpreting a child's centile." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/mid_parental_height_calculator.dart"]
+}

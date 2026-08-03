@@ -1,0 +1,21 @@
+{
+  "slug": "pediatric-blood-pressure-calculator",
+  "intro": "This tool routes clinicians to the age-appropriate paediatric blood pressure reference: a neonatal calculator for preterm and term infants by postmenstrual age, an infant calculator for postnatal ages 1-12 months, and a percentile calculator for children and adolescents aged 1-17 years based on the AAP 2017 Clinical Practice Guideline. Each pathway reports the relevant percentile bands (5th/50th/95th for neonates; 50th/90th/95th for infants; 50th/90th/95th/99th for children, adjusted for height percentile) so blood pressure can be interpreted against a normative curve rather than a single adult cut-off.",
+  "indications": [
+    "Screening a preterm or term neonate's blood pressure against postmenstrual-age-based centiles (Zubrow et al. 1995)",
+    "Screening an infant (1-12 months) for hypotension or checking systolic/diastolic percentile standing (Second Task Force 1987)",
+    "Classifying a child or adolescent's (1-17 years) blood pressure into Normal, Elevated, Stage 1, or Stage 2 hypertension per the AAP 2017 guideline, adjusted for the child's height percentile",
+    "Providing a bedside quick reference so clinicians don't have to manually look up printed percentile tables",
+    "Determining which reference table applies at a given age, since neonatal, infant, and paediatric BP norms are not interchangeable"
+  ],
+  "method": "The hub itself performs no calculation — it routes to three age-specific tools. For children/adolescents (1-17 years), the calculator matches the child's age, sex, and measured height to the closest of seven tabulated height-percentile columns (5th-95th) in the AAP 2017 reference tables, then classifies the entered systolic/diastolic BP per AAP 2017 Table 3: Stage 2 Hypertension if BP is at or above the 95th percentile plus 12 mmHg (or, for adolescents, an absolute SBP >=140 or DBP >=90 mmHg), Stage 1 Hypertension if at or above the 95th percentile (or absolute SBP >=130 or DBP >=80), Elevated if at or above the 90th percentile (or absolute SBP 120-129 with DBP <80), otherwise Normal. The neonatal and infant pathways instead reference published percentile tables by postmenstrual/postnatal age (Zubrow et al. 1995; Second Task Force 1987) rather than a formula.",
+  "guidelineRefs": ["AAP 2017", "Second Task Force 1987", "Zubrow et al. 1995"],
+  "faqs": [
+    { "q": "Why does this tool ask which age group my patient is in?", "a": "Blood pressure norms differ fundamentally by age band — the app uses postmenstrual-age tables for neonates (Zubrow et al. 1995), postnatal-age tables for infants 1-12 months (Second Task Force 1987), and height-adjusted percentile tables for children/adolescents 1-17 years (AAP 2017) — so it routes you to the correct reference rather than applying one formula to everyone." },
+    { "q": "How does the paediatric (1-17 year) calculator use height?", "a": "It matches the child's measured height to the closest of seven tabulated height-percentile columns (5th through 95th) in the AAP 2017 tables, because expected BP varies with a child's height, not just age and sex." },
+    { "q": "What do the AAP 2017 blood pressure categories mean?", "a": "The tool classifies readings as Normal, Elevated, Stage 1 Hypertension, or Stage 2 Hypertension based on where the entered systolic/diastolic BP falls relative to the height-and-age-adjusted 90th/95th percentiles (or fixed adolescent thresholds), per AAP 2017 Table 3." },
+    { "q": "What reference is used for infants 1-12 months?", "a": "The infant pathway uses the Second Task Force on Blood Pressure Control in Children (Pediatrics, 1987), which the AAP 2017 guideline itself defers to for this age band since AAP 2017 does not publish its own infant data." },
+    { "q": "Is the neonatal option here the same as elsewhere in the app?", "a": "Yes — the Neonatal BP option on this hub opens the app's dedicated neonatal calculator, referenced to Zubrow et al. 1995 and covering postmenstrual ages 24-46 weeks." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/bp_hub_screen.dart", "lib/screens/calculators/bp_calculator.dart"]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "gir-calculator-neonatal",
+  "intro": "The GIR Calculator is a three-part tool for neonatal IV dextrose planning: a GIR Calculator that finds the dextrose concentration needed to hit a target glucose infusion rate, a Glucose Mixer that works out how to blend two dextrose stock strengths to a target percentage, and a Calories Calculator that converts a given dextrose infusion into total calories and an equivalent GIR.",
+  "indications": [
+    "Determining the dextrose concentration needed to deliver a prescribed glucose infusion rate (GIR) to a neonate",
+    "Working out how much of two available dextrose stock strengths (e.g. D5, D10, D25, D50) to combine to reach a target concentration",
+    "Converting a planned or actual dextrose infusion into total calories and kcal/kg/day",
+    "Checking whether a planned dextrose concentration is appropriate for peripheral versus central venous access"
+  ],
+  "method": "GIR tab formula (quoted from the app): '% = GIR x wt(kg) x 144 / vol(mL)' — the dextrose concentration required equals target GIR (mg/kg/min) × weight (kg) × 144, divided by total volume (mL/day). Calories tab formula (quoted): 'kcal = dextrose(g) x 3.4.' For mixing, the app selects (or lets the user choose) two stock concentrations from 0/5/10/25/50% dextrose and calculates the volume of each needed to reach the target percentage in the total volume, flagging an error if the target is unreachable with the chosen pair. A safety banner applies the same thresholds across all three tabs: up to 12.5% dextrose is 'Safe for peripheral infusion'; 12.5–20.0% is 'Caution — prefer central line if prolonged'; above 20% is 'Central line strongly recommended.'",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "What formula finds the required dextrose percentage?", "a": "The app's GIR tab formula: % = GIR × weight(kg) × 144 ÷ volume(mL)." },
+    { "q": "How does the Glucose Mixer tool work?", "a": "You pick two dextrose stock strengths (from 0, 5, 10, 25, or 50%) and a target percentage; the app calculates how many mL of each to combine to hit that target in the specified total volume, and flags it if the target can't be reached with that pair." },
+    { "q": "How are calories calculated from a dextrose infusion?", "a": "kcal = dextrose (g) × 3.4, per the app's Calories Calculator tab." },
+    { "q": "At what dextrose concentration does the app recommend a central line?", "a": "Above 20% it states 'central line strongly recommended'; 12.5–20% is flagged as caution, preferring a central line if the infusion is prolonged; up to 12.5% is considered safe for peripheral infusion." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/gir_calculator.dart"]
+}

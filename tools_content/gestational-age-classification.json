@@ -1,0 +1,36 @@
+{
+  "slug": "gestational-age-classification",
+  "intro": "This tool classifies a newborn's postnatal gestational age, entered as weeks and days, into nine standard clinical categories spanning extremely preterm through post term, reproducing the app's own Table 6-2 reference ('Gestational Age and Birthweight Classification,' Chapter 6, page 51, as cited on-screen). Per the app's own note, definitions follow conventional medical convention where the day of birth counts as day zero. A live calculator matches an entered gestational age to its category and, when the result is preterm, displays both the specific subtype and the general 'preterm' umbrella label.",
+  "indications": [
+    "Categorising a newborn's gestational age at birth for standardised documentation and handoff",
+    "Anticipating the general risk profile associated with the degree of prematurity",
+    "Distinguishing a specific preterm subtype (extremely, very, moderately, or late preterm) from the general preterm umbrella label",
+    "Distinguishing early term, full term, late term, and post term infants",
+    "Quick bedside or rounds lookup by entering gestational weeks and days"
+  ],
+  "method": "Classification runs on total postnatal age in days (gestational weeks × 7, plus additional days), matched against the app's nine defined ranges, taken verbatim from source: Extremely preterm (<28 weeks, <197 days), Very preterm (28 0/7–31 6/7 weeks, 197–224 days), Moderately preterm (32 0/7–33 6/7 weeks, 225–238 days), Late preterm (34 0/7–36 6/7 weeks, 239–259 days), Early term (37 0/7–38 6/7 weeks, 260–273 days), Full term (39 0/7–40 6/7 weeks, 274–287 days), Late term (41 0/7–41 6/7 weeks, 288–294 days), and Post term (42 0/7 weeks or more, ≥295 days). 'Preterm' (<37 weeks, <260 days) is treated as an umbrella label in the app rather than a mutually exclusive category, and is shown alongside the more specific subtype whenever the result is preterm. The in-app calculator accepts 22–44 weeks and 0–6 days as valid input.",
+  "guidelineRefs": [],
+  "faqs": [
+    {
+      "q": "What gestational age categories does this tool use?",
+      "a": "Nine categories: extremely preterm, very preterm, moderately preterm, late preterm (all under the general 'preterm' umbrella), early term, full term, late term, and post term."
+    },
+    {
+      "q": "How is 'day zero' defined?",
+      "a": "The app follows conventional medical definitions where the day of birth counts as day zero when calculating postnatal gestational age in days."
+    },
+    {
+      "q": "What is the difference between 'preterm' and a specific preterm subtype?",
+      "a": "'Preterm' is a general umbrella label (under 37 weeks, under 260 days) that the app displays alongside a more specific subtype — extremely, very, moderately, or late preterm — rather than replacing it."
+    },
+    {
+      "q": "What input range does the calculator accept?",
+      "a": "Gestational age entries of 22 to 44 weeks and 0 to 6 days, per the app's own input validation."
+    },
+    {
+      "q": "Does this tool also classify birthweight?",
+      "a": "This specific screen classifies gestational age only, based on weeks and days entered; the app has a separate tool for absolute birthweight classification."
+    }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/ga_classification_screen.dart"]
+}

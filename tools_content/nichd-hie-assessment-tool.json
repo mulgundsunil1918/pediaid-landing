@@ -1,0 +1,20 @@
+{
+  "slug": "nichd-hie-assessment-tool",
+  "intro": "Within PediAid's Neonatal Scores hub, 'NICHD HIE Assessment' appears as the first, dedicated card, subtitled 'Cooling eligibility & assessment tool.' The same hub also lists three additional hypoxic-ischemic encephalopathy (HIE) staging instruments -- Levene Staging (HIE), Modified Sarnat Staging (HIE), and Thompson Score (HIE) -- among its general scoring systems. This page is served from that same hub screen, so its role here is to point clinicians to the dedicated HIE/cooling-eligibility assessment and related staging scores rather than to restate staging criteria that live in that dedicated screen.",
+  "indications": [
+    "Determining whether a newborn with suspected hypoxic-ischemic encephalopathy should proceed to a dedicated cooling-eligibility assessment",
+    "Grading encephalopathy severity with a standardized staging instrument (Levene, Modified Sarnat, or Thompson) rather than an unstructured bedside impression",
+    "Serial neurologic reassessment of an at-risk neonate over the first hours of life",
+    "Structuring documentation and handoff language around a recognized HIE staging system",
+    "Choosing which HIE-related scoring tool to open when several staging options are available in one place"
+  ],
+  "method": "This screen is a navigation hub rather than the assessment itself: the 'NICHD HIE Assessment' card sits at the top of the Neonatal Scores list with the subtitle 'Cooling eligibility & assessment tool' and routes to its own dedicated screen. The hub also surfaces Levene Staging (HIE), Modified Sarnat Staging (HIE), and Thompson Score (HIE) as separate, individually scored instruments in its general score list. The hub file itself does not expose the specific staging criteria, item-level descriptors, or cooling-eligibility numeric thresholds -- those live in the dedicated assessment screen the card links to, which was outside the scope of the source file reviewed for this page, so no specific criteria are stated here to avoid overstating what was verified.",
+  "guidelineRefs": ["NICHD"],
+  "faqs": [
+    { "q": "What does 'NICHD HIE Assessment' refer to in PediAid?", "a": "It's a dedicated card in the Neonatal Scores hub, labeled 'Cooling eligibility & assessment tool,' that opens a separate screen for hypoxic-ischemic encephalopathy assessment." },
+    { "q": "Which HIE-specific staging scores are available in PediAid?", "a": "Levene Staging (HIE), Modified Sarnat Staging (HIE), and Thompson Score (HIE) are all listed as separate instruments in the same Neonatal Scores hub." },
+    { "q": "Does this hub screen show the actual HIE staging criteria or cooling-eligibility thresholds?", "a": "No. The hub is a navigation/index screen -- the detailed criteria and thresholds live in the dedicated NICHD HIE Assessment screen it links to, which is a separate file from the one reviewed for this page." },
+    { "q": "Is HIE staging the same as Apgar scoring in PediAid?", "a": "No -- Apgar Score and Combined Apgar Score are listed as separate, distinct entries in the same hub, apart from the HIE-specific staging instruments." }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/neonatal_scores/neonatal_scores_screen.dart", "assets/data/nicu_scores.json"]
+}

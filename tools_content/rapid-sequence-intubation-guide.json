@@ -1,0 +1,35 @@
+{
+  "slug": "rapid-sequence-intubation-guide",
+  "intro": "The Rapid Sequence Intubation guide walks through the '7 P's' of RSI alongside a drug reference table and five scenario-specific intubation medication sequences, matching the app's own subtitle. It frames intubation conceptually as 'analgesia + sedation + neuromuscular blocker +/- premedication,' and tailors agent selection to five clinical contexts: a standard sequence, an asthma/reactive-airway sequence, a haemodynamic-instability sequence, a head-injury sequence, and considerations for renal or hepatic organ failure.",
+  "indications": [
+    "Planning emergency airway management in a critically ill child",
+    "Selecting induction and paralytic agents appropriate to a specific clinical scenario (e.g., reactive airway disease, shock, raised intracranial pressure, organ failure)",
+    "Following a structured, time-anchored sequence from preparation through post-intubation care",
+    "Confirming correct endotracheal tube placement after intubation",
+    "Reviewing indications and cautions for individual RSI drugs (sedatives, analgesics, and neuromuscular blockers)"
+  ],
+  "method": "The guide's own framework is the '7 P's,' a time-anchored flow: Preparation, Preoxygenation, Pretreatment, Paralysis/Induction, Positioning, Placement with proof, and Post-intubation management. It states intubation conceptually as the combination of analgesia, sedation, a neuromuscular blocker, and optional premedication. Five scenario-specific sequences (standard, asthma, haemodynamic instability, head injury, and organ failure) each list an ordered set of drug categories tailored to that context, and the guide's placement-confirmation pearl names continuous waveform capnography as the gold standard, supported by bilateral chest rise, equal air entry, absence of epigastric sounds, tube condensation, and rising SpO2, with chest X-ray afterward to confirm tip position. Specific drug doses from the app's tables are not reproduced on this page.",
+  "guidelineRefs": [
+    "APLS 6th edition",
+    "PALS RSI consensus"
+  ],
+  "faqs": [
+    {
+      "q": "What are the 7 P's of RSI in this guide?",
+      "a": "Preparation, Preoxygenation, Pretreatment, Paralysis/Induction, Positioning, Placement with proof, and Post-intubation management — each anchored to a time point relative to the intubation attempt."
+    },
+    {
+      "q": "How does drug selection change across scenarios?",
+      "a": "The app provides five separate sequences — standard, asthma, haemodynamic instability, head injury, and organ failure — each substituting or reordering induction, paralytic, and adjunct agents to suit that clinical context."
+    },
+    {
+      "q": "How is correct tube placement confirmed?",
+      "a": "The guide names continuous waveform capnography (ETCO2 trace) as the gold standard, alongside bilateral chest rise, equal air entry, absence of epigastric sounds, tube condensation, rising SpO2, and a follow-up chest X-ray for tip position."
+    },
+    {
+      "q": "Does the app show exact intubation drug doses on this page?",
+      "a": "Individual drug doses live inside the app's reference tables; this page describes the framework and scope rather than restating specific milligram-per-kilogram figures, since dosing should always be verified against the current in-app source and local protocol."
+    }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/rsi_guide_screen.dart"]
+}

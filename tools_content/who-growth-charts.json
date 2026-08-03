@@ -1,0 +1,23 @@
+{
+  "slug": "who-growth-charts",
+  "intro": "The WHO Growth Chart Calculator lets clinicians plot a child's measurements against the WHO Child Growth Standards 2006 for children aged 0–5 years, with separate charts for boys and girls. It covers weight-for-age, length/height-for-age, head-circumference-for-age, and BMI-for-age (all 0–5 years), plus weight-for-length (0–2 years) and weight-for-height (2–5 years). The screen is a selection hub that routes to a dedicated chart-plotting view for whichever parameter and sex is chosen.",
+  "indications": [
+    "Assessing a child's growth trajectory against WHO international standards from birth to age 5",
+    "Screening for undernutrition or overnutrition using weight-for-length/height or BMI-for-age",
+    "Monitoring head circumference growth for signs of micro- or macrocephaly",
+    "Tracking longitudinal growth (weight, length/height) at routine well-child visits",
+    "Comparing growth parameters against sex-specific WHO percentile curves"
+  ],
+  "method": "The screen offers six chart types per sex — Weight for Age, Length/Height for Age, Head Circumference, and BMI for Age (each 0–5 years), plus Weight for Length (0–2 years) and Weight for Height (2–5 years) — and hands off to a chart screen that plots the child's data against WHO percentile/z-score curves. The app displays the citation \"WHO Child Growth Standards 2006\" on the chart selection screen, and the underlying chart screen repeats \"WHO Child Growth Standards 2006\" / \"WHO Growth Standards 2006\" on its plotted views and PDF export.",
+  "guidelineRefs": [
+    "WHO Child Growth Standards 2006"
+  ],
+  "faqs": [
+    { "q": "What age range do the WHO charts in the app cover?", "a": "0–5 years for weight-for-age, length/height-for-age, head circumference, and BMI-for-age; weight-for-length is scoped to 0–2 years and weight-for-height to 2–5 years." },
+    { "q": "What growth standard is this based on?", "a": "The app labels it \"WHO Child Growth Standards 2006\" on both the chart selection screen and the plotted chart views." },
+    { "q": "Are the charts different for boys and girls?", "a": "Yes — the selection screen has separate boys and girls sections, each offering the same six chart types." },
+    { "q": "Which chart should I use for a 4-month-old's weight relative to length?", "a": "Weight for Length, which the app scopes to 0–2 years." },
+    { "q": "Does the app support BMI tracking for young children?", "a": "Yes, BMI for Age is offered for children 0–5 years." }
+  ],
+  "sourceFilesRead": ["lib/screens/charts/who_chart_selection_screen.dart", "lib/screens/charts/who_chart_screen.dart"]
+}

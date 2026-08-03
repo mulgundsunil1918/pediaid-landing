@@ -1,0 +1,32 @@
+{
+  "slug": "picu-sedation-paralytics-guide",
+  "intro": "The Sedation, Analgesia & Paralytics guide is a PICU/NICU continuous-infusion reference, as described in its own subtitle: 'Doses + dilutions + bedside infusion rate.' It organizes opioid analgesics, sedative-hypnotics, neuromuscular blockers, and oral adjunct agents with standard dilution recipes and the resulting bedside infusion-rate conversions, and pairs this with a structured daily 'sedation holiday' protocol and drug-specific safety pitfalls.",
+  "indications": [
+    "Selecting a continuous sedative or analgesic infusion for a mechanically ventilated child",
+    "Choosing a neuromuscular blocking agent for ventilator synchrony or specific procedures",
+    "Converting a target dose into a bedside infusion rate using the guide's dilution recipes",
+    "Planning a daily sedation interruption ('sedation holiday') to reduce ventilator-associated pneumonia risk and allow neurological assessment",
+    "Anticipating agent-specific risks, such as accumulation in renal or hepatic failure or infusion-related toxicity"
+  ],
+  "method": "Each drug entry pairs a dose range with a standard dilution recipe and the corresponding bedside infusion rate (e.g., what a given mL/hr delivers), covering agents such as morphine, fentanyl, midazolam, ketamine, dexmedetomidine, vecuronium, pancuronium, rocuronium, atracurium, cisatracurium, and several oral adjuncts. The 'sedation holiday' protocol described in the app involves stopping the sedation infusion each morning for a period to let the child wake, improving VAP risk and allowing neurological assessment, then restarting if the child becomes agitated or uncomfortable — with the guide cautioning this should not be done in very unstable children (e.g., ARDS on high ventilator settings). A pitfalls section flags risks including propofol infusion syndrome with prolonged high-dose use, increased secretions with ketamine, drug accumulation with vecuronium/rocuronium in organ failure (favouring atracurium/cisatracurium, which undergo Hofmann elimination/plasma esterase degradation), and prolonged sedation or immunosuppression with midazolam. Specific numeric doses from the app's table are not reproduced on this page.",
+  "guidelineRefs": [],
+  "faqs": [
+    {
+      "q": "What is a 'sedation holiday' and why is it done?",
+      "a": "It is a daily protocol described in the app where the sedation infusion is stopped for a period each morning to let the child wake up, which reduces ventilator-associated pneumonia risk and allows a better neurological assessment; sedation is restarted if the child becomes agitated or uncomfortable."
+    },
+    {
+      "q": "Which drug categories does this guide cover?",
+      "a": "Opioid analgesics, benzodiazepine and non-benzodiazepine sedatives, neuromuscular blocking agents, and several oral adjunct agents used for PICU/NICU sedation and paralysis, each with dilution and infusion-rate guidance."
+    },
+    {
+      "q": "What is propofol infusion syndrome?",
+      "a": "The guide flags it as a risk with prolonged high-dose propofol infusions (beyond 48 hours), presenting with metabolic acidosis, rhabdomyolysis, and cardiac failure."
+    },
+    {
+      "q": "Why might atracurium or cisatracurium be preferred over vecuronium or rocuronium?",
+      "a": "The app notes vecuronium and rocuronium can accumulate in renal or hepatic failure, whereas atracurium and cisatracurium undergo Hofmann elimination (degraded by plasma esterase), making them less dependent on organ function for clearance."
+    }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/sedation_paralytics_screen.dart"]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "neonatal-blood-pressure-calculator",
+  "intro": "The Neonatal Blood Pressure Calculator provides reference systolic, diastolic, and mean arterial pressure centiles for infants in the NICU, organized by postmenstrual age (PMA) from 24 to 46 weeks. Entering a PMA instantly displays the 5th, 50th, and 95th percentile values for each parameter from a published multicentre dataset, alongside a simple bedside rule of thumb for mean arterial pressure. It is designed as a quick reference for interpreting blood pressure readings in preterm and term neonates admitted to intensive care.",
+  "indications": [
+    "Interpreting a NICU blood pressure reading against age-appropriate normative centiles",
+    "Judging whether a neonate's BP falls outside the expected 5th–95th percentile range for their PMA",
+    "Applying a bedside rule of thumb for adequate mean arterial pressure in preterm infants",
+    "Reviewing expected BP centiles across a range of postmenstrual ages during a NICU admission",
+    "Supporting discussions about hypotension thresholds in preterm/term neonates"
+  ],
+  "method": "The app displays 5th, 50th, and 95th percentile systolic, diastolic, and mean arterial pressure values by postmenstrual age (PMA), for PMA 24–46 weeks, drawn from the Zubrow et al. 1995 dataset (PMA = Gestational Age + Postnatal Age). It also states a rule of thumb: MAP ≥ gestational age in weeks.",
+  "guidelineRefs": [
+    "Zubrow AB et al., J Perinatol 1995"
+  ],
+  "faqs": [
+    { "q": "What age range does this tool cover?", "a": "Postmenstrual age (PMA) from 24 to 46 weeks." },
+    { "q": "Where do the reference BP centiles come from?", "a": "The app cites Zubrow AB, Hulman S, Kushner H, Falkner B, \"Determinants of blood pressure in infants admitted to neonatal intensive care units: a prospective multicenter study,\" Journal of Perinatology, 1995;15(6):470–479." },
+    { "q": "What's the quick rule of thumb for mean arterial pressure?", "a": "The app states MAP should be ≥ the gestational age in weeks." },
+    { "q": "How is PMA calculated?", "a": "PMA = Gestational Age + Postnatal Age, both expressed in weeks." },
+    { "q": "What percentiles does the calculator show?", "a": "The 5th, 50th, and 95th percentiles for systolic, diastolic, and mean arterial pressure at the entered PMA." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/neonatal_bp_calculator.dart"]
+}

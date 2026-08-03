@@ -1,0 +1,25 @@
+{
+  "slug": "urine-anion-gap-calculator",
+  "intro": "The Urine Anion Gap Calculator estimates urinary ammonium excretion from spot urine electrolytes to help classify a normal-anion-gap metabolic acidosis (NAGMA) as renal versus gastrointestinal in origin. It computes UAG = Urine Na⁺ + Urine K⁺ − Urine Cl⁻, with a positive result suggesting impaired renal ammonium excretion (renal tubular acidosis) and a negative result suggesting gastrointestinal bicarbonate loss. The app attributes the original description of this test to Goldstein, American Journal of Nephrology 1986.",
+  "indications": [
+    "Differentiating renal tubular acidosis from gastrointestinal bicarbonate loss in a child with normal-anion-gap metabolic acidosis",
+    "Working up unexplained NAGMA (e.g. in a patient without obvious diarrhoea) to decide whether a renal acidification defect is likely",
+    "Supporting a work-up for distal (Type 1), proximal (Type 2), or hypoaldosteronism-related (Type 4) RTA when the UAG is positive",
+    "Corroborating a clinical diagnosis of diarrhoea-, fistula-, or ileostomy-related bicarbonate loss when the UAG is negative",
+    "Guiding follow-up testing (urine pH, serum/urine potassium, ABG) once the UAG points toward a renal cause"
+  ],
+  "method": "UAG = Na + K − Cl, calculated from spot urine sodium, potassium, and chloride. The app interprets a UAG greater than 5 as positive ('suggests RTA'), a UAG less than −5 as negative ('suggests GI bicarb loss'), and values in between as indeterminate — for which it suggests calculating a urine osmolar gap instead, quoted as 'Urine osm − 2[Na+K] − Urea/2.8 − Glu/18'.",
+  "guidelineRefs": [
+    "Goldstein, Am J Nephrol 1986"
+  ],
+  "faqs": [
+    { "q": "What does a positive urine anion gap mean?", "a": "The app states a UAG greater than 5 suggests impaired NH4⁺ excretion, pointing toward distal (Type 1) RTA, hypoaldosteronism (Type 4), or proximal (Type 2) RTA with bicarbonaturia." },
+    { "q": "What does a negative urine anion gap mean?", "a": "A UAG below −5 indicates appropriate ammonium excretion, meaning the acidosis is most likely from gastrointestinal bicarbonate loss such as diarrhoea, fistula, or ileostomy." },
+    { "q": "What if the urine anion gap is close to zero?", "a": "The app labels values between −5 and 5 as indeterminate and suggests calculating the urine osmolar gap as a surrogate marker instead." },
+    { "q": "When is the urine anion gap unreliable?", "a": "The app's reference notes the UAG is unreliable in the presence of a urinary tract infection (urease-producing organisms), volume depletion, or high levels of unmeasured urine anions." },
+    { "q": "What inputs does the calculator need?", "a": "Spot urine sodium, potassium, and chloride, all in mEq/L." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/calculators/urine_anion_gap_calculator.dart"
+  ]
+}

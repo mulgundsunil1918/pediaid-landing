@@ -1,0 +1,36 @@
+{
+  "slug": "pediatric-hypertensive-emergency-management",
+  "intro": "This guide triages confirmed paediatric hypertension into three management paths, exactly as structured in the app: chronic hypertension, hypertensive urgency (acute severe hypertension without target-organ damage), and hypertensive emergency (acute severe hypertension with target-organ damage, defined in-app as systolic BP above the 99th centile plus 5 mmHg). Each path carries its own stepwise management approach, and the screen pairs this triage with parenteral and enteral acute-drug tables plus long-term oral antihypertensive and diuretic reference tables.",
+  "indications": [
+    "Distinguishing hypertensive urgency from hypertensive emergency in a child with confirmed severe hypertension",
+    "Structuring first-, second-, and third-line parenteral therapy when target-organ damage is present",
+    "Selecting an oral antihypertensive class for chronic blood pressure management",
+    "Planning a safe rate of blood pressure reduction to avoid overly rapid correction",
+    "Reviewing diuretic options when fluid overload accompanies hypertension",
+    "Recognising situations warranting PICU and renal consultant involvement"
+  ],
+  "method": "The screen's own triage logic is: hypertension confirmed → Path A (chronic hypertension, no acute aetiology suspected), Path B (hypertensive urgency — acute severe hypertension without target-organ damage), or Path C (hypertensive emergency — acute severe hypertension, defined as SBP above the 99th centile plus 5 mmHg, with target-organ damage). Path C follows an ABC approach with IV access, seizure management as needed, and escalates through first-line, second-line, and third-line parenteral agents. The guide also states a general BP-correction principle: reducing systolic BP in stages — roughly a third in the first 12 hours, another third over the next 12 hours, and the remainder over the following 24 hours, working toward the 90th–95th centile — because faster correction risks watershed cerebral ischaemia and posterior reversible encephalopathy syndrome (PRES). Specific drug doses shown in the app's parenteral, enteral, oral, and diuretic tables are not reproduced on this page.",
+  "guidelineRefs": [
+    "AAP Clinical Practice Guideline for Screening and Management of High Blood Pressure in Children and Adolescents (2017)",
+    "ESH 2022 paediatric hypertension consensus"
+  ],
+  "faqs": [
+    {
+      "q": "How does this guide define a hypertensive emergency versus urgency?",
+      "a": "Hypertensive urgency is acute severe hypertension without evidence of target-organ damage. Hypertensive emergency is acute severe hypertension (SBP above the 99th centile plus 5 mmHg, per the app) together with target-organ damage, and follows a more aggressive ABC-based, PICU-involved pathway."
+    },
+    {
+      "q": "How quickly should blood pressure be lowered?",
+      "a": "The guide recommends a staged reduction — roughly a third of the planned drop in the first 12 hours, another third over the next 12 hours, and the rest over the following 24 hours — rather than rapid correction, to reduce the risk of watershed cerebral ischaemia and PRES."
+    },
+    {
+      "q": "What oral drug classes are covered for long-term management?",
+      "a": "The reference table covers vasodilators, central alpha-agonists, adrenergic blockers, calcium channel blockers, ACE inhibitors, and ARBs, alongside a separate long-term diuretics table."
+    },
+    {
+      "q": "Why does the guide caution against sublingual nifedipine in young children?",
+      "a": "The app notes that sublingual or 'bite-and-swallow' nifedipine can cause a precipitous BP drop and stroke risk in younger children, and references the AAP 2017 guideline as reserving it for children over 2 years when IV access is delayed."
+    }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/hypertensive_emergency_screen.dart"]
+}

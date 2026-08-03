@@ -1,0 +1,21 @@
+{
+  "slug": "modified-ballard-score-calculator",
+  "intro": "The Modified Ballard Score estimates a newborn's gestational age from physical exam alone, useful when maternal dating is uncertain or unavailable. PediAid's calculator scores 6 neuromuscular maturity signs and 5 physical maturity signs, plus a genital exam (male or female, one selected), each on a scale of -1 to 5, then converts the total score into an estimated gestational age and maturity category. The app cites 'Ballard JL et al., Pediatrics 1991' as its reference.",
+  "indications": [
+    "Estimating gestational age at birth when maternal dates or early ultrasound are unavailable or unreliable",
+    "Confirming or cross-checking a discrepant dating estimate against physical exam findings",
+    "Classifying a newborn as extremely preterm through post-term to guide care-pathway decisions",
+    "Teaching trainees the standardized technique for eliciting each neuromuscular maturity sign",
+    "Documenting a reproducible, scored gestational-age assessment in the chart"
+  ],
+  "method": "PediAid scores 12 items: 6 neuromuscular maturity signs (Posture, Square Window/wrist, Arm Recoil, Popliteal Angle, Scarf Sign, Heel to Ear), 5 physical maturity signs (Skin, Lanugo, Plantar Surface, Breast, Eye/Ear), and one genital exam (Male or Female, scored once), each rated -1 to 5 against descriptive anchors (for example Posture ranges from 'Extended' at -1 to 'Tight flexion' at 5). The app sums all scores and converts to gestational age with the formula quoted directly from source: GA (weeks) = (2 x total score + 120) / 5. It then classifies the result as Extremely Preterm (under 28 weeks), Very Preterm (under 32 weeks), Moderate to Late Preterm (under 37 weeks), Term (up to and including 42 weeks), or Post-term (over 42 weeks).",
+  "guidelineRefs": ["Ballard 1991"],
+  "faqs": [
+    { "q": "What is the formula PediAid uses to convert Ballard score to gestational age?", "a": "GA (weeks) = (2 x total score + 120) / 5, taken directly from the app's calculation logic." },
+    { "q": "How many parameters make up the Modified Ballard Score in PediAid?", "a": "12 scored items total: 6 neuromuscular signs, 5 physical signs, and one genital exam (male or female, scored once)." },
+    { "q": "What gestational age categories does PediAid report?", "a": "Extremely Preterm (under 28 weeks), Very Preterm (under 32 weeks), Moderate to Late Preterm (under 37 weeks), Term (up to 42 weeks), and Post-term (over 42 weeks)." },
+    { "q": "How do I perform the arm recoil maneuver?", "a": "Per the app's own bedside guidance: with the infant supine, fully flex both elbows and hold about 5 seconds, fully extend the arms, then release, and score how briskly and completely the arms spring back into flexion." },
+    { "q": "What happens if I only fill in some of the parameters?", "a": "The result bar shows 'Incomplete -- select all parameters to see gestational age' until every standard parameter plus one genital option has been selected." }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/modified_ballard_screen.dart"]
+}

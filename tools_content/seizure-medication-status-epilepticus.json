@@ -1,0 +1,35 @@
+{
+  "slug": "seizure-medication-status-epilepticus",
+  "intro": "The Seizure Medications guide combines a time-anchored status epilepticus drug ladder with a complete reference table of anticonvulsant and anaesthetic agents, matching its own subtitle: 'Status epilepticus drug ladder + complete reference doses.' The ladder moves from initial stabilisation through a first-line benzodiazepine, a second-line agent, and refractory management, while the reference table lists route, maximum dose, and adverse-effect notes for each drug.",
+  "indications": [
+    "Managing an actively seizing child in a stepwise, time-critical fashion",
+    "Selecting a first-line benzodiazepine for initial seizure termination",
+    "Escalating to a second-line agent when seizures persist despite first-line therapy",
+    "Managing refractory status epilepticus, including consideration of intubation and continuous infusion agents",
+    "Reviewing route of administration and adverse-effect profile before giving a specific anticonvulsant"
+  ],
+  "method": "The app's status epilepticus ladder is time-anchored: 0–5 minutes for stabilisation (ABCs, IV access, glucose check, monitoring, with dextrose if hypoglycaemic), around 5 minutes for a first-line benzodiazepine (with an option to repeat once at 10 minutes if seizures continue), 15–20 minutes for a second-line agent, and around 40 minutes for refractory management with consideration of intubation and continuous EEG monitoring. The accompanying reference table lists each drug (including lorazepam, diazepam, midazolam, phenytoin, fosphenytoin, valproic acid, levetiracetam, phenobarbitone, thiopentone, pentobarbital, propofol, ketamine, topiramate, and lacosamide) with its route, maximum dose, and clinical comments such as sedation, hypotension, or respiratory depression risk. Specific numeric doses are not reproduced on this page — refer to the in-app table for current figures.",
+  "guidelineRefs": [
+    "Status Epilepticus Treatment Guideline (Glauser et al., Neurol Clin Pract 2016)",
+    "ESETT trial"
+  ],
+  "faqs": [
+    {
+      "q": "What is the time-anchored ladder for status epilepticus in this guide?",
+      "a": "Stabilisation in the first 0–5 minutes, a first-line benzodiazepine around 5 minutes (repeatable once at 10 minutes if seizures continue), a second-line agent at 15–20 minutes, and refractory management with possible intubation around 40 minutes."
+    },
+    {
+      "q": "What drug class is first-line for an actively seizing child in this guide?",
+      "a": "A benzodiazepine — the app lists lorazepam, midazolam, and diazepam as first-line options depending on route and setting."
+    },
+    {
+      "q": "What happens if seizures continue despite first- and second-line therapy?",
+      "a": "The guide moves to refractory management around 40 minutes, which includes consideration of intubation, continuous infusion agents, and continuous EEG monitoring."
+    },
+    {
+      "q": "Does the app list side effects for each seizure medication?",
+      "a": "Yes, the reference table includes a comments column noting adverse effects and cautions for each drug, such as hypotension, respiratory depression, or behavioural changes."
+    }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/seizure_meds_screen.dart"]
+}

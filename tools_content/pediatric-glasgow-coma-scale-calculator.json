@@ -1,0 +1,26 @@
+{
+  "slug": "pediatric-glasgow-coma-scale-calculator",
+  "intro": "The Pediatric Glasgow Coma Scale (GCS) Calculator is an interactive tool for scoring a child's level of consciousness across three components — eye opening, best motor response, and best verbal response — with age-banded criteria for infants, young children, and older children/adults. Users can tap through a Smart Score view to get a live total (out of 15) with a severity interpretation, or reference the full scoring tables directly in a Table view. Per the app's own reference, the smart-score interactivity, severity thresholds, and common pitfalls are drawn from Teasdale & Jennett (Lancet 1974) — the original description of the GCS — and the APLS 6th edition.",
+  "indications": [
+    "Scoring level of consciousness in a child following head injury, altered mental status, or during resuscitation",
+    "Selecting age-appropriate verbal-response criteria for infants versus older children",
+    "Communicating a standardized eye/motor/verbal breakdown between clinicians, not just a total score",
+    "Using the total GCS to help gauge injury severity and guide decisions such as airway management or imaging",
+    "Recognizing scoring pitfalls, such as how to document an intubated or sedated patient's score"
+  ],
+  "method": "The score is the sum of three components: Eye opening (4 = Spontaneously, 3 = To shout/verbal command, 2 = To pain, 1 = No response), Best motor response (6 = Spontaneous movement/Obeys, 5 = Localizes pain, 4 = Flexion withdrawal, 3 = Decorticate flexion, 2 = Decerebrate extension, 1 = No response), and Best verbal response, which is scored differently by age band (infant/0–23 months, 2–5 years, and over 5 years) from 5 (best) to 1 (no response). The total score is out of 15.",
+  "guidelineRefs": [
+    "Teasdale & Jennett (Lancet 1974)",
+    "APLS 6th edition"
+  ],
+  "faqs": [
+    { "q": "What are the three components of the Glasgow Coma Scale?", "a": "Eye opening, best motor response, and best verbal response, each scored separately and then summed for a total out of 15." },
+    { "q": "Does the verbal response scoring differ by age?", "a": "Yes — the tool uses separate verbal-response criteria for infants (0–23 months), children 2–5 years, and those over 5 years." },
+    { "q": "What do the severity bands mean on this tool?", "a": "The tool labels a total GCS of 13–15 as mild, 9–12 as moderate, and 8 or below as severe head injury, presented as a research add-on alongside guidance such as securing the airway for severe scores." },
+    { "q": "How should an intubated patient's verbal score be documented?", "a": "Per the guide's pitfalls pearl, an intubated patient's verbal component should be scored and charted as \"1T.\"" },
+    { "q": "Where does this tool's scoring come from?", "a": "The app's own reference cites Teasdale & Jennett (Lancet 1974), the original description of the Glasgow Coma Scale, along with APLS 6th edition." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/guides/gcs_screen.dart"
+  ]
+}

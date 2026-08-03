@@ -1,0 +1,25 @@
+{
+  "slug": "pediatric-echo-calculators",
+  "intro": "The Pediatric Echocardiography Calculators screen is a hub of neonatal point-of-care echo tools covering cardiac output, systolic and diastolic function, pulmonary pressures, volume status, and PDA assessment. It groups individual calculators (e.g. LVO, RVO, ejection fraction, TAPSE, PAPSp, IVC collapsibility) into categories, alongside guided workflows such as a PDA Staging Wizard, PPHN Severity Bundle, and Shock Phenotype Classifier, plus a visual reference section for probe positions and Doppler waveforms. Individual calculators within the hub cite published neonatal echocardiography reference studies and society guidelines.",
+  "indications": [
+    "Quantifying cardiac output and systolic/diastolic ventricular function from 2D/Doppler echo measurements at the bedside",
+    "Grading pulmonary hypertension severity and PDA haemodynamic significance in neonates",
+    "Assessing intravascular volume status via IVC collapsibility/distensibility indices",
+    "Working through structured clinical scenarios (PDA, PPHN, shock, HIE, RDS) with a combined echo-based workflow",
+    "Cross-checking individual echo measurements against published normal reference ranges by gestational age"
+  ],
+  "method": "This is a hub screen organizing many individual echo calculators by category — Cardiac Output (LVO, RVO, SVC Flow, DAo, SV), LV Systolic Function (EF, FS, MAPSE, S′ TDI LV), Pulmonary Pressures (PAPSp, PAAT, EI, MPA:Ao), Diastolic Function (MPI, E/e′), Volume Status (IVC Collapsibility, IVC Distensibility, LA/Ao), PDA Assessment (Qp:Qs Ratio), and RV Systolic Function (FAC, TAPSE, S′ TDI RV) — plus a Reference Values screen and guided wizards (a PDA Staging Wizard built on the El-Khuffash score, a PPHN Severity Bundle, and a Shock Phenotype Classifier). Each individual calculator in the app carries its own formula and reference-value citation rather than one unified formula.",
+  "guidelineRefs": [
+    "American Society of Echocardiography (ASE) Guidelines — Lang RM et al., JASE 2015",
+    "ASE Targeted Neonatal Echocardiography Guidelines 2024",
+    "El-Khuffash et al., Arch Dis Child 2011"
+  ],
+  "faqs": [
+    { "q": "What categories of echo calculators are included?", "a": "Cardiac Output, LV Systolic Function, Pulmonary Pressures, Diastolic Function, Volume Status, PDA Assessment, and RV Systolic Function, plus a Reference Values section." },
+    { "q": "What is the PDA Staging Wizard based on?", "a": "The app describes it as combining TDD, LA:Ao, LPA, and DTA measurements using the El-Khuffash score." },
+    { "q": "Are these calculators specific to neonates?", "a": "Yes — the screen is labelled \"Neonatal · Point-of-Care\" and its reference studies are drawn from neonatal echocardiography literature." },
+    { "q": "What guideline underlies the measurement conventions used?", "a": "The app cites American Society of Echocardiography guidelines (Lang RM et al., JASE 2015) and the ASE Targeted Neonatal Echocardiography Guidelines (2024) as footnoted references." },
+    { "q": "Does the app include normal reference ranges by gestational age?", "a": "Yes — a dedicated Reference Values section covers LV dimensions, wall thickness, valve velocities, and visceral flow, each citing its own source study." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/echo_calculators_screen.dart"]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "ponderal-index-calculator",
+  "intro": "The Ponderal Index (PI) Calculator assesses a newborn's nutritional status and body proportionality from birth weight and length. As described in the app, it distinguishes between symmetrical and asymmetrical intrauterine growth restriction (IUGR) — a distinction that birth-weight percentiles alone cannot make.",
+  "indications": [
+    "Evaluating a newborn with a birth weight suggestive of intrauterine growth restriction (IUGR)",
+    "Distinguishing symmetrical (proportionate) from asymmetrical (disproportionate) growth restriction",
+    "Assessing body proportionality and nutritional status at birth",
+    "Complementing birth-weight-for-gestational-age percentiles with a proportionality measure",
+    "Flagging newborns who may need closer nutritional or growth follow-up"
+  ],
+  "method": "PI = (Weight in grams / Length in cm³) × 100, as shown in the app. The result is categorized into three bands per the app's reference table: PI above 2.5 — AGA/Normal, consistent with an appropriate-for-gestational-age term newborn; PI 2.0–2.5 — Symmetrical IUGR, where both weight and length are proportionally reduced, indicating chronic early-onset growth restriction; PI below 2.0 — Asymmetrical IUGR, described in the app as critically low and 'consistent with Asymmetrical IUGR and Severe PEM,' warranting immediate clinical evaluation.",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "What is the Ponderal Index formula?", "a": "PI = (Weight in grams ÷ Length in cm³) × 100, per the app." },
+    { "q": "What does a Ponderal Index below 2.0 mean?", "a": "The app labels this 'Asymmetrical IUGR,' describing it as critically low and consistent with severe protein-energy malnutrition (PEM), warranting immediate clinical evaluation." },
+    { "q": "How is symmetrical IUGR different from asymmetrical IUGR on this scale?", "a": "A PI of 2.0–2.5 is categorized as symmetrical IUGR, where weight and length are both proportionally reduced (chronic, early-onset restriction); below 2.0 is asymmetrical IUGR, where weight is disproportionately low relative to length." },
+    { "q": "What inputs does the calculator need?", "a": "Birth weight in grams (validated range 500–6000 g) and birth length in cm (validated range 25–65 cm)." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/ponderal_index_calculator.dart"]
+}

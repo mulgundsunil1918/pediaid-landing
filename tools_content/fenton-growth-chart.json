@@ -1,0 +1,28 @@
+{
+  "slug": "fenton-growth-chart",
+  "intro": "The Fenton Growth Chart screen plots a preterm infant's weight, length, and head circumference against the Fenton preterm growth reference, for gestational ages the app restricts to 22–50 weeks. It shows percentile bands (P3, P10, P50, P90, P97) by sex, plots the patient's own measurement as a point on the curve, and estimates an approximate exact percentile. The app displays an in-app version banner and citation card sourced from its bundled reference dataset, and can export the chart as a PDF.",
+  "indications": [
+    "Plotting a preterm infant's growth parameters against the Fenton preterm reference standard",
+    "Assessing postnatal growth trajectory in the NICU relative to expected preterm percentiles",
+    "Screening for growth-restricted or accelerated growth in infants born before term",
+    "Documenting or exporting a growth-chart PDF for the medical record",
+    "Comparing weight, length, and head-circumference percentiles at a given gestational age"
+  ],
+  "method": "The screen plots weight, length, and head circumference against P3/P10/P50/P90/P97 percentile curves by sex, accepting gestational age in weeks (validated in-app to the 22–50 week range) plus days. Percentile bands and the approximate percentile are derived from the app's bundled Fenton reference dataset. The app's own citation card, sourced from that dataset, reads: \"Fenton TR, Elmrayed S, Alshaikh BN. Fenton Third-Generation Growth Charts of Preterm Infants Without Abnormal Fetal Growth: A Systematic Review and Meta-Analysis. Paediatr Perinat Epidemiol. 2025 Aug;39(6):543-555.\" The in-app version banner labels this dataset version \"2025.\"",
+  "guidelineRefs": [
+    "Fenton TR, Elmrayed S, Alshaikh BN. Paediatr Perinat Epidemiol. 2025 (Fenton Third-Generation Growth Charts, dataset v2025)"
+  ],
+  "faqs": [
+    { "q": "What gestational age range does the Fenton chart cover in this app?", "a": "The app's input validation restricts gestational age entry to 22–50 weeks." },
+    { "q": "Which Fenton chart version does the app use?", "a": "The app's version banner and bundled dataset are labelled version \"2025,\" reflecting the updated Fenton Third-Generation Growth Charts systematic review and meta-analysis (Fenton TR et al., Paediatr Perinat Epidemiol 2025) rather than the earlier 2013 chart." },
+    { "q": "What growth parameters can I plot?", "a": "Weight, length, and head circumference, each against sex-specific percentile curves." },
+    { "q": "Can I export the chart?", "a": "Yes — the app offers a PDF export per parameter as well as a combined chart PDF covering weight, length, and head circumference together." },
+    { "q": "What percentile bands are shown?", "a": "P3, P10, P50, P90, and P97, with the patient's measurement plotted as its own point and an approximate exact percentile estimated between anchors." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/charts/fenton_chart_screen.dart",
+    "lib/screens/charts/fenton_chart_widget.dart",
+    "lib/data/fenton_data_loader.dart",
+    "assets/data/fenton_data.json"
+  ]
+}

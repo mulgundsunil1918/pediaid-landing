@@ -1,0 +1,35 @@
+{
+  "slug": "scorpion-sting-management",
+  "intro": "The Scorpion Sting guide provides stage-based recognition and treatment for scorpion envenomation, matching its own subtitle: 'Stage-based recognition + treatment. ASV + Prazosin is the cornerstone.' It defines five clinical stages by time since sting and associated features, from an early autonomic-storm picture through cold-extremity shock, pulmonary oedema, and finally warm shock, with antiscorpion venom (ASV) and the alpha-1 blocker prazosin as the shared treatment backbone across stages.",
+  "indications": [
+    "Staging a scorpion sting by time-since-sting and clinical features",
+    "Initiating ASV and prazosin therapy as first-line management",
+    "Recognising when pulmonary oedema or myocardial dysfunction warrants additional therapy (e.g., dobutamine, or a vasodilator with ventilatory support)",
+    "Distinguishing early cold-extremity shock from later warm shock, which have different treatment implications",
+    "Tracking clinical recovery, defined in the guide by warm, dry extremities and easily visible peripheral veins"
+  ],
+  "method": "The guide defines five time-anchored stages (Stage I, 0–4 hours, through Stage V, greater than 12 hours), each with its own set of clinical features (e.g., sweating, salivation, and hypertension early; cold extremities and hypotension in the middle stages; pulmonary oedema; and finally warm extremities with gray pallor in Stage V) and a matched treatment line. ASV plus prazosin is the consistent backbone across all stages; dobutamine is added for myocardial dysfunction and warm shock, and a vasodilator (sodium nitroprusside or nitroglycerine) plus ventilatory support is used for massive pulmonary oedema. All stages are described as converging on recovery once extremities are warm, dry, and peripheral veins are easily visible. The app also names ejection fraction below 40% as one criterion, alongside pulmonary oedema and a gallop rhythm, for adding dobutamine. Specific prazosin dosing and repeat-interval figures shown in the app are not reproduced on this page.",
+  "guidelineRefs": [
+    "Bawaskar Pune Protocol (Lancet 2011)",
+    "IAP Standard Treatment Guidelines for Scorpion Envenomation"
+  ],
+  "faqs": [
+    {
+      "q": "What are the clinical stages of scorpion sting used in this guide?",
+      "a": "Five stages defined by time since sting and clinical features, progressing from an early autonomic-storm picture (Stage I) through cold-extremity shock and pulmonary oedema to warm shock (Stage V), each paired with a specific treatment approach."
+    },
+    {
+      "q": "What is the cornerstone treatment for scorpion envenomation in this guide?",
+      "a": "Antiscorpion venom (ASV) combined with the oral alpha-1 blocker prazosin, used across all five stages, with additional agents like dobutamine or a vasodilator added depending on the stage."
+    },
+    {
+      "q": "When does the guide add dobutamine?",
+      "a": "When there is evidence of myocardial dysfunction — pulmonary oedema, a gallop rhythm, or an ejection fraction below 40% — and in Stage V warm shock."
+    },
+    {
+      "q": "How is recovery defined in this guide?",
+      "a": "All stages are described as converging on recovery once the extremities become warm and dry and peripheral veins are easily visible."
+    }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/scorpion_sting_screen.dart"]
+}

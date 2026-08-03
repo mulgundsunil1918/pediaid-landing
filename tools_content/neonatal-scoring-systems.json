@@ -1,0 +1,21 @@
+{
+  "slug": "neonatal-scoring-systems",
+  "intro": "PediAid's Neonatal Scores hub is described in-app as covering 'standard neonatal clinical scoring systems used in NICU and postnatal care.' From this single screen, clinicians can open a range of scoring instruments -- including Apgar Score, Combined Apgar Score, Downes Score, Silverman Anderson Score, and LATCH Score (breastfeeding) -- alongside dedicated shortcuts for the Modified Ballard Score, POFRAS, CAN Score, and the Lung Ultrasound Score (LUS). Each score card shows the instrument's name plus its parameter and column count before you open it.",
+  "indications": [
+    "Standardizing bedside assessment of a newborn's respiratory distress, maturity, or feeding readiness with a validated instrument",
+    "Documenting a reproducible score for handoff or serial trending during a NICU admission",
+    "Teaching trainees a structured, parameter-by-parameter approach to newborn assessment",
+    "Choosing the right scoring tool from a single hub instead of searching multiple references",
+    "Cross-referencing gestational age (Ballard), feeding readiness (POFRAS), or nutrition status (CAN Score) for the same infant",
+    "Comparing parameter complexity between scoring instruments before selecting one for a given clinical question"
+  ],
+  "method": "The screen is a navigation hub, not a calculator itself: it lists available scoring instruments as tappable cards, each showing the score's name and meta chips for parameter count ('P') and column count ('C'). Tapping a card opens a dedicated detail or calculator screen for that instrument. In addition to the JSON-driven list (Apgar Score, Combined Apgar Score, Downes Score, Silverman Anderson Score, Levene Staging (HIE), IVH Grading (Papile & Volpe), Modified Sarnat Staging (HIE), Thompson Score (HIE), and LATCH Score), the hub hardcodes shortcut cards for the NICHD HIE Assessment, LUS, Modified Ballard Score, POFRAS, and CAN Score.",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "What scoring systems are included in PediAid's Neonatal Scores section?", "a": "The hub lists Apgar Score, Combined Apgar Score, Downes Score, Silverman Anderson Score, Levene Staging (HIE), IVH Grading (Papile & Volpe), Modified Sarnat Staging (HIE), Thompson Score (HIE), and LATCH Score, plus shortcut cards for NICHD HIE Assessment, LUS, Modified Ballard Score, POFRAS, and CAN Score." },
+    { "q": "Are hypoxic-ischemic encephalopathy (HIE) scores included in this hub?", "a": "Yes -- Levene Staging, Modified Sarnat Staging, and Thompson Score are each explicitly labeled '(HIE)' in the list, alongside a separate NICHD HIE Assessment shortcut card." },
+    { "q": "Where do I find gestational age assessment or feeding readiness tools?", "a": "The Modified Ballard Score (gestational age) and POFRAS (preterm oral feeding readiness) both appear as dedicated shortcut cards in the same Neonatal Scores hub." },
+    { "q": "What do the 'P' and 'C' chips on each score card mean?", "a": "They show the number of parameters and the number of scoring columns for that instrument, giving a quick sense of how detailed the assessment is before opening it." }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/neonatal_scores/neonatal_scores_screen.dart", "assets/data/nicu_scores.json"]
+}

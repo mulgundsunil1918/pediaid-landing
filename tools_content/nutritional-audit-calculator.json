@@ -1,0 +1,21 @@
+{
+  "slug": "nutritional-audit-calculator",
+  "intro": "The ESPGHAN Nutritional Audit Calculator tallies a preterm or NICU infant's actual daily nutrient intake — protein, fat, carbohydrate, calcium, phosphorus, iron, vitamin D, and calories — from the specific feeds, fortifiers, and supplements entered (breast milk, preterm/term formula, Neocate, human milk fortifiers, MCT oil, Calcimax, Orofer, or custom items), then expresses each nutrient per kg body weight per day and compares it against ESPGHAN 2022 recommended ranges, flagging each as deficit, sufficient, or excessive.",
+  "indications": [
+    "Auditing whether a preterm infant's actual feeding plan meets ESPGHAN 2022 recommended per-kg/day nutrient intakes",
+    "Identifying specific nutrient deficits or excesses across protein, fat, carbohydrate, calcium, phosphorus, iron, vitamin D, and calories",
+    "Comparing combinations of breast milk, preterm/term formula, fortifiers, and supplements against target intakes",
+    "Adjusting a fortification or supplementation plan when using non-standard or custom feed products",
+    "Producing a nutrition audit summary for chart documentation or handover"
+  ],
+  "method": "For each nutrient, the app sums the contribution from every entered feed (per 100 mL of prepared feed), fortifier (per sachet/packet), and supplement (per mL), then divides the total by the baby's weight in kg to get a per-kg/day value, which it compares to the ESPGHAN 2022 range for that nutrient. The app's built-in ESPGHAN 2022 ranges (per kg/day) are: Protein 3.5–4.0 g; Fat 4.8–8.1 g; Carbohydrate 11–15 g; Calcium 120–200 mg; Phosphorus 66–110 mg; Iron 2–3 mg; Vitamin D 400–700 IU; Calories 115–140 kcal. A value below range is flagged 'deficit,' within range 'sufficient,' and above range 'excessive.' Pre-loaded product compositions include EBM, HMF-L, HMF-A, MMF-N, PTF and TF formulas, Neocate, Neo PF, Simyl MCT, Calcimax, and Orofer (the app notes Orofer provides 1 mg iron per 0.1 mL).",
+  "guidelineRefs": ["ESPGHAN 2022"],
+  "faqs": [
+    { "q": "What guideline are the nutrient targets based on?", "a": "ESPGHAN 2022 — the app's reference ranges and results legend both cite 'ESPGHAN 2022 guidelines' directly." },
+    { "q": "Which nutrients does the audit check?", "a": "Protein, fat, carbohydrate, calcium, phosphorus, iron, vitamin D, and calories, each expressed per kg body weight per day." },
+    { "q": "How does the calculator decide if a nutrient is deficient or excessive?", "a": "It compares the calculated per-kg/day amount to the ESPGHAN 2022 range for that nutrient — below range is flagged deficit, above range is flagged excessive, and within range is sufficient." },
+    { "q": "Can I include feeds or fortifiers that aren't in the built-in list?", "a": "Yes — the app supports adding custom formulas, fortifications, and supplements with their own nutrient composition, and can save them for reuse." },
+    { "q": "What products are pre-loaded with known compositions?", "a": "EBM, HMF-Lactodex, HMF-Advanced, MMF-Neolacta, Aptamil preterm and term formula, Neocate, Neo PF, Simyl MCT oil, Calcimax, and Orofer, per the app's reference table." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/nutritional_audit_calculator.dart"]
+}

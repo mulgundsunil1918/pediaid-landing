@@ -1,0 +1,23 @@
+{
+  "slug": "umbilical-catheter-depth-calculator",
+  "intro": "The UVC/UAC Depth Calculator estimates insertion depth for umbilical venous and umbilical arterial catheters from birth weight, using the Shukla/Dunn formulas plus an adjustment for umbilical stump length. It reports separate depth estimates and target anatomical positions for the UVC (venous) and UAC (arterial, with weight-banded low/high-line options), alongside bedside best-practice guidance on catheter positioning and dwell time. The tool is built for neonatal clinicians placing or checking umbilical lines and is explicitly intended for use alongside X-ray confirmation.",
+  "indications": [
+    "Estimating UVC insertion depth before placement in a neonate requiring central venous access",
+    "Estimating UAC insertion depth for arterial access or monitoring in a sick neonate",
+    "Cross-checking catheter depth against birth weight and umbilical stump length at the bedside",
+    "Anticipating expected tip position (e.g. T8–T9 for UVC) before reading a confirmatory X-ray",
+    "Reviewing best-practice timing for catheter replacement or removal to reduce infection or thrombosis risk"
+  ],
+  "method": "UVC depth (cm) = (3 × birth weight in kg + 9) / 2, plus umbilical stump length; target tip position T8–T9, 0.5–1.0 cm above the right diaphragm. UAC depth (cm): for birth weight ≥ 1500 g, (3 × BW kg) + 9, plus stump length; for birth weight < 1500 g, (4 × BW kg) + 7, plus stump length; target position is Low (L3–L4) or High (T6–T9). The source file also references two research add-on methods not exposed as separate inputs: the Wright birth-length method (UVC = 0.5 × shoulder–umbilicus length + 1) and a Dunn surface-length method using crown–heel length.",
+  "guidelineRefs": [
+    "Shukla/Dunn formulas"
+  ],
+  "faqs": [
+    { "q": "What formula does the app use for UVC depth?", "a": "(3 × birth weight in kg + 9) / 2, plus the umbilical stump length, targeting a tip position at T8–T9." },
+    { "q": "Does the UAC formula change with birth weight?", "a": "Yes — the app uses (3 × BW kg) + 9 for babies ≥ 1500 g and (4 × BW kg) + 7 for babies < 1500 g, both plus stump length." },
+    { "q": "Why does umbilical stump length matter in this calculation?", "a": "The calculator adds the stump length to the calculated depth because the underlying formulas are referenced from the abdominal wall, not the cut end of the cord." },
+    { "q": "Is a high or low UAC line preferred?", "a": "The app's best-practice notes state a high UAC (T6–T9) carries lower thrombosis/vascular compromise risk than a low UAC (L3–L4) and is preferred where practicable." },
+    { "q": "How is catheter position confirmed after placement?", "a": "The app specifies confirming both lines on an AP chest/abdominal X-ray before infusing inotropes or hyperosmolar fluid." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/umbilical_catheter_calculator.dart"]
+}

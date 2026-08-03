@@ -1,0 +1,42 @@
+{
+  "slug": "birthweight-classification-elbw-vlbw-lbw",
+  "intro": "This tool classifies a newborn's absolute birthweight, entered in grams, into six standard clinical bands — from micropreemie through macrosomia — each linked to its associated neonatal risks and care implications, per the tool's own reference data. It classifies by weight alone, not by weight relative to gestational age: the screen's own footnote directs clinicians to the Fenton or Intergrowth-21st growth charts for size-for-gestational-age (SGA/AGA/LGA) determination, which this specific tool does not perform. A live calculator returns the matching category instantly from an entered birthweight between 200 and 7000 grams.",
+  "indications": [
+    "Classifying a newborn's absolute birthweight into a standard risk band immediately after birth",
+    "Anticipating expected neonatal complications and NICU-level care needs by weight band (e.g., respiratory and nutritional support for extremely low birth weight infants)",
+    "Identifying low birth weight infants who may be candidates for kangaroo mother care",
+    "Screening for maternal diabetes and birth-injury risk in a macrosomic infant",
+    "Supporting documentation or coding that references birthweight category (e.g., ICD-10 P07)"
+  ],
+  "method": "The tool performs a direct grams-in, category-out lookup rather than a calculated formula, using six bands taken verbatim from the app's own data: Micropreemie (<750 g), Extremely Low Birth Weight/ELBW (<1000 g), Very Low Birth Weight/VLBW (1000–1499 g), Low Birth Weight/LBW (1500–2499 g), Normal Birth Weight/NBW (2500–3999 g), and Macrosomia/HBW (≥4000 g, with the app further noting Grade II at ≥4500 g and Grade III at ≥5000 g). Each band in the app carries a short clinical-implications note (for example, ELBW is linked to elevated risk of respiratory distress syndrome, intraventricular haemorrhage, necrotising enterocolitis, sepsis, and patent ductus arteriosus, requiring NICU-level respiratory and nutritional support). Important: this classifies absolute birthweight only — it is explicitly not a size-for-gestational-age (SGA/AGA/LGA) tool.",
+  "guidelineRefs": [
+    "WHO ICD-10 P07",
+    "Cutland CL et al., Vaccine 2017",
+    "Boulet SL et al., Am J Obstet Gynecol 2003"
+  ],
+  "faqs": [
+    {
+      "q": "What birthweight bands does this tool use?",
+      "a": "Six bands: Micropreemie (under 750 g), Extremely Low Birth Weight (under 1000 g), Very Low Birth Weight (1000–1499 g), Low Birth Weight (1500–2499 g), Normal Birth Weight (2500–3999 g), and Macrosomia (4000 g or more, with higher grades at 4500 g and 5000 g)."
+    },
+    {
+      "q": "Does this tool classify SGA, AGA, or LGA?",
+      "a": "No. This screen classifies absolute birthweight only. The app's own reference note directs users to the Fenton or Intergrowth-21st growth charts for size-for-gestational-age (small/appropriate/large for gestational age) determination, which requires plotting weight against gestational age rather than looking at weight alone."
+    },
+    {
+      "q": "What are the clinical implications of extremely low birth weight (ELBW)?",
+      "a": "Per the app, ELBW infants face very high risk of respiratory distress syndrome, intraventricular haemorrhage, necrotising enterocolitis, sepsis, and patent ductus arteriosus, and typically require NICU care with surfactant, early nutrition support, and close fluid/glucose management."
+    },
+    {
+      "q": "What counts as macrosomia in this tool?",
+      "a": "Birthweight of 4000 g or more, with the app defining Grade II at 4500 g or more and Grade III at 5000 g or more, and noting increased risk of shoulder dystocia, birth injury, and hypoglycaemia."
+    },
+    {
+      "q": "What input range does the calculator accept?",
+      "a": "The in-app calculator accepts birthweight entries between 200 and 7000 grams."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/guides/birthweight_classification_screen.dart"
+  ]
+}

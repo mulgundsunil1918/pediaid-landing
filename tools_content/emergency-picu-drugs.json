@@ -1,0 +1,23 @@
+{
+  "slug": "emergency-picu-drugs",
+  "intro": "Emergency PICU Drugs is a weight-based dosing calculator for pediatric intensive care emergency medications, covering both STAT bolus drugs and continuous vasoactive infusions. The bolus module covers agents used for arrest, bradycardia, tachyarrhythmias, and metabolic emergencies, giving live dose and volume output once a patient weight is entered. The infusion module covers continuous vasoactive medications and computes drug/diluent preparation volumes and titratable infusion rates. The tool links out to a companion Emergency ICU Drugs reference guide and is intended for use by qualified clinicians, who must verify every dose against local protocol and current vial concentration before administration.",
+  "indications": [
+    "Calculating weight-based bolus doses for PICU emergencies such as arrest, bradycardia, tachyarrhythmia, and metabolic disturbances",
+    "Converting a bolus dose into the corresponding volume to draw up, based on a stated stock concentration",
+    "Preparing and titrating continuous vasoactive infusions for hemodynamic support in critically ill children",
+    "Cross-referencing bolus and infusion dosing against a linked Emergency ICU Drugs reference guide",
+    "Switching between a card-based Smart View and a condensed Table View during a resuscitation"
+  ],
+  "method": "The user enters the patient's weight in kg. For bolus/STAT drugs, the tool multiplies the per-kg dose by weight and, where a stock concentration is defined, converts that dose into the volume to draw up. For continuous infusions, it computes the drug amount to add to a diluent (with a configurable total volume and concentration multiplier), the resulting final concentration, and a ladder of infusion rates (mL/hr) mapped to their corresponding weight-based doses. The source file describes all numeric data as verbatim from an internal reference compendium.",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "What two types of PICU emergency drugs does this tool cover?", "a": "STAT/bolus drugs for arrest, bradycardia, tachyarrhythmia, and metabolic emergencies, and continuous vasoactive infusions, presented as two separate modules." },
+    { "q": "Does the tool show both the dose and the volume to draw up?", "a": "Yes — for bolus drugs it gives live dose output plus the corresponding mL volume once weight is entered, based on the drug's stated stock concentration." },
+    { "q": "Is this tool a substitute for checking local protocol?", "a": "No — its own disclaimer states it is for use by qualified clinicians only and that every dose must be verified against local protocol and current vial concentration before administration." },
+    { "q": "Is there a reference guide linked to this calculator?", "a": "Yes, a header link opens a companion \"Emergency ICU Drugs\" reference guide within the app." },
+    { "q": "Can the infusion concentration be adjusted?", "a": "Yes, a concentration multiplier and a customizable total preparation volume are available for the continuous-infusion module." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/drugs/emergency_picu_drugs_screen.dart"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "calcium-correction-calculator",
+  "intro": "The Calcium Correction Calculator provides weight-based IV dosing for treating hypocalcaemia, covering both calcium chloride and calcium gluconate, plus a magnesium sulphate dose since low magnesium can cause refractory hypocalcaemia. It calculates calcium chloride 10–20 mg/kg (preferred via central line), calcium gluconate 100 mg/kg (peripheral-vein acceptable), and magnesium sulphate 25–50 mg/kg. The tool also lists the recommended work-up before treatment.",
+  "indications": [
+    "Dosing IV calcium replacement (chloride or gluconate) for a child with symptomatic or significant hypocalcaemia",
+    "Selecting between calcium chloride (more potent, more sclerosing, central line preferred) and calcium gluconate (peripheral vein acceptable) based on venous access",
+    "Co-treating magnesium deficiency, since hypomagnesaemia is noted as a cause of refractory hypocalcaemia",
+    "Directing initial laboratory and imaging work-up (electrolytes, phosphate, magnesium, PTH, vitamin D, urine calcium/creatinine, ECG, wrist X-ray) before or alongside treatment",
+    "Monitoring for ECG changes such as prolonged QTc associated with hypocalcaemia"
+  ],
+  "method": "Calcium chloride 10%: 'CaCl₂ 10–20 mg/kg IV q 10 min, max 500 mg/dose. 10% CaCl₂ = 100 mg/mL = 27.2 mg elemental Ca/mL.' Calcium gluconate 10%: '1 mL/kg IV over 10 minutes (= 100 mg/kg), maximum 40 mL (4 g) per dose. 10% = 100 mg/mL = 9.3 mg elemental calcium/mL.' Magnesium sulphate (if Mg is low): 'MgSO₄ 25–50 mg/kg IV, max 2.5 g/dose. Hypomagnesaemia causes refractory hypocalcaemia — replace Mg first.'",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "What calcium chloride dose does the calculator give?", "a": "CaCl₂ 10–20 mg/kg IV every 10 minutes, to a maximum of 500 mg per dose, preferably via central venous line." },
+    { "q": "What calcium gluconate dose does the calculator give?", "a": "Calcium gluconate 10% at 1 mL/kg (100 mg/kg) IV over 10 minutes, to a maximum of 40 mL (4 g) per dose; the app notes it is acceptable via a peripheral vein." },
+    { "q": "Why does the calculator also include a magnesium dose?", "a": "The app explains that hypomagnesaemia causes refractory hypocalcaemia, so magnesium (25–50 mg/kg MgSO₄, max 2.5 g/dose) should be replaced alongside calcium." },
+    { "q": "What labs and imaging does the app recommend before treating hypocalcaemia?", "a": "It recommends a CMP, phosphate, magnesium, PTH, vitamin D, urine calcium/creatinine and protein, ionised calcium, an ECG for prolonged QTc, and a left-wrist X-ray for evidence of rickets." },
+    { "q": "Why is calcium chloride preferentially given via a central line?", "a": "The app notes calcium chloride delivers roughly three times more elemental calcium than calcium gluconate but is also more sclerosing to veins, so a central venous line or large peripheral vein is preferred." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/calculators/calcium_correction_calculator.dart"
+  ]
+}

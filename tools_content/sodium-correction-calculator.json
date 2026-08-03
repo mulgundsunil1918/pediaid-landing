@@ -1,0 +1,23 @@
+{
+  "slug": "sodium-correction-calculator",
+  "intro": "The Sodium Correction Calculator estimates the sodium deficit in a hyponatraemic child and the volume of 3% saline needed for symptomatic correction. It uses Sodium deficit (mEq) = (Goal Na − Measured Na) × weight × 0.6, where 0.6 represents the total body water fraction, alongside a symptomatic bolus dose of 3% saline at 6 mL/kg. The tool pairs these calculations with explicit correction-rate safety limits to reduce the risk of overly rapid sodium correction.",
+  "indications": [
+    "Quantifying the sodium deficit in a child with symptomatic or asymptomatic hyponatraemia to guide replacement fluid planning",
+    "Determining the volume of 3% hypertonic saline needed for a child who is seizing or comatose from severe hyponatraemia",
+    "Planning a safe, gradual correction rate to avoid osmotic demyelination syndrome",
+    "Supporting the diagnostic work-up of hyponatraemia (SIADH, hypovolaemia, cerebral salt wasting, water intoxication, adrenal insufficiency)",
+    "Guiding fluid restriction decisions when SIADH is suspected as the underlying cause"
+  ],
+  "method": "Na deficit = (Na_goal − Na_meas) × wt × 0.6 (0.6 = total body water fraction). The symptomatic bolus is calculated as 3% saline at 6 mL/kg, described in the app as '3% saline 6 mL/kg over 10–60 min → ↑ Na by ≈5 mEq/L (use only if seizing/comatose)'. The app's safety guidance states slow correction should run at 0.5 mEq/L/hr with a maximum of approximately 10 mEq/L per 24 hours, and that the symptomatic dose is '3% NaCl 4–6 mL/kg (max 100 mL) IV over 10–30 min — repeat to control symptoms.'",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "How is the sodium deficit calculated?", "a": "The app uses Na deficit (mEq) = (Goal Sodium − Measured Sodium) × weight (kg) × 0.6, with 0.6 representing total body water as a fraction of weight." },
+    { "q": "How fast can sodium be corrected?", "a": "Per the app's safety guidance, the slow/standard correction rate is 0.5 mEq/L/hr, with a maximum of about 10 mEq/L per 24 hours." },
+    { "q": "When is 3% saline used, and how much?", "a": "The app reserves 3% saline for symptomatic hyponatraemia (a seizing or comatose patient), dosed at 4–6 mL/kg (max 100 mL) over 10–60 minutes, expected to raise sodium by approximately 5 mEq/L." },
+    { "q": "What is the risk of correcting sodium too quickly?", "a": "The app warns that over-rapid correction can cause osmotic demyelination syndrome (ODS)." },
+    { "q": "What causes should be investigated in hyponatraemia?", "a": "The app lists SIADH, hypovolaemia, cerebral salt wasting, water intoxication, and adrenal insufficiency, noting that water restriction is appropriate if SIADH is diagnosed." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/calculators/sodium_correction_calculator.dart"
+  ]
+}

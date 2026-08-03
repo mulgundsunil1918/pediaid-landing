@@ -1,0 +1,22 @@
+{
+  "slug": "intergrowth-21-charts",
+  "intro": "INTERGROWTH-21st is the international newborn size and postnatal growth standard developed by the University of Oxford, built from a multi-country, prescriptive-standard cohort in the same tradition as the WHO Child Growth Standards. PediAid links directly to Oxford's own manual-entry tool rather than re-implementing its reference curves, so results always match the official published standard.",
+  "indications": [
+    "Plotting newborn size (weight, length, head circumference) against international standards at birth",
+    "Assessing postnatal growth in preterm infants against a standard derived from a healthy, low-risk international population",
+    "Cross-checking a growth assessment against a second reference alongside Fenton or WHO charts",
+    "Research or audit contexts that specifically call for INTERGROWTH-21st referencing"
+  ],
+  "method": "PediAid does not recompute INTERGROWTH-21st centiles itself — tapping through opens Oxford's own manual-entry tool, which takes the infant's measurements and gestational age and returns the official INTERGROWTH-21st percentile.",
+  "guidelineRefs": [
+    "INTERGROWTH-21st (University of Oxford)"
+  ],
+  "faqs": [
+    { "q": "How is INTERGROWTH-21st different from the Fenton or WHO charts already in PediAid?", "a": "All three are growth references built from different cohorts and study designs. PediAid's Fenton and WHO charts are fully interactive in-app; INTERGROWTH-21st is linked directly to Oxford's own tool so the standard stays exactly as published." },
+    { "q": "Does PediAid calculate INTERGROWTH-21st percentiles itself?", "a": "No — it links straight to intergrowth21.ndog.ox.ac.uk's official manual-entry calculator." },
+    { "q": "When would I use INTERGROWTH-21st instead of Fenton?", "a": "Some units and research protocols specifically standardise on INTERGROWTH-21st; PediAid keeps a direct link available so you're not without it, alongside the Fenton and WHO tools built into the app." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/home/app_search_delegate.dart (external launchUrl entry — no dedicated in-app screen)"
+  ]
+}

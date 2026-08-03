@@ -1,0 +1,37 @@
+{
+  "slug": "neonatal-echo-measurements-tool",
+  "intro": "The Neonatal 2D Echo tool is a point-of-care reference guide covering 23 individual echocardiographic measurements used in targeted neonatal echocardiography. Each measurement is organised by acoustic window — Subcostal, Apical, Parasternal, and Suprasternal — and can also be browsed by clinical function, such as fluid assessment, cardiac output, or pulmonary hypertension. For every measurement the guide documents the optimal view, step-by-step technique, normal values, and the peer-reviewed source it was drawn from, alongside a companion 'Echo Calculators' screen for computing the same formulas from live patient data.",
+  "indications": [
+    "Assessing intravascular volume status at the bedside using IVC collapsibility or distensibility, depending on whether the infant is breathing spontaneously or mechanically ventilated.",
+    "Estimating cardiac output and left/right ventricular systolic function (EF, shortening fraction) in a haemodynamically unstable neonate.",
+    "Evaluating a suspected patent ductus arteriosus (PDA) — ductal flow pattern, LA/Ao ratio, and descending aortic Doppler for diastolic steal.",
+    "Screening for pulmonary hypertension using TR jet velocity, PAAT, eccentricity index, or septal deviation.",
+    "Confirming central line position (UVC tip) or assessing gut perfusion via coeliac/SMA Doppler.",
+    "Identifying structural findings such as anomalous pulmonary venous drainage from the suprasternal 'crab's view'."
+  ],
+  "method": "The guide lists nine 'Key Formulae' quoted directly from the tool: EF (Simpson Biplane) = (EDV − ESV) / EDV × 100; Cardiac Output = VTI × π(d/2)² × HR ÷ weight (kg), in mL/kg/min; Simplified Bernoulli: pressure gradient = 4 × V² (mmHg); Shortening Fraction = (LVED − LVES) / LVED × 100; PAAT = time from start of RV ejection to peak pulmonary velocity (ms); LA/Ao = LA diameter ÷ Ao diameter (at LV systole); Eccentricity Index = D1 / D2 (D1 perpendicular to D2 through the interventricular septum); IVC Collapsibility = (Max − Min) / Max × 100; IVC Distensibility = (Max − Min) / Min × 100. Each individual measurement entry additionally documents how to obtain the view, the specific technique, standard landmarks, and normal-value ranges with severity flags (normal / abnormal / note).",
+  "guidelineRefs": ["ASE/CSE TNE Guidelines 2024", "NICE CG98"],
+  "faqs": [
+    {
+      "q": "What acoustic windows does the Neonatal 2D Echo tool organise measurements by?",
+      "a": "Four: Subcostal, Apical, Parasternal, and Suprasternal. The tool offers a 'By Window' browsing mode alongside a 'By Function' mode and a 'Quick Ref' mode."
+    },
+    {
+      "q": "What's the difference between IVC collapsibility and distensibility?",
+      "a": "Collapsibility, (Max − Min)/Max × 100, is used in spontaneously breathing infants where over 50% is considered abnormal. Distensibility, (Max − Min)/Min × 100, is used instead in mechanically ventilated infants because the collapsibility index is less reliable in that setting."
+    },
+    {
+      "q": "Is there a formula for ejection fraction in the tool?",
+      "a": "Yes — EF (Simpson Biplane) is listed as (EDV − ESV) / EDV × 100 in the tool's Key Formulae reference."
+    },
+    {
+      "q": "Can I calculate these echo values instead of just reading normal ranges?",
+      "a": "Yes — an 'Echo Calculators' screen linked from the guide lets you compute the same formulas from live patient measurements."
+    },
+    {
+      "q": "What guidelines back these neonatal echo measurements?",
+      "a": "Individual measurements cite the guide's listed sources, including ASE/CSE TNE Guidelines 2024 and NICE CG98, plus measurement-specific peer-reviewed literature such as Kluckow & Evans, El-Khuffash, and Jain & McNamara."
+    }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/neonatal_echo_screen.dart"]
+}

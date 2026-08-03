@@ -1,0 +1,24 @@
+{
+  "slug": "serum-osmolality-calculator",
+  "intro": "The Serum Osmolality Calculator estimates a patient's calculated serum osmolality from three routine labs — sodium, glucose, and blood urea nitrogen (BUN) — using the standard calculated-osmolality formula. It also supports an optional osmolar gap calculation when a lab-measured osmolality is available, which helps flag unmeasured osmotically active substances such as toxic alcohols. The tool is built around a normal reference range of 270–295 mOsm/kg and provides bedside interpretation for hypo-osmolar and hyperosmolar results.",
+  "indications": [
+    "Evaluating suspected hyponatraemia, SIADH, or water intoxication",
+    "Assessing suspected dehydration, hypernatraemia, or hyperglycaemic states such as DKA/HHS",
+    "Screening for an osmolar gap when toxic alcohol ingestion (methanol, ethylene glycol, isopropanol) is suspected",
+    "Working up altered mental status or an unexplained acid-base/electrolyte derangement",
+    "Judging how quickly a dysnatraemia can safely be corrected"
+  ],
+  "method": "Calculated osmolality = 2 × Na + Glucose / 18 + BUN / 2.8 (mOsm/kg), using sodium in mEq/L and glucose/BUN in mg/dL. Normal range is 270–295 mOsm/kg. When a measured osmolality is entered, the app also calculates the osmolar gap (measured − calculated); a gap greater than 10 raises suspicion for a toxic alcohol (methanol, ethylene glycol, isopropanol). The app's reference notes specify using total (uncorrected) sodium in the formula.",
+  "guidelineRefs": [
+    "Fluid and Electrolyte Formulae",
+    "Goldfrank's Toxicologic Emergencies, 11th ed."
+  ],
+  "faqs": [
+    { "q": "What formula does the calculator use for serum osmolality?", "a": "It uses the standard calculated-osmolality equation: 2 × Na + Glucose/18 + BUN/2.8, with sodium in mEq/L and glucose/BUN in mg/dL." },
+    { "q": "What is a normal serum osmolality?", "a": "The app defines normal as 270–295 mOsm/kg; values below this range are flagged hypo-osmolar and values above are flagged hyperosmolar." },
+    { "q": "What does the osmolar gap tell me?", "a": "It is the difference between a lab-measured osmolality and the calculated value; the tool flags a gap over 10 mOsm/kg as suspicious for an unmeasured osmole such as a toxic alcohol." },
+    { "q": "Should I use corrected or total sodium in this calculator?", "a": "The app's reference notes specify using total (uncorrected) sodium in the formula, not a sodium value corrected for glucose." },
+    { "q": "What causes a hyperosmolar result in the app's interpretation?", "a": "The app lists dehydration, hypernatraemia, hyperglycaemia (DKA/HHS), and mannitol therapy as causes, and advises correcting slowly to avoid cerebral oedema." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/serum_osmolality_calculator.dart"]
+}

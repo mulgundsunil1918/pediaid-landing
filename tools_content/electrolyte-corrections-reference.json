@@ -1,0 +1,23 @@
+{
+  "slug": "electrolyte-corrections-reference",
+  "intro": "Electrolyte Corrections is an in-app clinical reference for the treatment and work-up of common paediatric electrolyte disturbances — hyper- and hypocalcaemia, hyper- and hyponatraemia, hyper- and hypokalaemia, hypoglycaemia, hypomagnesaemia, and hypophosphataemia. Each disturbance card lists first-line treatment options and a relevant diagnostic work-up, and where applicable links directly to PediAid's own correction calculators, such as free water deficit, sodium correction, and potassium correction. Per the source, every value on the card is a verbatim transcription, and the guide is intended for use by qualified clinicians only.",
+  "indications": [
+    "Quickly reviewing first-line treatment options for a specific electrolyte disturbance at the bedside",
+    "Identifying the appropriate diagnostic work-up to determine the cause of an electrolyte abnormality",
+    "Jumping directly from a disturbance summary into the matching PediAid calculator, such as sodium or potassium correction",
+    "Cross-checking adjunct therapies such as albumin, bicarbonate, and THAM dosing formulas",
+    "Reviewing linked diagnostic calculators such as anion gap, serum osmolality, and corrected sodium for hyperglycaemia"
+  ],
+  "method": "This is a structured reference card rather than a single calculator — it lists treatment and work-up bullet points for nine electrolyte disturbances, plus adjunct correction formulas transcribed from the source, such as the free water deficit formula \"FWD = 0.6 (wt) ([Na]/140 − 1)\" and the sodium deficit formula \"Na deficit (mEq) = (Na_goal − Na_meas) × wt × 1.2.\" Each disturbance section links out to a matching interactive calculator elsewhere in the app (e.g., Sodium Correction, Potassium Correction, Calcium Correction, Magnesium Correction, Phosphate Correction, Free Water Deficit, Dextrose Bolus) for the actual computation.",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "What electrolyte disturbances does this reference cover?", "a": "Hypercalcaemia, hypocalcaemia, hypernatraemia, hyponatraemia, hyperkalaemia, hypokalaemia, hypoglycaemia, hypomagnesaemia, and hypophosphataemia." },
+    { "q": "Does this guide perform calculations itself?", "a": "The guide itself is a treatment and work-up reference; calculations are performed by the linked calculator tools it points to, such as sodium correction, potassium correction, and free water deficit calculators." },
+    { "q": "What formula does the guide give for free water deficit?", "a": "It states \"FWD = 0.6 (wt) ([Na]/140 − 1)\" alongside the rule of thumb \"4 mL FW/kg = ↓ Na 1 mEq/L.\"" },
+    { "q": "What work-up does the guide suggest for hyponatraemia?", "a": "It lists urine and serum osmolality, urinalysis, urine electrolytes, CMP, lipids, and water restriction if SIADH is suspected." },
+    { "q": "What other diagnostic calculators does this guide link to?", "a": "Anion Gap, Serum Osmolality, and Corrected Sodium (for hyperglycaemia) calculators are listed as \"Linked diagnostic calculators.\"" }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/guides/electrolyte_corrections_screen.dart"
+  ]
+}

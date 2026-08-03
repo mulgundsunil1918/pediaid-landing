@@ -1,0 +1,34 @@
+{
+  "slug": "nrp-algorithm-neonatal-resuscitation",
+  "intro": "The Neonatal Resuscitation Program (NRP) is the standardized, algorithm-based approach used by delivery room and NICU teams to resuscitate newly born infants. Rather than re-implementing the algorithm as custom interactive steps, PediAid's screen embeds the official NRP algorithm document as an in-app PDF, giving clinicians a fast, offline-capable reference at the point of care. The underlying source file is a thin PDF-viewer wrapper with no algorithm content of its own to extract, so this page focuses on what the tool does rather than restating specific algorithm steps.",
+  "indications": [
+    "Quick point-of-care reference for delivery room or neonatal resuscitation teams",
+    "Refresher review for trainees learning the NRP flow before or after a course",
+    "Confirming the correct escalation sequence during a real or simulated neonatal resuscitation",
+    "Reference during debrief or audit of a resuscitation event",
+    "Offline access to the official algorithm reference without needing a paper copy on hand"
+  ],
+  "method": "PediAid does not compute or score anything on this screen; it renders a bundled PDF of the official NRP algorithm reference. On mobile platforms it uses an embedded PDF viewer (Syncfusion) with scroll head, scroll status, and double-tap zoom support, loaded directly from the app's assets. On Flutter web, the app instead launches the PDF in a new browser tab using the browser's native PDF viewer, because in-canvas PDF rendering was found to be unreliable for large PDFs on web; this also lets users download or print through familiar browser controls.",
+  "guidelineRefs": [],
+  "faqs": [
+    {
+      "q": "Does PediAid provide its own interactive NRP algorithm, or the official document?",
+      "a": "It embeds the official NRP algorithm reference document as a PDF within the app, rather than rebuilding the algorithm as custom interactive screens."
+    },
+    {
+      "q": "Can I use the NRP reference without an internet connection?",
+      "a": "On mobile, the PDF is bundled as an app asset and renders natively offline. On the web version, the app opens the PDF in a new browser tab, which requires that initial page load."
+    },
+    {
+      "q": "What is the Neonatal Resuscitation Program (NRP)?",
+      "a": "NRP is a standardized, algorithm-driven approach for resuscitating newly born infants, used by delivery room and neonatal teams to guide steps such as initial stabilization, positive pressure ventilation, and escalation of care."
+    },
+    {
+      "q": "Why does the PDF open in a new browser tab on PediAid's web version instead of displaying inline?",
+      "a": "The app's own code notes that in-canvas PDF rendering was flaky for large PDFs on Flutter web, so it defers to the browser's native, faster PDF viewer, which also supports download and print."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/guides/nrp_pdf_viewer.dart"
+  ]
+}

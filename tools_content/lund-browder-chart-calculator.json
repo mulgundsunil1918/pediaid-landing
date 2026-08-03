@@ -1,0 +1,21 @@
+{
+  "slug": "lund-browder-chart-calculator",
+  "intro": "The Lund & Browder Chart Calculator estimates total body surface area (TBSA) burned using an interactive body map, applying age-specific percentages per body region rather than the fixed adult percentages used by the Rule of Nines. The clinician selects an age group (Infant, Child, or Adult) and taps the burned regions on the body map, optionally marking each region as fully, half, or quarter burned; the tool sums the contributions to a total %TBSA. This age-adjusted approach is intended to be more accurate than the Rule of Nines in children, whose head and limb proportions differ from adults'.",
+  "indications": [
+    "Estimating %TBSA burned in a paediatric patient, where body proportions make the adult Rule of Nines inaccurate",
+    "Documenting a region-by-region burn map, for example for handoff or burn-unit referral, rather than a single aggregate percentage",
+    "Recording partial-region involvement, such as half or a quarter of a body region burned, for a more precise TBSA than whole-region estimates",
+    "Feeding a more accurate paediatric %TBSA into fluid resuscitation calculations such as the Parkland Formula",
+    "Classifying overall burn severity (minor/moderate/major/critical) from the calculated TBSA"
+  ],
+  "method": "The tool assigns a fixed percentage of TBSA to each of 8 body regions (head, anterior trunk, posterior trunk, left/right arm, left/right leg, perineum), with the head and leg percentages varying by selected age group: Infant (head 19%, each leg 13%), Child (head 18%, each leg 14%), Adult (head 9%, each leg 18%). Anterior trunk, posterior trunk, and each arm are 18%, 18%, and 9% respectively, and perineum is 1%, constant across all age groups. Tapping a region marks it burned at Full (100%), Half (50%), or Quarter (25%) involvement, and the region's contribution to TBSA is its base percentage multiplied by that fraction. Total TBSA is the sum of all selected regions' contributions, categorized as Minor Burn (<10%), Moderate Burn (10-<20%), Major Burn (20-<40%), or Critical Burn (>=40%).",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "How is the Lund & Browder method different from the Rule of Nines?", "a": "It uses age-specific percentages per body region, varying head and leg percentages for Infant, Child, and Adult, instead of the Rule of Nines' fixed adult percentages, which the app notes is less accurate in children." },
+    { "q": "Can I mark a body region as partially burned?", "a": "Yes — after selecting a region, you can choose Full, Half, or Quarter involvement, and the calculator multiplies the region's base percentage by that fraction when totaling TBSA." },
+    { "q": "What percentage does the head count for in an infant versus an adult?", "a": "In this tool, the head is 19% of TBSA for the Infant age group, 18% for Child, and 9% for Adult, reflecting the proportionally larger head size in young children." },
+    { "q": "What do the burn severity labels (Minor/Moderate/Major/Critical) correspond to?", "a": "The app labels total TBSA under 10% as Minor Burn, 10% to under 20% as Moderate Burn, 20% to under 40% as Major Burn, and 40% or more as Critical Burn." },
+    { "q": "Does this tool also calculate fluid resuscitation?", "a": "No — this screen only calculates %TBSA. The app's separate Parkland Formula calculator uses that TBSA value for fluid resuscitation." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/lund_browder_screen.dart"]
+}

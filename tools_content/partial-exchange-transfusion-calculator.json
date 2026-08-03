@@ -1,0 +1,21 @@
+{
+  "slug": "partial-exchange-transfusion-calculator",
+  "intro": "The Partial Exchange Transfusion (PET) Calculator computes the volume of blood to withdraw and replace with warmed 0.9% Normal Saline to treat neonatal polycythemia. Given birth weight, gestation (term or preterm), observed hematocrit, and a desired hematocrit (default 55%), it calculates an exchange volume range using an estimated neonatal blood volume. The app cites AIIMS Protocols in Neonatology as the source for this approach.",
+  "indications": [
+    "Calculating the exchange volume for a neonate with polycythemia (elevated hematocrit) who requires partial exchange transfusion",
+    "Estimating exchange volume differently for term versus preterm infants, since estimated blood volume per kg differs",
+    "Targeting a specific desired post-exchange hematocrit — the tool defaults to 55%, within a stated 50-55% target range",
+    "Guiding the procedure itself, since the calculated volume is replaced with warmed normal saline, withdrawn slowly in small aliquots",
+    "Supporting post-procedure monitoring, such as when to recheck hematocrit"
+  ],
+  "method": "Volume = Blood Volume x (Observed Hct - Desired Hct) / Observed Hct, as stated directly in the app. Blood volume is estimated from birth weight using 80-90 mL/kg for term infants or 90-100 mL/kg for preterm infants, which produces a low-high exchange volume range rather than a single number. The app requires observed hematocrit to be at least 65% (its stated polycythemia threshold) and a desired hematocrit typically in the 45-65% entry range, with 50-55% noted as the usual target.",
+  "guidelineRefs": ["AIIMS Protocols in Neonatology"],
+  "faqs": [
+    { "q": "What fluid is used for the exchange?", "a": "Warmed 0.9% Normal Saline, replacing withdrawn blood in equal volumes." },
+    { "q": "Why does the calculator give a range instead of one number?", "a": "Because it applies a blood-volume-per-kg range — 80-90 mL/kg term, 90-100 mL/kg preterm — rather than a single fixed value, the output is a low-high exchange volume range." },
+    { "q": "What hematocrit threshold does the tool use to flag polycythemia?", "a": "The observed hematocrit field requires a value of at least 65%, which the app treats as the polycythemia threshold for this calculation." },
+    { "q": "How should the exchange be performed once the volume is calculated?", "a": "Per the app's guidance, the calculated volume of warmed normal saline should be exchanged for an equal volume of blood, withdrawn slowly over 30-60 minutes in small aliquots of 5-10 mL, via the umbilical vein or a peripheral vein." },
+    { "q": "What should be monitored during and after the procedure?", "a": "The app's clinical notes say to continuously monitor vital signs, glucose, and calcium during the procedure and to recheck hematocrit 4-6 hours afterward. It also notes that plasma, albumin, or blood should NOT be used for PET in polycythemia — saline only." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/pet_calculator_screen.dart"]
+}

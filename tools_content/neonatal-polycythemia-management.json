@@ -1,0 +1,21 @@
+{
+  "slug": "neonatal-polycythemia-management",
+  "intro": "PediAid's Polycythemia Management guide defines the trigger as a venous hematocrit of 65% or greater, and directs clinicians to first exclude dehydration by checking for weight loss. From there it walks through a management algorithm that branches on whether the infant is symptomatic or asymptomatic, and, if asymptomatic, further stratifies by hematocrit band. The screen cites 'AIIMS Protocols in Neonatology' as its source and links to a dedicated Partial Exchange Transfusion (PET) calculator.",
+  "indications": [
+    "Working up a newborn with an incidentally elevated venous hematocrit",
+    "Deciding between partial exchange transfusion, hydration, or observation based on symptom status and hematocrit level",
+    "Calculating exchange volume when partial exchange transfusion is indicated",
+    "Distinguishing true polycythemia from hemoconcentration due to dehydration",
+    "Planning a monitoring approach for a borderline, asymptomatic infant with a moderately elevated hematocrit"
+  ],
+  "method": "The algorithm, quoted from the app: trigger is 'Venous Hematocrit >= 65%'; first step is to 'Exclude dehydration (Check weight loss)'. It then splits into Symptomatic, where 'PET Indicated' directly, versus Asymptomatic, which stratifies further by hematocrit: >=75% -> PET, 70-74% -> 'Consider hydration', 65-69% -> 'Monitor symptoms'. The app's stated rule of thumb is that the 'Volume of blood to be exchanged is usually 20 mL/kg'. For estimating total blood volume it references a Rawlings Chart: term babies 80-90 mL/kg, preterm babies 90-100 mL/kg. A linked Partial Exchange Transfusion calculator is available from the same screen for computing exchange volume.",
+  "guidelineRefs": ["AIIMS Protocols in Neonatology"],
+  "faqs": [
+    { "q": "What hematocrit defines neonatal polycythemia in PediAid?", "a": "A venous hematocrit of 65% or greater is the trigger used in the app's algorithm." },
+    { "q": "What's the first step before treating a high hematocrit?", "a": "The app's algorithm calls for excluding dehydration first, by checking for weight loss." },
+    { "q": "When is partial exchange transfusion (PET) indicated?", "a": "Per the app's algorithm, PET is indicated for any symptomatic infant, or for an asymptomatic infant with a hematocrit of 75% or greater." },
+    { "q": "How much blood is typically exchanged during partial exchange transfusion?", "a": "The app's stated rule of thumb is that the volume exchanged is usually 20 mL/kg." },
+    { "q": "What blood volume does PediAid assume for term versus preterm infants?", "a": "Citing a Rawlings Chart, the app uses 80-90 mL/kg for term babies and 90-100 mL/kg for preterm babies." }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/polycythemia_guide_screen.dart"]
+}

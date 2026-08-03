@@ -1,0 +1,24 @@
+{
+  "slug": "pediatric-drug-formulary",
+  "intro": "The Pediatric Drug Formulary screen gives clinicians searchable access to dosage information drawn from two named references — Neofax for neonatology and the Harriet Lane Handbook for general paediatrics — plus dedicated Emergency NICU and Emergency PICU drug sections. Users pick a source, then search or browse entries that link to a page reference in the original formulary text. On iOS, the app displays an educational-use disclaimer banner reminding users to verify against current clinical guidelines and institutional protocols.",
+  "indications": [
+    "Looking up neonatal drug dosing (Neofax-sourced) during NICU care",
+    "Looking up general paediatric drug dosing (Harriet Lane Handbook-sourced)",
+    "Rapid access to emergency NICU drugs (infusions, resuscitation medications) during a crisis",
+    "Rapid access to emergency PICU STAT bolus and infusion drugs during a crisis",
+    "Cross-checking a drug's page reference in the source formulary text"
+  ],
+  "method": "This is a reference/search tool rather than a calculator: it has no formula. It lets the user choose a source — Neofax (labelled 'Neonatology,' 200 drugs) or the Harriet Lane Handbook (labelled 'Paediatrics,' 457 drugs) — then search or browse an alphabetical list of drug entries, each linking to a page reference in a PDF viewer. Separate shortcut cards open Emergency NICU Drugs (14 drugs, described as infusions/resuscitation) and Emergency PICU Drugs (10 STAT bolus drugs plus 9 infusions).",
+  "guidelineRefs": [
+    "Neofax",
+    "Harriet Lane Handbook"
+  ],
+  "faqs": [
+    { "q": "What sources does the drug formulary draw from?", "a": "The app states its dosage information comes from Neofax and the Harriet Lane Handbook." },
+    { "q": "How many drugs are in the formulary?", "a": "The app's feature description cites 676 drugs total on the full web app, split in-app into 200 Neofax (Neonatology) entries and 457 Harriet Lane (Paediatrics) entries." },
+    { "q": "Is there a fast path to emergency drug dosing?", "a": "Yes — dedicated Emergency NICU Drugs (14 drugs) and Emergency PICU Drugs (10 STAT bolus + 9 infusions) shortcut cards sit above the main source selector." },
+    { "q": "Does the app warn against relying on it as the sole source?", "a": "On iOS, an educational disclaimer banner tells users the content is \"for educational and reference use only\" and to verify against current clinical guidelines and institutional protocols." },
+    { "q": "How is a specific drug entry displayed?", "a": "Search results show the drug name and its page number in the source formulary, opening into a PDF viewer screen." }
+  ],
+  "sourceFilesRead": ["lib/screens/formulary/formulary_screen.dart", "lib/widgets/educational_disclaimer_banner.dart"]
+}

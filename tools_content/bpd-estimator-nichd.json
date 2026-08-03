@@ -1,0 +1,22 @@
+{
+  "slug": "bpd-estimator-nichd",
+  "intro": "The BPD Estimator predicts a preterm infant's risk of developing bronchopulmonary dysplasia (BPD) at 36 weeks postmenstrual age, based on gestational age, birth weight, and respiratory support at day 14 of life. PediAid links directly to the official NICHD Neonatal Research Network calculator rather than re-implementing the model, so clinicians always get the source tool's current, validated output.",
+  "indications": [
+    "Counselling families of extremely preterm or very preterm infants about respiratory prognosis",
+    "Estimating BPD risk at day 14 of life to inform respiratory support planning",
+    "Comparing risk trajectories across NICU admissions for quality-improvement review",
+    "Teaching trainees how gestational age, birth weight, and current respiratory support relate to BPD risk"
+  ],
+  "method": "PediAid does not compute the BPD risk score itself — tapping through opens the NICHD Neonatal Research Network's own BPD Outcome Estimator, which takes gestational age, birth weight, and day-14 respiratory support (room air, nasal cannula, CPAP/NIPPV, or ventilator) as inputs.",
+  "guidelineRefs": [
+    "NICHD Neonatal Research Network"
+  ],
+  "faqs": [
+    { "q": "Does PediAid calculate BPD risk itself?", "a": "No — PediAid links directly to the NICHD Neonatal Research Network's official BPD Outcome Estimator so you always get the source tool's current model, rather than a re-implemented copy inside the app." },
+    { "q": "What inputs does the BPD estimator need?", "a": "Gestational age at birth, birth weight, and the infant's respiratory support status at day 14 of life." },
+    { "q": "Is this the same as the Neonatal Research Network's website?", "a": "Yes — PediAid's entry is a direct, one-tap link to neonatal.rti.org's official calculator, saved so you don't have to search for it separately." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/home/app_search_delegate.dart (external launchUrl entry — no dedicated in-app screen)"
+  ]
+}

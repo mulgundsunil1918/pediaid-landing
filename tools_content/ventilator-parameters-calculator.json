@@ -1,0 +1,21 @@
+{
+  "slug": "ventilator-parameters-calculator",
+  "intro": "The Ventilator Parameters Calculator is a multi-tab NICU tool covering conventional ventilation, high-frequency oscillatory ventilation (HFOV), and non-invasive CPAP support. It calculates oxygenation indices used to grade the severity of hypoxaemic respiratory failure and to help decide when to escalate or de-escalate respiratory support. The tool covers Mean Airway Pressure (MAP), the Oxygenation Index (OI) and Oxygen Saturation Index (OSI), HFOV-specific DCO2 (CO2 diffusion) calculations, and CPAP/high-flow weaning indices (SOPI, S/F ratio, ROX index).",
+  "indications": [
+    "Grading severity of hypoxaemic respiratory failure in a ventilated neonate via the Oxygenation Index (OI), or the non-invasive Oxygen Saturation Index (OSI) when an arterial line is unavailable",
+    "Calculating Mean Airway Pressure (MAP) from ventilator settings (PIP, PEEP, inspiratory time, rate) to feed into OI/OSI",
+    "Setting and adjusting HFOV parameters (frequency, MAP, tidal volume) and tracking CO2 elimination via DCO2",
+    "Deciding whether to escalate to HFOV, inhaled nitric oxide, or ECMO referral based on OI severity banding",
+    "Assessing readiness to wean CPAP or high-flow support using SOPI, the S/F ratio, or the ROX index"
+  ],
+  "method": "OI = (MAP x FiO2%) / PaO2, or equivalently OI = (MAP x FiO2 x 100) / PaO2 when FiO2 is entered as a decimal — both give identical results. OSI substitutes SpO2 for PaO2: OSI = (MAP x FiO2%) / SpO2, with an approximate correlation of OI ~ (2.3 x OSI) - 4. MAP = [K x (PIP - PEEP) x (Ti/Ttotal)] + PEEP, where K is a waveform constant (Square 1.0, Sine 0.64, Triangular 0.5). In HFOV mode, DCO2 = VThf^2 x f (tidal volume squared x frequency), and target DCO2 = current DCO2 x (current PaCO2 / target PaCO2). For CPAP/non-invasive support: SOPI = (CPAP x FiO2) / SpO2, S/F ratio = SpO2 / FiO2, and the ROX index = (SpO2/FiO2) / respiratory rate.",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "What is the Oxygenation Index (OI) used for?", "a": "OI combines Mean Airway Pressure, FiO2, and PaO2 into a single number used to grade severity of hypoxaemic respiratory failure. The app bands OI as Mild (<5), Moderate (5-15), Severe (16-25), Very Severe (26-40), or a range where ECMO should be considered (>40-60)." },
+    { "q": "What's the difference between OI and OSI?", "a": "OI uses PaO2 from an arterial blood gas, while OSI substitutes pulse-oximetry SpO2 so it can be tracked non-invasively. The tool cross-checks the two using OI approximately equal to (2.3 x OSI) - 4." },
+    { "q": "Which waveform constant (K) should I use for the MAP formula?", "a": "The calculator offers Square (K=1.0, the default for most conventional pressure-control/SIMV ventilators), Sine (K=0.64, used for HFOV and some sine-flow volume-controlled modes), and Triangular (K=0.5, decelerating/ramp flow patterns) — pick the one matching the ventilator's actual pressure waveform." },
+    { "q": "When does the tool suggest considering ECMO?", "a": "The severity table flags ECMO evaluation when OI exceeds 40 on maximum support (HFOV plus inhaled nitric oxide) for more than 4-6 hours, or at any time OI exceeds 60." },
+    { "q": "What does the ROX index tell me?", "a": "ROX = (SpO2/FiO2) / respiratory rate is presented in the CPAP/non-invasive tab as a weaning predictor, with a value greater than 4.88 at 2 hours associated with high-flow nasal cannula (HFNC) success." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/ventilator_parameters.dart"]
+}

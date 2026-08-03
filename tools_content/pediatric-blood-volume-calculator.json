@@ -1,0 +1,24 @@
+{
+  "slug": "pediatric-blood-volume-calculator",
+  "intro": "The Estimated Blood Volume Calculator computes a patient's total circulating blood volume from body weight using age-specific mL/kg values, spanning preterm neonates through adolescents/adults. Alongside the estimated blood volume (EBV), it surfaces bedside transfusion thresholds — a 10% single-draw/transfusion-start volume and a 15% haemorrhagic-shock threshold — plus the maximum allowable blood loss (MABL) formula. It is intended as a quick reference for clinicians managing phlebotomy limits, transfusion planning, or perioperative blood loss in neonates and children.",
+  "indications": [
+    "Estimating safe single-draw or diagnostic phlebotomy volumes in neonates and small infants",
+    "Planning transfusion volumes or thresholds in a bleeding or anaemic child",
+    "Perioperative or trauma assessment of allowable blood loss before transfusion is required",
+    "Contextualising acute blood loss as a percentage of a patient's total blood volume",
+    "Quick bedside lookup when a patient's expected mL/kg band isn't immediately known"
+  ],
+  "method": "EBV = weight (kg) × mL/kg, where mL/kg is selected by age band: Preterm neonate 95 mL/kg, Term neonate (0–1 month) 85 mL/kg, Infant (1–12 months) 80 mL/kg, Child (1–12 years) 70 mL/kg, Adolescent/Adult (>12 years) 65 mL/kg. The app also derives 10% of EBV (safe single-draw/starting transfusion volume), 15% of EBV (haemorrhagic shock threshold), and Maximum Allowable Blood Loss: MABL = EBV × (Hct₀ − Hct_min) / Hct_avg.",
+  "guidelineRefs": [
+    "Fluid and Electrolyte Formulae",
+    "Coté & Lerman, Practice of Anesthesia for Infants and Children, 6th ed."
+  ],
+  "faqs": [
+    { "q": "What mL/kg value does the app use for a term newborn?", "a": "85 mL/kg, per the Term neonate row in the app's age-band table." },
+    { "q": "How does the blood volume estimate change with age?", "a": "The app steps mL/kg down as children get older — 95 for preterm neonates, 85 for term neonates, 80 for infants, 70 for children, and 65 for adolescents/adults." },
+    { "q": "What does the 15% threshold mean?", "a": "The app flags 15% of estimated blood volume as the haemorrhagic shock threshold, at which blood should be prepared." },
+    { "q": "What is MABL?", "a": "Maximum Allowable Blood Loss, calculated in the app as EBV × (Hct₀ − Hct_min) / Hct_avg, used to estimate how much blood can be lost before transfusion is indicated." },
+    { "q": "Is the mL/kg figure exact for every patient?", "a": "The app notes that the patient ranges shown are typical and should be verified against the individual patient's clinical context." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/blood_volume_calculator.dart"]
+}

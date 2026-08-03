@@ -1,0 +1,36 @@
+{
+  "slug": "pediaid-faq-help",
+  "intro": "The PediAid FAQ is a hand-written, static, offline help screen — zero backend calls — organised as expandable question-and-answer tiles covering what PediAid is, who it's built for, where its clinical data comes from, and how privacy and accounts work. It states directly that PediAid 'is a clinical decision support tool intended for use by qualified healthcare professionals only,' and that users should 'always verify every dose, threshold and centile against current guidelines, the patient's clinical context and your local protocols before any treatment decision.'",
+  "indications": [
+    "Confirming what PediAid is and that it is not a substitute for clinical judgement before relying on it.",
+    "Checking where a specific data type — bilirubin thresholds, growth charts, drug doses, guidelines — is sourced from and how it was cross-checked.",
+    "Finding out whether data entered into a calculator, such as weight, gestational age, or lab values, is ever sent to a server.",
+    "Getting unstuck on account, notification, or display-settings issues.",
+    "Locating a specific drug, calculator, or guideline using the app's search and its abbreviation shortcuts."
+  ],
+  "method": "The FAQ is a static list of expandable tiles — tapping a question reveals its answer — with zero backend reads. Its 'Where does the data come from?' entry names each source directly: bilirubin thresholds from AAP 2022 (35 weeks and above) and NICE CG98 (under 35 weeks); growth charts from WHO 2006/2007, IAP 2015, Fenton 2013, and INTERGROWTH-21st; the drug formulary from Neofax (Nov 2024, 199 NICU drugs) and Harriet Lane 22nd edition (478 paediatric drugs); Indian brand names from the IAP Drug Formulary 2024; and standard treatment guidelines from IAP STG 2022, IAP Action Plan 2026, and NNF CPG 2021. A footer card links directly to a support email and the Privacy Policy for anything not covered.",
+  "guidelineRefs": ["AAP 2022", "NICE CG98", "WHO 2006 / 2007", "IAP 2015", "Fenton 2013", "INTERGROWTH-21st", "Neofax Nov 2024", "Harriet Lane 22nd edition", "IAP Drug Formulary 2024", "IAP STG 2022", "IAP Action Plan 2026", "NNF CPG 2021"],
+  "faqs": [
+    {
+      "q": "Is PediAid a substitute for clinical judgement?",
+      "a": "No. PediAid states it 'is a clinical decision support tool intended for use by qualified healthcare professionals only,' and instructs users to verify every dose, threshold, and centile against current guidelines and local protocols before any treatment decision."
+    },
+    {
+      "q": "Is patient data entered into a calculator sent anywhere?",
+      "a": "No — per the FAQ, anything typed into a calculator is 'never sent to our servers and is discarded as soon as you close the screen'; calculators, drug formulary, charts, and guides all run on-device."
+    },
+    {
+      "q": "Where does PediAid's clinical data come from?",
+      "a": "Named sources include AAP 2022 and NICE CG98 for bilirubin thresholds, WHO/IAP/Fenton/INTERGROWTH-21st for growth charts, Neofax and Harriet Lane for the drug formulary, and IAP STG 2022, IAP Action Plan 2026, and NNF CPG 2021 for treatment guidelines."
+    },
+    {
+      "q": "How accurate are PediAid's calculators?",
+      "a": "The FAQ states the math is verified against the source publication for every tool, with formulas visible on every result screen so users can re-check the calculation themselves."
+    },
+    {
+      "q": "Who is PediAid built for?",
+      "a": "Paediatricians, neonatologists, paediatric/neonatal registrars and fellows, NICU/PICU nurses, and final-year medical students — the app assumes the user is a qualified or training healthcare professional."
+    }
+  ],
+  "sourceFilesRead": ["lib/screens/faq_screen.dart"]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "snake-bite-envenomation-management",
+  "intro": "The Snake Envenomation guide covers first aid, recognition, and anti-snake venom management for a suspected snake bite, matching its own subtitle. It opens with pre-hospital do's and don'ts (including the 'R.I.GH.T' mnemonic), then triages a suspected bite into 'venom not injected' (dry bite) versus 'envenomation confirmed,' organizing confirmed-envenomation features by snake family — vipers (haematological/cardiovascular), kraits and cobras (neurological), and sea snakes (myotoxic) — alongside renal involvement and required baseline investigations.",
+  "indications": [
+    "Providing correct pre-hospital first aid immediately after a suspected snake bite",
+    "Distinguishing a dry bite from confirmed envenomation",
+    "Recognising viper-type coagulopathy and cardiovascular compromise",
+    "Recognising krait/cobra-type neurotoxic paralysis",
+    "Ordering appropriate baseline investigations after a confirmed bite",
+    "Guiding anti-snake venom (ASV) administration and managing allergic reactions to ASV"
+  ],
+  "method": "Pre-hospital guidance follows the mnemonic 'DO IT R.I.GH.T' — Reassure, Immobilize, Get to Hospital, and Tell the doctor about specific symptoms — alongside six explicit actions to avoid (no tourniquet, no cuts, no washing, no venom suction, no electrical shock, no herbal medicine). The guide's bedside coagulopathy test, the 20-minute whole-blood clotting time (WBCT-20), is described explicitly: place 1–2 mL of fresh blood in a clean, dry test tube, leave undisturbed for 20 minutes, and if the blood is still liquid this indicates coagulopathy and ASV is warranted; the test is repeated 6-hourly until normal. For confirmed envenomation, the guide describes a defined ASV reconstitution and infusion process, repeated according to clinical response, and specifically notes that children receive the same ASV dose as adults because venom load does not scale with body weight. Anticholinesterase therapy (atropine plus neostigmine) is described for reversing krait/cobra neurotoxicity. Specific vial-count and milligram-per-kilogram figures shown in the app are not reproduced on this page.",
+  "guidelineRefs": [
+    "WHO SE-Asia Regional Snakebite Guidelines (2016)",
+    "ICMR Indian Snakebite Management Protocol"
+  ],
+  "faqs": [
+    {
+      "q": "What does R.I.GH.T stand for in snake bite first aid?",
+      "a": "Reassure, Immobilize, Get to Hospital, and Tell the doctor about specific symptoms — the guide's mnemonic for correct pre-hospital response to a suspected snake bite."
+    },
+    {
+      "q": "What is a dry bite?",
+      "a": "A snake bite where no venom was injected — the guide notes dry-bite features can include a vasovagal reaction, feeling cold, fear, and anxiety without systemic symptoms, but recommends observation regardless since envenomation symptoms (especially neurological ones from kraits) can be delayed."
+    },
+    {
+      "q": "What is the WBCT-20 test?",
+      "a": "A bedside test for viper envenomation: fresh blood is placed in a clean, dry test tube and left undisturbed for 20 minutes. If it is still liquid (has not clotted), this indicates coagulopathy and that ASV is indicated; it is repeated every 6 hours until normal."
+    },
+    {
+      "q": "Do children get a different antivenom dose than adults?",
+      "a": "No — the guide specifically notes that children receive the same ASV dose as adults, because venom load introduced by the bite does not scale with the victim's body weight."
+    },
+    {
+      "q": "What should never be done at the bite site before reaching hospital?",
+      "a": "The guide lists six things to avoid: applying a tourniquet, making cuts, washing the wound, sucking out venom, applying electrical shock, or using herbal medicine."
+    }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/snake_envenomation_screen.dart"]
+}

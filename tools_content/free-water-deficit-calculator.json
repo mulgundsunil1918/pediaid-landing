@@ -1,0 +1,23 @@
+{
+  "slug": "free-water-deficit-calculator",
+  "intro": "The Free Water Deficit Calculator estimates the volume of free water needed to correct hypernatraemia in a child, based on body weight and measured sodium. It applies FWD = 0.6 × weight × ([Na]/140 − 1), then spreads that volume over 48 hours to achieve a gradual, safe correction. The tool pairs the deficit calculation with explicit safety limits on how fast sodium should be lowered.",
+  "indications": [
+    "Calculating the free water deficit in a child with hypernatraemia (the tool requires sodium above 140 mEq/L as input)",
+    "Planning a 48-hour rehydration schedule using D5W or D5 quarter-normal saline",
+    "Guiding safe, gradual sodium correction to avoid dropping sodium too quickly",
+    "Managing hypernatraemia from suspected diabetes insipidus (central or nephrogenic), alongside desmopressin or salt-restriction/thiazide therapy",
+    "Determining how much additional fluid is needed on top of standard maintenance fluids during hypernatraemia correction"
+  ],
+  "method": "FWD = 0.6 × wt × ([Na]/140 − 1), with the app instructing to replace the deficit 'over 48 hours' using 'D5W or D5 ¼NS.' The app states a goal of '↓ Na 10–15 mEq/L per 24 hr' and notes that '4 mL free water per kg ≈ ↓ Na by 1 mEq/L.'",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "What formula calculates the free water deficit?", "a": "FWD = 0.6 × weight (kg) × ([measured Na]/140 − 1), per the app's result card." },
+    { "q": "How quickly should the free water deficit be replaced?", "a": "The app recommends replacing it over 48 hours, with a goal of lowering sodium by 10–15 mEq/L per 24 hours." },
+    { "q": "How fast is too fast when correcting hypernatraemia?", "a": "The app's safety warning states sodium should never be dropped faster than 0.5 mEq/L/hr (15 mEq/L/day) because of the risk of cerebral oedema." },
+    { "q": "What fluid is used for free water replacement?", "a": "The app suggests D5W or D5 quarter-normal saline (D5 ¼NS), given in addition to the patient's usual maintenance fluids." },
+    { "q": "What if the hypernatraemia is due to diabetes insipidus?", "a": "The app notes that central diabetes insipidus should have desmopressin added, while nephrogenic DI is managed with salt restriction and a thiazide diuretic." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/calculators/free_water_deficit_calculator.dart"
+  ]
+}

@@ -382,15 +382,20 @@
   @media (max-width: 880px) { .tools { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 480px) { .tools { grid-template-columns: 1fr; } }
   .tool {
+    display: block;
     padding: 16px;
     border-radius: 14px;
     background: rgba(255,255,255,0.72);
     border: 1px solid rgba(30, 58, 95, 0.10);
+    text-decoration: none;
     transition: transform 160ms ease, background 160ms ease;
   }
   .tool:hover { transform: translateY(-2px); background: rgba(255,255,255,0.92); }
   .tool h4 { margin: 0 0 4px; font-size: 14px; color: var(--navy); font-weight: 700; }
-  .tool p  { font-size: 12px; color: var(--ink-muted); }
+  .tool p  { margin: 0; font-size: 12px; color: var(--ink-muted); }
+  .tools-more {
+    display: flex; justify-content: center; margin-top: 22px;
+  }
 
   /* ─── Platforms / Download section ──────────────────────────────────── */
   .platforms {
@@ -751,25 +756,29 @@
     </div>
 
     <div class="tools">
-      <div class="tool"><h4>GIR &amp; Dextrose Mix</h4><p>Required dextrose %, two-stock mixing instructions, central-line safety bands.</p></div>
-      <div class="tool"><h4>Maintenance Fluids</h4><p>Holliday-Segar with paediatric tweaks and electrolyte reminders.</p></div>
-      <div class="tool"><h4>Neonatal BP</h4><p>Gestation-adjusted MAP / SBP percentiles.</p></div>
-      <div class="tool"><h4>BP Percentile</h4><p>AAP 2017 paediatric BP percentile by age, sex, height.</p></div>
+      <a class="tool" href="tools/gir-calculator-neonatal/"><h4>GIR &amp; Dextrose Mix</h4><p>Required dextrose %, two-stock mixing instructions, central-line safety bands.</p></a>
+      <a class="tool" href="tools/maintenance-fluid-calculator-pediatric/"><h4>Maintenance Fluids</h4><p>Holliday-Segar with paediatric tweaks and electrolyte reminders.</p></a>
+      <a class="tool" href="tools/neonatal-blood-pressure-calculator/"><h4>Neonatal BP</h4><p>Gestation-adjusted MAP / SBP percentiles.</p></a>
+      <a class="tool" href="tools/pediatric-blood-pressure-calculator/"><h4>BP Percentile</h4><p>AAP 2017 paediatric BP percentile by age, sex, height.</p></a>
 
-      <div class="tool"><h4>Bilirubin (≥35 wk)</h4><p>AAP 2022 hour-specific TSB thresholds, neurotoxicity risk factors, B/A ratio.</p></div>
-      <div class="tool"><h4>Bilirubin (&lt;35 wk)</h4><p>NICE CG98 graphical thresholds, 23 – 38+ weeks, with intensified-zone logic.</p></div>
-      <div class="tool"><h4>WHO Growth Charts</h4><p>0 – 5 yr percentiles &amp; z-scores for weight, length/height, head circumference and BMI.</p></div>
-      <div class="tool"><h4>IAP Growth Charts</h4><p>5 – 18 yr Indian growth references (IAP 2015).</p></div>
+      <a class="tool" href="tools/neonatal-jaundice-bilirubin-calculator/"><h4>Bilirubin (&ge;35 wk)</h4><p>AAP 2022 hour-specific TSB thresholds, neurotoxicity risk factors, B/A ratio.</p></a>
+      <a class="tool" href="tools/neonatal-jaundice-bilirubin-calculator/"><h4>Bilirubin (&lt;35 wk)</h4><p>NICE CG98 graphical thresholds, 23 – 38+ weeks, with intensified-zone logic.</p></a>
+      <a class="tool" href="tools/who-growth-charts/"><h4>WHO Growth Charts</h4><p>0 – 5 yr percentiles &amp; z-scores for weight, length/height, head circumference and BMI.</p></a>
+      <a class="tool" href="tools/iap-growth-charts/"><h4>IAP Growth Charts</h4><p>5 – 18 yr Indian growth references (IAP 2015).</p></a>
 
-      <div class="tool"><h4>Fenton Preterm</h4><p>Fenton 2013 preterm growth curves up to 50 weeks.</p></div>
-      <div class="tool"><h4>Schwartz eGFR</h4><p>Bedside paediatric eGFR with creatinine and height.</p></div>
-      <div class="tool"><h4>Blood Gas Analyser</h4><p>Acid-base interpretation with compensation checks.</p></div>
-      <div class="tool"><h4>Ventilator Parameters</h4><p>Tidal volume, MAP, OI / OSI helpers.</p></div>
+      <a class="tool" href="tools/fenton-growth-chart/"><h4>Fenton Preterm</h4><p>Fenton preterm growth curves, 22 – 50 weeks PMA.</p></a>
+      <a class="tool" href="tools/schwartz-egfr-calculator/"><h4>Schwartz eGFR</h4><p>Bedside paediatric eGFR with creatinine and height.</p></a>
+      <a class="tool" href="tools/blood-gas-analyser/"><h4>Blood Gas Analyser</h4><p>Acid-base interpretation with compensation checks.</p></a>
+      <a class="tool" href="tools/ventilator-parameters-calculator/"><h4>Ventilator Parameters</h4><p>Tidal volume, MAP, OI / OSI helpers.</p></a>
 
-      <div class="tool"><h4>Burn Mortality</h4><p>Lund-Browder body chart, %TBSA and Parkland fluids.</p></div>
-      <div class="tool"><h4>CGA / PMA</h4><p>Corrected gestational age and post-menstrual age.</p></div>
-      <div class="tool"><h4>NICU Scores</h4><p>Apgar, SNAPPE-II, CRIB, Downe, Silverman-Anderson.</p></div>
-      <div class="tool"><h4>Drug Formulary</h4><p>Neofax + Harriet Lane lookup with detail pages.</p></div>
+      <a class="tool" href="tools/burn-mortality-calculator-baux/"><h4>Burn Mortality</h4><p>Lund-Browder body chart, %TBSA and Parkland fluids.</p></a>
+      <a class="tool" href="tools/cga-pma-calculator/"><h4>CGA / PMA</h4><p>Corrected gestational age and post-menstrual age.</p></a>
+      <a class="tool" href="tools/neonatal-scoring-systems/"><h4>NICU Scores</h4><p>Apgar, SNAPPE-II, CRIB, Downe, Silverman-Anderson.</p></a>
+      <a class="tool" href="tools/pediatric-drug-formulary/"><h4>Drug Formulary</h4><p>Neofax + Harriet Lane lookup with detail pages.</p></a>
+    </div>
+
+    <div class="tools-more">
+      <a class="btn btn-ghost" href="all-tools.html">Browse all 80 tools &rarr;</a>
     </div>
   </div>
 </section>

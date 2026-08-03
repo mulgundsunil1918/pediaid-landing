@@ -1,0 +1,25 @@
+{
+  "slug": "pediatric-lab-reference-values",
+  "intro": "Pediatric Lab Reference Values is a searchable, browsable reference tool inside PediAid for looking up normal laboratory values relevant to pediatric and neonatal patients. Labs and reference guides are organized by clinical system — including cardiology, endocrinology, fluids & electrolytes, gastroenterology, genetics, hematology, immunology & allergy, microbiology & infectious disease, neonatology, nephrology, nutrition & growth, oncology, poisonings, pulmonology, rheumatology, and trauma & critical care — and users can either browse by system or search directly for a specific lab test or guide. The reference is drawn from the Harriet Lane Handbook, 22nd Edition.",
+  "indications": [
+    "Quickly looking up a normal pediatric lab value at the bedside or during rounds",
+    "Comparing a patient's result against age-appropriate pediatric reference ranges rather than adult norms",
+    "Browsing labs organized by organ system or specialty, such as hematology, nephrology, or endocrinology",
+    "Searching for a specific test or reference guide by name across all systems",
+    "Cross-checking values across systems such as fluids & electrolytes, nutrition & growth, and poisonings"
+  ],
+  "method": "This is a reference and search tool rather than a calculator. Lab items and guides are grouped into clinical systems, shown as tiles with a count of how many items in that system currently have data; tapping a system opens its list of items, or the search bar can be used to find a specific lab or guide by name across all systems.",
+  "guidelineRefs": [
+    "Harriet Lane Handbook, 22nd Edition"
+  ],
+  "faqs": [
+    { "q": "What is the source for the pediatric lab reference values?", "a": "The tool's own reference footer cites the Harriet Lane Handbook, 22nd Edition." },
+    { "q": "How are labs organized in this tool?", "a": "By clinical system — such as cardiology, hematology, nephrology, neonatology, and endocrinology — which can be browsed as tiles, or searched directly by name." },
+    { "q": "Can I search for a specific lab test directly?", "a": "Yes, the tool includes a search bar for finding labs and guides by name instead of browsing by system." },
+    { "q": "Does this tool calculate anything, or is it purely a reference?", "a": "It is purely a reference and lookup tool — it does not perform any calculations." },
+    { "q": "Are all listed lab items populated with data?", "a": "Not necessarily — the tool marks some items as \"Coming Soon\" when data has not yet been added for that item, and shows a data-availability count on each system tile." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/lab_reference/lab_reference_screen.dart"
+  ]
+}

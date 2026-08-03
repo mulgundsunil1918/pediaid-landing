@@ -1,0 +1,22 @@
+{
+  "slug": "parkland-formula-calculator",
+  "intro": "The Parkland Formula Calculator estimates first-24-hour IV fluid resuscitation volumes for a burns patient using the Modified Parkland Formula (3 mL x %TBSA x weight in kg) with Lactated Ringer's Solution. It splits the total into a Phase 1 rate (first 8 hours from the time of burn, adjusted for any fluid already given and for time already elapsed) and a Phase 2 rate (the remaining half over the following 16 hours), and separately calculates a Holliday-Segar maintenance fluid rate to run alongside resuscitation fluid. It also includes a Rule of Nines reference table for estimating %TBSA by age band and flags that this method is less accurate in children, linking out to the app's Lund & Browder Chart calculator for paediatric TBSA estimation.",
+  "indications": [
+    "Calculating first-24-hour IV resuscitation fluid volume and rate for a patient with 2nd- or 3rd-degree burns",
+    "Adjusting the resuscitation rate when some IV fluid has already been given before the calculation, or when time has already elapsed since the burn",
+    "Determining the separate maintenance fluid rate that should run alongside burns resuscitation fluid",
+    "Looking up an approximate %TBSA using the Rule of Nines by age band (infant, child, adult) as an input to the formula",
+    "Guiding urine-output-based titration of the resuscitation rate after it is started",
+    "Cross-referencing to the Lund & Browder Chart for more accurate paediatric %TBSA, and to the Revised Baux Score for mortality risk, once TBSA is known"
+  ],
+  "method": "Total 24-hour volume = 3 mL x %TBSA x weight (kg), using Lactated Ringer's Solution. Half of this total is given in Phase 1: the tool subtracts any IV fluid already administered from the first half, then divides the remainder by the hours remaining until 8 hours post-burn (8 minus time elapsed) to get the Phase 1 hourly rate. The second half of the total is given in Phase 2, divided evenly over the following 16 hours. Maintenance fluid is calculated separately using the Holliday-Segar rule (100/50/20) and is intended to run as an additional line, not counted against the resuscitation volume. %TBSA can be estimated from a built-in Rule of Nines table, with percentages differing by Infant (<1 yr), Child (1-9 yrs), and Adult (>=10 yrs) bands — noting a patient's palm is approximately 1% of body surface area.",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "What fluid does the Parkland Formula use here, and at what dose per %TBSA?", "a": "This calculator uses the Modified Parkland Formula at 3 mL/kg/%TBSA of Lactated Ringer's Solution for the total 24-hour volume, split into the Phase 1 and Phase 2 rates described in the tool." },
+    { "q": "Does the 'time elapsed since burn' field mean time since hospital arrival?", "a": "No — the app instructs entering the actual time elapsed since the burn injury itself, not since hospital arrival, and caps entry at 7 hours (enter 7 if more time has passed)." },
+    { "q": "Is maintenance fluid included in the Parkland total, or given separately?", "a": "Separately — the calculator computes a Holliday-Segar maintenance rate that is meant to be prescribed and run as its own IV line, in addition to the Parkland resuscitation fluid." },
+    { "q": "Why does the tool warn that the Rule of Nines is less accurate for children?", "a": "Because children's body proportions, especially head and legs, differ from adults', the app flags this limitation directly and links to its Lund & Browder Chart calculator for more precise paediatric %TBSA estimation." },
+    { "q": "What urine output should I target while titrating the resuscitation rate?", "a": "The tool lists a paediatric target of 1 mL/kg/hr and an adult target of 0.5-1 mL/kg/hr (30-50 mL/hr), with guidance to increase the rate 10-20% if urine output is below target and decrease it 10-20% if above target." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/parkland_calculator_screen.dart"]
+}

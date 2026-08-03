@@ -1,0 +1,35 @@
+{
+  "slug": "poisoning-antidotes-reference",
+  "intro": "The Poisoning & Antidotes reference maps common toxic substances and drug classes to their specific antidotes, as described in the app's own subtitle: 'Common substances, their antidotes, and exact doses.' It spans more than 20 substance-to-antidote pairings — from anticholinergics and benzodiazepines to heavy metals, cyanide, digoxin, iron, organophosphates, and paracetamol — alongside decision aids for activated charcoal and haemodialysis in poisoned patients.",
+  "indications": [
+    "Identifying the specific antidote for a known or suspected toxic ingestion or exposure",
+    "Deciding whether activated charcoal is appropriate for a given ingested substance",
+    "Determining whether a poisoned patient is a candidate for haemodialysis",
+    "Quick recall of the dialysable-poisons list via the in-app mnemonic",
+    "Locating poison-control contact information during a suspected poisoning emergency"
+  ],
+  "method": "The screen is organized as a searchable substance → antidote → dose list rather than a single calculation. It also includes two decision aids presented as opposing lists: substances activated charcoal is indicated for (e.g., salicylates, phenobarbital, carbamazepine, digoxin, theophylline) versus substances charcoal does NOT adsorb, summarised with the mnemonic PHAILS (Pesticides, Hydrocarbons, Acids/Alkalis/Alcohols, Iron, Lithium, Solvents). A separate haemodialysis-indications list (methanol, ethylene glycol, salicylate, phenobarbitone, theophylline, lithium) is paired with the mnemonic ISTUMBLE for dialysable poisons. Specific antidote doses shown in the app are not reproduced on this page — refer to the in-app card and verify against current guidelines before administration.",
+  "guidelineRefs": [
+    "Goldfrank's Toxicologic Emergencies, 11th ed.",
+    "AAP Committee on Drugs"
+  ],
+  "faqs": [
+    {
+      "q": "What substances are covered in the antidotes reference?",
+      "a": "The reference covers over 20 substance categories including anticholinergics, arsenic/mercury, beta-blockers, benzodiazepines, calcium channel blockers, carbon monoxide, cyanide, digoxin, ethylene glycol/methanol, heparin, iron, lead, opioids, organophosphates, paracetamol, and warfarin, each paired with its antidote."
+    },
+    {
+      "q": "Is activated charcoal effective for every poisoning?",
+      "a": "No. The app lists substances charcoal effectively adsorbs (e.g., salicylates, carbamazepine, digoxin, theophylline) separately from the PHAILS group — pesticides, hydrocarbons, acids/alkalis/alcohols, iron, lithium, and solvents — which are not well adsorbed by charcoal."
+    },
+    {
+      "q": "What does the ISTUMBLE mnemonic stand for?",
+      "a": "It is the app's memory aid for dialysable poisons: Isopropanol, Salicylates, Theophylline, Uraemia, Methanol, Barbiturates (long-acting), Lithium, and Ethylene glycol."
+    },
+    {
+      "q": "Does this tool replace calling a poison control centre?",
+      "a": "No. The screen is explicitly for use by qualified clinicians only and instructs users to verify dose and route against the source guideline before administering; it also surfaces poison-centre contact information as a companion resource, not a replacement for clinical consultation."
+    }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/poisoning_antidotes_screen.dart"]
+}

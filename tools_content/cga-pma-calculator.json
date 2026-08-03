@@ -1,0 +1,21 @@
+{
+  "slug": "cga-pma-calculator",
+  "intro": "The CGA/PMA Calculator computes two related but distinct ages for a preterm infant: Corrected Gestational Age (CGA, also called Corrected or Adjusted Age) and Post-Menstrual Age (PMA, also called Postconceptional Age), from date of birth, gestational age at birth, and a current or assessment date.",
+  "indications": [
+    "Adjusting developmental milestone expectations for a preterm infant using corrected age",
+    "Plotting growth measurements on growth charts using corrected age, as used until 2 years per the app",
+    "Determining PMA for clinical thresholds such as apnea-of-prematurity monitoring, caffeine therapy, or ROP screening schedules",
+    "Timing discharge planning and neurodevelopmental or hearing/vision screening",
+    "Checking anesthesia safety timing referenced to PMA (the app notes ≥44 weeks PMA)"
+  ],
+  "method": "CGA = Chronological Age − Weeks Premature, equivalently CGA = PMA − 40 weeks (quoted from the app). PMA = GA at Birth (weeks) + Chronological Age (weeks) (quoted from the app). Per the app, CGA is applied only when the infant was born preterm (GA at birth under 37 weeks), the resulting PMA has reached 40 weeks, and the infant is within 2 years (730 days) of chronological age; outside those conditions the app marks CGA as not applicable and shows the reason. The app's own comparison table summarizes the difference: CGA is referenced to term (40 weeks), expressed in weeks/months, used for development and growth, and applied until 2 years; PMA is referenced to the last menstrual period, always expressed in weeks, used for medical thresholds, and applied for the entire NICU stay.",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "What's the difference between CGA and PMA?", "a": "Per the app's comparison table: CGA is referenced to term (40 weeks) and used for development/growth tracking until 2 years of age; PMA is referenced to the last menstrual period, always expressed in weeks, and used for medical thresholds throughout the NICU stay." },
+    { "q": "Until what age is corrected age used?", "a": "The app applies CGA until 2 years of age (730 days chronological age), after which correction is typically no longer applied." },
+    { "q": "How is PMA calculated?", "a": "PMA = GA at Birth (weeks) + Chronological Age (weeks), per the app — a continuous clock starting at the last menstrual period that never resets." },
+    { "q": "What clinical decisions does the app associate with PMA?", "a": "Apnea of prematurity monitoring, caffeine therapy thresholds, ROP screening schedules, discharge planning, and anesthesia safety timing (the app notes ≥44 weeks PMA), per its info section." },
+    { "q": "When does the app say CGA isn't applicable?", "a": "When the infant was born at term or post-term, when PMA hasn't yet reached 40 weeks, or when the infant is older than 2 years — the app displays the specific reason in each case." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/cga_pma_calculator.dart"]
+}

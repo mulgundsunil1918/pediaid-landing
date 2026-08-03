@@ -1,0 +1,20 @@
+{
+  "slug": "schwartz-egfr-calculator",
+  "intro": "The Schwartz eGFR Calculator estimates glomerular filtration rate in infants and children from height and serum creatinine using the Bedside Schwartz equation, then stages the result into KDIGO 2024 chronic kidney disease categories (G1 through G5).",
+  "indications": [
+    "Estimating GFR at the bedside in an infant or child from height and serum creatinine alone",
+    "Staging pediatric chronic kidney disease severity using KDIGO G1–G5 categories",
+    "Monitoring trends in kidney function for a child with known or suspected renal impairment",
+    "Flagging children and adolescents with eGFR below 90 mL/min/1.73m² for attention, per the app's KDIGO 2024 pediatric note, even without other markers of kidney damage"
+  ],
+  "method": "eGFR = 0.413 × Height(cm) / SCr(mg/dL) — the Bedside Schwartz equation, using a fixed k constant of 0.413 for all ages, as stated in the app. Results are staged per the app's KDIGO 2024 table: G1 ≥90 mL/min/1.73m² (Normal or high); G2 60–89 (Mildly decreased); G3a 45–59 (Mildly to moderately decreased); G3b 30–44 (Moderately to severely decreased); G4 15–29 (Severely decreased); G5 under 15 (Kidney failure). The app notes that, absent other markers of kidney damage, G1 and G2 do not by themselves fulfil the criteria for CKD.",
+  "guidelineRefs": ["KDIGO 2024"],
+  "faqs": [
+    { "q": "What formula does this calculator use?", "a": "The Bedside Schwartz equation: eGFR = 0.413 × height(cm) ÷ serum creatinine(mg/dL)." },
+    { "q": "Can this formula be used in adults?", "a": "No — the app's disclaimer states the Bedside Schwartz equation (k=0.413) is 'validated for paediatric patients only... Not for use in adults.'" },
+    { "q": "What CKD staging system does it use?", "a": "KDIGO 2024, shown as a G1–G5 table from ≥90 mL/min/1.73m² (Normal or high) down to under 15 (Kidney failure)." },
+    { "q": "What did KDIGO 2024 change for pediatric eGFR interpretation?", "a": "Per the app's note, an eGFR under 90 mL/min/1.73m² can now be flagged as 'low' in children and adolescents, since young people should maintain excellent kidney function — this applies even without structural kidney damage markers." },
+    { "q": "What inputs does the calculator require?", "a": "Height (30–200 cm) and serum creatinine (0.1–20 mg/dL); age is recorded for the result display, though the bedside formula itself uses a single constant (k=0.413) across all ages." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/schwartz_egfr_calculator.dart"]
+}

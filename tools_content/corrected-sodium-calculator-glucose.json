@@ -1,0 +1,25 @@
+{
+  "slug": "corrected-sodium-calculator-glucose",
+  "intro": "The Corrected Sodium Calculator adjusts measured serum sodium for the dilutional effect of hyperglycaemia, helping clinicians tell true hyponatraemia apart from a falsely low sodium caused by high glucose. It applies the standard correction, Corrected Na = Measured Na + 1.6 × ((Glucose − 100) / 100), and also displays an alternate calculation using a factor of 2.4 that the app attributes to Hillier, American Journal of Medicine 1999, for glucose above 400 mg/dL. The tool then interprets the corrected value against normal, low, and high sodium bands.",
+  "indications": [
+    "Evaluating a hyperglycaemic patient (e.g. diabetic ketoacidosis) with a low measured sodium to determine whether true hyponatraemia is present",
+    "Distinguishing dilutional (glucose-driven) hyponatraemia from a hyponatraemia that will persist even after glucose is treated",
+    "Monitoring corrected sodium trends during DKA management, since a rising corrected sodium as glucose falls can signal cerebral oedema risk",
+    "Deciding whether further hyponatraemia work-up (volume status, urine osmolality, urine sodium) is needed after correcting for glucose",
+    "Comparing the standard correction factor against the alternate higher-glucose factor in cases of severe hyperglycaemia"
+  ],
+  "method": "Corrected Na = Na + 1.6 × ((Glucose − 100) / 100), the standard result shown by the app. Alongside it, the app displays a 'Hillier formula (× 2.4) — for glucose > 400 mg/dL': Na + 2.4 × ((Glucose − 100) / 100), noting it 'may better reflect true Na in severe hyperglycaemia.' The app then bands the standard corrected value as: below 135 mEq/L (hyponatraemia after correction), 135–145 mEq/L (normal — 'purely dilutional from the hyperglycaemia'), and above 145 mEq/L (hypernatraemia after correction, flagged as a cerebral oedema red flag in DKA if rising as glucose falls).",
+  "guidelineRefs": [
+    "Hillier, Am J Med 1999"
+  ],
+  "faqs": [
+    { "q": "What formula does the Corrected Sodium Calculator use?", "a": "Corrected Na = Measured Na + 1.6 × ((Glucose in mg/dL − 100) / 100)." },
+    { "q": "Why does the app also show a factor of 2.4?", "a": "The app attributes a 2.4 correction factor to Hillier, American Journal of Medicine 1999, noting it may better reflect true sodium in severe hyperglycaemia above 400 mg/dL, and displays it as an additional result alongside the standard 1.6 calculation." },
+    { "q": "What does a normal corrected sodium mean if the measured sodium was low?", "a": "The app explains that if the corrected value falls between 135–145 mEq/L, the original low sodium reading was purely dilutional from hyperglycaemia and should resolve as glucose is treated." },
+    { "q": "Why does corrected sodium matter in DKA?", "a": "The app flags that a rising or high corrected sodium as glucose falls during DKA treatment is a red flag for cerebral oedema, warranting slower fluid replacement and hourly neuro-observations." },
+    { "q": "What inputs are needed?", "a": "Measured serum sodium (mEq/L) and glucose (mg/dL)." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/calculators/corrected_sodium_calculator.dart"
+  ]
+}

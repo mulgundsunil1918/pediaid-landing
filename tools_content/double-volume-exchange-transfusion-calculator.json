@@ -1,0 +1,28 @@
+{
+  "slug": "double-volume-exchange-transfusion-calculator",
+  "intro": "The Double Volume Exchange Transfusion (DVET) Calculator computes the exchange blood volume, aliquot size, and cycle count for a neonatal double-volume exchange transfusion, alongside a full step-by-step procedural guide — blood reconstitution, blood product selection, vascular access, monitoring, and complications — most often used for severe neonatal hyperbilirubinemia or hemolytic disease.",
+  "indications": [
+    "Planning a double-volume exchange transfusion for severe neonatal hyperbilirubinemia not responding to intensive phototherapy",
+    "Managing severe hemolytic disease of the newborn (Rh or ABO isoimmunization) requiring exchange transfusion",
+    "Calculating exchange blood volume and aliquot size for a specific neonate's weight and gestational age",
+    "Selecting compatible donor blood based on neonatal and maternal blood group, Rh status, and hemolysis type",
+    "Planning peri-procedure monitoring and anticipating immediate and delayed complications"
+  ],
+  "method": "Blood volume formula (quoted from the app): 'Term infants (≥37 wks): 85 mL/kg' and 'Preterm infants (<37 wks): 90-100 mL/kg,' with 'Double Volume = 2 × Blood Volume.' Aliquot size is set by weight band per the app's table: under 1500 g uses 5 mL; 1500–2500 g uses 10 mL; 2500–3500 g uses 15 mL; over 3500 g uses 20 mL, each cycle taking about 5 minutes, so the number of cycles equals double volume divided by aliquot size. Reconstituted blood is prepared as ⅔ packed red cells (LRBC) + ⅓ FFP drawn into 50 mL syringes, targeting a reconstituted hematocrit of about 40–50%. Blood selection follows a compatibility framework in the app: donor red cells must be compatible with both the neonate and the maternal antibody — Rh(D) hemolytic disease calls for Rh D-negative red cells, ABO-compatible with mother and neonate; ABO hemolytic disease calls for group O red cells, Rh-matched to the neonate; combined ABO+Rh disease calls for O Rh D-negative. The app also lists mandatory blood specifications: CMV-seronegative or leukoreduced, irradiated (to prevent transfusion-associated GVHD), 5 days old or less preferred (max 7), hematocrit 50–60%, HbS-negative, Kell-negative for females of childbearing potential, and 20% extra volume ordered. During the procedure, the app's protocol calls for calcium gluconate 30 mg/kg IV after every 100 mL exchanged, plus scheduled glucose, calcium, potassium, and bilirubin monitoring.",
+  "guidelineRefs": [
+    "AAP Clinical Practice Guideline: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation (Pediatrics 2022)",
+    "British Society for Haematology Guidelines: Transfusion for Fetuses, Neonates and Older Children (2023)",
+    "UCSF Medical Center: Neonatal Exchange Transfusion Standardized Procedure",
+    "Royal Children's Hospital Melbourne: Blood Products for Neonatal Transfusion",
+    "NHS Ashford and St. Peter's Hospitals: Double Volume Exchange Transfusion Protocol (2022)",
+    "StatPearls: Exchange Transfusion (2025)"
+  ],
+  "faqs": [
+    { "q": "How much blood is exchanged during a DVET?", "a": "Double the neonate's blood volume: 2 × (weight in kg × 85 mL/kg for term, or × 90–100 mL/kg for preterm infants), per the app's formula." },
+    { "q": "What aliquot size should be used for the exchange?", "a": "The app bands it by weight: 5 mL under 1500 g, 10 mL for 1500–2500 g, 15 mL for 2500–3500 g, and 20 mL above 3500 g, with each cycle taking about 5 minutes." },
+    { "q": "What blood type is used for Rh hemolytic disease?", "a": "Rh D-negative red cells, ABO-compatible with the neonate and mother, per the app's blood selection framework — Rh-negative status is described as mandatory regardless of ABO type." },
+    { "q": "What exchange (TSB) thresholds does the app reference?", "a": "A table titled 'Exchange Thresholds (AAP 2022)' with three risk tiers, e.g. TSB ≥20–25 mg/dL for a well infant ≥38 weeks (low risk) down to TSB ≥16–20 mg/dL for infants under 35 weeks or with risk factors (high risk)." },
+    { "q": "What complications does the app say to monitor for?", "a": "Immediate: hypocalcemia, hypoglycemia, hyperkalemia, volume overload, and air embolism. Delayed: necrotizing enterocolitis, thrombocytopenia, infection, portal vein thrombosis, and transfusion reaction." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/double_volume_exchange.dart"]
+}

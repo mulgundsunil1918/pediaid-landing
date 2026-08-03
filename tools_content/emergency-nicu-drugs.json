@@ -1,0 +1,23 @@
+{
+  "slug": "emergency-nicu-drugs",
+  "intro": "Emergency NICU Drugs is a weight-based drug preparation and dosing tool for common neonatal intensive care emergency and infusion medications, spanning inotropes, vasoactive agents, sedatives, analgesics, diuretics, vasodilators, and prostaglandins. After the baby's weight is entered, it computes live drug and diluent volumes, final concentration, and an infusion-rate ladder for both STAT bolus drugs and continuous infusions. The tool offers a Smart View with step-by-step preparation instructions and a Table View for at-a-glance reference, plus a running-infusions tracker and a quick-access resuscitation drug sheet. It is presented as a preparation guide only — the app's own banner states every dose, concentration, and preparation should be verified with a senior clinician or pharmacist before administration.",
+  "indications": [
+    "Rapidly calculating weight-based drug and diluent volumes when preparing a NICU infusion",
+    "Converting a target infusion rate into a syringe-pump setting for a specific baby's weight",
+    "Adjusting infusion concentration for fluid-restricted neonates using a concentration multiplier",
+    "Cross-checking preparation steps for common NICU inotropes, vasoactive agents, sedatives, analgesics, diuretics, and prostaglandins",
+    "Quick access to resuscitation drugs and a log of a patient's currently running infusions during an emergency"
+  ],
+  "method": "The user enters the baby's weight in kg. The tool then computes the volume of drug to draw up, the volume of diluent needed to reach a target total preparation volume, the resulting final concentration, and a ladder of infusion rates (mL/hr) mapped to their corresponding weight-based doses. A concentration multiplier (½x–4x) lets the final concentration be increased for fluid-restricted patients, and the total preparation volume can be customized. STAT bolus drugs are handled separately through a dedicated resuscitation sheet, distinct from the continuous-infusion module.",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "Does this tool tell me the exact dose to give my patient?", "a": "It calculates weight-based preparation volumes and infusion rates once you enter the baby's weight, but the app's own disclaimer states it is a guide only and every dose, concentration, and preparation must be verified with a senior clinician or pharmacist before administration." },
+    { "q": "What drug categories are covered?", "a": "The tool covers inotropes, vasoactive agents, sedatives, analgesics, diuretics, vasodilators, and prostaglandins used in NICU emergencies and continuous infusions." },
+    { "q": "What is the concentration multiplier for?", "a": "It lets clinicians increase the drug concentration in the syringe (½x to 4x), which the app's own tooltip describes as useful when fluid restriction is needed." },
+    { "q": "Is there a separate section for resuscitation drugs?", "a": "Yes — a dedicated STAT BOLUS module and a quick-access resuscitation sheet sit alongside the continuous-infusion calculator." },
+    { "q": "Can I track infusions that are already running on a patient?", "a": "Yes, the tool includes a \"Current Infusions\" panel for logging and viewing a patient's active infusions." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/drugs/emergency_nicu_drugs_screen.dart"
+  ]
+}

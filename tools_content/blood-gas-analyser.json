@@ -1,0 +1,21 @@
+{
+  "slug": "blood-gas-analyser",
+  "intro": "The Blood Gas Analyser is an interactive ABG interpreter that walks through a systematic, multi-step approach — pH assessment, primary disorder identification, compensation analysis, an optional anion gap calculation, and mixed-disorder detection — from entered pH, PaCO₂, and HCO₃⁻ values (plus optional sodium, chloride, albumin, and lactate), returning a clinical interpretation with formulas and management guidance.",
+  "indications": [
+    "Systematically interpreting an arterial or venous blood gas at the bedside or for teaching",
+    "Determining whether an acid-base disturbance is primarily respiratory, metabolic, or mixed",
+    "Checking whether compensation is appropriate for the primary disorder, or whether it indicates a second, concurrent disorder",
+    "Calculating and interpreting the anion gap, including the albumin-corrected anion gap, in metabolic acidosis",
+    "Working through differential causes and initial management steps for a specific acid-base pattern"
+  ],
+  "method": "Normal reference ranges used by the app: pH 7.35–7.45, PaCO₂ 35–45 mmHg, HCO₃⁻ 22–26 mEq/L; the app flags pH under 7.2 or over 7.6 as needing urgent attention, and under 6.8 or over 7.8 as incompatible with life. Compensation formulas quoted from the app: for acute respiratory acidosis, HCO₃ rises about 1 mEq/L per 10 mmHg rise in PCO₂ (pH falls about 0.08), while chronic respiratory acidosis shows HCO₃ rising about 3.5 mEq/L per 10 mmHg (pH falls about 0.03); for acute respiratory alkalosis, HCO₃ falls about 2 mEq/L per 10 mmHg fall in PCO₂, while chronic respiratory alkalosis shows HCO₃ falling about 5 mEq/L per 10 mmHg; for metabolic acidosis, Winter's Formula gives expected PCO₂ = (1.5 × HCO₃) + 8 ± 2 mmHg; for metabolic alkalosis, expected PCO₂ = 0.7 × (HCO₃ − 24) + 40 ± 5 mmHg. Anion gap: AG = Na⁺ − (Cl⁻ + HCO₃⁻), normal 8–12 mEq/L; Corrected AG = AG + 2.5 × (4.0 − albumin g/dL). An elevated AG (over 12) prompts the MUDPILES differential (Methanol, Uraemia, DKA, Propylene glycol/Paracetamol, Isoniazid, Lactic acidosis, Ethylene glycol, Salicylates); a normal-AG acidosis prompts HARDUP (Hyperalimentation, Addison's, RTA, Diarrhoea, Ureteroenteric fistula, Pancreatic fistula). The Delta-Delta ratio = (AG − 12) / (24 − HCO₃): under 0.4 suggests an additional normal-AG acidosis; 0.4–2 suggests a pure high-AG metabolic acidosis; over 2 suggests concurrent metabolic alkalosis or chronically elevated HCO₃. For severe acidemia (pH under 7.1–7.2), the app shows a bicarbonate deficit formula: HCO₃ deficit (mEq) = 0.3 × weight(kg) × base deficit (0.4–0.5 × weight suggested in neonates), giving about half the deficit slowly before rechecking the gas.",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "What is Winter's Formula used for?", "a": "It calculates the expected respiratory compensation in metabolic acidosis: Expected PCO₂ = (1.5 × HCO₃) + 8 ± 2 mmHg, per the app." },
+    { "q": "What does an elevated anion gap suggest?", "a": "The app prompts the MUDPILES differential — Methanol, Uraemia, DKA, Propylene glycol/Paracetamol, Isoniazid, Lactic acidosis, Ethylene glycol, Salicylates — for an anion gap over 12 mEq/L." },
+    { "q": "How does the tool decide a disorder is 'mixed'?", "a": "When the actual HCO₃ or PCO₂ falls outside the range expected for compensation of the primary disorder, the app flags a concurrent second acid-base disorder." },
+    { "q": "What is the Delta-Delta ratio for?", "a": "It helps distinguish a pure high-anion-gap metabolic acidosis from one complicated by a second disorder: Delta-Delta = (AG − 12) / (24 − HCO₃), with under 0.4, 0.4–2, and over 2 interpreted differently per the app." },
+    { "q": "What pH values does the app consider critical?", "a": "pH below 7.2 or above 7.6 is flagged as requiring urgent attention; below 6.8 or above 7.8 is flagged as incompatible with life." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/blood_gas_analyser.dart"]
+}

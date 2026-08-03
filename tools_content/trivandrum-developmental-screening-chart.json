@@ -1,0 +1,36 @@
+{
+  "slug": "trivandrum-developmental-screening-chart",
+  "intro": "The TDSC Assistant is an interactive implementation of the Trivandrum Developmental Screening Chart, built around three steps: set the child's chronological age (with optional gestational-age correction for preterm infants), mark each milestone Achieved, Not Achieved, or Not Tested, and let the tool continuously bucket every item into Expected, Emerging, or Future while producing a live risk verdict and recommendation. As its own disclaimer states, 'TDSC is a screen, not a diagnostic test.'",
+  "indications": [
+    "Running a quick, structured developmental screen during a well-child visit using a validated single-pass chart.",
+    "Determining which milestones are expected, emerging, or not yet due for a child's corrected age.",
+    "Deciding whether a child needs referral for formal developmental assessment based on the number of delayed items.",
+    "Screening preterm infants, using the built-in gestational-age correction.",
+    "Cross-referencing results against a live bar chart in either classic TDSC colours or a modern achieved/delayed/emerging colour scheme."
+  ],
+  "method": "The screen's own 'How to use this screen' guide lays out four steps: set the child's age on the slider; tap 'Mark all expected as achieved' to tick every milestone the child should already have done; flip individual items to not-achieved for anything the child hasn't done yet; then read the verdict and recommendation card, where — in the tool's own words — 'Two-or-more red items past their bar = refer for full assessment.' Results are grouped into five live sections: Delayed ('bar lies completely past the age line and the child has not achieved it'), Needs assessment ('expected by this age but not yet tested'), Emerging ('bar still crosses the age line — may normally appear later, not a delay yet'), Expected for age, and Future milestones ('too early to expect — listed for reference only').",
+  "guidelineRefs": ["Nair MK et al., Indian Pediatrics 2009 + 2013"],
+  "faqs": [
+    {
+      "q": "Is the TDSC a diagnostic test?",
+      "a": "No. The tool states directly: 'TDSC is a screen, not a diagnostic test.'"
+    },
+    {
+      "q": "What triggers a referral recommendation?",
+      "a": "Per the tool's own guidance, two or more milestones marked not-achieved past their expected bar should be referred for full assessment."
+    },
+    {
+      "q": "What's the difference between 'Emerging' and 'Expected' milestones in this tool?",
+      "a": "'Expected' items are due by the child's current age. 'Emerging' items still cross the age line and may normally appear later, so they aren't counted as a delay yet."
+    },
+    {
+      "q": "Can I use this for a premature infant?",
+      "a": "Yes — the tool includes an optional gestational-age correction applied to the chronological age used in scoring."
+    },
+    {
+      "q": "Where does the TDSC chart itself come from?",
+      "a": "The tool cites Nair MK et al., Indian Pediatrics 2009 and 2013, as its source."
+    }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/developmental_milestones/tdsc/tdsc_assistant_screen.dart"]
+}

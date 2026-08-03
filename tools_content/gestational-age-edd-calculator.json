@@ -1,0 +1,22 @@
+{
+  "slug": "gestational-age-edd-calculator",
+  "intro": "The Gestational Age & EDD Calculator estimates a pregnancy's due date and current gestational age using five different dating methods — last menstrual period (LMP), dating ultrasound, a known EDD, IVF/ART embryo transfer date, or a known conception date. Once a due date is set, it tracks trimester progress, shows expected fetal development for the current gestational week, and generates a calendar of antenatal surveillance milestones calculated forward from the estimated LMP.",
+  "indications": [
+    "Establishing an estimated due date (EDD) at a first antenatal visit from LMP, a dating ultrasound, or an already-known EDD",
+    "Dating a pregnancy conceived via IVF/ART using the embryo transfer date and embryo age (Day 5, Day 3, or Day 0)",
+    "Tracking gestational age, trimester, and days remaining to term through pregnancy",
+    "Planning the timing of routine antenatal tests and interventions (NT scan, anomaly scan, glucose screening, Tdap, Rho(D) immunoglobulin, GBS screening)",
+    "Reviewing expected fetal development at a specific gestational week",
+    "Calculating gestational age on any specific calendar date, such as a past or future visit"
+  ],
+  "method": "The calculator offers five dating methods, each with its own formula shown in the app: LMP method — Corrected LMP = LMP + (cycle length − 28), then EDD = corrected LMP + 280 days; Ultrasound method — EDD = scan date − GA at scan + 280 days; Known EDD method — LMP = EDD − 280 days (back-calculated); IVF/ART method — EDD = embryo transfer date + 261 days for a Day 5 blastocyst transfer, + 263 days for a Day 3 transfer, or + 266 days for a Day 0 (fresh retrieval) transfer; Conception-date method — EDD = conception date + 266 days, LMP = conception date − 14 days. From the resulting LMP, the app also builds a calendar of antenatal windows (e.g. NT scan 11w0d–13w6d, anomaly scan 18w–22w, glucose screen 24w–28w, Rho(D) at 28w, Tdap 27w–36w, GBS screen 36w–37w6d) plus condition-specific antenatal-testing start points such as 32 weeks for monochorionic-diamniotic twins, poorly controlled diabetes, or a prior stillbirth, per the app's own list.",
+  "guidelineRefs": ["ACOG Practice Bulletins", "RCOG Green-top Guidelines", "NNF India", "IAP India Guidelines"],
+  "faqs": [
+    { "q": "What dating methods does this EDD calculator support?", "a": "Five: last menstrual period (LMP) with cycle-length correction, dating ultrasound, a previously known EDD, IVF/ART embryo transfer date, and a known conception date." },
+    { "q": "How does IVF/ART dating differ from LMP dating?", "a": "EDD is calculated directly from the embryo transfer date, adding 261 days for a Day 5 blastocyst transfer, 263 days for a Day 3 transfer, or 266 days for a Day 0 (fresh retrieval) transfer." },
+    { "q": "What if my cycle length isn't 28 days?", "a": "The LMP method corrects for this: Corrected LMP = LMP + (cycle length − 28), before adding 280 days to get the EDD." },
+    { "q": "What antenatal milestones does the calculator flag?", "a": "It generates a calendar of common surveillance windows — NT scan, anomaly scan, glucose screening, Rho(D) immunoglobulin, Tdap vaccination, and GBS screening — calculated from the estimated LMP. The app describes this as a workflow aid to be used with clinician judgment and current practice guidance." },
+    { "q": "What guidelines does the tool reference?", "a": "The app's own disclaimer cites ACOG Practice Bulletins, RCOG Green-top Guidelines, NNF India, and IAP India Guidelines, and states results should be used with clinical judgment." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/gestational_age_calculator.dart"]
+}

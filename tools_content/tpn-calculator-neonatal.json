@@ -1,0 +1,21 @@
+{
+  "slug": "tpn-calculator-neonatal",
+  "intro": "The Neonatal TPN Calculator builds a total parenteral nutrition prescription for an infant unable to tolerate full enteral feeds, supporting two order types: a single-bag Stock Solution (dextrose, electrolytes, and amino acids together) or Multi-Line TPN (Line 1: electrolytes + amino acids; Line 2: lipid + multivitamin + heparin; Line 3: calcium + dextrose). It calculates each component's volume from per-kg/day doses, mixes dextrose stock strengths to hit a target glucose infusion rate (GIR), and checks the resulting prescription's nutritional adequacy.",
+  "indications": [
+    "Prescribing parenteral nutrition for a neonate or preterm infant who cannot be fully enterally fed",
+    "Converting per-kg/day doses of sodium, potassium, amino acids, calcium, and lipid into actual infusion volumes",
+    "Determining what dextrose stock concentrations to mix to reach a target glucose infusion rate (GIR)",
+    "Deciding between single-bag stock TPN and multi-line TPN based on compatibility constraints (e.g. calcium-phosphate precipitation)",
+    "Checking nutritional adequacy via the NPC:N ratio and calories delivered per gram of amino acid"
+  ],
+  "method": "Component doses follow ESPGHAN proposed ranges shown in the app: Sodium 2–5 mEq/kg/day (as 3% NaCl, 0.5 mEq/mL); Potassium 1–3 mEq/kg/day (as KH₂PO₄ 4 mEq/mL or KCl 2 mEq/mL); Aminoven 10% 1.5–3.5 g/kg/day (0.1 g/mL); Lipid SMOF 20% 1–3 g/kg/day, max 4 (0.2 g/mL); GIR starting at 4–8, advancing to 8–10, max around 12 mg/kg/min. Dextrose requirement is calculated as GIR × weight(kg) × 1.44 g/day, and the app auto-picks a bracketing pair of dextrose stock strengths (0/5/10/25/50%) to mix to the required concentration. A safety banner flags the result: up to 12.5% dextrose is 'safe for peripheral infusion,' 12.5–20% is 'caution — prefer central line if prolonged,' and above 20% is 'central line strongly recommended.' The app hard-blocks combining KH₂PO₄ with calcium in a single stock bag (calcium-phosphate precipitation risk), requiring KCl instead or a switch to multi-line TPN. For multi-line orders it also computes the NPC:N ratio and calories per gram of amino acid, interpreted per ESPGHAN 2022: NPC:N below 70:1 signals high protein intake (seen in severe catabolism); 70–100:1 is described as 'IDEAL for preterm infants... optimal for protein anabolism and growth'; 100–150:1 is acceptable; above 150:1 signals low protein intake and catabolism risk. Calories per gram amino acid: under 30 kcal/g is insufficient; 30–40 kcal/g is the recommended range; above 40 kcal/g is adequate.",
+  "guidelineRefs": ["ESPGHAN 2022"],
+  "faqs": [
+    { "q": "What's the difference between Stock Solution and Multi-Line TPN in this calculator?", "a": "Stock Solution is a single bag combining dextrose, electrolytes, and amino acids. Multi-Line TPN splits components across three lines: Line 1 electrolytes + amino acids, Line 2 lipid + multivitamin + heparin, Line 3 calcium + dextrose." },
+    { "q": "Why does the calculator block KH₂PO₄ with calcium?", "a": "In a single stock bag they precipitate as calcium phosphate. The app requires switching the potassium source to KCl, setting calcium to zero, or moving to Multi-Line TPN, which keeps phosphate and calcium in separate lines." },
+    { "q": "How is the dextrose concentration determined?", "a": "From the target GIR: dextrose (g/day) = GIR × weight (kg) × 1.44. The app then auto-selects two dextrose stock strengths to mix to that concentration." },
+    { "q": "What GIR range does the app suggest starting with?", "a": "The ESPGHAN proposed range shown in the app is to start at 4–8 mg/kg/min, advancing up to 8–10 (max around 12) mg/kg/min." },
+    { "q": "What does an NPC:N ratio of 70–100:1 mean?", "a": "The app labels this range 'IDEAL for preterm infants,' citing ESPGHAN 2022, as optimal for protein anabolism and growth." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/tpn_calculator.dart"]
+}

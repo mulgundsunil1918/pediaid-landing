@@ -1,0 +1,24 @@
+{
+  "slug": "ett-size-depth-calculator",
+  "intro": "The ETT Size and Depth Calculator brings together several independent bedside methods for choosing an endotracheal tube's internal diameter and oral insertion depth in neonates and children. Tube size can be estimated by neonatal weight band or by the age-based Cole formula, while insertion depth can be derived from nasal-tragus length (NTL), weight, age, or tube diameter as a cross-check. Each method in the app is self-contained so a clinician can use whichever inputs are available at the bedside, with a built-in reference table for common newborn weight bands.",
+  "indications": [
+    "Selecting an appropriately sized endotracheal tube before neonatal or paediatric intubation",
+    "Estimating oral insertion depth at the lip to reduce the risk of right-mainstem intubation or high placement",
+    "Cross-checking a chosen tube size or depth against multiple independent bedside formulas",
+    "Quick reference during NICU/PICU resuscitation or elective intubation",
+    "Anticipating expected depth before confirming ETT position on chest X-ray"
+  ],
+  "method": "Size by weight (neonate) uses a weight-band table (NRP): <1 kg = 2.5 mm, 1–2 kg = 3.0 mm, 2–3 kg = 3.0 mm, >3 kg = 3.5 mm (uncuffed). Size by age uses the Cole formula: uncuffed = (age/4) + 4; cuffed = (age/4) + 3.5 for age ≥ 2 yr, or (age/4) + 3 for age < 2 yr. Depth methods: NTL + 1 cm (preferred neonatal method, using nasal–tragus length); 6 + weight in kg (newborns); (age/2) + 12 for children over 2 years; and 3 × tube internal diameter as a universal cross-check.",
+  "guidelineRefs": [
+    "NRP (Neonatal Resuscitation Program)",
+    "Cole formula"
+  ],
+  "faqs": [
+    { "q": "What's the preferred method for estimating ETT depth in a newborn?", "a": "The app labels NTL + 1 cm (nasal-tragus length plus 1 cm) as the preferred neonatal method." },
+    { "q": "What formula does the app use for tube size by age?", "a": "The Cole formula — uncuffed internal diameter = (age/4) + 4, with a cuffed variant of (age/4) + 3.5 for children 2 years and older." },
+    { "q": "How do I confirm the tube is positioned correctly after intubation?", "a": "The app's checklist calls for equal bilateral chest rise and breath sounds, a CO2 trace, listening over both axillae and the stomach, and a CXR showing the tip between T1–T2; if right-mainstem intubation is suspected, pull back 1 cm and reassess." },
+    { "q": "What tube size does the app suggest for a baby under 1 kg?", "a": "2.5 mm uncuffed, per the app's neonatal weight-band table." },
+    { "q": "Is there a cross-check for the depth estimates?", "a": "Yes — 3 × the tube's internal diameter is offered in the app as a universal cross-check against the other depth methods." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/ett_calculator.dart"]
+}

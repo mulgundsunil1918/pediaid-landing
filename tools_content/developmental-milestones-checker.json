@@ -1,0 +1,37 @@
+{
+  "slug": "developmental-milestones-checker",
+  "intro": "The Developmental Milestones module is a hub of five linked tools for tracking a child's development against normative milestone ages. Its Smart View supports bidirectional lookup — pick an age to see expected milestones, or pick what a child is doing to estimate developmental age — while Browse by Domain lists every milestone across six domains: Gross Motor, Fine Motor, Language, Hearing, Socioadaptive, and Vision. The milestone data is sourced verbatim from AIIMS New Delhi's Department of Paediatrics, Child Neurology Division (Prof. Sheffali Gulati), with cross-source enrichment for Developmental Quotient interpretation bands drawn from Nelson and Ghai.",
+  "indications": [
+    "Checking which gross motor, fine motor, language, hearing, socioadaptive, or vision milestones a child is expected to have reached by a given age.",
+    "Estimating a child's developmental age from the skills they are currently demonstrating.",
+    "Screening for developmental red flags — the tool lists 23 age-by-domain combinations that warrant formal developmental assessment.",
+    "Calculating a per-domain Developmental Quotient (DQ) with interpretation bands.",
+    "Correcting chronological age for prematurity, since the tool's own guidance says to always correct gestational age for infants 24 months or younger.",
+    "Cross-checking a child's status against the Trivandrum Developmental Screening Chart via the linked assistant tool."
+  ],
+  "method": "The hub itself routes to five sub-tools rather than computing a single score. The one formula it states directly is for Developmental Quotient: 'DQ = (Developmental age / Chronological age) × 100', calculated per domain with interpretation bands. The Red Flags tool separately lists 23 age-by-domain flags, and the milestone ages throughout are described as the ages by which most healthy children achieve the skill, rather than fixed pass/fail cutoffs — the tool's own disclaimer notes that failing to achieve a milestone at the listed age does not equal pathology, but it should trigger formal screening.",
+  "guidelineRefs": ["AIIMS New Delhi, Department of Paediatrics, Child Neurology Division (Prof. Sheffali Gulati)"],
+  "faqs": [
+    {
+      "q": "How is Developmental Quotient (DQ) calculated?",
+      "a": "DQ = (Developmental age / Chronological age) × 100, calculated separately for each developmental domain with interpretation bands."
+    },
+    {
+      "q": "Does missing a milestone always mean there's a problem?",
+      "a": "No — per the tool's own disclaimer, milestone ages are the ages by which most healthy children achieve the skill; not achieving one at the listed age does not equal pathology, but it should trigger formal screening."
+    },
+    {
+      "q": "Do I need to adjust for prematurity?",
+      "a": "Yes — the tool instructs users to always correct gestational age for infants 24 months or younger."
+    },
+    {
+      "q": "What domains does the milestone checker cover?",
+      "a": "Six: Gross Motor, Fine Motor, Language, Hearing, Socioadaptive, and Vision."
+    },
+    {
+      "q": "Where do the milestone ages come from?",
+      "a": "They are sourced verbatim from AIIMS New Delhi's Department of Paediatrics, Child Neurology Division (Prof. Sheffali Gulati), with DQ interpretation bands cross-enriched from Nelson and Ghai."
+    }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/developmental_milestones/dev_milestones_hub.dart"]
+}

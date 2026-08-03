@@ -1,0 +1,22 @@
+{
+  "slug": "iap-immunization-schedule",
+  "intro": "PediAid's Immunisation Schedule screen lets clinicians pick between two schedules -- IAP 2022 and NIS (National) -- and view either as a full Table View or a collapsible, age-grouped Smart View. The underlying IAP dataset is explicitly sourced and labeled 'IAP_2022' in the app's own schedule data. Each entry lists the vaccine, dose, route, injection site, and (for the IAP schedule) example brand names, organized under the age at which it is due.",
+  "indications": [
+    "Confirming which vaccines are due at a specific age during a well-child visit",
+    "Checking correct dose, route, and injection site before administering a vaccine",
+    "Comparing the IAP schedule against the National Immunization Schedule (NIS) for the same child",
+    "Reviewing schedule-wide notes, such as supplementation timing, alongside the vaccine list",
+    "Looking up example vaccine brand names available for a given antigen under the IAP schedule",
+    "Counseling parents on the upcoming immunization timeline"
+  ],
+  "method": "Each schedule is organized as a list of age-group sections (for example 'At Birth', 'At 6, 10, 14 weeks', 'At 6 months'); within a section, entries are either structured rows (vaccine name, dose, route, site, brand examples) or free-text explanatory blocks. Table View lays out all columns (Age, Vaccine, Dose, Route, Site, Notes) in a scrollable grid; Smart View instead groups entries into expandable per-age cards. A 'Schedule Notes' footer surfaces schedule-wide notes drawn from the underlying dataset, such as abbreviation keys and supplementation guidance.",
+  "guidelineRefs": ["IAP 2022"],
+  "faqs": [
+    { "q": "What's the difference between the IAP and NIS schedules in PediAid?", "a": "IAP 2022 is the Indian Academy of Pediatrics schedule and NIS (National) is the National Immunization Schedule; the app lets you toggle between them, each loaded from its own schedule dataset." },
+    { "q": "What do abbreviations like IM, ID, or RUA mean in the schedule?", "a": "The app's own schedule notes define these: IM = Intramuscular, ID = Intradermal, S/C = Subcutaneous, RUA = Right Upper Arm, LUA = Left Upper Arm." },
+    { "q": "Does the IAP schedule in PediAid include Vitamin A supplementation guidance?", "a": "Yes -- the schedule notes state Vitamin A is to be given after 9 months as 1 spoon (1 lakh IU) before age 1 year, followed by 2 spoonfuls (2 lakh IU) every 6 months." },
+    { "q": "Can I see example vaccine brand names in the app?", "a": "For the IAP schedule, structured entries include example brand names shown alongside the dose/route/site details." },
+    { "q": "Is there a mobile-friendly view of the schedule besides the wide table?", "a": "Yes -- Smart View groups entries into expandable per-age cards instead of a horizontally scrolling table, which is easier to use on a phone screen." }
+  ],
+  "sourceFilesRead": ["lib/screens/vaccines/vaccine_screen.dart", "assets/data/vaccines/iap_schedule.json"]
+}

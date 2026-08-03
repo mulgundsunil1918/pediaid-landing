@@ -1,0 +1,25 @@
+{
+  "slug": "corrected-anion-gap-calculator",
+  "intro": "The Albumin Corrected Anion Gap Calculator adjusts a measured anion gap for low serum albumin, since hypoalbuminaemia lowers the anion gap and can mask an underlying high-anion-gap metabolic acidosis. It applies AG + 2.5 × (Normal − Measured Albumin) when albumin is in g/dL, or the equivalent AG + 0.25 × (Normal − Measured) in g/L. The app attributes the original derivation of this correction factor to Figge et al., Critical Care Medicine 1998.",
+  "indications": [
+    "Recalculating the anion gap in hypoalbuminaemic patients (e.g. nephrotic syndrome, critical illness, malnutrition) where the raw AG may look falsely normal",
+    "Uncovering a masked high-anion-gap metabolic acidosis in critically ill children with low albumin",
+    "Reassessing acid-base status in patients with liver disease or protein-losing states where albumin is low",
+    "Complementing the standard Anion Gap Calculator whenever albumin is known to be abnormal",
+    "Supporting more accurate acid-base interpretation before pursuing a toxic-ingestion or metabolic work-up"
+  ],
+  "method": "Corrected AG = AG + 2.5 × (Normal Albumin − Measured Albumin) when albumin is entered in g/dL, or AG + 0.25 × (Normal − Measured) when entered in g/L — the app treats the two as equivalent. The calculator defaults 'Normal Albumin' to 4.0 g/dL (40 g/L), adjustable by the clinician. Per the app's insight card: 'Albumin is the dominant unmeasured anion contributing to a normal AG. For every 1 g/dL drop in albumin, the AG falls by ~2.5 mEq/L.'",
+  "guidelineRefs": [
+    "Figge J, Crit Care Med 1998"
+  ],
+  "faqs": [
+    { "q": "Why does albumin affect the anion gap?", "a": "The app explains that albumin is the dominant unmeasured anion contributing to a normal anion gap, so for every 1 g/dL drop in albumin, the measured AG falls by approximately 2.5 mEq/L." },
+    { "q": "What formula does this calculator use?", "a": "AG + 2.5 × (Normal Albumin − Measured Albumin) when albumin is entered in g/dL, or AG + 0.25 × (Normal − Measured) when entered in g/L." },
+    { "q": "What is the default 'normal' albumin value?", "a": "The calculator defaults to a normal albumin of 4.0 g/dL (or 40 g/L), which can be adjusted." },
+    { "q": "Who should use the corrected anion gap instead of the raw anion gap?", "a": "The app notes this is particularly relevant for critically ill or nephrotic patients, where the raw measured AG can mask a true high-anion-gap metabolic acidosis." },
+    { "q": "Where does the correction factor come from?", "a": "The app cites the original derivation to Figge J, Critical Care Medicine 1998." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/calculators/corrected_anion_gap_calculator.dart"
+  ]
+}

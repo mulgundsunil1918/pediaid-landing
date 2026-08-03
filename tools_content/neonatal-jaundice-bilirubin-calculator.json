@@ -1,0 +1,22 @@
+{
+  "slug": "neonatal-jaundice-bilirubin-calculator",
+  "intro": "This is the AAP 2022 neonatal hyperbilirubinaemia calculator for infants born at 35 or more weeks' gestation, implementing the American Academy of Pediatrics' 2022 Clinical Practice Guideline Revision (Kemper AR, Newman TB, Slaughter JL, et al. Pediatrics. 2022;150(3):e2022058859). Given gestational age, postnatal age, and a total serum bilirubin (TSB) value, it looks up hour-specific phototherapy and exchange-transfusion thresholds and classifies the result as below-threshold, phototherapy, escalation of care, or exchange transfusion. It also accounts for neurotoxicity risk factors, which shift the infant onto a lower threshold curve, and can calculate a bilirubin:albumin ratio when albumin is entered. In the app, this ≥35-week AAP 2022 pathway sits alongside a separate NICE CG98-based tool for infants born below 35 weeks.",
+  "indications": [
+    "Interpreting a total serum bilirubin (TSB) level against hour-specific, gestational-age-specific phototherapy and exchange-transfusion thresholds in a term or late-preterm newborn",
+    "Deciding whether to start phototherapy, escalate care, or proceed to exchange transfusion based on where TSB falls relative to threshold curves",
+    "Adjusting the threshold interpretation when neurotoxicity risk factors are present, since thresholds are lower with risk factors",
+    "Calculating a bilirubin:albumin ratio as an adjunct when albumin is available",
+    "Flagging infants where isoimmune haemolytic disease and an escalating bilirubin may warrant IVIG consideration",
+    "Determining follow-up timing for infants who remain below the phototherapy threshold"
+  ],
+  "method": "The tool loads gestational-age- and risk-factor-stratified phototherapy and exchange-transfusion threshold tables (bundled as app data, per the AAP 2022 guideline) and looks up the threshold TSB value for the infant's exact age in hours. Risk-factor-positive infants (the app tracks factors including low albumin, isoimmune haemolytic disease, G6PD deficiency, sepsis, and clinical instability) are matched against the lower, risk-adjusted threshold curve. The entered TSB is then classified against three cut points: at or above the exchange-transfusion threshold triggers 'Exchange Transfusion Threshold Reached'; within 2 mg/dL below that threshold triggers 'Escalation of Care Required'; at or above the phototherapy threshold triggers 'Phototherapy Recommended'; otherwise the result is 'Below Phototherapy Threshold'. The app explicitly instructs using TSB (not TcB) for all treatment decisions and never subtracting direct/conjugated bilirubin from TSB.",
+  "guidelineRefs": ["AAP 2022"],
+  "faqs": [
+    { "q": "What gestational ages does this AAP 2022 calculator cover?", "a": "It's built for infants born at 35 or more weeks' gestation; the app provides a separate NICE CG98-based calculator for infants born below 35 weeks." },
+    { "q": "Should I use total serum bilirubin (TSB) or transcutaneous bilirubin (TcB)?", "a": "The app explicitly states to use TSB, not TcB, for all treatment decisions." },
+    { "q": "What does 'escalation of care required' mean in the result?", "a": "It flags a TSB within 2 mg/dL of the exchange-transfusion threshold. The app's guidance is to escalate to intensive phototherapy plus IV hydration, obtain STAT labs, and consult a neonatologist about NICU transfer." },
+    { "q": "Can I subtract direct (conjugated) bilirubin from the TSB before entering it?", "a": "No — the app's own guidance states you should NOT subtract direct bilirubin from TSB when using these thresholds." },
+    { "q": "Why does the calculator ask about risk factors?", "a": "Presence of neurotoxicity risk factors shifts the infant onto a lower, more conservative threshold curve, since the AAP 2022 guideline recommends treating at lower TSB levels when these risk factors are present." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/jaundice_hub_screen.dart", "lib/screens/calculators/bilirubin_calculator.dart"]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "emergency-icu-drugs-reference",
+  "intro": "The Emergency ICU Drugs guide is a bedside reference covering bolus emergency medications and continuous vasoactive infusions used in paediatric resuscitation, arrhythmia, electrolyte emergencies, and shock, as described in the app's own subtitle for this screen. It organizes drugs into two tables: emergency bolus/IV push drugs (e.g., for cardiac arrest, symptomatic bradycardia, anaphylaxis, SVT, VT/VF, hypocalcaemia, hyperkalaemia, hypoglycaemia, torsades de pointes, opioid overdose, and metabolic acidosis) and vasoactive medications (inotropes, vasopressors, inodilators, and vasodilators) with dilution and infusion-rate guidance. The screen also links out to a companion weight-based PICU drug dose calculator for bedside calculation.",
+  "indications": [
+    "Rapid lookup during cardiopulmonary resuscitation or peri-arrest arrhythmia management",
+    "Selecting an appropriate bolus drug for a specific emergency indication (e.g., anaphylaxis, symptomatic bradycardia, SVT)",
+    "Choosing and titrating a vasoactive infusion (inotrope, vasopressor, inodilator, or vasodilator) in shock states",
+    "Reviewing dilution recipes and bedside infusion-rate conversions for continuous drips",
+    "Understanding staged escalation of vasoactive support during evolving shock",
+    "Cross-referencing to a weight-based calculator for individualized bolus and infusion dosing"
+  ],
+  "method": "The guide is a categorized quick-reference rather than a single formula. Bolus/emergency drugs are listed with their indication, dose, maximum dose, and administration notes; the vasoactive medication table adds a standard dilution recipe and the resulting infusion rate equivalence (e.g., what 1 mL/hr delivers) for each agent. A separate 'therapy phases' note frames vasoactive escalation across four time-anchored phases of shock management, from initial stabilisation through second- and third-line inotropic/vasopressor support. Specific numeric doses are intentionally not reproduced on this page — consult the in-app reference or the linked calculator for current figures.",
+  "guidelineRefs": [],
+  "faqs": [
+    {
+      "q": "What is covered in the Emergency ICU Drugs reference?",
+      "a": "It covers two tables: bolus emergency drugs (for arrest, arrhythmia, electrolyte emergencies, and similar indications) and continuous vasoactive infusions (inotropes, vasopressors, inodilators, vasodilators), each with dosing, dilution, and infusion-rate information inside the app."
+    },
+    {
+      "q": "Does the app calculate the actual dose for my patient?",
+      "a": "The guide screen is a reference table; the app also links to a separate weight-based PICU drugs calculator from the same screen for bolus and infusion dose calculation."
+    },
+    {
+      "q": "What drug categories are included among the vasoactive medications?",
+      "a": "The vasoactive table spans inotropes, vasopressors, inodilators, and vasodilators, including agents such as dopamine, dobutamine, epinephrine, norepinephrine, vasopressin, milrinone, levosimendan, sodium nitroprusside, and nitroglycerine."
+    },
+    {
+      "q": "Is this a substitute for my hospital's resuscitation protocol?",
+      "a": "No. The screen states it is for use by qualified clinicians only and is intended as a bedside reference, not a replacement for institutional protocols or clinical judgement."
+    }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/emergency_icu_drugs_screen.dart"]
+}

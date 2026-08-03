@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Schwartz eGFR Calculator | PediAid</title>
+<meta name="description" content="The Schwartz eGFR Calculator estimates glomerular filtration rate in infants and children from height and serum creatinine using the Bedside Schwartz…" />
+<link rel="canonical" href="https://info.pediaid.bridgr.co.in/tools/schwartz-egfr-calculator/" />
+<meta name="theme-color" content="#1e3a5f" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Schwartz eGFR Calculator | PediAid" />
+<meta property="og:description" content="The Schwartz eGFR Calculator estimates glomerular filtration rate in infants and children from height and serum creatinine using the Bedside Schwartz…" />
+<meta property="og:url" content="https://info.pediaid.bridgr.co.in/tools/schwartz-egfr-calculator/" />
+<meta property="og:site_name" content="PediAid" />
+<meta property="og:image" content="https://info.pediaid.bridgr.co.in/assets/pediaid-logo.png" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Schwartz eGFR Calculator | PediAid" />
+<meta name="twitter:description" content="The Schwartz eGFR Calculator estimates glomerular filtration rate in infants and children from height and serum creatinine using the Bedside Schwartz…" />
+<meta name="twitter:image" content="https://info.pediaid.bridgr.co.in/assets/pediaid-logo.png" />
+
+<link rel="icon" type="image/png" href="../../assets/pediaid-logo.png"/>
+<link rel="apple-touch-icon" href="../../assets/pediaid-logo.png" />
+<link rel="stylesheet" href="../../assets/tools.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://info.pediaid.bridgr.co.in/tools/schwartz-egfr-calculator/#webpage",
+      "url": "https://info.pediaid.bridgr.co.in/tools/schwartz-egfr-calculator/",
+      "name": "Schwartz eGFR Calculator | PediAid",
+      "description": "The Schwartz eGFR Calculator estimates glomerular filtration rate in infants and children from height and serum creatinine using the Bedside Schwartz equation, then stages the result into KDIGO 2024 chronic kidney disease categories (G1 through G5).",
+      "inLanguage": "en",
+      "about": {
+        "@type": "MedicalEntity",
+        "name": "Schwartz eGFR Calculator"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "PediAid",
+        "url": "https://pediaid.bridgr.co.in"
+      },
+      "lastReviewed": "2026-08-03"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "PediAid — Schwartz eGFR Calculator",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Web, Android, iOS",
+      "url": "https://pediaid.bridgr.co.in/#schwartz-egfr-calculator",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://info.pediaid.bridgr.co.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://info.pediaid.bridgr.co.in/#tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Schwartz eGFR Calculator",
+          "item": "https://info.pediaid.bridgr.co.in/tools/schwartz-egfr-calculator/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What formula does this calculator use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Bedside Schwartz equation: eGFR = 0.413 × height(cm) ÷ serum creatinine(mg/dL)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can this formula be used in adults?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No — the app's disclaimer states the Bedside Schwartz equation (k=0.413) is 'validated for paediatric patients only... Not for use in adults.'"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What CKD staging system does it use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KDIGO 2024, shown as a G1–G5 table from ≥90 mL/min/1.73m² (Normal or high) down to under 15 (Kidney failure)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What did KDIGO 2024 change for pediatric eGFR interpretation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Per the app's note, an eGFR under 90 mL/min/1.73m² can now be flagged as 'low' in children and adolescents, since young people should maintain excellent kidney function — this applies even without structural kidney damage markers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What inputs does the calculator require?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Height (30–200 cm) and serum creatinine (0.1–20 mg/dL); age is recorded for the result display, though the bedside formula itself uses a single constant (k=0.413) across all ages."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav class="nav glass">
+  <a class="brand" href="../../index.html">
+    <span class="brand-logo" aria-hidden="true"><img src="../../assets/pediaid-logo.png" alt="PediAid" /></span>
+    PediAid
+  </a>
+  <div class="nav-spacer"></div>
+  <div class="nav-links">
+    <a href="../../index.html#features">Features</a>
+    <a href="../../index.html#tools">Tools</a>
+    <a href="../../index.html#download">Get the app</a>
+  </div>
+  <a class="nav-cta" href="https://pediaid.bridgr.co.in" target="_blank" rel="noopener">Open web app &rarr;</a>
+</nav>
+
+<div class="wrap">
+  <div class="breadcrumb">
+    <a href="../../index.html">Home</a><span class="sep">/</span>
+    <a href="../../index.html#tools">Tools</a><span class="sep">/</span>
+    <span class="current">Schwartz eGFR Calculator</span>
+  </div>
+</div>
+
+<section class="tool-hero">
+  <div class="wrap narrow">
+    <span class="eyebrow"><span class="dot"></span> Calculators &amp; Tools</span>
+    <h1>Schwartz eGFR Calculator</h1>
+    <p class="lead">Creatinine Clearance</p>
+    <div class="tool-hero-ctas">
+      <a class="btn btn-primary" href="https://pediaid.bridgr.co.in/#schwartz-egfr-calculator" target="_blank" rel="noopener">Open in PediAid &rarr;</a>
+      <a class="btn btn-ghost" href="../../index.html#tools">&larr; All tools</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap narrow">
+
+    <div class="content-card glass">
+      <h2><span class="num">1</span> What is the Schwartz eGFR Calculator?</h2>
+      <p>The Schwartz eGFR Calculator estimates glomerular filtration rate in infants and children from height and serum creatinine using the Bedside Schwartz equation, then stages the result into KDIGO 2024 chronic kidney disease categories (G1 through G5).</p>
+    </div>
+
+    <div class="content-card glass">
+      <h2><span class="num">2</span> When to use it</h2>
+      <ul class="plain">
+        <li>Estimating GFR at the bedside in an infant or child from height and serum creatinine alone</li>
+        <li>Staging pediatric chronic kidney disease severity using KDIGO G1–G5 categories</li>
+        <li>Monitoring trends in kidney function for a child with known or suspected renal impairment</li>
+        <li>Flagging children and adolescents with eGFR below 90 mL/min/1.73m² for attention, per the app&#x27;s KDIGO 2024 pediatric note, even without other markers of kidney damage</li>
+      </ul>
+    </div>
+
+    <div class="content-card glass">
+      <h2><span class="num">3</span> Formula &amp; method</h2>
+      <div class="callout formula">eGFR = 0.413 × Height(cm) / SCr(mg/dL) — the Bedside Schwartz equation, using a fixed k constant of 0.413 for all ages, as stated in the app. Results are staged per the app&#x27;s KDIGO 2024 table: G1 ≥90 mL/min/1.73m² (Normal or high); G2 60–89 (Mildly decreased); G3a 45–59 (Mildly to moderately decreased); G3b 30–44 (Moderately to severely decreased); G4 15–29 (Severely decreased); G5 under 15 (Kidney failure). The app notes that, absent other markers of kidney damage, G1 and G2 do not by themselves fulfil the criteria for CKD.</div>
+      <ul class="callout-refs">
+        <li>KDIGO 2024</li>
+      </ul>
+    </div>
+
+    <div class="content-card glass">
+      <h2><span class="num">4</span> Frequently asked questions</h2>
+      <div class="faq-item">
+        <h3>What formula does this calculator use?</h3>
+        <p>The Bedside Schwartz equation: eGFR = 0.413 × height(cm) ÷ serum creatinine(mg/dL).</p>
+      </div>
+      <div class="faq-item">
+        <h3>Can this formula be used in adults?</h3>
+        <p>No — the app&#x27;s disclaimer states the Bedside Schwartz equation (k=0.413) is &#x27;validated for paediatric patients only... Not for use in adults.&#x27;</p>
+      </div>
+      <div class="faq-item">
+        <h3>What CKD staging system does it use?</h3>
+        <p>KDIGO 2024, shown as a G1–G5 table from ≥90 mL/min/1.73m² (Normal or high) down to under 15 (Kidney failure).</p>
+      </div>
+      <div class="faq-item">
+        <h3>What did KDIGO 2024 change for pediatric eGFR interpretation?</h3>
+        <p>Per the app&#x27;s note, an eGFR under 90 mL/min/1.73m² can now be flagged as &#x27;low&#x27; in children and adolescents, since young people should maintain excellent kidney function — this applies even without structural kidney damage markers.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What inputs does the calculator require?</h3>
+        <p>Height (30–200 cm) and serum creatinine (0.1–20 mg/dL); age is recorded for the result display, though the bedside formula itself uses a single constant (k=0.413) across all ages.</p>
+      </div>
+    </div>
+
+    <div class="content-card glass">
+      <h2><span class="num">5</span> Related tools</h2>
+      <div class="related-grid">
+        <a class="related-tool" href="../gestational-age-edd-calculator/">
+          <h4>Gestational Age &amp; EDD Calculator</h4>
+          <p>EDD, GA &amp; Antenatal Dates</p>
+        </a>
+        <a class="related-tool" href="../ponderal-index-calculator/">
+          <h4>Ponderal Index Calculator</h4>
+          <p>IUGR &amp; Nutritional Status</p>
+        </a>
+        <a class="related-tool" href="../bsa-calculator-pediatric/">
+          <h4>Pediatric BSA Calculator</h4>
+          <p>Mosteller Formula</p>
+        </a>
+        <a class="related-tool" href="../nutritional-audit-calculator/">
+          <h4>Nutritional Audit Calculator</h4>
+          <p>ESPGHAN 2022</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="disclaimer">
+      <strong>For qualified clinicians.</strong> This page and the PediAid app are a clinical
+      aid only. Calculations and reference data must be verified against the patient's
+      clinical context, the source guideline and your local protocols before any
+      treatment decision is made.
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-row glass">
+      <div>
+        <strong style="color:var(--navy);">PediAid</strong> &middot; Paediatric &amp; Neonatal Clinical Reference
+        <div class="muted" style="margin-top:2px;">&copy; 2026 PediAid. All rights reserved.</div>
+      </div>
+      <div>
+        <a href="https://pediaid.bridgr.co.in" target="_blank" rel="noopener">Open the app</a>
+        <a href="../../privacy.html">Privacy</a>
+        <a href="mailto:mulgundsunil@gmail.com">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "slug": "dextrose-bolus-calculator-hypoglycemia",
+  "intro": "The Neonatal Hypoglycemia Dextrose Bolus Calculator provides weight-based dosing for treating hypoglycaemia, covering IV dextrose boluses at three concentrations, a maintenance glucose infusion rate, an intramuscular/subcutaneous rescue option for when there is no IV access, and second-line adjuncts for persistent hypoglycaemia. All bolus options are calculated to deliver the same 0.5 g/kg dextrose dose regardless of concentration used. The tool also flags the critical laboratory sample that should be drawn while the patient is still hypoglycaemic.",
+  "indications": [
+    "Dosing an emergency IV dextrose bolus for a hypoglycaemic neonate or infant, choosing the appropriate concentration for peripheral versus central access",
+    "Calculating a maintenance glucose infusion rate (6–8 mg/kg/min) after initial bolus correction",
+    "Managing hypoglycaemia when no IV access is available, using intramuscular or subcutaneous glucagon and adrenaline as a bridge",
+    "Escalating to diazoxide or octreotide when glucose requirements exceed 10 mg/kg/min, suggesting hyperinsulinism",
+    "Ensuring critical diagnostic labs are drawn before or during treatment so the cause of persistent hypoglycaemia is not missed"
+  ],
+  "method": "Three interchangeable bolus options, each delivering 0.5 g/kg dextrose: '5 mL/kg of 10% dextrose intravenous bolus = 0.5 g/kg dextrose. Safe through a peripheral intravenous line'; '2 mL/kg of 25% dextrose = 0.5 g/kg dextrose. Sclerosing — central venous line only'; and '1 mL/kg of 50% dextrose = 0.5 g/kg dextrose. Sclerosing — central venous line only.' Maintenance: 'Glucose infusion rate 6–8 mg/kg/min of 10% dextrose.' Without IV access: 'Glucagon 0.003 mg/kg + Adrenaline (epinephrine) 0.01 mg/kg intramuscular or subcutaneous.' For requirements above 10 mg/kg/min: 'Diazoxide 3–8 mg/kg/day orally, divided every 12 h' or 'Octreotide 10 mcg/kg intravenous or subcutaneous every 8 h.'",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "What is the standard IV dextrose bolus dose for hypoglycaemia?", "a": "The app calculates 5 mL/kg of 10% dextrose (equal to 0.5 g/kg), noted as safe through a peripheral IV line; equivalent 25% (2 mL/kg) and 50% (1 mL/kg) options are also given for central-line use." },
+    { "q": "What is the maintenance glucose infusion rate after the initial bolus?", "a": "The app targets a glucose infusion rate of 6–8 mg/kg/min of 10% dextrose, and points to the app's separate Glucose Infusion Rate (GIR) Calculator for two-stock mixing." },
+    { "q": "What can be given if there is no IV access?", "a": "The app calculates glucagon 0.003 mg/kg plus adrenaline (epinephrine) 0.01 mg/kg, given intramuscularly or subcutaneously as a bridge until IV access is obtained." },
+    { "q": "What labs should be drawn before treating hypoglycaemia?", "a": "The app specifies a 'critical sample' while the patient is still hypoglycaemic: insulin, C-peptide, cortisol, growth hormone, free fatty acids, lactate, beta-hydroxybutyrate, ammonia, LFTs, urine glucose and ketones, plasma amino acids, acylcarnitine profile, and IGF-1." },
+    { "q": "When are diazoxide or octreotide used?", "a": "The app calculates these as adjuncts when the glucose requirement exceeds 10 mg/kg/min, suggesting hyperinsulinism — diazoxide 3–8 mg/kg/day divided every 12 hours, or octreotide 10 mcg/kg IV or subcutaneously every 8 hours." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/calculators/dextrose_bolus_calculator.dart"
+  ]
+}

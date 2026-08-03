@@ -1,0 +1,27 @@
+{
+  "slug": "acute-severe-asthma-management",
+  "intro": "Acute Severe Asthma Management is an in-app clinical reference guide for status asthmaticus in children, covering the first-line drug trio and escalation therapies. It organizes treatment into three core medication classes — β2 agonists, anticholinergic agents, and corticosteroids — plus a set of escalation medications for refractory cases. The guide also includes clinical pearls on severity assessment, IV magnesium as a preferred first escalation step, and indications for intubation. Per the source, the research-based context in these pearls draws on the GINA 2023 Global Strategy for Asthma Management, the BTS/SIGN British Asthma Guideline 2019, and AAP Section on Pulmonology consensus.",
+  "indications": [
+    "Guiding first-line drug selection (β2 agonist, anticholinergic, corticosteroid) for a child in acute severe asthma / status asthmaticus",
+    "Assessing severity using criteria such as ability to speak, respiratory rate, heart rate, oxygen saturation, and peak flow",
+    "Selecting an escalation agent when first-line therapy is insufficient",
+    "Deciding when a child in status asthmaticus needs intubation and planning a rapid sequence induction approach",
+    "Reviewing dosing and administration notes for each medication class at the bedside"
+  ],
+  "method": "The guide presents medications grouped into three core classes — β2 agonist, anticholinergic agents, and corticosteroids — each with its own dosing and frequency notes, followed by an \"Other medications\" escalation section (magnesium, theophylline, ketamine, vecuronium). It is a structured reference rather than a calculator: there is no computed score, only a fixed set of medication and severity-assessment information transcribed from the source guide, supplemented with labelled \"research add-on\" clinical pearls.",
+  "guidelineRefs": [
+    "GINA 2023",
+    "BTS/SIGN British Asthma Guideline 2019",
+    "AAP Section on Pulmonology consensus"
+  ],
+  "faqs": [
+    { "q": "What three drug classes make up first-line therapy in this guide?", "a": "β2 agonists, anticholinergic agents, and corticosteroids, presented under the guide's \"Medications\" section." },
+    { "q": "What escalation medications are listed for refractory status asthmaticus?", "a": "Magnesium, theophylline, ketamine, and vecuronium are listed under \"Other medications.\"" },
+    { "q": "What severity criteria does the guide reference?", "a": "A GINA 2023-sourced pearl lists criteria including inability to speak in full sentences, respiratory rate over 30/min with accessory muscle use, heart rate over 120/min, SpO2 under 90% on room air, and PEF at or below 50% of predicted/personal best." },
+    { "q": "What is the guide's preferred escalation step after standard therapy fails?", "a": "A clinical pearl in the guide identifies IV magnesium as the preferred escalation after about one hour of standard therapy without improvement." },
+    { "q": "What guidelines inform the research add-on pearls in this guide?", "a": "The source cites the GINA Global Strategy for Asthma Management 2023, the BTS/SIGN British Asthma Guideline 2019, and AAP Section on Pulmonology consensus." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/guides/acute_severe_asthma_screen.dart"
+  ]
+}

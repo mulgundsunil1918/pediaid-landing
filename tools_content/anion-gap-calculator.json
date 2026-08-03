@@ -1,0 +1,27 @@
+{
+  "slug": "anion-gap-calculator",
+  "intro": "The Anion Gap Calculator computes the serum anion gap from sodium, bicarbonate, and chloride using AG = Na⁺ − (HCO₃⁻ + Cl⁻). The app's own reference card cites a normal anion gap of 10–12 mEq/L, while noting many labs use a wider 8–16 mEq/L range. It then bands the result into low, normal, mild-high, and high categories, each linked to a differential diagnosis to guide the work-up of metabolic acidosis.",
+  "indications": [
+    "Working up a patient with metabolic acidosis (low serum bicarbonate) to distinguish high-anion-gap from normal-anion-gap causes",
+    "Screening for toxic ingestions (e.g. salicylates, methanol, ethylene glycol) when a high anion gap is unexplained",
+    "Evaluating suspected diabetic ketoacidosis or other ketoacidosis states",
+    "Assessing unexplained acidosis in a critically ill or dehydrated child",
+    "Distinguishing renal tubular acidosis and GI bicarbonate loss (normal-gap picture) from high-gap processes",
+    "Deciding whether the anion gap should be corrected for albumin, since hypoalbuminaemia is flagged as the most common cause of a low anion gap"
+  ],
+  "method": "AG = Na⁺ − (HCO₃⁻ + Cl⁻), as shown on the app's result card. The header reference states a normal range of 10–12 mEq/L (noting many labs use 8–16 mEq/L). The app bands the computed result as: below 8 mEq/L (low), 8–12 mEq/L (normal), 12–20 mEq/L (mild high), and above 20 mEq/L (high) — the last labelled a significant high-anion-gap metabolic acidosis and linked to the MUDPILES differential (methanol, uraemia, DKA/other ketoacidosis, paracetamol/propylene glycol, iron/INH, lactic acidosis, ethylene glycol, salicylates).",
+  "guidelineRefs": [
+    "Harriet Lane 23rd ed.",
+    "Nelson 21st ed."
+  ],
+  "faqs": [
+    { "q": "What formula does the Anion Gap Calculator use?", "a": "It calculates AG = Na⁺ − (HCO₃⁻ + Cl⁻) from serum sodium, bicarbonate, and chloride, per the app's result card." },
+    { "q": "What is considered a normal anion gap in this tool?", "a": "The app's reference card lists a normal anion gap of 10–12 mEq/L, while noting many labs use a wider 8–16 mEq/L range; its own interpretation bands treat 8–12 mEq/L as normal." },
+    { "q": "What causes a high anion gap?", "a": "The app flags anion gaps above 20 mEq/L as a significant high-anion-gap metabolic acidosis and lists the MUDPILES mnemonic (methanol, uraemia, DKA/ketoacidosis, paracetamol/propylene glycol, iron/INH, lactic acidosis, ethylene glycol, salicylates) as the differential." },
+    { "q": "What causes a low anion gap?", "a": "The tool lists hypoalbuminaemia as the most common cause, along with bromism, lithium toxicity, hypercalcaemia, and multiple myeloma, and recommends correcting the AG for albumin when albumin is low." },
+    { "q": "Where do the interpretation bands come from?", "a": "The app states its interpretation bands are drawn from the Harriet Lane Handbook (23rd edition) and Nelson Textbook of Pediatrics (21st edition)." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/calculators/anion_gap_calculator.dart"
+  ]
+}

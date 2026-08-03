@@ -1,0 +1,36 @@
+{
+  "slug": "never-again-clinical-lessons",
+  "intro": "Never Again is PediAid's anonymous peer-learning feature: clinicians share real clinical mistakes so others can learn from them without repeating them. Posts are organised into 30 paediatric topic categories — the original nine (Neonatology, Fluids & Electrolytes, Jaundice, Sepsis & Infection, Medications & Dosing, Procedures, Resuscitation, Nutrition) plus 21 added subspecialty and cross-cutting categories — and every submission goes through moderation before it appears in the public feed. The feature is currently in preview: per its own banner, 'anonymous peer-learning posts, moderation flow and the 30-topic taxonomy are still being polished,' and users are asked not to treat any post as authoritative until the moderation pipeline is signed off.",
+  "indications": [
+    "Reading anonymised accounts of real clinical near-misses and errors within a specific paediatric subspecialty or topic.",
+    "Reflecting on 'what went wrong' and 'the lesson' from a peer's documented mistake before encountering a similar scenario.",
+    "Sharing one's own clinical mistake anonymously so colleagues can learn from it.",
+    "Filtering the feed by category, from Neonatology and Sepsis & Infection to Toxicology and Child Protection / NAI.",
+    "Reacting to a post that resonates with your own experience, or flagging a post that seems inappropriate."
+  ],
+  "method": "Submitting a post opens a form asking for a required Category, an optional Role (Resident, Fellow, Senior Resident, Consultant, Nurse, Other, or Prefer not to say), three free-text fields — 'What happened?', 'What went wrong?', and 'The lesson' (each up to 500 characters) — and an optional contact email that is 'never shown publicly or to other users — only visible to admins, and only if a revision is needed before publishing.' Before submitting, the author must check a box confirming the post 'contains no patient identifiers, no staff names, and no hospital names.' Every post then enters moderation: it appears in the public feed once approved, and the author can track its status in 'My Submissions' as Under review, Live, Needs changes, or Not approved. Published posts stay anonymous, expand to reveal the full account, and carry a heart-shaped 'resonate' reaction count plus a flag button for reporting.",
+  "guidelineRefs": [],
+  "faqs": [
+    {
+      "q": "Is Never Again fully anonymous?",
+      "a": "Yes — per the submission form's own text, 'Your post is fully anonymous. No identifying information is stored.'"
+    },
+    {
+      "q": "What happens after I submit a post?",
+      "a": "It enters moderation. In the app's words, 'it'll appear once a moderator approves it,' and you can track its status — Under review, Live, Needs changes, or Not approved — in My Submissions."
+    },
+    {
+      "q": "What categories can I post under?",
+      "a": "30 topics spanning the original nine (Neonatology, Fluids & Electrolytes, Jaundice, Sepsis & Infection, Medications & Dosing, Procedures, Resuscitation, Nutrition) plus 21 added subspecialty and cross-cutting categories."
+    },
+    {
+      "q": "Should I treat posts as clinically authoritative?",
+      "a": "No — the module is explicitly labelled 'in preview,' and the app asks users not to treat any post as authoritative until the moderation pipeline is signed off."
+    },
+    {
+      "q": "Can I include patient or hospital details in my post?",
+      "a": "No — before submitting, you must confirm the post 'contains no patient identifiers, no staff names, and no hospital names.'"
+    }
+  ],
+  "sourceFilesRead": ["lib/screens/never_again/never_again_screen.dart"]
+}

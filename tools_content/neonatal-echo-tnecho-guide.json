@@ -1,0 +1,20 @@
+{
+  "slug": "neonatal-echo-tnecho-guide",
+  "intro": "Targeted Neonatal Echocardiography (TnECHO) is bedside cardiac ultrasound used by neonatologists to directly assess hemodynamics — shunt flow, contractility, and pulmonary pressures — rather than relying on indirect clinical signs alone. PediAid links to NeoCardioLab's dedicated TnECHO and neonatal hemodynamics reference for clinicians who want to go deeper than the app's own in-app echo measurement tool.",
+  "indications": [
+    "Assessing a patent ductus arteriosus (PDA) and its hemodynamic significance",
+    "Evaluating suspected persistent pulmonary hypertension of the newborn (PPHN)",
+    "Assessing myocardial contractility and systemic blood flow in a hypotensive or unstable neonate",
+    "Learning the TnECHO approach as a trainee alongside PediAid's own in-app neonatal echo measurement tool"
+  ],
+  "method": "This entry links out to NeoCardioLab's TnECHO and neonatal hemodynamics educational resource rather than duplicating it in-app. For structured measurement entry, PediAid's own Neonatal Echo tool (23 measurements with cine reference) is a separate, in-app screen.",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "Is this the same as PediAid's in-app Neonatal Echo tool?", "a": "No — PediAid has a separate, in-app Neonatal Echo screen for structured measurement entry. This entry links out to NeoCardioLab's dedicated TnECHO educational resource for deeper reading on hemodynamic assessment." },
+    { "q": "What is TnECHO?", "a": "Targeted Neonatal Echocardiography — bedside cardiac ultrasound performed by neonatologists to directly assess PDA shunting, contractility, and pulmonary pressures in real time, rather than inferring them from clinical signs alone." },
+    { "q": "Who typically uses TnECHO?", "a": "Neonatologists and trainees managing hemodynamically unstable newborns, particularly around PDA and PPHN assessment." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/home/app_search_delegate.dart (external launchUrl entry — no dedicated in-app screen for this specific entry)"
+  ]
+}

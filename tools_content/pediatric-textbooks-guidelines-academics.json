@@ -1,0 +1,35 @@
+{
+  "slug": "pediatric-textbooks-guidelines-academics",
+  "intro": "PediAid Academics is a web-based platform — 'Peer-reviewed content, contributor platform, CME events & more,' per its own in-app description — loaded inside the app through an embedded WebView rather than a native screen. The Flutter shell points the WebView at the Academics web platform, adds a reload button and loading-progress bar, and forces a single-column layout so pages render consistently on mobile. A path parameter such as '/academics/nelson' deep-links directly to a specific section of the platform, echoing Nelson Textbook chapter content that is also browsable natively elsewhere in the app.",
+  "indications": [
+    "Reading peer-reviewed pediatric textbook and guideline content inside the app instead of switching to a browser.",
+    "Browsing structured chapter content — the deep-link convention includes paths like '/academics/nelson' for Nelson Textbook content.",
+    "Discovering CME events surfaced through the Academics platform.",
+    "Contributing content through the platform's contributor features, per its own 'contributor platform' description."
+  ],
+  "method": "Academics is implemented as an embedded WebView (flutter_inappwebview) rather than a calculator: the screen loads a URL built from a fixed base plus an optional path, shows a progress bar while loading, and intercepts navigation so the whole experience — including a JavaScript bridge that lets the web content send the user back to the native app home screen — stays inside PediAid.",
+  "guidelineRefs": [],
+  "faqs": [
+    {
+      "q": "What is PediAid Academics?",
+      "a": "A peer-reviewed content and contributor platform reachable from inside the app — described in-app as offering 'Peer-reviewed content, contributor platform, CME events & more.'"
+    },
+    {
+      "q": "Do I leave the PediAid app to use Academics?",
+      "a": "No — it loads inside an embedded in-app WebView, so navigation stays inside the app rather than opening an external browser."
+    },
+    {
+      "q": "Can I jump straight to a specific textbook chapter?",
+      "a": "Yes — the screen accepts a path parameter, such as '/academics/nelson', appended to the Academics base URL to deep-link to a specific section."
+    },
+    {
+      "q": "Does Academics work offline like PediAid's calculators?",
+      "a": "No — it is a live web platform loaded over the network inside the app, unlike the on-device calculators and drug formulary."
+    },
+    {
+      "q": "What if an Academics page fails to load?",
+      "a": "Use the reload button in the app bar to re-fetch the current page inside the WebView."
+    }
+  ],
+  "sourceFilesRead": ["lib/academics/academics_web_screen.dart", "lib/academics/academics_screen.dart"]
+}

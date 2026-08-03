@@ -1,0 +1,19 @@
+{
+  "slug": "bsa-calculator-pediatric",
+  "intro": "The Pediatric BSA Calculator estimates body surface area from weight and height using the Mosteller formula, which the app describes as 'widely used in paediatric and adult clinical practice.' Per the app, BSA is used for dosing chemotherapy, burns assessment, and calculating cardiac index.",
+  "indications": [
+    "Calculating medication doses (e.g. chemotherapy) that are prescribed per m² of body surface area",
+    "Supporting burns surface area assessment",
+    "Calculating cardiac index (cardiac output normalized to body surface area)",
+    "Comparing a patient's BSA against typical reference values across age groups, from preterm neonate to adult"
+  ],
+  "method": "BSA (m²) = √( Height (cm) × Weight (kg) / 3600 ), the Mosteller formula, as shown in the app. The app also provides a reference table of typical BSA by age group: preterm neonate (under 28 weeks) approximately 0.10 m²; term neonate 0.19–0.21 m²; infant (around 1 year) approximately 0.40 m²; child (around 10 years) approximately 1.00 m²; adult 1.70–1.90 m².",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "Which BSA formula does this calculator use?", "a": "The Mosteller formula: BSA (m²) = √(Height(cm) × Weight(kg) / 3600), which the app notes is widely used in both paediatric and adult practice." },
+    { "q": "What is BSA used for clinically?", "a": "Per the app, BSA is used for dosing chemotherapy, assessing burns, and calculating cardiac index." },
+    { "q": "What's a typical BSA for a term newborn versus an adult?", "a": "The app's reference table lists 0.19–0.21 m² for a term neonate versus 1.70–1.90 m² for an adult." },
+    { "q": "What input ranges does the calculator accept?", "a": "Weight between 0.5 and 150 kg, and height between 30 and 200 cm, per the app's input validation." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/bsa_calculator.dart"]
+}

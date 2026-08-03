@@ -1,0 +1,20 @@
+{
+  "slug": "pals-algorithms",
+  "intro": "PediAid's PALS Algorithms screen is described in-app as a way to 'tap any algorithm to open it directly in the PDF viewer' for Pediatric Advanced Life Support. Rather than reimplementing each algorithm as interactive steps, it acts as a table of contents into a bundled PALS reference PDF, jumping straight to the correct page for whichever algorithm is selected.",
+  "indications": [
+    "Quickly opening the correct PALS algorithm page during a pediatric emergency such as cardiac arrest, bradycardia, or tachycardia",
+    "Reviewing the systematic approach or post-arrest care algorithms during training or a case debrief",
+    "Locating the foreign body airway obstruction sequence for a choking infant or child",
+    "Confirming length-based resuscitation guidance mid-code",
+    "Refresher review of shock recognition and post-ROSC management between courses"
+  ],
+  "method": "The screen lists 10 named algorithms, each mapped to a specific page number in a bundled PALS PDF: Pediatric Cardiac Arrest, Bradycardia with Pulse, Tachycardia with Pulse, Septic Shock, Management of Shock After ROSC, Length-Based Resuscitation, PALS Systematic Approach, Post-Cardiac Arrest Care, Child Foreign Body Airway Obstruction, and Infant Foreign Body Airway Obstruction. Tapping an entry opens the PDF viewer directly at that algorithm's page rather than presenting a separate interactive tool.",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "What algorithms are included in PediAid's PALS section?", "a": "Pediatric Cardiac Arrest, Bradycardia with Pulse, Tachycardia with Pulse, Septic Shock, Management of Shock After ROSC, Length-Based Resuscitation, PALS Systematic Approach, Post-Cardiac Arrest Care, Child Foreign Body Airway Obstruction, and Infant Foreign Body Airway Obstruction." },
+    { "q": "Does tapping an algorithm open a separate calculator?", "a": "No -- it opens the bundled PALS algorithm PDF directly at the relevant page through the app's PDF viewer." },
+    { "q": "Is there a foreign body airway obstruction algorithm for infants specifically?", "a": "Yes -- the list includes separate entries for Child Foreign Body Airway Obstruction and Infant Foreign Body Airway Obstruction." },
+    { "q": "Can I jump straight to post-cardiac-arrest care guidance?", "a": "Yes -- 'Post-Cardiac Arrest Care' is a direct entry in the list, opening straight to its page in the PDF." }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/pals/pals_algorithms_screen.dart"]
+}

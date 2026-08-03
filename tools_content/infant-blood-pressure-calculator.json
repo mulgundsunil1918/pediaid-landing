@@ -1,0 +1,21 @@
+{
+  "slug": "infant-blood-pressure-calculator",
+  "intro": "The Infant Blood Pressure Calculator assesses blood pressure in infants aged 1-12 months postnatal age, using two layers: an always-available hypotension screen (systolic BP under 70 mmHg, sourced from PALS) and a full percentile classification (Normal / Elevated / Hypertension) by age in months and sex, digitized from the Second Task Force on Blood Pressure Control in Children (Pediatrics, 1987). The app notes that the AAP 2017 guideline itself defers to this 1987 Task Force reference for infants, since AAP 2017 publishes no infant-specific data of its own.",
+  "indications": [
+    "Screening an infant (1-12 months) for hypotension using the fixed <70 mmHg systolic threshold",
+    "Classifying an infant's systolic and diastolic BP against age- and sex-specific percentiles (50th/90th/95th) to identify elevated BP or hypertension",
+    "Determining which age-appropriate BP reference to use, since this tool is specifically for postnatal age 1-12 months, distinct from the app's neonatal and older-child BP tools",
+    "Supporting serial or trend assessment via the built-in percentile-curve chart across the 1-12 month age range",
+    "Prompting attention to measurement technique — patient state, cuff size — that can affect infant BP readings, per the app's own caveats"
+  ],
+  "method": "Hypotension screen: flags the entered systolic BP as hypotensive if it is below 70 mmHg, the app's stated PALS-sourced infant hypotension floor. Percentile classification: the entered age (months) and sex select a row from digitized Second Task Force 1987 reference data giving 50th/90th/95th percentile systolic and diastolic values; the patient's SBP/DBP is classified as Normal BP (below the 90th percentile), Elevated BP (90th to under 95th percentile), or Hypertension (at or above the 95th percentile), using whichever of systolic or diastolic gives the higher-severity category. The app states the original 1987 values were measured by auscultation/Doppler and were digitized from the published percentile curves (Fig 1 & 2), rather than provided as a pre-existing numeric table.",
+  "guidelineRefs": ["Second Task Force 1987", "AAP 2017", "PALS"],
+  "faqs": [
+    { "q": "Why 1-12 months specifically, and not neonates or older children?", "a": "The app directs postmenstrual age up to about 46 weeks to its Neonatal BP calculator, postnatal age 1-12 months to this Infant BP calculator, and age 1 year and up to its Paediatric BP (AAP 2017) calculator, because each uses a different reference dataset." },
+    { "q": "What's the hypotension threshold used here?", "a": "Systolic BP below 70 mmHg, which the app attributes to Pediatric Advanced Life Support (PALS) as the infant hypotension floor." },
+    { "q": "Where do the percentile values come from, since AAP 2017 doesn't cover infants?", "a": "They come from the Report of the Second Task Force on Blood Pressure Control in Children (Pediatrics, 1987;79(1):1-25), which the app states AAP 2017 itself references for this age band; the values were digitized from the original Figure 1 and 2 percentile curves." },
+    { "q": "Should I worry about a reading that's above 70 mmHg but not yet classified?", "a": "The app cautions that a reading above 70 is not automatically confirmed normal for age — it should still be checked against the percentile classification (50th/90th/95th) rather than relying on the hypotension screen alone." },
+    { "q": "Does measurement technique affect these readings?", "a": "Yes — the app notes the original norms were auscultatory/Doppler-based and may read differently on modern oscillometric monitors, and that infant BP swings with state (crying, feeding, pain, wakefulness), so it recommends measuring calm and supine in the right arm with an appropriately sized cuff." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/infant_bp_calculator.dart", "lib/screens/calculators/infant_bp_1987_data.dart"]
+}

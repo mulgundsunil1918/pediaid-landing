@@ -1,0 +1,24 @@
+{
+  "slug": "potassium-correction-calculator",
+  "intro": "The Potassium Correction Calculator provides weight-based dosing for both hypokalaemia and hyperkalaemia management, toggled by direction. For low potassium, it calculates an IV potassium chloride replacement dose; for high potassium, it calculates the cascade of emergency treatments — calcium, insulin/dextrose, sodium bicarbonate, and kayexalate. The tool also lays out the clinical order in which hyperkalaemia treatments should be given.",
+  "indications": [
+    "Dosing IV potassium chloride replacement for a child with confirmed hypokalaemia",
+    "Calculating emergency hyperkalaemia treatment doses (calcium, insulin/dextrose, bicarbonate, kayexalate) in a child with dangerous potassium elevation",
+    "Guiding the correct sequence of interventions when a hyperkalaemic patient has ECG changes",
+    "Identifying when to hold potassium replacement due to inadequate urine output",
+    "Prompting concurrent magnesium repletion in refractory hypokalaemia",
+    "Supporting further work-up of renal potassium wasting or the underlying cause of hyperkalaemia"
+  ],
+  "method": "For hypokalaemia: 'KCl 0.5 – 1 mEq/kg IV over 1–2 hours. Maximum peripheral concentration: 40 mEq/L. Maximum infusion rate: 0.5 mEq/kg/hr (peripheral) or 1 mEq/kg/hr (central, with cardiac monitoring).' For hyperkalaemia, the app calculates: dextrose 1–2 g/kg with insulin 0.1 U/kg; calcium chloride 10–20 mg/kg (max 500 mg/dose) or calcium gluconate 100 mg/kg (max 2 g/dose); sodium bicarbonate 1–2 mEq/kg; and kayexalate 1–2 g/kg/dose. The app specifies a treatment order: calcium first if ECG changes are present, then insulin/dextrose and/or salbutamol, then sodium bicarbonate if acidotic, then kayexalate/diuretic/dialysis to remove potassium from the body.",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "What is the standard IV potassium replacement dose for hypokalaemia?", "a": "The app calculates KCl 0.5–1 mEq/kg IV given over 1–2 hours, with a maximum peripheral concentration of 40 mEq/L and a maximum infusion rate of 0.5 mEq/kg/hr peripherally (1 mEq/kg/hr centrally with cardiac monitoring)." },
+    { "q": "What is given first in severe hyperkalaemia with ECG changes?", "a": "Per the app's stated order of intervention, calcium is given first when ECG changes such as peaked T waves, widened QRS, or a sine wave pattern are present, because it stabilises the myocardium." },
+    { "q": "What doses does the calculator provide for hyperkalaemia?", "a": "It calculates dextrose 1–2 g/kg with insulin 0.1 U/kg, calcium chloride 10–20 mg/kg (or calcium gluconate 100 mg/kg), sodium bicarbonate 1–2 mEq/kg, and kayexalate 1–2 g/kg/dose." },
+    { "q": "Why does the app recommend checking magnesium during potassium replacement?", "a": "It notes that concomitant magnesium replacement is essential because refractory hypokalaemia is often caused by underlying hypomagnesaemia." },
+    { "q": "When should potassium replacement be held?", "a": "The app advises holding replacement if urine output is below 0.5 mL/kg/hr." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/calculators/potassium_correction_calculator.dart"
+  ]
+}

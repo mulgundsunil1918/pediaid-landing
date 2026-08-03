@@ -1,0 +1,23 @@
+{
+  "slug": "iap-growth-charts",
+  "intro": "The IAP Growth Chart 2015 screen displays the Indian Academy of Pediatrics' revised growth charts for children aged 5–18 years inside an embedded interactive chart view. It is intended as the Indian-population-specific complement to the WHO standards used for children under 5, and the embedded chart itself notes that children under 5 should use the WHO standards instead. The chart is rendered from a bundled HTML asset with its own percentile plotting and citation.",
+  "indications": [
+    "Plotting growth (e.g. height, weight) for Indian children and adolescents aged 5–18 years",
+    "Using population-specific centiles rather than WHO international standards for this age group",
+    "Cross-referencing a child's growth against IAP 2015 percentile curves at a clinic visit",
+    "Screening for growth concerns in school-age children and adolescents in an Indian clinical context",
+    "Complementing the app's WHO growth charts once a child ages out of the WHO 0–5-year range"
+  ],
+  "method": "This screen embeds the IAP 2015 growth chart as an interactive HTML/JavaScript chart (loaded from a bundled asset) rather than computing percentiles natively in Dart. The embedded chart explicitly covers ages 5–18 years and displays the citation \"Khadilkar V et al. Revised IAP Growth Charts. Indian Pediatrics 2015;52:47–55,\" with an in-app note that children under 5 years should use WHO standards instead.",
+  "guidelineRefs": [
+    "IAP 2015 — Khadilkar V et al., Indian Pediatrics 2015;52:47–55"
+  ],
+  "faqs": [
+    { "q": "What age range is the IAP 2015 chart for?", "a": "5–18 years, per the app's chart subtitle and the embedded chart's own validation message." },
+    { "q": "What should I use for a child under 5?", "a": "The app's embedded chart explicitly states to use WHO standards for children under 5 years." },
+    { "q": "Who published the IAP 2015 growth charts?", "a": "The app cites Khadilkar V et al., \"Revised IAP Growth Charts,\" Indian Pediatrics 2015;52:47–55." },
+    { "q": "Is this chart specific to an Indian population?", "a": "Yes — it is the Indian Academy of Pediatrics' (IAP) revised chart, distinct from the WHO international standards used elsewhere in the app." },
+    { "q": "How is the chart rendered in the app?", "a": "As an embedded interactive HTML chart bundled with the app, rather than a native Flutter-drawn chart." }
+  ],
+  "sourceFilesRead": ["lib/screens/charts/iap_chart_screen.dart", "assets/iap_growth_chart_2015_edited.html"]
+}

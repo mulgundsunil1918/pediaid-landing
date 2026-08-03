@@ -1,0 +1,25 @@
+{
+  "slug": "can-score-nutrition-assessment",
+  "intro": "The CAN Score (Clinical Assessment of Nutrition) is a bedside physical-examination tool for grading a newborn's nutritional status at birth, independent of birth weight. It scores nine physical parameters — hair, cheeks, neck & chin, arms, legs, back, buttocks, chest, and abdomen — each from 1 (severe malnutrition) to 4 (normal), for a total ranging from 9 to 36. A total score of 25 or higher is classified as normal nutritional status, while a score below 25 indicates fetal malnutrition. The method is based on Metcoff's 1994 approach to detecting nutritional deficits in infants who may otherwise look appropriately grown for gestational age.",
+  "indications": [
+    "Assessing a newborn's nutritional status at birth as part of the routine neonatal examination",
+    "Identifying fetal malnutrition in infants who are appropriate-for-gestational-age but may have hidden nutritional deficits",
+    "Distinguishing true malnutrition from low birth weight that is constitutional or due to prematurity alone",
+    "Supplementing anthropometric measures (weight, length, head circumference) with a physical-exam-based nutrition score",
+    "Guiding early decisions about nutritional support and follow-up for at-risk newborns"
+  ],
+  "method": "Nine parameters, each scored 1–4 (1 = Severe malnutrition, 2 = Moderate, 3 = Mild/Borderline, 4 = Normal), for a total score range of 9–36. A score ≥ 25 indicates normal nutritional status; a score < 25 indicates fetal malnutrition is present. The parameters — hair, cheeks, neck & chin, arms, legs, back, buttocks, chest, and abdomen — are assessed for physical signs of fat and muscle wasting, and the assessment is independent of birth weight.",
+  "guidelineRefs": [
+    "Metcoff 1994"
+  ],
+  "faqs": [
+    { "q": "What does the CAN score assess?", "a": "It assesses a newborn's nutritional status at birth by scoring nine physical signs of fat and muscle wasting — hair, cheeks, neck & chin, arms, legs, back, buttocks, chest, and abdomen." },
+    { "q": "What is a normal CAN score?", "a": "A total score of 25 or higher out of 36 is classified as normal nutritional status; a score below 25 indicates fetal malnutrition is present." },
+    { "q": "What parameters make up the CAN score?", "a": "Nine physical parameters: hair, cheeks, neck & chin, arms, legs, back, buttocks, chest, and abdomen, each scored from 1 (severe malnutrition) to 4 (normal)." },
+    { "q": "Can a baby have a normal birth weight but still score low on the CAN score?", "a": "Yes — the tool notes that fetal malnutrition may be present even when birth weight is appropriate for gestational age, since the assessment is independent of birth weight." },
+    { "q": "Who developed the CAN score?", "a": "The method is credited in-app to Metcoff (1994), published in Pediatric Clinics of North America." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/guides/can_score_screen.dart"
+  ]
+}

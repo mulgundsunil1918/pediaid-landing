@@ -1,0 +1,36 @@
+{
+  "slug": "pediatric-cme-webinars",
+  "intro": "CME & Webinars is a backend-backed events browser for pediatric conferences, webinars, workshops, and courses, replacing what its own code comments describe as 'the old hardcoded PEDICON and NeoUpdate static cards.' Events are fetched from the app's API and split into tabs by type, and signed-in users get an additional 'My posts' tab to track events they've submitted for community review.",
+  "indications": [
+    "Browsing upcoming pediatric conferences, webinars, workshops, and courses in one place.",
+    "Filtering events by type using the Conferences / Webinars / Workshops / Courses tabs.",
+    "Opening an event's detail screen before deciding whether to register.",
+    "Sharing a CME, webinar, workshop, or conference with the PediAid community by posting it (signed-in users).",
+    "Tracking the review status of a self-submitted event in the 'My posts' tab."
+  ],
+  "method": "Events are fetched from the app's events API and filtered client-side into four public tabs by event type. A floating 'Post event' button, visible when signed in, opens a submission screen; every submitted event is reviewed before going live, and its status is shown as a badge — Published, Pending review, Needs changes, Rejected, or Cancelled — in the 'My posts' tab. If the backend can't be reached, the screen falls back to showing sample events with a banner: 'Showing sample events — live listings will load once the server is back online.'",
+  "guidelineRefs": [],
+  "faqs": [
+    {
+      "q": "What event types does CME & Webinars list?",
+      "a": "Four, shown as tabs: Conferences, Webinars, Workshops, and Courses."
+    },
+    {
+      "q": "Can I submit my own CME event?",
+      "a": "Yes — signed-in users can tap 'Post event' to share a conference, webinar, workshop, or course with the community."
+    },
+    {
+      "q": "How do I check if my submitted event was approved?",
+      "a": "Open the 'My posts' tab, which shows a status badge: Published, Pending review, Needs changes, Rejected, or Cancelled."
+    },
+    {
+      "q": "Do I need to sign in just to browse events?",
+      "a": "No — browsing the public tabs doesn't require an account. Signing in is only needed to post an event or view 'My posts'."
+    },
+    {
+      "q": "What happens if the events server is unreachable?",
+      "a": "The screen shows sample events with a banner noting that live listings will load once the server is back online."
+    }
+  ],
+  "sourceFilesRead": ["lib/screens/cme/cme_screen.dart"]
+}

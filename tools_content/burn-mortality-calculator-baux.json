@@ -1,0 +1,21 @@
+{
+  "slug": "burn-mortality-calculator-baux",
+  "intro": "The Revised Baux Score Calculator estimates predicted mortality risk after a burn injury from three inputs: %TBSA burned, patient age, and presence of inhalation injury. It can be opened pre-filled with %TBSA carried over from the app's Parkland Formula calculator. The resulting score is mapped to five mortality risk bands, from Low (under 5% predicted mortality) to Near 100% Mortality, each with a brief clinical description.",
+  "indications": [
+    "Estimating mortality risk for a patient after a burn injury, using TBSA, age, and inhalation injury status",
+    "Triaging the level of care needed — for example standard burn unit versus burn ICU versus a more palliative-focused approach — based on the predicted mortality band",
+    "Following on from a Parkland Formula fluid resuscitation calculation, using the same TBSA value",
+    "Communicating burn severity and prognosis in a standardized, reproducible way across a care team",
+    "Identifying patients where inhalation injury meaningfully changes the risk estimate, since it adds a fixed point value to the score"
+  ],
+  "method": "Revised Baux Score = TBSA (%) + Age (years) + (17 x R), where R = 1 if inhalation injury is present and R = 0 if it is not, exactly as stated in the app. The resulting score is then categorized: below 70 = Low Mortality (<5% predicted), 70-90 = Moderate Mortality (10-50% predicted), 90-110 = High Mortality (50-75% predicted), above 110 = Very High Mortality (>90% predicted), and above 140 = Near 100% Mortality.",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "What does the 'R' in the Revised Baux formula stand for?", "a": "R represents inhalation injury status — the app sets R = 1 if there is an inhalation injury, adding 17 points to the score, and R = 0 if there is none." },
+    { "q": "Can I carry over my TBSA from the Parkland Formula calculator?", "a": "Yes — this calculator can be opened pre-filled with the %TBSA already entered in the Parkland Formula calculator, so you only need to add age and inhalation injury status." },
+    { "q": "What mortality percentage corresponds to a score of 100?", "a": "A score of 100 falls in the app's 90-110 band, labeled High Mortality with 50-75% predicted mortality." },
+    { "q": "Is age the only demographic factor in this score?", "a": "Within this tool, yes — the Revised Baux formula as implemented only takes TBSA, age, and inhalation injury status; it does not add other comorbidities." },
+    { "q": "What does a score above 140 mean?", "a": "The app labels this 'Near 100% Mortality', describing it as extremely high mortality with near-certain death in most populations." }
+  ],
+  "sourceFilesRead": ["lib/screens/calculators/burn_mortality_calculator.dart"]
+}

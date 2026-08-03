@@ -1,0 +1,23 @@
+{
+  "slug": "magnesium-correction-calculator",
+  "intro": "The Magnesium Correction Calculator gives weight-based dosing for IV and oral magnesium replacement in hypomagnesaemia. The app's own reference states magnesium should be corrected when the level is below 0.75 mmol/L, and provides a standard bolus dose, a slower infusion option for stable patients, and an oral maintenance dose. It also includes toxicity monitoring guidance and a framework for working up the cause of magnesium loss.",
+  "indications": [
+    "Dosing IV magnesium sulphate replacement in a child with confirmed hypomagnesaemia (below 0.75 mmol/L per the app's threshold)",
+    "Choosing between a standard IV bolus and a slower 2–4 hour infusion based on clinical stability",
+    "Providing oral magnesium maintenance for chronic mild hypomagnesaemia or after IV replacement",
+    "Monitoring for signs of magnesium toxicity during or after replacement (bradycardia, hypotension, loss of deep tendon reflexes)",
+    "Distinguishing renal from non-renal magnesium loss using fractional excretion of magnesium or 24-hour urine magnesium"
+  ],
+  "method": "Standard IV bolus: '0.2 mmol/kg = 50 mg/kg = [X] mL of 10% MgSO₄. Max 4 mmol / 1 g / 10 mL over 10 min.' Slow IV (preferred for stable patient): 'MgSO₄ 25–50 mg/kg IV over 2–4 hours.' Oral replacement: '0.2–0.4 mmol/kg. Useful for chronic mild hypomagnesaemia and for ongoing maintenance after IV replacement.'",
+  "guidelineRefs": [],
+  "faqs": [
+    { "q": "At what magnesium level does the app recommend correction?", "a": "The app's reference states correction is indicated when magnesium is below 0.75 mmol/L." },
+    { "q": "What is the standard IV magnesium bolus dose?", "a": "0.2 mmol/kg (equivalent to 50 mg/kg, or 0.5 mL/kg of 10% MgSO₄), to a maximum of 4 mmol, 1 g, or 10 mL, given over 10 minutes." },
+    { "q": "What is the slower IV magnesium option?", "a": "For stable patients, the app calculates MgSO₄ 25–50 mg/kg IV given over 2–4 hours." },
+    { "q": "What are signs of magnesium toxicity to monitor for?", "a": "The app lists bradycardia, hypotension, and loss of deep tendon reflexes, noting toxicity typically occurs at levels of 4 mmol/L or higher, and advises stopping the infusion if reflexes are absent or blood pressure drops." },
+    { "q": "How does the app help distinguish renal from non-renal magnesium loss?", "a": "It notes a fractional excretion of magnesium (FE_Mg) below 2% suggests non-renal loss (GI, dietary), while a 24-hour urine magnesium above 30 mg suggests renal loss from diuretics, tubulopathies, alcoholism, or drug effects." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/calculators/magnesium_correction_calculator.dart"
+  ]
+}

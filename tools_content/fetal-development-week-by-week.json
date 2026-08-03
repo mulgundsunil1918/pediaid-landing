@@ -1,0 +1,22 @@
+{
+  "slug": "fetal-development-week-by-week",
+  "intro": "PediAid's Fetal Development guide walks through pregnancy week by week, from the two weeks of follicle maturation before conception through full term (39-41 weeks). Each week card explains what the source calls gestational (menstrual) age versus embryonic/conceptional age: gestational age is measured from the first day of the last menstrual period and is conventionally expressed in completed weeks, so a 36-week-6-day fetus is documented as a 36-week fetus. The guide organizes development by trimester and highlights milestones in organ formation, growth, and lung maturation as they occur.",
+  "indications": [
+    "Counseling parents on expected fetal size, weight, and developmental milestones at a specific gestational age",
+    "Explaining viability thresholds and expected survival when discussing an extremely preterm birth",
+    "Reviewing critical windows for teratogen or exposure risk for a specific organ system",
+    "Cross-checking ultrasound biometry (crown-rump length, estimated weight) against expected gestational age",
+    "Teaching trainees the sequence of embryonic and fetal organogenesis by week",
+    "Quickly confirming which trimester a given gestational age falls into for documentation"
+  ],
+  "method": "The guide is organized as a week-by-week reference (weeks 1-2 combined, then individually through week 39-41) grouped into three trimesters: 1st trimester (<14 weeks 0 days), 2nd trimester (14 weeks 0 days through 27 weeks 6 days), and 3rd trimester (28 weeks 0 days through delivery). It flags key transitions such as the start of the embryonic period (weeks 5-10, the critical window for most birth defects), the viability threshold at 24 weeks, late preterm (34-36 weeks), early term (37-38 weeks), and full term (39-41 weeks), along with lung development stages (pseudoglandular, canalicular, terminal saccular). It also includes three reference equations quoted directly from the app: Crown-Rump Length to Menstrual Age (Hadlock 1992, valid 5-18 weeks): 'LN(MA) = 1.684969 + (0.315646 x CRL) - (0.049306 x CRL^2) + (0.004057 x CRL^3) - (0.000120456 x CRL^4)'; Crown-Heel Length to GA (Fenton): 'Length (cm) = -0.0219^2 x GA(weeks) + 2.5764 x GA(weeks) - 17.059'; and Weight to Gestational Age (Hadlock 1991): 'ln weight(g) = 0.578 + 0.332 x MA - 0.00354 x MA^2'.",
+  "guidelineRefs": ["Hadlock 1992", "Hadlock 1991", "Fenton 2003"],
+  "faqs": [
+    { "q": "How is gestational age different from fetal (conceptional) age?", "a": "Gestational (menstrual) age is measured from the first day of the last menstrual period and is what's used clinically because ovulation timing is usually unknown. Conceptional/embryonic age runs from actual fertilization and is roughly two weeks behind gestational age." },
+    { "q": "When is a fetus considered viable according to PediAid's guide?", "a": "The guide flags 24 weeks as the viability threshold, with 23 weeks marked as 'approaching viability threshold.' It also notes approximate survival rates rising through the following weeks (about 87% at 26 weeks, about 94% at 27-28 weeks)." },
+    { "q": "What are the three trimesters by week?", "a": "1st trimester is less than 14 weeks 0 days, 2nd trimester runs 14 weeks 0 days through 27 weeks 6 days, and 3rd trimester is 28 weeks 0 days through delivery." },
+    { "q": "How can ultrasound measurements estimate gestational age?", "a": "PediAid includes three cited equations: crown-rump length to menstrual age (Hadlock 1992), crown-heel length to gestational age (Fenton), and estimated weight to gestational age (Hadlock 1991)." },
+    { "q": "What happens during the embryonic period (weeks 5-10)?", "a": "This is flagged as the critical period for birth defects, since most major organ systems are forming during this window; most such defects have no single known cause or are multifactorial." }
+  ],
+  "sourceFilesRead": ["lib/screens/guides/fetal_development_screen.dart"]
+}

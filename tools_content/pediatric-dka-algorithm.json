@@ -1,0 +1,27 @@
+{
+  "slug": "pediatric-dka-algorithm",
+  "intro": "The Pediatric DKA Management Algorithm is a step-by-step clinical reference for managing diabetic ketoacidosis in children, from immediate assessment through resolution or escalation to cerebral oedema management. It walks through triage by dehydration and shock severity into three treatment paths, continuous insulin infusion timing, critical bedside observations, and branching decision points for reassessment. Per the source, the core flowchart is drawn from an internal reference compendium, while labelled \"research add-on\" pearls throughout supplement it with context from the ISPAD Clinical Practice Consensus Guidelines 2022 and the PECARN FLUID DKA trial (NEJM 2018).",
+  "indications": [
+    "Structuring the initial assessment and diagnosis confirmation for a child with suspected DKA",
+    "Triaging a patient by dehydration severity and hemodynamic status into an appropriate fluid/insulin pathway",
+    "Timing insulin initiation relative to fluid resuscitation",
+    "Identifying critical bedside observations required during DKA treatment, including glucose, fluid balance, neurological status, and electrolytes",
+    "Recognizing warning signs of cerebral oedema and the associated escalation steps",
+    "Reviewing common pitfalls such as bicarbonate use, potassium replacement, and osmolality monitoring"
+  ],
+  "method": "This is a structured algorithm rather than a numeric calculator. It presents assessment criteria, three severity-based treatment paths (minimal dehydration; dehydration greater than 5% without shock; and shock or reduced consciousness), a continuous insulin infusion step (\"0.05 – 0.1 unit/kg/hour, Start 1 hour after fluids initiated\", quoted from the source), a bedside-observation checklist, and branching reassessment outcomes, culminating in a dedicated cerebral oedema management pathway. Each step is presented as flowchart-style cards, with additional \"research add-on\" clinical pearls layered on top of the core source content.",
+  "guidelineRefs": [
+    "ISPAD Clinical Practice Consensus Guidelines 2022",
+    "PECARN FLUID DKA trial (NEJM 2018)"
+  ],
+  "faqs": [
+    { "q": "What are the three treatment paths in this DKA algorithm?", "a": "Path A (minimal dehydration, tolerating oral fluids, leading to SC insulin), Path B (dehydration greater than 5%, not in shock, leading to IV fluids and electrolyte monitoring), and Path C (shock or reduced consciousness, leading to resuscitation and cerebral-oedema precautions)." },
+    { "q": "When is insulin started relative to IV fluids in this algorithm?", "a": "The algorithm specifies continuous insulin infusion at 0.05–0.1 unit/kg/hour, started one hour after fluids are initiated — not as an initial bolus." },
+    { "q": "What are the warning signs of cerebral oedema listed in this algorithm?", "a": "Severe or progressive headache, slowing heart rate, irritability or confusion, decreased consciousness, incontinence, and specific neurological signs, after excluding hypoglycaemia." },
+    { "q": "Is bicarbonate recommended in this DKA algorithm?", "a": "A pitfalls pearl states bicarbonate is \"almost never indicated\" and should only be considered for life-threatening hyperkalaemia or hemodynamic instability from severe acidosis unresponsive to fluids." },
+    { "q": "What guidelines inform the research add-on content in this algorithm?", "a": "The source cites the ISPAD Clinical Practice Consensus Guidelines 2022 (Glaser et al.) and the PECARN FLUID DKA trial (NEJM 2018, Kuppermann et al.)." }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/guides/dka_algorithm_screen.dart"
+  ]
+}
