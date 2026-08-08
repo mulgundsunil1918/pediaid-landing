@@ -349,6 +349,26 @@
     padding: 4px 9px; border-radius: 999px;
   }
 
+  /* ── Accented feature cards ──────────────────────────────────────────────
+     Six identical navy icons and grey pills made the modules read as one
+     undifferentiated block. Each card now carries --accent, which tints its
+     icon, its pills and a bar across the top — so a module is recognisable
+     by colour here and in its preview below, rather than only by its title. */
+  .feature[style*="--accent"] { position: relative; overflow: hidden; }
+  .feature[style*="--accent"]::before {
+    content: ""; position: absolute; inset: 0 0 auto 0; height: 4px;
+    background: linear-gradient(90deg, var(--accent), var(--accent-2, var(--accent)));
+  }
+  .feature[style*="--accent"] .ico {
+    background: linear-gradient(135deg, var(--accent), var(--accent-2, var(--accent)));
+    box-shadow: 0 10px 22px -10px var(--accent);
+  }
+  .feature[style*="--accent"] li {
+    color: var(--accent-ink, var(--accent));
+    background: color-mix(in srgb, var(--accent) 11%, transparent);
+    border-color: color-mix(in srgb, var(--accent) 26%, transparent);
+  }
+
   /* ─── "Why" stripe ──────────────────────────────────────────────────── */
   .why {
     padding: 32px;
@@ -807,7 +827,7 @@
     </div>
 
     <div class="features">
-      <div class="feature glass">
+      <div class="feature glass" style="--accent:#0EA5E9; --accent-2:#0369A1; --accent-ink:#0369A1;">
         <div class="ico bg-navy">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6v4l4 12a2 2 0 0 1-2 3H7a2 2 0 0 1-2-3L9 7z"/><path d="M9 3v4M15 3v4"/></svg>
         </div>
@@ -818,7 +838,7 @@
         </ul>
       </div>
 
-      <div class="feature glass">
+      <div class="feature glass" style="--accent:#2563EB; --accent-2:#1E3A8A; --accent-ink:#1D4ED8;">
         <div class="ico bg-navy">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg>
         </div>
@@ -829,7 +849,7 @@
         </ul>
       </div>
 
-      <div class="feature glass">
+      <div class="feature glass" style="--accent:#8B5CF6; --accent-2:#5B21B6; --accent-ink:#6D28D9;">
         <div class="ico bg-navy">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
         </div>
@@ -840,7 +860,7 @@
         </ul>
       </div>
 
-      <div class="feature glass">
+      <div class="feature glass" style="--accent:#14B8A6; --accent-2:#0F766E; --accent-ink:#0F766E;">
         <div class="ico bg-navy">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
         </div>
@@ -851,7 +871,7 @@
         </ul>
       </div>
 
-      <div class="feature glass">
+      <div class="feature glass" style="--accent:#EF4444; --accent-2:#B91C1C; --accent-ink:#B91C1C;">
         <div class="ico bg-navy">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9L1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>
         </div>
@@ -862,7 +882,7 @@
         </ul>
       </div>
 
-      <div class="feature glass">
+      <div class="feature glass" style="--accent:#F59E0B; --accent-2:#B45309; --accent-ink:#B45309;">
         <div class="ico bg-navy">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
         </div>
