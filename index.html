@@ -552,10 +552,62 @@
   .pv-band-lbl { display:flex; justify-content:space-between; font-size:10px; color:#64748b; }
   .pv-chart { height:96px; border-radius:12px; background:rgba(255,255,255,0.6);
               border:1px solid rgba(255,255,255,0.75); padding:7px; }
+
+  /* ── Bridgr ecosystem bar ────────────────────────────────────────────────
+     Sits above the sticky nav rather than inside it: this is provenance, not
+     navigation, and it should be the first thing read without competing with
+     the product's own menu. Full width, so it reads as a platform statement
+     rather than another button. */
+  .eco-bar {
+    display: block; text-decoration: none;
+    background: linear-gradient(135deg, #0f2540 0%, #1e3a5f 45%, #2c5282 100%);
+    padding: 18px 20px;
+    box-shadow: 0 10px 30px -14px rgba(15,35,70,.55);
+  }
+  .eco-inner {
+    max-width: 1180px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: center;
+    gap: 14px; flex-wrap: wrap; text-align: center;
+  }
+  .eco-kicker {
+    font-size: 11px; font-weight: 800; letter-spacing: .16em;
+    text-transform: uppercase; color: rgba(255,255,255,.62);
+  }
+  .eco-title {
+    font-size: clamp(19px, 3.2vw, 27px); font-weight: 900; color: #fff;
+    letter-spacing: -.015em; line-height: 1.15;
+  }
+  .eco-title strong { color: #9ae6b4; }
+  .eco-go {
+    display: inline-flex; align-items: center; gap: 7px;
+    font-size: 13px; font-weight: 800; color: #fff;
+    background: rgba(255,255,255,.14);
+    border: 1px solid rgba(255,255,255,.28);
+    padding: 8px 15px; border-radius: 999px;
+    transition: background .2s ease;
+  }
+  .eco-bar:hover .eco-go { background: rgba(255,255,255,.26); }
+  /* The nav's own top margin would leave a gap under the bar. */
+  .eco-bar + .nav { margin-top: 14px; }
 </style>
 </head>
 
 <body>
+
+<!-- ═══ BRIDGR ECOSYSTEM ═══ -->
+<a class="eco-bar" href="https://bridgr.co.in/" target="_blank" rel="noopener"
+   aria-label="PediAid is part of the Bridgr ecosystem — visit bridgr.co.in">
+  <span class="eco-inner">
+    <span>
+      <span class="eco-kicker">Part of the ecosystem</span><br/>
+      <span class="eco-title">PediAid is part of <strong>Bridgr</strong></span>
+    </span>
+    <span class="eco-go">
+      bridgr.co.in
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+    </span>
+  </span>
+</a>
 
 <!-- ═══ NAV ═══ -->
 <nav class="nav glass">
