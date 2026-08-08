@@ -30,16 +30,16 @@
     --border:      #e2e8f0;
 
     /* Frosted glass tokens */
-    --glass-bg:        rgba(255, 255, 255, 0.62);
-    --glass-bg-strong: rgba(255, 255, 255, 0.78);
-    --glass-bg-dark:   rgba(30, 58, 95, 0.55);
-    --glass-border:    rgba(255, 255, 255, 0.55);
+    --glass-bg:        rgba(255, 255, 255, 0.48);
+    --glass-bg-strong: rgba(255, 255, 255, 0.62);
+    --glass-bg-dark:   rgba(30, 58, 95, 0.46);
+    --glass-border:    rgba(255, 255, 255, 0.68);
     --glass-shadow:    0 10px 40px -12px rgba(15, 35, 70, 0.30),
                        0 4px 14px -6px rgba(15, 35, 70, 0.18);
     --glass-shadow-lg: 0 24px 60px -18px rgba(15, 35, 70, 0.35),
                        0 8px 22px -8px rgba(15, 35, 70, 0.20);
-    --glass-blur:      18px;
-    --glass-blur-strong: 26px;
+    --glass-blur:      26px;
+    --glass-blur-strong: 40px;
   }
 
   * { box-sizing: border-box; }
@@ -125,16 +125,16 @@
   /* ─── Glass primitives ──────────────────────────────────────────────── */
   .glass {
     background: var(--glass-bg);
-    backdrop-filter: blur(var(--glass-blur)) saturate(140%);
-    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(140%);
+    backdrop-filter: blur(var(--glass-blur)) saturate(170%);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(170%);
     border: 1px solid var(--glass-border);
     box-shadow: var(--glass-shadow);
     border-radius: 20px;
   }
   .glass-strong {
     background: var(--glass-bg-strong);
-    backdrop-filter: blur(var(--glass-blur-strong)) saturate(150%);
-    -webkit-backdrop-filter: blur(var(--glass-blur-strong)) saturate(150%);
+    backdrop-filter: blur(var(--glass-blur-strong)) saturate(180%);
+    -webkit-backdrop-filter: blur(var(--glass-blur-strong)) saturate(180%);
     border: 1px solid rgba(255,255,255,0.7);
     box-shadow: var(--glass-shadow-lg);
     border-radius: 24px;
@@ -499,6 +499,39 @@
     .feature, .tool, .btn-primary, .btn-ghost, .store-btn { transition: none; }
     html { scroll-behavior: auto; }
   }
+
+  /* ── App previews ────────────────────────────────────────────────────────
+     Rendered in HTML rather than pasted as screenshots: the mockups stay
+     crisp on every display, restyle with the design tokens, and cost a few
+     kilobytes instead of a megabyte of PNGs. They mirror real screens. */
+  .preview-wrap { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+                  gap:20px; margin-top:34px; }
+  .preview {
+    background: rgba(255,255,255,0.42);
+    backdrop-filter: blur(30px) saturate(180%);
+    -webkit-backdrop-filter: blur(30px) saturate(180%);
+    border: 1px solid rgba(255,255,255,0.7);
+    box-shadow: 0 20px 55px -20px rgba(15,35,70,.38), 0 6px 18px -8px rgba(15,35,70,.18);
+    border-radius: 22px; padding: 16px; overflow: hidden;
+  }
+  .preview .pv-head { display:flex; align-items:center; gap:9px; margin-bottom:13px; }
+  .preview .pv-head .tag {
+    font-size:10.5px; font-weight:800; letter-spacing:.09em; text-transform:uppercase;
+    color: var(--navy); opacity:.62;
+  }
+  .preview .pv-dot { width:9px; height:9px; border-radius:50%; background:#9ae6b4; }
+  .pv-row { display:flex; justify-content:space-between; align-items:baseline;
+            padding:9px 11px; border-radius:12px; background:rgba(255,255,255,0.62);
+            border:1px solid rgba(255,255,255,0.75); margin-bottom:7px; }
+  .pv-row span:first-child { font-size:12.5px; color:#475569; }
+  .pv-row span:last-child  { font-size:13.5px; font-weight:800; color: var(--navy); }
+  .pv-big { font-size:30px; font-weight:900; color: var(--navy); letter-spacing:-.02em; }
+  .pv-sub { font-size:11.5px; color:#64748b; margin-top:2px; }
+  .pv-band { height:9px; border-radius:99px; margin:11px 0 5px;
+             background:linear-gradient(90deg,#22c55e 0%,#22c55e 46%,#eab308 46%,#eab308 74%,#ef4444 74%); }
+  .pv-band-lbl { display:flex; justify-content:space-between; font-size:10px; color:#64748b; }
+  .pv-chart { height:96px; border-radius:12px; background:rgba(255,255,255,0.6);
+              border:1px solid rgba(255,255,255,0.75); padding:7px; }
 </style>
 </head>
 
@@ -639,7 +672,8 @@
       <h2>Everything you reach for, in one place.</h2>
       <p class="lead">
         PediAid bundles the calculators, charts and reference data that
-        clinicians juggle across tabs, books and bookmarks — designed
+        paediatricians and neonatologists juggle across tabs, books and
+          bookmarks — designed
         around how paediatric care actually flows.
       </p>
     </div>
@@ -707,6 +741,54 @@
         <ul><li>Labs</li><li>Vaccines</li><li>NRP</li><li>PALS</li></ul>
       </div>
     </div>
+  
+    <!-- Three real screens, rendered in HTML. Each shows the part of the app a
+         reader is being asked to believe in: a computed result with its safety
+         band, a plotted point with its z-score, and a dose with its source. -->
+    <div class="preview-wrap">
+
+      <div class="preview">
+        <div class="pv-head"><span class="pv-dot"></span><span class="tag">GIR Calculator</span></div>
+        <div class="pv-big">6.8 <span style="font-size:14px; font-weight:700; opacity:.6;">mg/kg/min</span></div>
+        <div class="pv-sub">1.9 kg · 10% dextrose at 3.7 mL/h</div>
+        <div class="pv-band"></div>
+        <div class="pv-band-lbl"><span>Low</span><span>Usual 4–8</span><span>High</span></div>
+        <div style="margin-top:12px;">
+          <div class="pv-row"><span>Peripheral limit</span><span>12.5%</span></div>
+          <div class="pv-row"><span>Two-stock mix</span><span>D10 + D50</span></div>
+        </div>
+      </div>
+
+      <div class="preview">
+        <div class="pv-head"><span class="pv-dot" style="background:#60a5fa;"></span><span class="tag">Growth Charts</span></div>
+        <div class="pv-chart">
+          <svg viewBox="0 0 200 80" width="100%" height="100%" preserveAspectRatio="none">
+            <path d="M0,70 C40,60 80,44 130,28 L200,10" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+            <path d="M0,74 C40,66 80,52 130,38 L200,22" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+            <path d="M0,64 C40,52 80,34 130,17 L200,2"  fill="none" stroke="#e2e8f0" stroke-width="2"/>
+            <circle cx="132" cy="30" r="4.5" fill="#1e3a5f"/>
+          </svg>
+        </div>
+        <div style="margin-top:11px;">
+          <div class="pv-row"><span>Weight-for-age</span><span>42nd centile</span></div>
+          <div class="pv-row"><span>Z-score</span><span>−0.21</span></div>
+          <div class="pv-row"><span>Reference</span><span>WHO 2006</span></div>
+        </div>
+      </div>
+
+      <div class="preview">
+        <div class="pv-head"><span class="pv-dot" style="background:#f59e0b;"></span><span class="tag">Bilirubin — AAP 2022</span></div>
+        <div class="pv-big">14.2 <span style="font-size:14px; font-weight:700; opacity:.6;">mg/dL</span></div>
+        <div class="pv-sub">38<sup>+2</sup> weeks · 54 hours · no risk factors</div>
+        <div style="margin-top:12px;">
+          <div class="pv-row"><span>Phototherapy threshold</span><span>17.0</span></div>
+          <div class="pv-row"><span>Exchange threshold</span><span>22.5</span></div>
+          <div class="pv-row"><span>Action</span><span style="color:#15803d;">Below threshold</span></div>
+        </div>
+      </div>
+
+    </div>
+
   </div>
 </section>
 
@@ -799,7 +881,7 @@
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow">Built for the bedside</span>
-      <h2>Designed around how paediatric clinicians actually work.</h2>
+      <h2>Designed around how paediatricians and neonatologists actually work.</h2>
     </div>
 
     <div class="why glass-dark">
@@ -828,7 +910,7 @@
         <div class="ico">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9c.51.31.81.86.81 1.51H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
         </div>
-        <h4>Built for clinicians</h4>
+        <h4>Built with paediatricians</h4>
         <p>Designed alongside paediatricians, neonatologists and trainees. Clinical feedback shapes every release — write to us if a tool needs sharper bands or a new screen.</p>
       </div>
     </div>
