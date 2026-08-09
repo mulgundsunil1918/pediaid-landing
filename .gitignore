@@ -3,3 +3,22 @@ Thumbs.db
 .vscode/
 .idea/
 *.log
+
+# ─── Secrets — never commit (added by security audit) ───────────────────
+# Blocks accidental commits of credentials to this repo. Public repos are
+# world-readable, so a single slip here is a real leak. Config that is
+# already tracked is unaffected — .gitignore only blocks untracked files.
+.env
+.env.*
+!.env.example
+*.p8
+*.pem
+*.jks
+*.keystore
+*.key
+key.properties
+google-services.json
+GoogleService-Info.plist
+*serviceaccount*.json
+*-adminsdk-*.json
+.appstoreconnect/
