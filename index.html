@@ -243,6 +243,42 @@
     -webkit-backdrop-filter: blur(8px);
   }
   .btn-ghost:hover { background: rgba(255,255,255,0.9); transform: translateY(-1px); }
+  .video-card {
+    position: relative; display: block;
+    width: 100%; max-width: 440px; margin-top: 20px;
+    aspect-ratio: 16 / 9;
+    border-radius: 16px; overflow: hidden;
+    text-decoration: none;
+    background: linear-gradient(135deg, var(--navy), var(--accent));
+    box-shadow: 0 18px 40px -16px rgba(30,58,95,0.6);
+    border: 1px solid rgba(255,255,255,0.28);
+    transition: transform 160ms ease, box-shadow 160ms ease;
+  }
+  .video-card:hover { transform: translateY(-3px); box-shadow: 0 26px 52px -18px rgba(30,58,95,0.72); }
+  .video-card img {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%; object-fit: cover;
+    display: block;
+  }
+  .video-card::after {
+    content: ""; position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.04) 40%, rgba(0,0,0,0.6) 100%);
+  }
+  .video-play {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -58%);
+    width: 74px; z-index: 2;
+    filter: drop-shadow(0 6px 16px rgba(0,0,0,0.45));
+    transition: transform 160ms ease;
+  }
+  .video-card:hover .video-play { transform: translate(-50%, -58%) scale(1.08); }
+  .video-play svg { width: 100%; height: auto; display: block; }
+  .video-label {
+    position: absolute; left: 16px; bottom: 13px; z-index: 2;
+    display: flex; flex-direction: column; line-height: 1.25; color: #fff;
+  }
+  .video-label strong { font-size: 16px; font-weight: 800; }
+  .video-label small { font-size: 12.5px; font-weight: 600; opacity: 0.9; }
 
   /* Hero highlight chips */
   .hero-stats {
@@ -619,7 +655,6 @@
     <a href="#tools">Tools</a>
     <a href="resources.html">Resources</a>
     <a href="#why">Why PediAid</a>
-    <a href="#download">Get the app</a>
   </div>
     <a class="nav-cta" href="#download" title="Get PediAid on the App Store or Google Play">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px; margin-right:7px;"><path d="M12 3v12m0 0l-4-4m4 4l4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>Get the app
@@ -652,6 +687,20 @@
         <p style="margin-top:12px; font-size:13.5px; opacity:.72;">
           On the App Store and Google Play · or open the full web app in any browser
         </p>
+
+        <a class="video-card" href="https://youtu.be/AuNn9sdnXvc" target="_blank" rel="noopener"
+           aria-label="Watch the PediAid tutorial on YouTube">
+          <img src="https://i.ytimg.com/vi/AuNn9sdnXvc/maxresdefault.jpg" alt=""
+               loading="lazy"
+               onerror="this.onerror=null; this.src='https://i.ytimg.com/vi/AuNn9sdnXvc/hqdefault.jpg';">
+          <span class="video-play" aria-hidden="true">
+            <svg viewBox="0 0 68 48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#ff0000"/><path d="M45 24 27 14v20z" fill="#fff"/></svg>
+          </span>
+          <span class="video-label">
+            <strong>Watch the tutorial</strong>
+            <small>Quick walkthrough · YouTube</small>
+          </span>
+        </a>
 
       <div class="hero-stats">
         <span class="stat-chip">
@@ -717,7 +766,7 @@
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
           </div>
           <h4>NICU Scores</h4>
-          <p>SNAPPE-II · Apgar · CRIB</p>
+          <p>Apgar · Ballard · Sarnat</p>
         </div>
         <div class="mini">
           <div class="ico bg-navy">
@@ -794,8 +843,8 @@
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
         </div>
         <h3>NICU Scores &amp; Tools</h3>
-        <p>Apgar, SNAPPE-II, CRIB, Downe, Silverman-Anderson — plus ventilator parameter helpers and exchange-transfusion volume calculator.</p>
-        <ul><li>SNAPPE-II</li><li>Apgar</li><li>Vent params</li></ul>
+        <p>Apgar, Ballard, Sarnat, Thompson, Downe, Silverman-Anderson — plus ventilator parameter helpers and exchange-transfusion volume calculator.</p>
+        <ul><li>Ballard</li><li>Apgar</li><li>Vent params</li></ul>
       </div>
 
       <!-- Reference -->
@@ -1070,7 +1119,7 @@
 
       <a class="tool" href="tools/burn-mortality-calculator-baux/"><h4>Burn Mortality</h4><p>Lund-Browder body chart, %TBSA and Parkland fluids.</p></a>
       <a class="tool" href="tools/cga-pma-calculator/"><h4>CGA / PMA</h4><p>Corrected gestational age and post-menstrual age.</p></a>
-      <a class="tool" href="tools/neonatal-scoring-systems/"><h4>NICU Scores</h4><p>Apgar, SNAPPE-II, CRIB, Downe, Silverman-Anderson.</p></a>
+      <a class="tool" href="tools/neonatal-scoring-systems/"><h4>NICU Scores</h4><p>Apgar, Ballard, Sarnat, Downe, Silverman-Anderson.</p></a>
       <a class="tool" href="tools/pediatric-drug-formulary/"><h4>Drug Formulary</h4><p>Neofax + Harriet Lane lookup with detail pages.</p></a>
     </div>
 
