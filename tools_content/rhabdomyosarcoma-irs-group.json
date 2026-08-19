@@ -1,0 +1,42 @@
+{
+  "slug": "rhabdomyosarcoma-irs-group",
+  "intro": "The Rhabdomyosarcoma — IRS Group is a oncology scoring tool used in paediatric practice. Intergroup Rhabdomyosarcoma Study post-surgical grouping. It scores 1 criteria and interprets the total across 4 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in oncology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 1 criteria: Post-surgical extent. Totals are then banded: 1 stage or more - Group I: group I - completely resected. Best prognosis; chemotherapy without radiotherapy in favourable subsets; 2 stage or more - Group II: group II - microscopic residual or nodal disease. Chemotherapy plus radiotherapy; 3 stage or more - Group III: group III - gross residual disease (the largest group). Chemotherapy plus radiotherapy, with delayed surgery when feasible; 4 stage or more - Group IV: group IV - metastatic disease. Poor prognosis; intensified multimodal therapy.",
+  "guidelineRefs": [
+    "Overall risk also depends on histology (embryonal vs alveolar / FOXO1 fusion status), site (favourable vs unfavourable) and tumour size/age.",
+    "Source: Crist W et al. The Third Intergroup Rhabdomyosarcoma Study. J Clin Oncol 1995;13:610-30.",
+    "Source: Gupta S, Aitken JF, Bartels U et al. Paediatric cancer stage in population-based cancer registries: the Toronto consensus principles and guidelines. Lancet Oncol 2016;17:e163-72."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Rhabdomyosarcoma — IRS Group use?",
+      "a": "1. They are Post-surgical extent."
+    },
+    {
+      "q": "What do the bands of the Rhabdomyosarcoma — IRS Group mean?",
+      "a": "The total is interpreted as: 1 stage or more - Group I: group I - completely resected. Best prognosis; chemotherapy without radiotherapy in favourable subsets; 2 stage or more - Group II: group II - microscopic residual or nodal disease. Chemotherapy plus radiotherapy; 3 stage or more - Group III: group III - gross residual disease (the largest group). Chemotherapy plus radiotherapy, with delayed surgery when feasible; 4 stage or more - Group IV: group IV - metastatic disease. Poor prognosis; intensified multimodal therapy."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Overall risk also depends on histology (embryonal vs alveolar / FOXO1 fusion status), site (favourable vs unfavourable) and tumour size/age."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

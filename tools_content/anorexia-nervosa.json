@@ -1,0 +1,42 @@
+{
+  "slug": "anorexia-nervosa",
+  "intro": "The Anorexia Nervosa is a psychosocial scoring tool used in paediatric practice. DSM-5 criteria - restriction of energy intake with fear of weight gain. It scores 3 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in psychosocial",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 3 criteria: Restriction of energy intake leading to significantly low body weight for age, sex and health; Intense fear of gaining weight or becoming fat, or persistent behaviour that interferes with weight gain; Disturbance in the way body weight/shape is experienced, undue influence on self-evaluation, or lack of recognition of the seriousness of low weight. Totals are then banded: any score - Below threshold: not all 3 criteria met; 3 criteria met or more - Threshold met: all 3 criteria met - consistent with anorexia nervosa. Specify restricting vs binge-eating/purging type. Assess medical stability (bradycardia, orthostasis, electrolytes) urgently.",
+  "guidelineRefs": [
+    "DSM-5 threshold: 3 or more of the 3 criteria listed.",
+    "A diagnosis also requires clinically significant distress or impairment, the required duration, and exclusion of substance use or another condition. Screening aid only - not a diagnosis.",
+    "In children, \"significantly low weight\" includes failure to make expected weight gain along the growth trajectory."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Anorexia Nervosa use?",
+      "a": "3. They are Restriction of energy intake leading to significantly low body weight for age, sex and health; Intense fear of gaining weight or becoming fat, or persistent behaviour that interferes with weight gain; Disturbance in the way body weight/shape is experienced, undue influence on self-evaluation, or lack of recognition of the seriousness of low weight."
+    },
+    {
+      "q": "What do the bands of the Anorexia Nervosa mean?",
+      "a": "The total is interpreted as: any score - Below threshold: not all 3 criteria met; 3 criteria met or more - Threshold met: all 3 criteria met - consistent with anorexia nervosa. Specify restricting vs binge-eating/purging type. Assess medical stability (bradycardia, orthostasis, electrolytes) urgently."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "DSM-5 threshold: 3 or more of the 3 criteria listed."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

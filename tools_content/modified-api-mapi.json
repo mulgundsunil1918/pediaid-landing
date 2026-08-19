@@ -1,0 +1,40 @@
+{
+  "slug": "modified-api-mapi",
+  "intro": "The Modified API (mAPI) is a respiratory scoring tool used in paediatric practice. Modified Asthma Predictive Index - adds aeroallergen and food sensitisation. It scores 7 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in respiratory",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 7 criteria: ≥4 wheezing episodes in the past year, at least one physician-confirmed (required); MAJOR - parental history of asthma; MAJOR - physician-diagnosed atopic dermatitis; MAJOR - sensitisation to ≥1 aeroallergen; MINOR - wheezing apart from colds; MINOR - blood eosinophilia ≥ 4 %; MINOR - sensitisation to milk, egg or peanut. Totals are then banded: any score - Negative: requires ≥4 wheezing episodes/year PLUS ≥1 major OR ≥2 minor criteria; 6 criteria or more - Positive mAPI: positive mAPI - increased likelihood of persistent asthma. Used as an entry criterion in several paediatric asthma trials.",
+  "guidelineRefs": [
+    "Source: Guilbert TW et al. Atopic characteristics of children with recurrent wheezing at high risk for the development of childhood asthma. J Allergy Clin Immunol 2004;114:1282-7."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Modified API (mAPI) use?",
+      "a": "7. They are ≥4 wheezing episodes in the past year, at least one physician-confirmed (required); MAJOR - parental history of asthma; MAJOR - physician-diagnosed atopic dermatitis; MAJOR - sensitisation to ≥1 aeroallergen; MINOR - wheezing apart from colds; MINOR - blood eosinophilia ≥ 4 %; and others."
+    },
+    {
+      "q": "What do the bands of the Modified API (mAPI) mean?",
+      "a": "The total is interpreted as: any score - Negative: requires ≥4 wheezing episodes/year PLUS ≥1 major OR ≥2 minor criteria; 6 criteria or more - Positive mAPI: positive mAPI - increased likelihood of persistent asthma. Used as an entry criterion in several paediatric asthma trials."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Source: Guilbert TW et al. Atopic characteristics of children with recurrent wheezing at high risk for the development of childhood asthma. J Allergy Clin Immunol 2004;114:1282-7."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

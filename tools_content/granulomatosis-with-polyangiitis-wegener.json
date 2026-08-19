@@ -1,0 +1,40 @@
+{
+  "slug": "granulomatosis-with-polyangiitis-wegener",
+  "intro": "The Granulomatosis with Polyangiitis (Wegener) is a rheumatology scoring tool used in paediatric practice. EULAR/PRINTO/PRES paediatric criteria - ≥3 of 6 features classify GPA. It scores 6 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in rheumatology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 6 criteria: Histopathology - granulomatous inflammation within the vessel wall or peri/extravascular area; Upper airway involvement - nasal discharge, recurrent epistaxis, crusts, sinus inflammation, subglottic/tracheal stenosis; Laryngo-tracheo-bronchial stenosis; Pulmonary involvement - chest X-ray or CT showing nodules, cavities or fixed infiltrates; ANCA positivity (by immunofluorescence or ELISA - MPO/p-ANCA or PR3/c-ANCA); Renal involvement - proteinuria, haematuria/red-cell casts, necrotising pauci-immune glomerulonephritis. Totals are then banded: any score - Criteria not met: fewer than 3 criteria - does not classify as childhood GPA; 3 criteria or more - Criteria MET: ≥3 of 6 criteria - classifies as childhood granulomatosis with polyangiitis (sensitivity 93%, specificity 99%). Induction with corticosteroids plus rituximab or cyclophosphamide.",
+  "guidelineRefs": [
+    "Source: Ozen S et al. EULAR/PRINTO/PRES Ankara 2008 criteria. Ann Rheum Dis 2010;69:798-806."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Granulomatosis with Polyangiitis (Wegener) use?",
+      "a": "6. They are Histopathology - granulomatous inflammation within the vessel wall or peri/extravascular area; Upper airway involvement - nasal discharge, recurrent epistaxis, crusts, sinus inflammation, subglottic/tracheal stenosis; Laryngo-tracheo-bronchial stenosis; Pulmonary involvement - chest X-ray or CT showing nodules, cavities or fixed infiltrates; ANCA positivity (by immunofluorescence or ELISA - MPO/p-ANCA or PR3/c-ANCA); Renal involvement - proteinuria, haematuria/red-cell casts, necrotising pauci-immune glomerulonephritis."
+    },
+    {
+      "q": "What do the bands of the Granulomatosis with Polyangiitis (Wegener) mean?",
+      "a": "The total is interpreted as: any score - Criteria not met: fewer than 3 criteria - does not classify as childhood GPA; 3 criteria or more - Criteria MET: ≥3 of 6 criteria - classifies as childhood granulomatosis with polyangiitis (sensitivity 93%, specificity 99%). Induction with corticosteroids plus rituximab or cyclophosphamide."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Source: Ozen S et al. EULAR/PRINTO/PRES Ankara 2008 criteria. Ann Rheum Dis 2010;69:798-806."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "palchak-uc-davis-rule",
+  "intro": "The Palchak (UC Davis) Rule is a Neurology & trauma scoring tool used in paediatric practice. Predicts traumatic brain injury on CT in children with blunt head trauma. It scores 5 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in Neurology & trauma",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 5 criteria: Abnormal mental status; Clinical signs of skull fracture; History of vomiting; Scalp haematoma (in children ≤ 2 years); Headache. Totals are then banded: any score - Very low risk: none of the five predictors - negative predictive value ≈100% for traumatic brain injury on CT. Imaging can reasonably be withheld; 1 predictor or more - Not low risk: one or more predictors present - the rule does not exclude TBI; consider CT or observation per clinical judgement and local guidance.",
+  "guidelineRefs": [
+    "Source: Palchak MJ et al. A decision rule for identifying children at low risk for brain injuries after blunt head trauma. Ann Emerg Med 2003;42:492-506."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Palchak (UC Davis) Rule use?",
+      "a": "5. They are Abnormal mental status; Clinical signs of skull fracture; History of vomiting; Scalp haematoma (in children ≤ 2 years); Headache."
+    },
+    {
+      "q": "What do the bands of the Palchak (UC Davis) Rule mean?",
+      "a": "The total is interpreted as: any score - Very low risk: none of the five predictors - negative predictive value ≈100% for traumatic brain injury on CT. Imaging can reasonably be withheld; 1 predictor or more - Not low risk: one or more predictors present - the rule does not exclude TBI; consider CT or observation per clinical judgement and local guidance."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Source: Palchak MJ et al. A decision rule for identifying children at low risk for brain injuries after blunt head trauma. Ann Emerg Med 2003;42:492-506."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

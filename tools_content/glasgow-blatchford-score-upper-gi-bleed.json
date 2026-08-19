@@ -1,0 +1,41 @@
+{
+  "slug": "glasgow-blatchford-score-upper-gi-bleed",
+  "intro": "The Glasgow-Blatchford Score (Upper GI Bleed) is a GI & Liver scoring tool used in paediatric practice. Predicts need for intervention (transfusion, endoscopy, surgery) in upper GI bleeding. It scores 8 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in GI & Liver",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 8 criteria: Blood urea; Haemoglobin; Systolic blood pressure; Pulse ≥ 100/min (or tachycardia for age); Melaena; Syncope; Hepatic disease; Cardiac failure. Totals are then banded: any score - Very low risk: score 0 - very low risk. Outpatient management with early endoscopy may be appropriate in adults; in children, admit if there is any diagnostic doubt; 1 point or more - Intermediate risk: score 1-5 - intermediate risk. Admit for observation and plan endoscopy; 6 points or more - High risk: score ≥6 - high risk of needing intervention. Resuscitate, cross-match, start acid suppression and arrange urgent endoscopy.",
+  "guidelineRefs": [
+    "Originally derived and validated in adults; paediatric thresholds for haemoglobin and blood pressure must be age-adjusted.",
+    "Source: Blatchford O, Murray WR, Blatchford M. A risk score to predict need for treatment for upper-gastrointestinal haemorrhage. Lancet 2000;356:1318-21."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Glasgow-Blatchford Score (Upper GI Bleed) use?",
+      "a": "8. They are Blood urea; Haemoglobin; Systolic blood pressure; Pulse ≥ 100/min (or tachycardia for age); Melaena; Syncope; and others."
+    },
+    {
+      "q": "What do the bands of the Glasgow-Blatchford Score (Upper GI Bleed) mean?",
+      "a": "The total is interpreted as: any score - Very low risk: score 0 - very low risk. Outpatient management with early endoscopy may be appropriate in adults; in children, admit if there is any diagnostic doubt; 1 point or more - Intermediate risk: score 1-5 - intermediate risk. Admit for observation and plan endoscopy; 6 points or more - High risk: score ≥6 - high risk of needing intervention. Resuscitate, cross-match, start acid suppression and arrange urgent endoscopy."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Originally derived and validated in adults; paediatric thresholds for haemoglobin and blood pressure must be age-adjusted."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

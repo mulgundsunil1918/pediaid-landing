@@ -1,0 +1,41 @@
+{
+  "slug": "eosinophilic-granulomatosis-with-polyangiitis-churg-strauss",
+  "intro": "The Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss) is a rheumatology scoring tool used in paediatric practice. ACR criteria - ≥4 of 6 features classify EGPA. It scores 6 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in rheumatology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 6 criteria: Asthma; Eosinophilia > 10 % on differential white cell count; Mononeuropathy or polyneuropathy; Migratory or transient pulmonary infiltrates on imaging; Paranasal sinus abnormality; Biopsy containing a blood vessel with extravascular eosinophils. Totals are then banded: any score - Criteria not met: fewer than 4 criteria - does not classify as EGPA; 4 criteria or more - Criteria MET: ≥4 of 6 criteria - classifies as EGPA (sensitivity 85%, specificity 99.7%). Assess for cardiac involvement, which drives mortality.",
+  "guidelineRefs": [
+    "Rare in children; asthma and eosinophilia usually precede the vasculitic phase.",
+    "Source: Masi AT et al. The ACR 1990 criteria for the classification of Churg-Strauss syndrome. Arthritis Rheum 1990;33:1094-100."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss) use?",
+      "a": "6. They are Asthma; Eosinophilia > 10 % on differential white cell count; Mononeuropathy or polyneuropathy; Migratory or transient pulmonary infiltrates on imaging; Paranasal sinus abnormality; Biopsy containing a blood vessel with extravascular eosinophils."
+    },
+    {
+      "q": "What do the bands of the Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss) mean?",
+      "a": "The total is interpreted as: any score - Criteria not met: fewer than 4 criteria - does not classify as EGPA; 4 criteria or more - Criteria MET: ≥4 of 6 criteria - classifies as EGPA (sensitivity 85%, specificity 99.7%). Assess for cardiac involvement, which drives mortality."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Rare in children; asthma and eosinophilia usually precede the vasculitic phase."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

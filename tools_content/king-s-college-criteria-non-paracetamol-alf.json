@@ -1,0 +1,41 @@
+{
+  "slug": "king-s-college-criteria-non-paracetamol-alf",
+  "intro": "The King's College Criteria — Non-Paracetamol ALF is a GI & Liver scoring tool used in paediatric practice. Poor-prognosis criteria in non-paracetamol acute liver failure - indication for transplant referral. It scores 6 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in GI & Liver",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 6 criteria: INR > 6.5 (prothrombin time > 100 s), regardless of encephalopathy grade; Age < 10 or > 40 years; Aetiology: non-A non-B hepatitis, halothane, or idiosyncratic drug reaction; Jaundice to encephalopathy interval > 7 days; INR > 3.5 (prothrombin time > 50 s); Serum bilirubin > 17.5 mg/dL (300 µmol/L). Totals are then banded: any score - Criteria not met: criteria not met on current values. Continue intensive supportive care and reassess frequently; 3 criteria or more - Criteria MET: any 3 of the 5 minor criteria - poor prognosis. Refer urgently to a liver transplant centre; 4 criteria or more - Criteria MET: iNR >6.5 alone meets the criteria in non-paracetamol ALF - refer urgently to a liver transplant centre.",
+  "guidelineRefs": [
+    "Criteria met by EITHER INR >6.5 alone, OR any 3 of: age <10 or >40 y, unfavourable aetiology, jaundice-to-encephalopathy >7 days, INR >3.5, bilirubin >17.5 mg/dL.",
+    "Source: O’Grady JG et al. Gastroenterology 1989;97:439-45."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the King's College Criteria — Non-Paracetamol ALF use?",
+      "a": "6. They are INR > 6.5 (prothrombin time > 100 s), regardless of encephalopathy grade; Age < 10 or > 40 years; Aetiology: non-A non-B hepatitis, halothane, or idiosyncratic drug reaction; Jaundice to encephalopathy interval > 7 days; INR > 3.5 (prothrombin time > 50 s); Serum bilirubin > 17.5 mg/dL (300 µmol/L)."
+    },
+    {
+      "q": "What do the bands of the King's College Criteria — Non-Paracetamol ALF mean?",
+      "a": "The total is interpreted as: any score - Criteria not met: criteria not met on current values. Continue intensive supportive care and reassess frequently; 3 criteria or more - Criteria MET: any 3 of the 5 minor criteria - poor prognosis. Refer urgently to a liver transplant centre; 4 criteria or more - Criteria MET: iNR >6.5 alone meets the criteria in non-paracetamol ALF - refer urgently to a liver transplant centre."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Criteria met by EITHER INR >6.5 alone, OR any 3 of: age <10 or >40 y, unfavourable aetiology, jaundice-to-encephalopathy >7 days, INR >3.5, bilirubin >17.5 mg/dL."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

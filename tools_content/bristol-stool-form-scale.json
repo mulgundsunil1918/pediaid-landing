@@ -1,0 +1,41 @@
+{
+  "slug": "bristol-stool-form-scale",
+  "intro": "The Bristol Stool Form Scale is a GI & Liver scoring tool used in paediatric practice. Classifies stool form - used to characterise constipation and diarrhoea. It scores 1 criteria and interprets the total across 4 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in GI & Liver",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 1 criteria: Stool appearance. Totals are then banded: 1 type or more - Constipation: types 1-2 indicate constipation - hard, difficult to pass stools. Consider laxative therapy and dietary/fluid review; 3 type or more - Normal: types 3-4 are normal, with type 4 considered ideal; 5 type or more - Tending to loose: type 5 - lacking fibre; may indicate a tendency to loose stools or urgency; 6 type or more - Diarrhoea: types 6-7 indicate diarrhoea. Assess hydration, duration and infective causes; type 7 is entirely liquid.",
+  "guidelineRefs": [
+    "A modified version for infants and toddlers exists, since breastfed infants normally pass loose stools.",
+    "Source: Lewis SJ, Heaton KW. Stool form scale as a useful guide to intestinal transit time. Scand J Gastroenterol 1997;32:920-4."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Bristol Stool Form Scale use?",
+      "a": "1. They are Stool appearance."
+    },
+    {
+      "q": "What do the bands of the Bristol Stool Form Scale mean?",
+      "a": "The total is interpreted as: 1 type or more - Constipation: types 1-2 indicate constipation - hard, difficult to pass stools. Consider laxative therapy and dietary/fluid review; 3 type or more - Normal: types 3-4 are normal, with type 4 considered ideal; 5 type or more - Tending to loose: type 5 - lacking fibre; may indicate a tendency to loose stools or urgency; 6 type or more - Diarrhoea: types 6-7 indicate diarrhoea. Assess hydration, duration and infective causes; type 7 is entirely liquid."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "A modified version for infants and toddlers exists, since breastfed infants normally pass loose stools."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

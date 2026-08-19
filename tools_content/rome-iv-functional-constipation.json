@@ -1,0 +1,42 @@
+{
+  "slug": "rome-iv-functional-constipation",
+  "intro": "The Rome IV — Functional Constipation is a GI & Liver scoring tool used in paediatric practice. Children ≥4 years: ≥2 criteria at least once weekly for ≥1 month, without meeting IBS criteria. It scores 6 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in GI & Liver",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 6 criteria: ≤ 2 defaecations in the toilet per week; At least one episode of faecal incontinence per week; History of retentive posturing or excessive volitional stool retention; History of painful or hard bowel movements; Presence of a large faecal mass in the rectum; History of large-diameter stools that can obstruct the toilet. Totals are then banded: any score - Criteria not met: fewer than 2 criteria - Rome IV functional constipation not met. Reassess symptoms and consider other causes; 2 criteria or more - Criteria met: ≥2 criteria fulfilled for at least 1 month - functional constipation. Treat with disimpaction if needed, maintenance laxatives (PEG first line), toilet training and dietary advice.",
+  "guidelineRefs": [
+    "For children <4 years the same criteria apply but require ≥1 month duration with ≥2 criteria (developmental age-appropriate).",
+    "Always exclude red flags: delayed meconium, ribbon stools, failure to thrive, abnormal neurology, anal abnormalities.",
+    "Source: Hyams JS et al. Functional disorders: children and adolescents. Rome IV. Gastroenterology 2016;150:1456-68."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Rome IV — Functional Constipation use?",
+      "a": "6. They are ≤ 2 defaecations in the toilet per week; At least one episode of faecal incontinence per week; History of retentive posturing or excessive volitional stool retention; History of painful or hard bowel movements; Presence of a large faecal mass in the rectum; History of large-diameter stools that can obstruct the toilet."
+    },
+    {
+      "q": "What do the bands of the Rome IV — Functional Constipation mean?",
+      "a": "The total is interpreted as: any score - Criteria not met: fewer than 2 criteria - Rome IV functional constipation not met. Reassess symptoms and consider other causes; 2 criteria or more - Criteria met: ≥2 criteria fulfilled for at least 1 month - functional constipation. Treat with disimpaction if needed, maintenance laxatives (PEG first line), toilet training and dietary advice."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "For children <4 years the same criteria apply but require ≥1 month duration with ≥2 criteria (developmental age-appropriate)."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

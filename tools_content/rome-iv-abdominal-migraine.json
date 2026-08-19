@@ -1,0 +1,40 @@
+{
+  "slug": "rome-iv-abdominal-migraine",
+  "intro": "The Rome IV — Abdominal Migraine is a GI & Liver scoring tool used in paediatric practice. Paroxysmal episodes of intense periumbilical abdominal pain. It scores 6 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in GI & Liver",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 6 criteria: Paroxysmal episodes of intense, acute periumbilical, midline or diffuse abdominal pain lasting ≥ 1 hour; Episodes are separated by weeks to months; Pain is incapacitating and interferes with normal activities; Stereotypical pattern and symptoms in the individual patient; Pain associated with ≥2 of: anorexia, nausea, vomiting, headache, photophobia, pallor; Symptoms cannot be attributed to another condition after appropriate evaluation. Totals are then banded: any score - Criteria not met: all criteria must be fulfilled, occurring at least twice in the preceding 6 months; 6 criteria or more - Criteria met: all criteria met - abdominal migraine. Consider migraine-style prophylaxis and trigger avoidance; many children later develop typical migraine.",
+  "guidelineRefs": [
+    "Source: Hyams JS et al. Rome IV - Functional disorders: children and adolescents. Gastroenterology 2016;150:1456-68."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Rome IV — Abdominal Migraine use?",
+      "a": "6. They are Paroxysmal episodes of intense, acute periumbilical, midline or diffuse abdominal pain lasting ≥ 1 hour; Episodes are separated by weeks to months; Pain is incapacitating and interferes with normal activities; Stereotypical pattern and symptoms in the individual patient; Pain associated with ≥2 of: anorexia, nausea, vomiting, headache, photophobia, pallor; Symptoms cannot be attributed to another condition after appropriate evaluation."
+    },
+    {
+      "q": "What do the bands of the Rome IV — Abdominal Migraine mean?",
+      "a": "The total is interpreted as: any score - Criteria not met: all criteria must be fulfilled, occurring at least twice in the preceding 6 months; 6 criteria or more - Criteria met: all criteria met - abdominal migraine. Consider migraine-style prophylaxis and trigger avoidance; many children later develop typical migraine."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Source: Hyams JS et al. Rome IV - Functional disorders: children and adolescents. Gastroenterology 2016;150:1456-68."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

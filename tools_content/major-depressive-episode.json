@@ -1,0 +1,43 @@
+{
+  "slug": "major-depressive-episode",
+  "intro": "The Major Depressive Episode is a psychosocial scoring tool used in paediatric practice. DSM-5 criteria - symptoms in the same 2-week period, a change from previous function. It scores 9 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in psychosocial",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 9 criteria: Depressed mood most of the day, nearly every day (children/adolescents: can be irritable mood); Markedly diminished interest or pleasure in almost all activities; Significant weight change or appetite change (children: failure to make expected weight gain); Insomnia or hypersomnia nearly every day; Psychomotor agitation or retardation observable by others; Fatigue or loss of energy nearly every day; Feelings of worthlessness or excessive/inappropriate guilt; Diminished ability to think or concentrate; indecisiveness; Recurrent thoughts of death, suicidal ideation, or a suicide attempt/plan. Totals are then banded: any score - Below threshold: fewer than 5 symptoms in the same 2-week period; 5 criteria met or more - Threshold met: ≥5 symptoms over the same 2 weeks - and at least ONE must be depressed mood or loss of interest. Assess suicide risk now and arrange mental-health review.",
+  "guidelineRefs": [
+    "DSM-5 threshold: 5 or more of the 9 criteria listed.",
+    "A diagnosis also requires clinically significant distress or impairment, the required duration, and exclusion of substance use or another condition. Screening aid only - not a diagnosis.",
+    "At least one of the first two criteria (depressed mood / anhedonia) must be present.",
+    "Always ask directly about suicidal ideation and safety, regardless of total."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Major Depressive Episode use?",
+      "a": "9. They are Depressed mood most of the day, nearly every day (children/adolescents: can be irritable mood); Markedly diminished interest or pleasure in almost all activities; Significant weight change or appetite change (children: failure to make expected weight gain); Insomnia or hypersomnia nearly every day; Psychomotor agitation or retardation observable by others; Fatigue or loss of energy nearly every day; and others."
+    },
+    {
+      "q": "What do the bands of the Major Depressive Episode mean?",
+      "a": "The total is interpreted as: any score - Below threshold: fewer than 5 symptoms in the same 2-week period; 5 criteria met or more - Threshold met: ≥5 symptoms over the same 2 weeks - and at least ONE must be depressed mood or loss of interest. Assess suicide risk now and arrange mental-health review."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "DSM-5 threshold: 5 or more of the 9 criteria listed."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

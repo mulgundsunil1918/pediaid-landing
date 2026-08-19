@@ -1,0 +1,41 @@
+{
+  "slug": "pediatric-appendicitis-score-pas",
+  "intro": "The Pediatric Appendicitis Score (PAS) is a GI & Liver scoring tool used in paediatric practice. Likelihood of acute appendicitis in a child with abdominal pain. It scores 8 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in GI & Liver",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 8 criteria: Cough / percussion / hopping tenderness in RLQ; Right lower quadrant tenderness; Anorexia; Pyrexia ≥ 38 °C; Nausea or vomiting; Migration of pain to RLQ; Leucocytosis ≥ 10 000 /µL; Neutrophilia ≥ 7 500 /µL. Totals are then banded: any score - Low risk: pAS ≤3 - appendicitis unlikely. Consider discharge with review, or observation if the story is atypical; 4 points or more - Equivocal: pAS 4-6 - equivocal. Imaging (ultrasound first in children) and/or serial examination with surgical input; 7 points or more - High risk: pAS ≥7 - appendicitis likely. Surgical referral; many centres proceed without further imaging.",
+  "guidelineRefs": [
+    "Total range 0-10.",
+    "Source: Samuel M. Pediatric appendicitis score. J Pediatr Surg 2002;37:877-81."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Pediatric Appendicitis Score (PAS) use?",
+      "a": "8. They are Cough / percussion / hopping tenderness in RLQ; Right lower quadrant tenderness; Anorexia; Pyrexia ≥ 38 °C; Nausea or vomiting; Migration of pain to RLQ; and others."
+    },
+    {
+      "q": "What do the bands of the Pediatric Appendicitis Score (PAS) mean?",
+      "a": "The total is interpreted as: any score - Low risk: pAS ≤3 - appendicitis unlikely. Consider discharge with review, or observation if the story is atypical; 4 points or more - Equivocal: pAS 4-6 - equivocal. Imaging (ultrasound first in children) and/or serial examination with surgical input; 7 points or more - High risk: pAS ≥7 - appendicitis likely. Surgical referral; many centres proceed without further imaging."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Total range 0-10."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

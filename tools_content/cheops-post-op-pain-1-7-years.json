@@ -1,0 +1,41 @@
+{
+  "slug": "cheops-post-op-pain-1-7-years",
+  "intro": "The CHEOPS — Post-op Pain (1–7 years) is a pain scoring tool used in paediatric practice. Children's Hospital of Eastern Ontario Pain Scale for post-operative pain. Range 4-13. It scores 6 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in pain",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 6 criteria: Cry; Facial; Verbal; Torso; Touch; Legs. Totals are then banded: 4 points or more - No / minimal pain: cHEOPS 4-6 - minimal pain. Continue observation; 7 points or more - Analgesia indicated: cHEOPS ≥7 - analgesia is indicated. Treat and reassess in 15-20 minutes; 10 points or more - Significant pain: cHEOPS 10-13 - significant pain. Give prompt analgesia and review the analgesic plan.",
+  "guidelineRefs": [
+    "Minimum score is 4 (not 0) because several items score from 1.",
+    "Source: McGrath PJ et al. CHEOPS: a behavioral scale for rating postoperative pain in children. Adv Pain Res Ther 1985;9:395-402."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the CHEOPS — Post-op Pain (1–7 years) use?",
+      "a": "6. They are Cry; Facial; Verbal; Torso; Touch; Legs."
+    },
+    {
+      "q": "What do the bands of the CHEOPS — Post-op Pain (1–7 years) mean?",
+      "a": "The total is interpreted as: 4 points or more - No / minimal pain: cHEOPS 4-6 - minimal pain. Continue observation; 7 points or more - Analgesia indicated: cHEOPS ≥7 - analgesia is indicated. Treat and reassess in 15-20 minutes; 10 points or more - Significant pain: cHEOPS 10-13 - significant pain. Give prompt analgesia and review the analgesic plan."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Minimum score is 4 (not 0) because several items score from 1."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

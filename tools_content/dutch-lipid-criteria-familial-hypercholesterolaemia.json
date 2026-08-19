@@ -1,0 +1,41 @@
+{
+  "slug": "dutch-lipid-criteria-familial-hypercholesterolaemia",
+  "intro": "The Dutch Lipid Criteria — Familial Hypercholesterolaemia is a endocrine scoring tool used in paediatric practice. Dutch Lipid Clinic Network score for diagnosing familial hypercholesterolaemia. It scores 5 criteria and interprets the total across 4 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in endocrine",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 5 criteria: Family history; Clinical history (in the patient); Physical examination; LDL cholesterol; DNA analysis. Totals are then banded: any score - Unlikely: score 0-2 - familial hypercholesterolaemia unlikely. Address secondary causes and lifestyle; 3 points or more - Possible FH: score 3-5 - possible FH. Confirm with repeat fasting lipids, family cascade screening; 6 points or more - Probable FH: score 6-8 - probable FH. Start lifestyle measures, consider statin therapy from age 8-10 years, and cascade-screen relatives; 9 points or more - Definite FH: score >8 - definite FH. Statin therapy and specialist lipid referral; cascade screening of all first-degree relatives is essential.",
+  "guidelineRefs": [
+    "Only the single highest-scoring option per group is counted. Premature = <55 y in men, <60 y in women.",
+    "Source: World Health Organization. Familial hypercholesterolaemia: report of a WHO consultation. Geneva 1998 (Dutch Lipid Clinic Network criteria)."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Dutch Lipid Criteria — Familial Hypercholesterolaemia use?",
+      "a": "5. They are Family history; Clinical history (in the patient); Physical examination; LDL cholesterol; DNA analysis."
+    },
+    {
+      "q": "What do the bands of the Dutch Lipid Criteria — Familial Hypercholesterolaemia mean?",
+      "a": "The total is interpreted as: any score - Unlikely: score 0-2 - familial hypercholesterolaemia unlikely. Address secondary causes and lifestyle; 3 points or more - Possible FH: score 3-5 - possible FH. Confirm with repeat fasting lipids, family cascade screening; 6 points or more - Probable FH: score 6-8 - probable FH. Start lifestyle measures, consider statin therapy from age 8-10 years, and cascade-screen relatives; 9 points or more - Definite FH: score >8 - definite FH. Statin therapy and specialist lipid referral; cascade screening of all first-degree relatives is essential."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Only the single highest-scoring option per group is counted. Premature = <55 y in men, <60 y in women."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

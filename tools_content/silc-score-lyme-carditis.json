@@ -1,0 +1,41 @@
+{
+  "slug": "silc-score-lyme-carditis",
+  "intro": "The SILC Score (Lyme Carditis) is a infectious scoring tool used in paediatric practice. Suspicious Index in Lyme Carditis - pre-test probability in a patient with new high-degree AV block. It scores 5 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in infectious",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 5 criteria: Constitutional symptoms (fever, malaise, arthralgia, dyspnoea); Erythema migrans rash; Outdoor activity or residence in an endemic area; Male sex; Age < 50 years. Totals are then banded: any score - Low probability: score 0-2 - low probability of Lyme carditis. Investigate other causes of AV block; a permanent pacemaker may be appropriate; 3 points or more - Intermediate: score 3-6 - intermediate probability. Send Lyme serology and consider empirical antibiotics before committing to a permanent pacemaker; 7 points or more - High probability: score ≥7 - high probability of Lyme carditis. Treat with antibiotics; AV block is usually reversible, so avoid a permanent pacemaker until treated.",
+  "guidelineRefs": [
+    "Purpose is to avoid unnecessary permanent pacemakers - Lyme-related AV block usually resolves with antibiotic therapy.",
+    "Source: Besant G et al. Suspicious index in Lyme carditis: systematic review and proposed new risk score. Clin Cardiol 2018;41:1611-1616."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the SILC Score (Lyme Carditis) use?",
+      "a": "5. They are Constitutional symptoms (fever, malaise, arthralgia, dyspnoea); Erythema migrans rash; Outdoor activity or residence in an endemic area; Male sex; Age < 50 years."
+    },
+    {
+      "q": "What do the bands of the SILC Score (Lyme Carditis) mean?",
+      "a": "The total is interpreted as: any score - Low probability: score 0-2 - low probability of Lyme carditis. Investigate other causes of AV block; a permanent pacemaker may be appropriate; 3 points or more - Intermediate: score 3-6 - intermediate probability. Send Lyme serology and consider empirical antibiotics before committing to a permanent pacemaker; 7 points or more - High probability: score ≥7 - high probability of Lyme carditis. Treat with antibiotics; AV block is usually reversible, so avoid a permanent pacemaker until treated."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Purpose is to avoid unnecessary permanent pacemakers - Lyme-related AV block usually resolves with antibiotic therapy."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

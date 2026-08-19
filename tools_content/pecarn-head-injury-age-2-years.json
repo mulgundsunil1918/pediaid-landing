@@ -1,0 +1,41 @@
+{
+  "slug": "pecarn-head-injury-age-2-years",
+  "intro": "The PECARN Head Injury — Age < 2 years is a Neurology & trauma scoring tool used in paediatric practice. Identifies children under 2 at very low risk of clinically-important traumatic brain injury (ciTBI). It scores 5 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in Neurology & trauma",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 5 criteria: GCS ≤ 14, altered mental status, or palpable skull fracture; Occipital, parietal or temporal scalp haematoma; Loss of consciousness ≥ 5 seconds; Severe mechanism of injury; Not acting normally according to the parent. Totals are then banded: any score - CT not recommended: no predictors - risk of ciTBI <0.02%. CT is not recommended; discharge with head-injury advice is appropriate; 1 predictor or more - Observation vs CT: intermediate group - ciTBI risk ≈0.9%. Observation in the emergency department is preferred; CT if multiple findings, worsening symptoms, age <3 months, or parental preference; 8 predictors or more - CT recommended: gCS ≤14, altered mental status or palpable skull fracture - ciTBI risk ≈4.4%. CT head is recommended.",
+  "guidelineRefs": [
+    "Severe mechanism: MVC with ejection/rollover/death of another passenger; pedestrian or cyclist without helmet struck by a vehicle; fall >0.9 m (3 ft) under 2 years; head struck by a high-impact object.",
+    "Source: Kuppermann N et al. Identification of children at very low risk of clinically-important brain injuries after head trauma: a prospective cohort study (PECARN). Lancet 2009;374:1160-70."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the PECARN Head Injury — Age < 2 years use?",
+      "a": "5. They are GCS ≤ 14, altered mental status, or palpable skull fracture; Occipital, parietal or temporal scalp haematoma; Loss of consciousness ≥ 5 seconds; Severe mechanism of injury; Not acting normally according to the parent."
+    },
+    {
+      "q": "What do the bands of the PECARN Head Injury — Age < 2 years mean?",
+      "a": "The total is interpreted as: any score - CT not recommended: no predictors - risk of ciTBI <0.02%. CT is not recommended; discharge with head-injury advice is appropriate; 1 predictor or more - Observation vs CT: intermediate group - ciTBI risk ≈0.9%. Observation in the emergency department is preferred; CT if multiple findings, worsening symptoms, age <3 months, or parental preference; 8 predictors or more - CT recommended: gCS ≤14, altered mental status or palpable skull fracture - ciTBI risk ≈4.4%. CT head is recommended."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Severe mechanism: MVC with ejection/rollover/death of another passenger; pedestrian or cyclist without helmet struck by a vehicle; fall >0.9 m (3 ft) under 2 years; head struck by a high-impact object."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

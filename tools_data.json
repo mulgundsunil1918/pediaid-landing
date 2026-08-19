@@ -1120,6 +1120,1924 @@
         "beta thalassaemia screening",
         "Mentzer index formula"
       ]
+    },
+    {
+      "slug": "paediatric-sirs-sepsis-criteria",
+      "title": "Paediatric SIRS / Sepsis Criteria",
+      "subtitle": "International paediatric consensus definitions. SIRS = ≥2 criteria, one of which must be abnormal temperature or leucocyte count.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Paediatric SIRS / Sepsis Criteria Calculator",
+      "primaryKeyword": "Paediatric SIRS / Sepsis Criteria",
+      "secondaryKeywords": [
+        "Paediatric SIRS / Sepsis Criteria calculator",
+        "Paediatric SIRS / Sepsis Criteria interpretation",
+        "paediatric Critical care score",
+        "Paediatric SIRS / Sepsis Criteria criteria"
+      ]
+    },
+    {
+      "slug": "pecarn-head-injury-age-2-years",
+      "title": "PECARN Head Injury — Age < 2 years",
+      "subtitle": "Identifies children under 2 at very low risk of clinically-important traumatic brain injury (ciTBI).",
+      "category": "Calculators & Tools",
+      "seoTitle": "PECARN Head Injury — Age < 2 years Score Calculator",
+      "primaryKeyword": "PECARN Head Injury — Age < 2 years",
+      "secondaryKeywords": [
+        "PECARN Head Injury — Age < 2 years calculator",
+        "PECARN Head Injury — Age < 2 years interpretation",
+        "paediatric Neurology & trauma score",
+        "PECARN Head Injury — Age < 2 years criteria"
+      ]
+    },
+    {
+      "slug": "catch-rule-paediatric-head-injury",
+      "title": "CATCH Rule (Paediatric Head Injury)",
+      "subtitle": "Canadian Assessment of Tomography for Childhood Head injury - who needs a CT after minor head injury.",
+      "category": "Calculators & Tools",
+      "seoTitle": "CATCH Rule (Paediatric Head Injury) Score Calculator",
+      "primaryKeyword": "CATCH Rule (Paediatric Head Injury)",
+      "secondaryKeywords": [
+        "CATCH Rule (Paediatric Head Injury) calculator",
+        "CATCH Rule (Paediatric Head Injury) interpretation",
+        "paediatric Neurology & trauma score",
+        "CATCH Rule (Paediatric Head Injury) criteria"
+      ]
+    },
+    {
+      "slug": "palchak-uc-davis-rule",
+      "title": "Palchak (UC Davis) Rule",
+      "subtitle": "Predicts traumatic brain injury on CT in children with blunt head trauma.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Palchak (UC Davis) Rule Score Calculator",
+      "primaryKeyword": "Palchak (UC Davis) Rule",
+      "secondaryKeywords": [
+        "Palchak (UC Davis) Rule calculator",
+        "Palchak (UC Davis) Rule interpretation",
+        "paediatric Neurology & trauma score",
+        "Palchak (UC Davis) Rule criteria"
+      ]
+    },
+    {
+      "slug": "bacterial-meningitis-score",
+      "title": "Bacterial Meningitis Score",
+      "subtitle": "In a child with CSF pleocytosis, identifies very low risk of BACTERIAL (as opposed to aseptic) meningitis.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Bacterial Meningitis Score Calculator",
+      "primaryKeyword": "Bacterial Meningitis Score",
+      "secondaryKeywords": [
+        "Bacterial Meningitis Score calculator",
+        "Bacterial Meningitis Score interpretation",
+        "paediatric Neurology & trauma score",
+        "Bacterial Meningitis Score criteria"
+      ]
+    },
+    {
+      "slug": "kocher-criteria-septic-arthritis",
+      "title": "Kocher Criteria (Septic Arthritis)",
+      "subtitle": "Differentiates septic arthritis of the hip from transient synovitis in a limping child.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Kocher Criteria (Septic Arthritis) Calculator",
+      "primaryKeyword": "Kocher Criteria (Septic Arthritis)",
+      "secondaryKeywords": [
+        "Kocher Criteria (Septic Arthritis) calculator",
+        "Kocher Criteria (Septic Arthritis) interpretation",
+        "paediatric infectious score",
+        "Kocher Criteria (Septic Arthritis) criteria"
+      ]
+    },
+    {
+      "slug": "centor-score-mcisaac-modified",
+      "title": "Centor Score (McIsaac modified)",
+      "subtitle": "Likelihood of group A streptococcal pharyngitis.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Centor Score (McIsaac modified) Calculator",
+      "primaryKeyword": "Centor Score (McIsaac modified)",
+      "secondaryKeywords": [
+        "Centor Score (McIsaac modified) calculator",
+        "Centor Score (McIsaac modified) interpretation",
+        "paediatric infectious score",
+        "Centor Score (McIsaac modified) criteria"
+      ]
+    },
+    {
+      "slug": "feverpain-score",
+      "title": "FeverPAIN Score",
+      "subtitle": "Streptococcal pharyngitis likelihood - used in NICE sore-throat guidance.",
+      "category": "Calculators & Tools",
+      "seoTitle": "FeverPAIN Score Calculator",
+      "primaryKeyword": "FeverPAIN Score",
+      "secondaryKeywords": [
+        "FeverPAIN Score calculator",
+        "FeverPAIN Score interpretation",
+        "paediatric infectious score",
+        "FeverPAIN Score criteria"
+      ]
+    },
+    {
+      "slug": "rochester-criteria-febrile-infant",
+      "title": "Rochester Criteria (Febrile Infant)",
+      "subtitle": "Identifies febrile infants ≤60 days at LOW risk of serious bacterial infection. All criteria must be met.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Rochester Criteria (Febrile Infant) Calculator",
+      "primaryKeyword": "Rochester Criteria (Febrile Infant)",
+      "secondaryKeywords": [
+        "Rochester Criteria (Febrile Infant) calculator",
+        "Rochester Criteria (Febrile Infant) interpretation",
+        "paediatric infectious score",
+        "Rochester Criteria (Febrile Infant) criteria"
+      ]
+    },
+    {
+      "slug": "step-by-step-febrile-infant-90-days",
+      "title": "Step-by-Step (Febrile Infant ≤90 days)",
+      "subtitle": "Sequential European approach to the well-appearing febrile young infant. Work down in order - the first positive step decides risk.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Step-by-Step (Febrile Infant ≤90 days) Score Calculator",
+      "primaryKeyword": "Step-by-Step (Febrile Infant ≤90 days)",
+      "secondaryKeywords": [
+        "Step-by-Step (Febrile Infant ≤90 days) calculator",
+        "Step-by-Step (Febrile Infant ≤90 days) interpretation",
+        "paediatric infectious score",
+        "Step-by-Step (Febrile Infant ≤90 days) criteria"
+      ]
+    },
+    {
+      "slug": "rule-of-7s-lyme-meningitis",
+      "title": "Rule of 7s (Lyme Meningitis)",
+      "subtitle": "Distinguishes Lyme meningitis from aseptic meningitis in endemic areas. Low risk only if ALL three are absent.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Rule of 7s (Lyme Meningitis) Score Calculator",
+      "primaryKeyword": "Rule of 7s (Lyme Meningitis)",
+      "secondaryKeywords": [
+        "Rule of 7s (Lyme Meningitis) calculator",
+        "Rule of 7s (Lyme Meningitis) interpretation",
+        "paediatric infectious score",
+        "Rule of 7s (Lyme Meningitis) criteria"
+      ]
+    },
+    {
+      "slug": "silc-score-lyme-carditis",
+      "title": "SILC Score (Lyme Carditis)",
+      "subtitle": "Suspicious Index in Lyme Carditis - pre-test probability in a patient with new high-degree AV block.",
+      "category": "Calculators & Tools",
+      "seoTitle": "SILC Score (Lyme Carditis) Calculator",
+      "primaryKeyword": "SILC Score (Lyme Carditis)",
+      "secondaryKeywords": [
+        "SILC Score (Lyme Carditis) calculator",
+        "SILC Score (Lyme Carditis) interpretation",
+        "paediatric infectious score",
+        "SILC Score (Lyme Carditis) criteria"
+      ]
+    },
+    {
+      "slug": "pram-score",
+      "title": "PRAM Score",
+      "subtitle": "Preschool Respiratory Assessment Measure - asthma exacerbation severity.",
+      "category": "Calculators & Tools",
+      "seoTitle": "PRAM Score Calculator",
+      "primaryKeyword": "PRAM Score",
+      "secondaryKeywords": [
+        "PRAM Score calculator",
+        "PRAM Score interpretation",
+        "paediatric respiratory score",
+        "PRAM Score criteria"
+      ]
+    },
+    {
+      "slug": "pass-pediatric-asthma-severity-score",
+      "title": "PASS — Pediatric Asthma Severity Score",
+      "subtitle": "Three-item bedside severity score for an asthma exacerbation.",
+      "category": "Calculators & Tools",
+      "seoTitle": "PASS — Pediatric Asthma Severity Score Calculator",
+      "primaryKeyword": "PASS — Pediatric Asthma Severity Score",
+      "secondaryKeywords": [
+        "PASS — Pediatric Asthma Severity Score calculator",
+        "PASS — Pediatric Asthma Severity Score interpretation",
+        "paediatric respiratory score",
+        "PASS — Pediatric Asthma Severity Score criteria"
+      ]
+    },
+    {
+      "slug": "pediatric-asthma-score-pas",
+      "title": "Pediatric Asthma Score (PAS)",
+      "subtitle": "Five-domain severity score used to guide asthma pathway treatment.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Pediatric Asthma Score (PAS) Calculator",
+      "primaryKeyword": "Pediatric Asthma Score (PAS)",
+      "secondaryKeywords": [
+        "Pediatric Asthma Score (PAS) calculator",
+        "Pediatric Asthma Score (PAS) interpretation",
+        "paediatric respiratory score",
+        "Pediatric Asthma Score (PAS) criteria"
+      ]
+    },
+    {
+      "slug": "asthma-predictive-index-api",
+      "title": "Asthma Predictive Index (API)",
+      "subtitle": "Predicts later school-age asthma in a preschool child with recurrent wheeze.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Asthma Predictive Index (API) Calculator",
+      "primaryKeyword": "Asthma Predictive Index (API)",
+      "secondaryKeywords": [
+        "Asthma Predictive Index (API) calculator",
+        "Asthma Predictive Index (API) interpretation",
+        "paediatric respiratory score",
+        "Asthma Predictive Index (API) criteria"
+      ]
+    },
+    {
+      "slug": "modified-api-mapi",
+      "title": "Modified API (mAPI)",
+      "subtitle": "Modified Asthma Predictive Index - adds aeroallergen and food sensitisation.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Modified API (mAPI) Score Calculator",
+      "primaryKeyword": "Modified API (mAPI)",
+      "secondaryKeywords": [
+        "Modified API (mAPI) calculator",
+        "Modified API (mAPI) interpretation",
+        "paediatric respiratory score",
+        "Modified API (mAPI) criteria"
+      ]
+    },
+    {
+      "slug": "modified-duke-criteria-endocarditis",
+      "title": "Modified Duke Criteria (Endocarditis)",
+      "subtitle": "Diagnosis of infective endocarditis from major and minor criteria.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Modified Duke Criteria (Endocarditis) Calculator",
+      "primaryKeyword": "Modified Duke Criteria (Endocarditis)",
+      "secondaryKeywords": [
+        "Modified Duke Criteria (Endocarditis) calculator",
+        "Modified Duke Criteria (Endocarditis) interpretation",
+        "paediatric cardiac score",
+        "Modified Duke Criteria (Endocarditis) criteria"
+      ]
+    },
+    {
+      "slug": "jones-criteria-acute-rheumatic-fever",
+      "title": "Jones Criteria (Acute Rheumatic Fever)",
+      "subtitle": "Revised 2015 Jones criteria - MODERATE/HIGH-risk population thresholds (applicable to India).",
+      "category": "Calculators & Tools",
+      "seoTitle": "Jones Criteria (Acute Rheumatic Fever) Calculator",
+      "primaryKeyword": "Jones Criteria (Acute Rheumatic Fever)",
+      "secondaryKeywords": [
+        "Jones Criteria (Acute Rheumatic Fever) calculator",
+        "Jones Criteria (Acute Rheumatic Fever) interpretation",
+        "paediatric cardiac score",
+        "Jones Criteria (Acute Rheumatic Fever) criteria"
+      ]
+    },
+    {
+      "slug": "pediatric-appendicitis-score-pas",
+      "title": "Pediatric Appendicitis Score (PAS)",
+      "subtitle": "Likelihood of acute appendicitis in a child with abdominal pain.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Pediatric Appendicitis Score (PAS) Calculator",
+      "primaryKeyword": "Pediatric Appendicitis Score (PAS)",
+      "secondaryKeywords": [
+        "Pediatric Appendicitis Score (PAS) calculator",
+        "Pediatric Appendicitis Score (PAS) interpretation",
+        "paediatric GI & Liver score",
+        "Pediatric Appendicitis Score (PAS) criteria"
+      ]
+    },
+    {
+      "slug": "alvarado-score-mantrels",
+      "title": "Alvarado Score (MANTRELS)",
+      "subtitle": "Classic clinical score for the likelihood of acute appendicitis.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Alvarado Score (MANTRELS) Calculator",
+      "primaryKeyword": "Alvarado Score (MANTRELS)",
+      "secondaryKeywords": [
+        "Alvarado Score (MANTRELS) calculator",
+        "Alvarado Score (MANTRELS) interpretation",
+        "paediatric GI & Liver score",
+        "Alvarado Score (MANTRELS) criteria"
+      ]
+    },
+    {
+      "slug": "air-score-appendicitis-inflammatory-response",
+      "title": "AIR Score (Appendicitis Inflammatory Response)",
+      "subtitle": "Inflammation-weighted appendicitis score, useful for risk stratification.",
+      "category": "Calculators & Tools",
+      "seoTitle": "AIR Score (Appendicitis Inflammatory Response) Calculator",
+      "primaryKeyword": "AIR Score (Appendicitis Inflammatory Response)",
+      "secondaryKeywords": [
+        "AIR Score (Appendicitis Inflammatory Response) calculator",
+        "AIR Score (Appendicitis Inflammatory Response) interpretation",
+        "paediatric GI & Liver score",
+        "AIR Score (Appendicitis Inflammatory Response) criteria"
+      ]
+    },
+    {
+      "slug": "king-s-college-criteria-paracetamol-alf",
+      "title": "King's College Criteria — Paracetamol ALF",
+      "subtitle": "Predicts poor prognosis in paracetamol-induced acute liver failure - indication for transplant referral.",
+      "category": "Calculators & Tools",
+      "seoTitle": "King's College Criteria — Paracetamol ALF Calculator",
+      "primaryKeyword": "King's College Criteria — Paracetamol ALF",
+      "secondaryKeywords": [
+        "King's College Criteria — Paracetamol ALF calculator",
+        "King's College Criteria — Paracetamol ALF interpretation",
+        "paediatric GI & Liver score",
+        "King's College Criteria — Paracetamol ALF criteria"
+      ]
+    },
+    {
+      "slug": "king-s-college-criteria-non-paracetamol-alf",
+      "title": "King's College Criteria — Non-Paracetamol ALF",
+      "subtitle": "Poor-prognosis criteria in non-paracetamol acute liver failure - indication for transplant referral.",
+      "category": "Calculators & Tools",
+      "seoTitle": "King's College Criteria — Non-Paracetamol ALF Calculator",
+      "primaryKeyword": "King's College Criteria — Non-Paracetamol ALF",
+      "secondaryKeywords": [
+        "King's College Criteria — Non-Paracetamol ALF calculator",
+        "King's College Criteria — Non-Paracetamol ALF interpretation",
+        "paediatric GI & Liver score",
+        "King's College Criteria — Non-Paracetamol ALF criteria"
+      ]
+    },
+    {
+      "slug": "leipzig-score-wilson-disease",
+      "title": "Leipzig Score (Wilson Disease)",
+      "subtitle": "Diagnostic scoring system for Wilson disease.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Leipzig Score (Wilson Disease) Calculator",
+      "primaryKeyword": "Leipzig Score (Wilson Disease)",
+      "secondaryKeywords": [
+        "Leipzig Score (Wilson Disease) calculator",
+        "Leipzig Score (Wilson Disease) interpretation",
+        "paediatric GI & Liver score",
+        "Leipzig Score (Wilson Disease) criteria"
+      ]
+    },
+    {
+      "slug": "pucai-paediatric-ulcerative-colitis-activity-index",
+      "title": "PUCAI — Paediatric Ulcerative Colitis Activity Index",
+      "subtitle": "Disease activity in paediatric ulcerative colitis; guides escalation in acute severe colitis.",
+      "category": "Calculators & Tools",
+      "seoTitle": "PUCAI — Paediatric Ulcerative Colitis Activity Index",
+      "primaryKeyword": "PUCAI — Paediatric Ulcerative Colitis Activity Index",
+      "secondaryKeywords": [
+        "PUCAI — Paediatric Ulcerative Colitis Activity Index calculator",
+        "PUCAI — Paediatric Ulcerative Colitis Activity Index interpretation",
+        "paediatric GI & Liver score",
+        "PUCAI — Paediatric Ulcerative Colitis Activity Index criteria"
+      ]
+    },
+    {
+      "slug": "pcdai-paediatric-crohn-s-disease-activity-index",
+      "title": "PCDAI — Paediatric Crohn’s Disease Activity Index",
+      "subtitle": "Abbreviated disease-activity index for paediatric Crohn’s disease.",
+      "category": "Calculators & Tools",
+      "seoTitle": "PCDAI — Paediatric Crohn’s Disease Activity Index",
+      "primaryKeyword": "PCDAI — Paediatric Crohn’s Disease Activity Index",
+      "secondaryKeywords": [
+        "PCDAI — Paediatric Crohn’s Disease Activity Index calculator",
+        "PCDAI — Paediatric Crohn’s Disease Activity Index interpretation",
+        "paediatric GI & Liver score",
+        "PCDAI — Paediatric Crohn’s Disease Activity Index criteria"
+      ]
+    },
+    {
+      "slug": "rome-iv-functional-constipation",
+      "title": "Rome IV — Functional Constipation",
+      "subtitle": "Children ≥4 years: ≥2 criteria at least once weekly for ≥1 month, without meeting IBS criteria.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Rome IV — Functional Constipation Score Calculator",
+      "primaryKeyword": "Rome IV — Functional Constipation",
+      "secondaryKeywords": [
+        "Rome IV — Functional Constipation calculator",
+        "Rome IV — Functional Constipation interpretation",
+        "paediatric GI & Liver score",
+        "Rome IV — Functional Constipation criteria"
+      ]
+    },
+    {
+      "slug": "rome-iv-irritable-bowel-syndrome",
+      "title": "Rome IV — Irritable Bowel Syndrome",
+      "subtitle": "Children/adolescents: criteria fulfilled ≥2 months before diagnosis.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Rome IV — Irritable Bowel Syndrome Score Calculator",
+      "primaryKeyword": "Rome IV — Irritable Bowel Syndrome",
+      "secondaryKeywords": [
+        "Rome IV — Irritable Bowel Syndrome calculator",
+        "Rome IV — Irritable Bowel Syndrome interpretation",
+        "paediatric GI & Liver score",
+        "Rome IV — Irritable Bowel Syndrome criteria"
+      ]
+    },
+    {
+      "slug": "rome-iv-cyclic-vomiting-syndrome",
+      "title": "Rome IV — Cyclic Vomiting Syndrome",
+      "subtitle": "Stereotypical episodes of intense vomiting with well periods in between.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Rome IV — Cyclic Vomiting Syndrome Score Calculator",
+      "primaryKeyword": "Rome IV — Cyclic Vomiting Syndrome",
+      "secondaryKeywords": [
+        "Rome IV — Cyclic Vomiting Syndrome calculator",
+        "Rome IV — Cyclic Vomiting Syndrome interpretation",
+        "paediatric GI & Liver score",
+        "Rome IV — Cyclic Vomiting Syndrome criteria"
+      ]
+    },
+    {
+      "slug": "rome-iv-abdominal-migraine",
+      "title": "Rome IV — Abdominal Migraine",
+      "subtitle": "Paroxysmal episodes of intense periumbilical abdominal pain.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Rome IV — Abdominal Migraine Score Calculator",
+      "primaryKeyword": "Rome IV — Abdominal Migraine",
+      "secondaryKeywords": [
+        "Rome IV — Abdominal Migraine calculator",
+        "Rome IV — Abdominal Migraine interpretation",
+        "paediatric GI & Liver score",
+        "Rome IV — Abdominal Migraine criteria"
+      ]
+    },
+    {
+      "slug": "bristol-stool-form-scale",
+      "title": "Bristol Stool Form Scale",
+      "subtitle": "Classifies stool form - used to characterise constipation and diarrhoea.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Bristol Stool Form Scale Score Calculator",
+      "primaryKeyword": "Bristol Stool Form Scale",
+      "secondaryKeywords": [
+        "Bristol Stool Form Scale calculator",
+        "Bristol Stool Form Scale interpretation",
+        "paediatric GI & Liver score",
+        "Bristol Stool Form Scale criteria"
+      ]
+    },
+    {
+      "slug": "chips-childhood-hodgkin-prognostic-score",
+      "title": "CHIPS — Childhood Hodgkin Prognostic Score",
+      "subtitle": "Predicts event-free survival in intermediate-risk paediatric Hodgkin lymphoma.",
+      "category": "Calculators & Tools",
+      "seoTitle": "CHIPS — Childhood Hodgkin Prognostic Score Calculator",
+      "primaryKeyword": "CHIPS — Childhood Hodgkin Prognostic Score",
+      "secondaryKeywords": [
+        "CHIPS — Childhood Hodgkin Prognostic Score calculator",
+        "CHIPS — Childhood Hodgkin Prognostic Score interpretation",
+        "paediatric oncology score",
+        "CHIPS — Childhood Hodgkin Prognostic Score criteria"
+      ]
+    },
+    {
+      "slug": "all-nci-rome-risk-and-toronto-stage",
+      "title": "ALL — NCI/Rome Risk & Toronto Stage",
+      "subtitle": "Acute lymphoblastic leukaemia: NCI risk group plus Toronto CNS-based stage.",
+      "category": "Calculators & Tools",
+      "seoTitle": "ALL — NCI/Rome Risk & Toronto Stage Score Calculator",
+      "primaryKeyword": "ALL — NCI/Rome Risk & Toronto Stage",
+      "secondaryKeywords": [
+        "ALL — NCI/Rome Risk & Toronto Stage calculator",
+        "ALL — NCI/Rome Risk & Toronto Stage interpretation",
+        "paediatric oncology score",
+        "ALL — NCI/Rome Risk & Toronto Stage criteria"
+      ]
+    },
+    {
+      "slug": "aml-toronto-stage",
+      "title": "AML — Toronto Stage",
+      "subtitle": "Acute myeloid leukaemia is staged by CNS involvement.",
+      "category": "Calculators & Tools",
+      "seoTitle": "AML — Toronto Stage Score Calculator",
+      "primaryKeyword": "AML — Toronto Stage",
+      "secondaryKeywords": [
+        "AML — Toronto Stage calculator",
+        "AML — Toronto Stage interpretation",
+        "paediatric oncology score",
+        "AML — Toronto Stage criteria"
+      ]
+    },
+    {
+      "slug": "hodgkin-lymphoma-ann-arbor-stage",
+      "title": "Hodgkin Lymphoma — Ann Arbor Stage",
+      "subtitle": "Ann Arbor staging (Toronto Tier 1) with Cotswolds modification.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Hodgkin Lymphoma — Ann Arbor Stage Score Calculator",
+      "primaryKeyword": "Hodgkin Lymphoma — Ann Arbor Stage",
+      "secondaryKeywords": [
+        "Hodgkin Lymphoma — Ann Arbor Stage calculator",
+        "Hodgkin Lymphoma — Ann Arbor Stage interpretation",
+        "paediatric oncology score",
+        "Hodgkin Lymphoma — Ann Arbor Stage criteria"
+      ]
+    },
+    {
+      "slug": "non-hodgkin-lymphoma-st-jude-murphy-stage",
+      "title": "Non-Hodgkin Lymphoma — St Jude (Murphy) Stage",
+      "subtitle": "Paediatric NHL staging (Toronto Tier 1).",
+      "category": "Calculators & Tools",
+      "seoTitle": "Non-Hodgkin Lymphoma — St Jude (Murphy) Stage Score Calculator",
+      "primaryKeyword": "Non-Hodgkin Lymphoma — St Jude (Murphy) Stage",
+      "secondaryKeywords": [
+        "Non-Hodgkin Lymphoma — St Jude (Murphy) Stage calculator",
+        "Non-Hodgkin Lymphoma — St Jude (Murphy) Stage interpretation",
+        "paediatric oncology score",
+        "Non-Hodgkin Lymphoma — St Jude (Murphy) Stage criteria"
+      ]
+    },
+    {
+      "slug": "wilms-tumour-toronto-cog-stage",
+      "title": "Wilms Tumour — Toronto / COG Stage",
+      "subtitle": "Nephroblastoma staging after upfront nephrectomy (COG convention).",
+      "category": "Calculators & Tools",
+      "seoTitle": "Wilms Tumour — Toronto / COG Stage Score Calculator",
+      "primaryKeyword": "Wilms Tumour — Toronto / COG Stage",
+      "secondaryKeywords": [
+        "Wilms Tumour — Toronto / COG Stage calculator",
+        "Wilms Tumour — Toronto / COG Stage interpretation",
+        "paediatric oncology score",
+        "Wilms Tumour — Toronto / COG Stage criteria"
+      ]
+    },
+    {
+      "slug": "neuroblastoma-inrgss-stage",
+      "title": "Neuroblastoma — INRGSS Stage",
+      "subtitle": "International Neuroblastoma Risk Group Staging System - pre-treatment, imaging-based.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Neuroblastoma — INRGSS Stage Score Calculator",
+      "primaryKeyword": "Neuroblastoma — INRGSS Stage",
+      "secondaryKeywords": [
+        "Neuroblastoma — INRGSS Stage calculator",
+        "Neuroblastoma — INRGSS Stage interpretation",
+        "paediatric oncology score",
+        "Neuroblastoma — INRGSS Stage criteria"
+      ]
+    },
+    {
+      "slug": "retinoblastoma-toronto-stage",
+      "title": "Retinoblastoma — Toronto Stage",
+      "subtitle": "Post-enucleation staging of retinoblastoma.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Retinoblastoma — Toronto Stage Score Calculator",
+      "primaryKeyword": "Retinoblastoma — Toronto Stage",
+      "secondaryKeywords": [
+        "Retinoblastoma — Toronto Stage calculator",
+        "Retinoblastoma — Toronto Stage interpretation",
+        "paediatric oncology score",
+        "Retinoblastoma — Toronto Stage criteria"
+      ]
+    },
+    {
+      "slug": "hepatoblastoma-pretext-group",
+      "title": "Hepatoblastoma — PRETEXT Group",
+      "subtitle": "PRE-Treatment EXTent of tumour - number of contiguous liver sections FREE of tumour determines the group.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Hepatoblastoma — PRETEXT Group Score Calculator",
+      "primaryKeyword": "Hepatoblastoma — PRETEXT Group",
+      "secondaryKeywords": [
+        "Hepatoblastoma — PRETEXT Group calculator",
+        "Hepatoblastoma — PRETEXT Group interpretation",
+        "paediatric oncology score",
+        "Hepatoblastoma — PRETEXT Group criteria"
+      ]
+    },
+    {
+      "slug": "medulloblastoma-cns-embryonal-chang-m-stage",
+      "title": "Medulloblastoma / CNS Embryonal — Chang M-Stage",
+      "subtitle": "Metastatic staging of medulloblastoma and other CNS embryonal tumours.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Medulloblastoma / CNS Embryonal — Chang M-Stage",
+      "primaryKeyword": "Medulloblastoma / CNS Embryonal — Chang M-Stage",
+      "secondaryKeywords": [
+        "Medulloblastoma / CNS Embryonal — Chang M-Stage calculator",
+        "Medulloblastoma / CNS Embryonal — Chang M-Stage interpretation",
+        "paediatric oncology score",
+        "Medulloblastoma / CNS Embryonal — Chang M-Stage criteria"
+      ]
+    },
+    {
+      "slug": "ependymoma-toronto-stage",
+      "title": "Ependymoma — Toronto Stage",
+      "subtitle": "Staged by the presence of metastatic disease.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Ependymoma — Toronto Stage Score Calculator",
+      "primaryKeyword": "Ependymoma — Toronto Stage",
+      "secondaryKeywords": [
+        "Ependymoma — Toronto Stage calculator",
+        "Ependymoma — Toronto Stage interpretation",
+        "paediatric oncology score",
+        "Ependymoma — Toronto Stage criteria"
+      ]
+    },
+    {
+      "slug": "osteosarcoma-toronto-stage",
+      "title": "Osteosarcoma — Toronto Stage",
+      "subtitle": "Staged by the presence of metastases at diagnosis.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Osteosarcoma — Toronto Stage Score Calculator",
+      "primaryKeyword": "Osteosarcoma — Toronto Stage",
+      "secondaryKeywords": [
+        "Osteosarcoma — Toronto Stage calculator",
+        "Osteosarcoma — Toronto Stage interpretation",
+        "paediatric oncology score",
+        "Osteosarcoma — Toronto Stage criteria"
+      ]
+    },
+    {
+      "slug": "ewing-sarcoma-toronto-stage",
+      "title": "Ewing Sarcoma — Toronto Stage",
+      "subtitle": "Staged by the presence of metastases at diagnosis.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Ewing Sarcoma — Toronto Stage Score Calculator",
+      "primaryKeyword": "Ewing Sarcoma — Toronto Stage",
+      "secondaryKeywords": [
+        "Ewing Sarcoma — Toronto Stage calculator",
+        "Ewing Sarcoma — Toronto Stage interpretation",
+        "paediatric oncology score",
+        "Ewing Sarcoma — Toronto Stage criteria"
+      ]
+    },
+    {
+      "slug": "rhabdomyosarcoma-irs-group",
+      "title": "Rhabdomyosarcoma — IRS Group",
+      "subtitle": "Intergroup Rhabdomyosarcoma Study post-surgical grouping.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Rhabdomyosarcoma — IRS Group Score Calculator",
+      "primaryKeyword": "Rhabdomyosarcoma — IRS Group",
+      "secondaryKeywords": [
+        "Rhabdomyosarcoma — IRS Group calculator",
+        "Rhabdomyosarcoma — IRS Group interpretation",
+        "paediatric oncology score",
+        "Rhabdomyosarcoma — IRS Group criteria"
+      ]
+    },
+    {
+      "slug": "non-rhabdomyosarcoma-soft-tissue-sarcoma-toronto-stage",
+      "title": "Non-Rhabdomyosarcoma Soft-Tissue Sarcoma — Toronto Stage",
+      "subtitle": "Staged by resection status and metastatic disease.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Non-Rhabdomyosarcoma Soft-Tissue Sarcoma — Toronto Stage",
+      "primaryKeyword": "Non-Rhabdomyosarcoma Soft-Tissue Sarcoma — Toronto Stage",
+      "secondaryKeywords": [
+        "Non-Rhabdomyosarcoma Soft-Tissue Sarcoma — Toronto Stage calculator",
+        "Non-Rhabdomyosarcoma Soft-Tissue Sarcoma — Toronto Stage interpretation",
+        "paediatric oncology score",
+        "Non-Rhabdomyosarcoma Soft-Tissue Sarcoma — Toronto Stage criteria"
+      ]
+    },
+    {
+      "slug": "ovarian-tumour-toronto-figo-stage",
+      "title": "Ovarian Tumour — Toronto / FIGO Stage",
+      "subtitle": "Paediatric ovarian (usually germ-cell) tumour staging.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Ovarian Tumour — Toronto / FIGO Stage Score Calculator",
+      "primaryKeyword": "Ovarian Tumour — Toronto / FIGO Stage",
+      "secondaryKeywords": [
+        "Ovarian Tumour — Toronto / FIGO Stage calculator",
+        "Ovarian Tumour — Toronto / FIGO Stage interpretation",
+        "paediatric oncology score",
+        "Ovarian Tumour — Toronto / FIGO Stage criteria"
+      ]
+    },
+    {
+      "slug": "testicular-tumour-toronto-cog-stage",
+      "title": "Testicular Tumour — Toronto / COG Stage",
+      "subtitle": "Paediatric testicular germ-cell tumour staging.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Testicular Tumour — Toronto / COG Stage Score Calculator",
+      "primaryKeyword": "Testicular Tumour — Toronto / COG Stage",
+      "secondaryKeywords": [
+        "Testicular Tumour — Toronto / COG Stage calculator",
+        "Testicular Tumour — Toronto / COG Stage interpretation",
+        "paediatric oncology score",
+        "Testicular Tumour — Toronto / COG Stage criteria"
+      ]
+    },
+    {
+      "slug": "iga-vasculitis-hsp-criteria",
+      "title": "IgA Vasculitis (HSP) Criteria",
+      "subtitle": "EULAR/PRINTO/PRES paediatric criteria - purpura is MANDATORY plus ≥1 of the four other features.",
+      "category": "Calculators & Tools",
+      "seoTitle": "IgA Vasculitis (HSP) Criteria Calculator",
+      "primaryKeyword": "IgA Vasculitis (HSP) Criteria",
+      "secondaryKeywords": [
+        "IgA Vasculitis (HSP) Criteria calculator",
+        "IgA Vasculitis (HSP) Criteria interpretation",
+        "paediatric rheumatology score",
+        "IgA Vasculitis (HSP) Criteria criteria"
+      ]
+    },
+    {
+      "slug": "eular-acr-sle-classification-2019",
+      "title": "EULAR/ACR SLE Classification (2019)",
+      "subtitle": "Entry criterion: ANA ≥ 1:80. Then weighted criteria - only the HIGHEST-weighted item in each domain counts; ≥10 points classifies SLE.",
+      "category": "Calculators & Tools",
+      "seoTitle": "EULAR/ACR SLE Classification (2019) Score Calculator",
+      "primaryKeyword": "EULAR/ACR SLE Classification (2019)",
+      "secondaryKeywords": [
+        "EULAR/ACR SLE Classification (2019) calculator",
+        "EULAR/ACR SLE Classification (2019) interpretation",
+        "paediatric rheumatology score",
+        "EULAR/ACR SLE Classification (2019) criteria"
+      ]
+    },
+    {
+      "slug": "sledai-2k-sle-disease-activity-index",
+      "title": "SLEDAI-2K — SLE Disease Activity Index",
+      "subtitle": "Disease activity in the preceding 10 days. Weighted descriptors.",
+      "category": "Calculators & Tools",
+      "seoTitle": "SLEDAI-2K — SLE Disease Activity Index Calculator",
+      "primaryKeyword": "SLEDAI-2K — SLE Disease Activity Index",
+      "secondaryKeywords": [
+        "SLEDAI-2K — SLE Disease Activity Index calculator",
+        "SLEDAI-2K — SLE Disease Activity Index interpretation",
+        "paediatric rheumatology score",
+        "SLEDAI-2K — SLE Disease Activity Index criteria"
+      ]
+    },
+    {
+      "slug": "childhood-polyarteritis-nodosa-criteria",
+      "title": "Childhood Polyarteritis Nodosa Criteria",
+      "subtitle": "EULAR/PRINTO/PRES - mandatory histology or angiographic abnormality PLUS ≥1 of five features.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Childhood Polyarteritis Nodosa Criteria Calculator",
+      "primaryKeyword": "Childhood Polyarteritis Nodosa Criteria",
+      "secondaryKeywords": [
+        "Childhood Polyarteritis Nodosa Criteria calculator",
+        "Childhood Polyarteritis Nodosa Criteria interpretation",
+        "paediatric rheumatology score",
+        "Childhood Polyarteritis Nodosa Criteria criteria"
+      ]
+    },
+    {
+      "slug": "granulomatosis-with-polyangiitis-wegener",
+      "title": "Granulomatosis with Polyangiitis (Wegener)",
+      "subtitle": "EULAR/PRINTO/PRES paediatric criteria - ≥3 of 6 features classify GPA.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Granulomatosis with Polyangiitis (Wegener) Score Calculator",
+      "primaryKeyword": "Granulomatosis with Polyangiitis (Wegener)",
+      "secondaryKeywords": [
+        "Granulomatosis with Polyangiitis (Wegener) calculator",
+        "Granulomatosis with Polyangiitis (Wegener) interpretation",
+        "paediatric rheumatology score",
+        "Granulomatosis with Polyangiitis (Wegener) criteria"
+      ]
+    },
+    {
+      "slug": "eosinophilic-granulomatosis-with-polyangiitis-churg-strauss",
+      "title": "Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss)",
+      "subtitle": "ACR criteria - ≥4 of 6 features classify EGPA.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss)",
+      "primaryKeyword": "Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss)",
+      "secondaryKeywords": [
+        "Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss) calculator",
+        "Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss) interpretation",
+        "paediatric rheumatology score",
+        "Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss) criteria"
+      ]
+    },
+    {
+      "slug": "beh-et-disease-isg-criteria",
+      "title": "Behçet Disease — ISG Criteria",
+      "subtitle": "International Study Group criteria: recurrent oral ulceration is MANDATORY plus ≥2 other features.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Behçet Disease — ISG Criteria Calculator",
+      "primaryKeyword": "Behçet Disease — ISG Criteria",
+      "secondaryKeywords": [
+        "Behçet Disease — ISG Criteria calculator",
+        "Behçet Disease — ISG Criteria interpretation",
+        "paediatric rheumatology score",
+        "Behçet Disease — ISG Criteria criteria"
+      ]
+    },
+    {
+      "slug": "juvenile-systemic-sclerosis-criteria",
+      "title": "Juvenile Systemic Sclerosis Criteria",
+      "subtitle": "PRES/ACR/EULAR paediatric criteria - the mandatory major criterion plus ≥2 of 20 minor criteria.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Juvenile Systemic Sclerosis Criteria Calculator",
+      "primaryKeyword": "Juvenile Systemic Sclerosis Criteria",
+      "secondaryKeywords": [
+        "Juvenile Systemic Sclerosis Criteria calculator",
+        "Juvenile Systemic Sclerosis Criteria interpretation",
+        "paediatric rheumatology score",
+        "Juvenile Systemic Sclerosis Criteria criteria"
+      ]
+    },
+    {
+      "slug": "sj-gren-syndrome-acr-eular-2016",
+      "title": "Sjögren Syndrome — ACR/EULAR 2016",
+      "subtitle": "Weighted classification criteria; a total of ≥ 4 classifies primary Sjögren syndrome.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Sjögren Syndrome — ACR/EULAR 2016 Score Calculator",
+      "primaryKeyword": "Sjögren Syndrome — ACR/EULAR 2016",
+      "secondaryKeywords": [
+        "Sjögren Syndrome — ACR/EULAR 2016 calculator",
+        "Sjögren Syndrome — ACR/EULAR 2016 interpretation",
+        "paediatric rheumatology score",
+        "Sjögren Syndrome — ACR/EULAR 2016 criteria"
+      ]
+    },
+    {
+      "slug": "adhd-dsm-5-criteria",
+      "title": "ADHD — DSM-5 Criteria",
+      "subtitle": "Attention-deficit/hyperactivity disorder. Score the inattention list, then repeat for hyperactivity-impulsivity.",
+      "category": "Calculators & Tools",
+      "seoTitle": "ADHD — DSM-5 Criteria Calculator",
+      "primaryKeyword": "ADHD — DSM-5 Criteria",
+      "secondaryKeywords": [
+        "ADHD — DSM-5 Criteria calculator",
+        "ADHD — DSM-5 Criteria interpretation",
+        "paediatric psychosocial score",
+        "ADHD — DSM-5 Criteria criteria"
+      ]
+    },
+    {
+      "slug": "oppositional-defiant-disorder",
+      "title": "Oppositional Defiant Disorder",
+      "subtitle": "DSM-5 criteria - angry/irritable mood, argumentative behaviour, vindictiveness.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Oppositional Defiant Disorder Score Calculator",
+      "primaryKeyword": "Oppositional Defiant Disorder",
+      "secondaryKeywords": [
+        "Oppositional Defiant Disorder calculator",
+        "Oppositional Defiant Disorder interpretation",
+        "paediatric psychosocial score",
+        "Oppositional Defiant Disorder criteria"
+      ]
+    },
+    {
+      "slug": "conduct-disorder",
+      "title": "Conduct Disorder",
+      "subtitle": "DSM-5 criteria - repetitive violation of others’ rights or major age-appropriate norms.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Conduct Disorder Score Calculator",
+      "primaryKeyword": "Conduct Disorder",
+      "secondaryKeywords": [
+        "Conduct Disorder calculator",
+        "Conduct Disorder interpretation",
+        "paediatric psychosocial score",
+        "Conduct Disorder criteria"
+      ]
+    },
+    {
+      "slug": "disruptive-mood-dysregulation-disorder-dmdd",
+      "title": "Disruptive Mood Dysregulation Disorder (DMDD)",
+      "subtitle": "DSM-5 criteria - chronic severe irritability with temper outbursts.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Disruptive Mood Dysregulation Disorder (DMDD) Score Calculator",
+      "primaryKeyword": "Disruptive Mood Dysregulation Disorder (DMDD)",
+      "secondaryKeywords": [
+        "Disruptive Mood Dysregulation Disorder (DMDD) calculator",
+        "Disruptive Mood Dysregulation Disorder (DMDD) interpretation",
+        "paediatric psychosocial score",
+        "Disruptive Mood Dysregulation Disorder (DMDD) criteria"
+      ]
+    },
+    {
+      "slug": "social-pragmatic-communication-disorder",
+      "title": "Social (Pragmatic) Communication Disorder",
+      "subtitle": "DSM-5 criteria - persistent difficulty with social use of verbal and nonverbal communication.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Social (Pragmatic) Communication Disorder Score Calculator",
+      "primaryKeyword": "Social (Pragmatic) Communication Disorder",
+      "secondaryKeywords": [
+        "Social (Pragmatic) Communication Disorder calculator",
+        "Social (Pragmatic) Communication Disorder interpretation",
+        "paediatric psychosocial score",
+        "Social (Pragmatic) Communication Disorder criteria"
+      ]
+    },
+    {
+      "slug": "major-depressive-episode",
+      "title": "Major Depressive Episode",
+      "subtitle": "DSM-5 criteria - symptoms in the same 2-week period, a change from previous function.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Major Depressive Episode Score Calculator",
+      "primaryKeyword": "Major Depressive Episode",
+      "secondaryKeywords": [
+        "Major Depressive Episode calculator",
+        "Major Depressive Episode interpretation",
+        "paediatric psychosocial score",
+        "Major Depressive Episode criteria"
+      ]
+    },
+    {
+      "slug": "persistent-depressive-disorder-dysthymia",
+      "title": "Persistent Depressive Disorder (Dysthymia)",
+      "subtitle": "DSM-5 criteria - depressed mood for most of the day, more days than not, ≥1 year in children.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Persistent Depressive Disorder (Dysthymia) Score Calculator",
+      "primaryKeyword": "Persistent Depressive Disorder (Dysthymia)",
+      "secondaryKeywords": [
+        "Persistent Depressive Disorder (Dysthymia) calculator",
+        "Persistent Depressive Disorder (Dysthymia) interpretation",
+        "paediatric psychosocial score",
+        "Persistent Depressive Disorder (Dysthymia) criteria"
+      ]
+    },
+    {
+      "slug": "manic-episode",
+      "title": "Manic Episode",
+      "subtitle": "DSM-5 criteria - distinct period of abnormally elevated/irritable mood and increased energy.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Manic Episode Score Calculator",
+      "primaryKeyword": "Manic Episode",
+      "secondaryKeywords": [
+        "Manic Episode calculator",
+        "Manic Episode interpretation",
+        "paediatric psychosocial score",
+        "Manic Episode criteria"
+      ]
+    },
+    {
+      "slug": "generalized-anxiety-disorder",
+      "title": "Generalized Anxiety Disorder",
+      "subtitle": "DSM-5 criteria - excessive anxiety and worry, more days than not, ≥6 months.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Generalized Anxiety Disorder Score Calculator",
+      "primaryKeyword": "Generalized Anxiety Disorder",
+      "secondaryKeywords": [
+        "Generalized Anxiety Disorder calculator",
+        "Generalized Anxiety Disorder interpretation",
+        "paediatric psychosocial score",
+        "Generalized Anxiety Disorder criteria"
+      ]
+    },
+    {
+      "slug": "separation-anxiety-disorder",
+      "title": "Separation Anxiety Disorder",
+      "subtitle": "DSM-5 criteria - developmentally inappropriate fear of separation from attachment figures.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Separation Anxiety Disorder Score Calculator",
+      "primaryKeyword": "Separation Anxiety Disorder",
+      "secondaryKeywords": [
+        "Separation Anxiety Disorder calculator",
+        "Separation Anxiety Disorder interpretation",
+        "paediatric psychosocial score",
+        "Separation Anxiety Disorder criteria"
+      ]
+    },
+    {
+      "slug": "social-anxiety-disorder-social-phobia",
+      "title": "Social Anxiety Disorder (Social Phobia)",
+      "subtitle": "DSM-5 criteria - marked fear of social situations with possible scrutiny.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Social Anxiety Disorder (Social Phobia) Score Calculator",
+      "primaryKeyword": "Social Anxiety Disorder (Social Phobia)",
+      "secondaryKeywords": [
+        "Social Anxiety Disorder (Social Phobia) calculator",
+        "Social Anxiety Disorder (Social Phobia) interpretation",
+        "paediatric psychosocial score",
+        "Social Anxiety Disorder (Social Phobia) criteria"
+      ]
+    },
+    {
+      "slug": "panic-disorder-agoraphobia",
+      "title": "Panic Disorder / Agoraphobia",
+      "subtitle": "DSM-5 panic-attack symptom list - abrupt surge of intense fear peaking within minutes.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Panic Disorder / Agoraphobia Score Calculator",
+      "primaryKeyword": "Panic Disorder / Agoraphobia",
+      "secondaryKeywords": [
+        "Panic Disorder / Agoraphobia calculator",
+        "Panic Disorder / Agoraphobia interpretation",
+        "paediatric psychosocial score",
+        "Panic Disorder / Agoraphobia criteria"
+      ]
+    },
+    {
+      "slug": "ptsd-children-6-years-and-younger",
+      "title": "PTSD — Children 6 Years and Younger",
+      "subtitle": "DSM-5 preschool subtype criteria after exposure to actual/threatened death, serious injury or sexual violence.",
+      "category": "Calculators & Tools",
+      "seoTitle": "PTSD — Children 6 Years and Younger Score Calculator",
+      "primaryKeyword": "PTSD — Children 6 Years and Younger",
+      "secondaryKeywords": [
+        "PTSD — Children 6 Years and Younger calculator",
+        "PTSD — Children 6 Years and Younger interpretation",
+        "paediatric psychosocial score",
+        "PTSD — Children 6 Years and Younger criteria"
+      ]
+    },
+    {
+      "slug": "anorexia-nervosa",
+      "title": "Anorexia Nervosa",
+      "subtitle": "DSM-5 criteria - restriction of energy intake with fear of weight gain.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Anorexia Nervosa Score Calculator",
+      "primaryKeyword": "Anorexia Nervosa",
+      "secondaryKeywords": [
+        "Anorexia Nervosa calculator",
+        "Anorexia Nervosa interpretation",
+        "paediatric psychosocial score",
+        "Anorexia Nervosa criteria"
+      ]
+    },
+    {
+      "slug": "bulimia-nervosa",
+      "title": "Bulimia Nervosa",
+      "subtitle": "DSM-5 criteria - recurrent binge eating with compensatory behaviours.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Bulimia Nervosa Score Calculator",
+      "primaryKeyword": "Bulimia Nervosa",
+      "secondaryKeywords": [
+        "Bulimia Nervosa calculator",
+        "Bulimia Nervosa interpretation",
+        "paediatric psychosocial score",
+        "Bulimia Nervosa criteria"
+      ]
+    },
+    {
+      "slug": "binge-eating-disorder",
+      "title": "Binge Eating Disorder",
+      "subtitle": "DSM-5 criteria - recurrent binge eating without regular compensatory behaviour.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Binge Eating Disorder Score Calculator",
+      "primaryKeyword": "Binge Eating Disorder",
+      "secondaryKeywords": [
+        "Binge Eating Disorder calculator",
+        "Binge Eating Disorder interpretation",
+        "paediatric psychosocial score",
+        "Binge Eating Disorder criteria"
+      ]
+    },
+    {
+      "slug": "avoidant-restrictive-food-intake-disorder-arfid",
+      "title": "Avoidant/Restrictive Food Intake Disorder (ARFID)",
+      "subtitle": "DSM-5 criteria - eating disturbance without body-image disturbance.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Avoidant/Restrictive Food Intake Disorder (ARFID)",
+      "primaryKeyword": "Avoidant/Restrictive Food Intake Disorder (ARFID)",
+      "secondaryKeywords": [
+        "Avoidant/Restrictive Food Intake Disorder (ARFID) calculator",
+        "Avoidant/Restrictive Food Intake Disorder (ARFID) interpretation",
+        "paediatric psychosocial score",
+        "Avoidant/Restrictive Food Intake Disorder (ARFID) criteria"
+      ]
+    },
+    {
+      "slug": "body-dysmorphic-disorder",
+      "title": "Body Dysmorphic Disorder",
+      "subtitle": "DSM-5 criteria - preoccupation with perceived defects in physical appearance.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Body Dysmorphic Disorder Score Calculator",
+      "primaryKeyword": "Body Dysmorphic Disorder",
+      "secondaryKeywords": [
+        "Body Dysmorphic Disorder calculator",
+        "Body Dysmorphic Disorder interpretation",
+        "paediatric psychosocial score",
+        "Body Dysmorphic Disorder criteria"
+      ]
+    },
+    {
+      "slug": "sickle-cell-risk-of-severe-disease-miller",
+      "title": "Sickle Cell — Risk of Severe Disease (Miller)",
+      "subtitle": "Predicts later severe sickle-cell disease from events in the first two years of life.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Sickle Cell — Risk of Severe Disease (Miller) Score Calculator",
+      "primaryKeyword": "Sickle Cell — Risk of Severe Disease (Miller)",
+      "secondaryKeywords": [
+        "Sickle Cell — Risk of Severe Disease (Miller) calculator",
+        "Sickle Cell — Risk of Severe Disease (Miller) interpretation",
+        "paediatric haematology score",
+        "Sickle Cell — Risk of Severe Disease (Miller) criteria"
+      ]
+    },
+    {
+      "slug": "dutch-lipid-criteria-familial-hypercholesterolaemia",
+      "title": "Dutch Lipid Criteria — Familial Hypercholesterolaemia",
+      "subtitle": "Dutch Lipid Clinic Network score for diagnosing familial hypercholesterolaemia.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Dutch Lipid Criteria — Familial Hypercholesterolaemia",
+      "primaryKeyword": "Dutch Lipid Criteria — Familial Hypercholesterolaemia",
+      "secondaryKeywords": [
+        "Dutch Lipid Criteria — Familial Hypercholesterolaemia calculator",
+        "Dutch Lipid Criteria — Familial Hypercholesterolaemia interpretation",
+        "paediatric endocrine score",
+        "Dutch Lipid Criteria — Familial Hypercholesterolaemia criteria"
+      ]
+    },
+    {
+      "slug": "prifle-paediatric-acute-kidney-injury",
+      "title": "pRIFLE — Paediatric Acute Kidney Injury",
+      "subtitle": "Paediatric-modified RIFLE criteria, staged on estimated creatinine clearance and urine output.",
+      "category": "Calculators & Tools",
+      "seoTitle": "pRIFLE — Paediatric Acute Kidney Injury Score Calculator",
+      "primaryKeyword": "pRIFLE — Paediatric Acute Kidney Injury",
+      "secondaryKeywords": [
+        "pRIFLE — Paediatric Acute Kidney Injury calculator",
+        "pRIFLE — Paediatric Acute Kidney Injury interpretation",
+        "paediatric renal score",
+        "pRIFLE — Paediatric Acute Kidney Injury criteria"
+      ]
+    },
+    {
+      "slug": "flacc-pain-scale",
+      "title": "FLACC Pain Scale",
+      "subtitle": "Observational pain score for children aged 2 months-7 years, or any child unable to self-report.",
+      "category": "Calculators & Tools",
+      "seoTitle": "FLACC Pain Scale Score Calculator",
+      "primaryKeyword": "FLACC Pain Scale",
+      "secondaryKeywords": [
+        "FLACC Pain Scale calculator",
+        "FLACC Pain Scale interpretation",
+        "paediatric pain score",
+        "FLACC Pain Scale criteria"
+      ]
+    },
+    {
+      "slug": "cheops-post-op-pain-1-7-years",
+      "title": "CHEOPS — Post-op Pain (1–7 years)",
+      "subtitle": "Children's Hospital of Eastern Ontario Pain Scale for post-operative pain. Range 4-13.",
+      "category": "Calculators & Tools",
+      "seoTitle": "CHEOPS — Post-op Pain (1–7 years) Score Calculator",
+      "primaryKeyword": "CHEOPS — Post-op Pain (1–7 years)",
+      "secondaryKeywords": [
+        "CHEOPS — Post-op Pain (1–7 years) calculator",
+        "CHEOPS — Post-op Pain (1–7 years) interpretation",
+        "paediatric pain score",
+        "CHEOPS — Post-op Pain (1–7 years) criteria"
+      ]
+    },
+    {
+      "slug": "nexus-ii-paediatric-head-ct-rule",
+      "title": "NEXUS II — Paediatric Head CT Rule",
+      "subtitle": "Identifies low-risk blunt head trauma where CT can be avoided. Any positive predictor = not low risk.",
+      "category": "Calculators & Tools",
+      "seoTitle": "NEXUS II — Paediatric Head CT Rule Score Calculator",
+      "primaryKeyword": "NEXUS II — Paediatric Head CT Rule",
+      "secondaryKeywords": [
+        "NEXUS II — Paediatric Head CT Rule calculator",
+        "NEXUS II — Paediatric Head CT Rule interpretation",
+        "paediatric radiology score",
+        "NEXUS II — Paediatric Head CT Rule criteria"
+      ]
+    },
+    {
+      "slug": "apnoea-hypopnoea-index-paediatric-osa",
+      "title": "Apnoea–Hypopnoea Index (Paediatric OSA)",
+      "subtitle": "Severity of obstructive sleep apnoea in children - events per hour of sleep.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Apnoea–Hypopnoea Index (Paediatric OSA) Calculator",
+      "primaryKeyword": "Apnoea–Hypopnoea Index (Paediatric OSA)",
+      "secondaryKeywords": [
+        "Apnoea–Hypopnoea Index (Paediatric OSA) calculator",
+        "Apnoea–Hypopnoea Index (Paediatric OSA) interpretation",
+        "paediatric sleep score",
+        "Apnoea–Hypopnoea Index (Paediatric OSA) criteria"
+      ]
+    },
+    {
+      "slug": "glasgow-blatchford-score-upper-gi-bleed",
+      "title": "Glasgow-Blatchford Score (Upper GI Bleed)",
+      "subtitle": "Predicts need for intervention (transfusion, endoscopy, surgery) in upper GI bleeding.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Glasgow-Blatchford Score (Upper GI Bleed) Calculator",
+      "primaryKeyword": "Glasgow-Blatchford Score (Upper GI Bleed)",
+      "secondaryKeywords": [
+        "Glasgow-Blatchford Score (Upper GI Bleed) calculator",
+        "Glasgow-Blatchford Score (Upper GI Bleed) interpretation",
+        "paediatric GI & Liver score",
+        "Glasgow-Blatchford Score (Upper GI Bleed) criteria"
+      ]
+    },
+    {
+      "slug": "rome-iv-functional-dyspepsia",
+      "title": "Rome IV — Functional Dyspepsia",
+      "subtitle": "Children/adolescents: ≥1 symptom for ≥2 months, at least 4 days per month.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Rome IV — Functional Dyspepsia Score Calculator",
+      "primaryKeyword": "Rome IV — Functional Dyspepsia",
+      "secondaryKeywords": [
+        "Rome IV — Functional Dyspepsia calculator",
+        "Rome IV — Functional Dyspepsia interpretation",
+        "paediatric GI & Liver score",
+        "Rome IV — Functional Dyspepsia criteria"
+      ]
+    },
+    {
+      "slug": "rome-iv-functional-abdominal-pain-nos",
+      "title": "Rome IV — Functional Abdominal Pain (NOS)",
+      "subtitle": "Children/adolescents: symptoms at least 4 times per month for ≥2 months.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Rome IV — Functional Abdominal Pain (NOS) Score Calculator",
+      "primaryKeyword": "Rome IV — Functional Abdominal Pain (NOS)",
+      "secondaryKeywords": [
+        "Rome IV — Functional Abdominal Pain (NOS) calculator",
+        "Rome IV — Functional Abdominal Pain (NOS) interpretation",
+        "paediatric GI & Liver score",
+        "Rome IV — Functional Abdominal Pain (NOS) criteria"
+      ]
+    },
+    {
+      "slug": "rome-iv-rumination-syndrome",
+      "title": "Rome IV — Rumination Syndrome",
+      "subtitle": "Repeated regurgitation of recently ingested food, for ≥2 months.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Rome IV — Rumination Syndrome Score Calculator",
+      "primaryKeyword": "Rome IV — Rumination Syndrome",
+      "secondaryKeywords": [
+        "Rome IV — Rumination Syndrome calculator",
+        "Rome IV — Rumination Syndrome interpretation",
+        "paediatric GI & Liver score",
+        "Rome IV — Rumination Syndrome criteria"
+      ]
+    },
+    {
+      "slug": "rome-iv-non-retentive-faecal-incontinence",
+      "title": "Rome IV — Non-Retentive Faecal Incontinence",
+      "subtitle": "Children with a developmental age ≥ 4 years; ≥1 month duration.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Rome IV — Non-Retentive Faecal Incontinence Score Calculator",
+      "primaryKeyword": "Rome IV — Non-Retentive Faecal Incontinence",
+      "secondaryKeywords": [
+        "Rome IV — Non-Retentive Faecal Incontinence calculator",
+        "Rome IV — Non-Retentive Faecal Incontinence interpretation",
+        "paediatric GI & Liver score",
+        "Rome IV — Non-Retentive Faecal Incontinence criteria"
+      ]
+    },
+    {
+      "slug": "rome-iv-aerophagia",
+      "title": "Rome IV — Aerophagia",
+      "subtitle": "Excessive air swallowing causing abdominal distension; ≥2 months.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Rome IV — Aerophagia Score Calculator",
+      "primaryKeyword": "Rome IV — Aerophagia",
+      "secondaryKeywords": [
+        "Rome IV — Aerophagia calculator",
+        "Rome IV — Aerophagia interpretation",
+        "paediatric GI & Liver score",
+        "Rome IV — Aerophagia criteria"
+      ]
+    },
+    {
+      "slug": "rome-iv-functional-nausea-functional-vomiting",
+      "title": "Rome IV — Functional Nausea / Functional Vomiting",
+      "subtitle": "Children and adolescents; symptoms for ≥2 months.",
+      "category": "Calculators & Tools",
+      "seoTitle": "Rome IV — Functional Nausea / Functional Vomiting",
+      "primaryKeyword": "Rome IV — Functional Nausea / Functional Vomiting",
+      "secondaryKeywords": [
+        "Rome IV — Functional Nausea / Functional Vomiting calculator",
+        "Rome IV — Functional Nausea / Functional Vomiting interpretation",
+        "paediatric GI & Liver score",
+        "Rome IV — Functional Nausea / Functional Vomiting criteria"
+      ]
+    },
+    {
+      "slug": "nafld-activity-score-nas",
+      "title": "NAFLD Activity Score (NAS)",
+      "subtitle": "Histological activity in non-alcoholic fatty liver disease (NASH CRN system).",
+      "category": "Calculators & Tools",
+      "seoTitle": "NAFLD Activity Score (NAS) Calculator",
+      "primaryKeyword": "NAFLD Activity Score (NAS)",
+      "secondaryKeywords": [
+        "NAFLD Activity Score (NAS) calculator",
+        "NAFLD Activity Score (NAS) interpretation",
+        "paediatric GI & Liver score",
+        "NAFLD Activity Score (NAS) criteria"
+      ]
+    },
+    {
+      "slug": "body-surface-area",
+      "title": "Body Surface Area",
+      "subtitle": "Mosteller formula",
+      "category": "Calculators & Tools",
+      "seoTitle": "Body Surface Area Calculator",
+      "primaryKeyword": "Body Surface Area calculator",
+      "secondaryKeywords": [
+        "Body Surface Area",
+        "neonatal Body Surface Area",
+        "Body Surface Area formula",
+        "how to calculate body surface area"
+      ]
+    },
+    {
+      "slug": "tpn-calculator",
+      "title": "TPN Calculator",
+      "subtitle": "Stock & multi-line TPN",
+      "category": "Calculators & Tools",
+      "seoTitle": "TPN Calculator",
+      "primaryKeyword": "TPN Calculator calculator",
+      "secondaryKeywords": [
+        "TPN Calculator",
+        "neonatal TPN Calculator",
+        "TPN Calculator formula",
+        "how to calculate tpn calculator"
+      ]
+    },
+    {
+      "slug": "dvet-calculator",
+      "title": "DVET Calculator",
+      "subtitle": "Exchange transfusion",
+      "category": "Calculators & Tools",
+      "seoTitle": "DVET Calculator",
+      "primaryKeyword": "DVET Calculator calculator",
+      "secondaryKeywords": [
+        "DVET Calculator",
+        "neonatal DVET Calculator",
+        "DVET Calculator formula",
+        "how to calculate dvet calculator"
+      ]
+    },
+    {
+      "slug": "maintenance-fluids",
+      "title": "Maintenance Fluids",
+      "subtitle": "Neonatal & Paediatric Fluid Calculator",
+      "category": "Calculators & Tools",
+      "seoTitle": "Maintenance Fluids Calculator",
+      "primaryKeyword": "Maintenance Fluids calculator",
+      "secondaryKeywords": [
+        "Maintenance Fluids",
+        "neonatal Maintenance Fluids",
+        "Maintenance Fluids formula",
+        "how to calculate maintenance fluids"
+      ]
+    },
+    {
+      "slug": "lund-and-browder-chart",
+      "title": "Lund & Browder Chart",
+      "subtitle": "Burn Surface Area Estimation",
+      "category": "Calculators & Tools",
+      "seoTitle": "Lund & Browder Chart Calculator",
+      "primaryKeyword": "Lund & Browder Chart calculator",
+      "secondaryKeywords": [
+        "Lund & Browder Chart",
+        "paediatric Lund & Browder Chart",
+        "Lund & Browder Chart formula",
+        "how to calculate lund & browder chart"
+      ]
+    },
+    {
+      "slug": "burn-mortality",
+      "title": "Burn Mortality",
+      "subtitle": "Revised Baux Score",
+      "category": "Calculators & Tools",
+      "seoTitle": "Burn Mortality Calculator",
+      "primaryKeyword": "Burn Mortality calculator",
+      "secondaryKeywords": [
+        "Burn Mortality",
+        "paediatric Burn Mortality",
+        "Burn Mortality formula",
+        "how to calculate burn mortality"
+      ]
+    },
+    {
+      "slug": "pet-calculator",
+      "title": "PET Calculator",
+      "subtitle": "Partial Exchange Transfusion - Polycythemia",
+      "category": "Calculators & Tools",
+      "seoTitle": "PET Calculator",
+      "primaryKeyword": "PET Calculator calculator",
+      "secondaryKeywords": [
+        "PET Calculator",
+        "neonatal PET Calculator",
+        "PET Calculator formula",
+        "how to calculate pet calculator"
+      ]
+    },
+    {
+      "slug": "2d-echo-calculators",
+      "title": "2D Echo Calculators",
+      "subtitle": "LVO · RVO · PAPSp · EF · LA/Ao · IVC",
+      "category": "Calculators & Tools",
+      "seoTitle": "2D Echo Calculators",
+      "primaryKeyword": "2D Echo Calculators calculator",
+      "secondaryKeywords": [
+        "2D Echo Calculators",
+        "neonatal 2D Echo Calculators",
+        "2D Echo Calculators formula",
+        "how to calculate 2d echo calculators"
+      ]
+    },
+    {
+      "slug": "corrected-ag-albumin",
+      "title": "Corrected AG (Albumin)",
+      "subtitle": "AG + 2.5 × (Normal − Albumin)",
+      "category": "Calculators & Tools",
+      "seoTitle": "Corrected AG (Albumin) Calculator",
+      "primaryKeyword": "Corrected AG (Albumin) calculator",
+      "secondaryKeywords": [
+        "Corrected AG (Albumin)",
+        "neonatal Corrected AG (Albumin)",
+        "Corrected AG (Albumin) formula",
+        "how to calculate corrected ag (albumin)"
+      ]
+    },
+    {
+      "slug": "corrected-na-hyperglycaemia",
+      "title": "Corrected Na (hyperglycaemia)",
+      "subtitle": "Na + 1.6 × ((Glucose − 100)/100)",
+      "category": "Calculators & Tools",
+      "seoTitle": "Corrected Na (hyperglycaemia) Calculator",
+      "primaryKeyword": "Corrected Na (hyperglycaemia) calculator",
+      "secondaryKeywords": [
+        "Corrected Na (hyperglycaemia)",
+        "neonatal Corrected Na (hyperglycaemia)",
+        "Corrected Na (hyperglycaemia) formula",
+        "how to calculate corrected na (hyperglycaemia)"
+      ]
+    },
+    {
+      "slug": "blood-volume",
+      "title": "Blood Volume",
+      "subtitle": "EBV by age band",
+      "category": "Calculators & Tools",
+      "seoTitle": "Blood Volume Calculator",
+      "primaryKeyword": "Blood Volume calculator",
+      "secondaryKeywords": [
+        "Blood Volume",
+        "neonatal Blood Volume",
+        "Blood Volume formula",
+        "how to calculate blood volume"
+      ]
+    },
+    {
+      "slug": "free-water-deficit-na",
+      "title": "Free Water Deficit (↑Na)",
+      "subtitle": "Hypernatraemia correction",
+      "category": "Calculators & Tools",
+      "seoTitle": "Free Water Deficit (↑Na) Calculator",
+      "primaryKeyword": "Free Water Deficit (↑Na) calculator",
+      "secondaryKeywords": [
+        "Free Water Deficit (↑Na)",
+        "neonatal Free Water Deficit (↑Na)",
+        "Free Water Deficit (↑Na) formula",
+        "how to calculate free water deficit (↑na)"
+      ]
+    },
+    {
+      "slug": "na-correction-na",
+      "title": "Na Correction (↓Na)",
+      "subtitle": "Sodium deficit + 3 % saline bolus",
+      "category": "Calculators & Tools",
+      "seoTitle": "Na Correction (↓Na) Calculator",
+      "primaryKeyword": "Na Correction (↓Na) calculator",
+      "secondaryKeywords": [
+        "Na Correction (↓Na)",
+        "neonatal Na Correction (↓Na)",
+        "Na Correction (↓Na) formula",
+        "how to calculate na correction (↓na)"
+      ]
+    },
+    {
+      "slug": "k-correction-k",
+      "title": "K Correction (↓/↑K)",
+      "subtitle": "KCl replacement OR ↑K regimen",
+      "category": "Calculators & Tools",
+      "seoTitle": "K Correction (↓/↑K) Calculator",
+      "primaryKeyword": "K Correction (↓/↑K) calculator",
+      "secondaryKeywords": [
+        "K Correction (↓/↑K)",
+        "neonatal K Correction (↓/↑K)",
+        "K Correction (↓/↑K) formula",
+        "how to calculate k correction (↓/↑k)"
+      ]
+    },
+    {
+      "slug": "calcium-correction-ca",
+      "title": "Calcium Correction (↓Ca)",
+      "subtitle": "CaCl₂ / gluconate / MgSO₄",
+      "category": "Calculators & Tools",
+      "seoTitle": "Calcium Correction (↓Ca) Calculator",
+      "primaryKeyword": "Calcium Correction (↓Ca) calculator",
+      "secondaryKeywords": [
+        "Calcium Correction (↓Ca)",
+        "neonatal Calcium Correction (↓Ca)",
+        "Calcium Correction (↓Ca) formula",
+        "how to calculate calcium correction (↓ca)"
+      ]
+    },
+    {
+      "slug": "magnesium-correction-mg",
+      "title": "Magnesium Correction (↓Mg)",
+      "subtitle": "MgSO₄ IV + oral",
+      "category": "Calculators & Tools",
+      "seoTitle": "Magnesium Correction (↓Mg) Calculator",
+      "primaryKeyword": "Magnesium Correction (↓Mg) calculator",
+      "secondaryKeywords": [
+        "Magnesium Correction (↓Mg)",
+        "neonatal Magnesium Correction (↓Mg)",
+        "Magnesium Correction (↓Mg) formula",
+        "how to calculate magnesium correction (↓mg)"
+      ]
+    },
+    {
+      "slug": "hypoglycaemia-bolus",
+      "title": "Hypoglycaemia Bolus",
+      "subtitle": "D10/D25/D50 + GIR + adjuncts",
+      "category": "Calculators & Tools",
+      "seoTitle": "Hypoglycaemia Bolus Calculator",
+      "primaryKeyword": "Hypoglycaemia Bolus calculator",
+      "secondaryKeywords": [
+        "Hypoglycaemia Bolus",
+        "neonatal Hypoglycaemia Bolus",
+        "Hypoglycaemia Bolus formula",
+        "how to calculate hypoglycaemia bolus"
+      ]
+    },
+    {
+      "slug": "glasgow-coma-scale",
+      "title": "Glasgow Coma Scale",
+      "subtitle": "Smart paediatric scorer",
+      "category": "Calculators & Tools",
+      "seoTitle": "Glasgow Coma Scale Calculator",
+      "primaryKeyword": "Glasgow Coma Scale calculator",
+      "secondaryKeywords": [
+        "Glasgow Coma Scale",
+        "paediatric Glasgow Coma Scale",
+        "Glasgow Coma Scale formula",
+        "how to calculate glasgow coma scale"
+      ]
+    },
+    {
+      "slug": "absolute-counts-anc-aec-alc",
+      "title": "Absolute Counts (ANC / AEC / ALC)",
+      "subtitle": "Neutrophil · eosinophil · lymphocyte counts",
+      "category": "Calculators & Tools",
+      "seoTitle": "Absolute Counts (ANC / AEC / ALC) Calculator",
+      "primaryKeyword": "Absolute Counts (ANC / AEC / ALC) calculator",
+      "secondaryKeywords": [
+        "Absolute Counts (ANC / AEC / ALC)",
+        "paediatric Absolute Counts (ANC / AEC / ALC)",
+        "Absolute Counts (ANC / AEC / ALC) formula",
+        "how to calculate absolute counts (anc / aec / alc)"
+      ]
+    },
+    {
+      "slug": "corrected-qt-qtc",
+      "title": "Corrected QT (QTc)",
+      "subtitle": "Bazett heart-rate correction",
+      "category": "Calculators & Tools",
+      "seoTitle": "Corrected QT (QTc) Calculator",
+      "primaryKeyword": "Corrected QT (QTc) calculator",
+      "secondaryKeywords": [
+        "Corrected QT (QTc)",
+        "paediatric Corrected QT (QTc)",
+        "Corrected QT (QTc) formula",
+        "how to calculate corrected qt (qtc)"
+      ]
+    },
+    {
+      "slug": "fractional-excretion-of-na-fena",
+      "title": "Fractional Excretion of Na (FeNa)",
+      "subtitle": "Pre-renal vs intrinsic AKI",
+      "category": "Calculators & Tools",
+      "seoTitle": "Fractional Excretion of Na (FeNa) Calculator",
+      "primaryKeyword": "Fractional Excretion of Na (FeNa) calculator",
+      "secondaryKeywords": [
+        "Fractional Excretion of Na (FeNa)",
+        "paediatric Fractional Excretion of Na (FeNa)",
+        "Fractional Excretion of Na (FeNa) formula",
+        "how to calculate fractional excretion of na (fena)"
+      ]
+    },
+    {
+      "slug": "apri-ast-to-platelet-ratio",
+      "title": "APRI (AST-to-Platelet Ratio)",
+      "subtitle": "Non-invasive liver fibrosis marker",
+      "category": "Calculators & Tools",
+      "seoTitle": "APRI (AST-to-Platelet Ratio) Calculator",
+      "primaryKeyword": "APRI (AST-to-Platelet Ratio) calculator",
+      "secondaryKeywords": [
+        "APRI (AST-to-Platelet Ratio)",
+        "paediatric APRI (AST-to-Platelet Ratio)",
+        "APRI (AST-to-Platelet Ratio) formula",
+        "how to calculate apri (ast-to-platelet ratio)"
+      ]
+    },
+    {
+      "slug": "fib-4-index",
+      "title": "FIB-4 Index",
+      "subtitle": "Age · AST · ALT · platelets fibrosis index",
+      "category": "Calculators & Tools",
+      "seoTitle": "FIB-4 Index Calculator",
+      "primaryKeyword": "FIB-4 Index calculator",
+      "secondaryKeywords": [
+        "FIB-4 Index",
+        "paediatric FIB-4 Index",
+        "FIB-4 Index formula",
+        "how to calculate fib-4 index"
+      ]
+    },
+    {
+      "slug": "peld-meld-score",
+      "title": "PELD / MELD Score",
+      "subtitle": "Liver-disease severity for transplant",
+      "category": "Calculators & Tools",
+      "seoTitle": "PELD / MELD Score Calculator",
+      "primaryKeyword": "PELD / MELD Score calculator",
+      "secondaryKeywords": [
+        "PELD / MELD Score",
+        "paediatric PELD / MELD Score",
+        "PELD / MELD Score formula",
+        "how to calculate peld / meld score"
+      ]
+    },
+    {
+      "slug": "hba1c-eag",
+      "title": "HbA1c → eAG",
+      "subtitle": "Estimated average glucose",
+      "category": "Calculators & Tools",
+      "seoTitle": "HbA1c → eAG Calculator",
+      "primaryKeyword": "HbA1c → eAG calculator",
+      "secondaryKeywords": [
+        "HbA1c → eAG",
+        "paediatric HbA1c → eAG",
+        "HbA1c → eAG formula",
+        "how to calculate hba1c → eag"
+      ]
+    },
+    {
+      "slug": "csf-wbc-correction",
+      "title": "CSF WBC Correction",
+      "subtitle": "Traumatic-tap blood-contamination correction",
+      "category": "Calculators & Tools",
+      "seoTitle": "CSF WBC Correction Calculator",
+      "primaryKeyword": "CSF WBC Correction calculator",
+      "secondaryKeywords": [
+        "CSF WBC Correction",
+        "paediatric CSF WBC Correction",
+        "CSF WBC Correction formula",
+        "how to calculate csf wbc correction"
+      ]
+    },
+    {
+      "slug": "paracetamol-toxicity-nac",
+      "title": "Paracetamol Toxicity + NAC",
+      "subtitle": "Rumack-Matthew nomogram + NAC dosing",
+      "category": "Calculators & Tools",
+      "seoTitle": "Paracetamol Toxicity + NAC Calculator",
+      "primaryKeyword": "Paracetamol Toxicity + NAC calculator",
+      "secondaryKeywords": [
+        "Paracetamol Toxicity + NAC",
+        "paediatric Paracetamol Toxicity + NAC",
+        "Paracetamol Toxicity + NAC formula",
+        "how to calculate paracetamol toxicity + nac"
+      ]
+    },
+    {
+      "slug": "body-mass-index-bmi",
+      "title": "Body Mass Index (BMI)",
+      "subtitle": "BMI - plot on BMI-for-age chart",
+      "category": "Calculators & Tools",
+      "seoTitle": "Body Mass Index (BMI) Calculator",
+      "primaryKeyword": "Body Mass Index (BMI) calculator",
+      "secondaryKeywords": [
+        "Body Mass Index (BMI)",
+        "paediatric Body Mass Index (BMI)",
+        "Body Mass Index (BMI) formula",
+        "how to calculate body mass index (bmi)"
+      ]
+    },
+    {
+      "slug": "steroid-converter",
+      "title": "Steroid Converter",
+      "subtitle": "Equivalent glucocorticoid doses",
+      "category": "Calculators & Tools",
+      "seoTitle": "Steroid Converter Calculator",
+      "primaryKeyword": "Steroid Converter calculator",
+      "secondaryKeywords": [
+        "Steroid Converter",
+        "paediatric Steroid Converter",
+        "Steroid Converter formula",
+        "how to calculate steroid converter"
+      ]
+    },
+    {
+      "slug": "a-a-gradient",
+      "title": "A–a Gradient",
+      "subtitle": "Alveolar-arterial oxygen gradient",
+      "category": "Calculators & Tools",
+      "seoTitle": "A–a Gradient Calculator",
+      "primaryKeyword": "A–a Gradient calculator",
+      "secondaryKeywords": [
+        "A–a Gradient",
+        "paediatric A–a Gradient",
+        "A–a Gradient formula",
+        "how to calculate a–a gradient"
+      ]
+    },
+    {
+      "slug": "cerebral-perfusion-pressure",
+      "title": "Cerebral Perfusion Pressure",
+      "subtitle": "CPP = MAP − ICP · age-based targets",
+      "category": "Calculators & Tools",
+      "seoTitle": "Cerebral Perfusion Pressure Calculator",
+      "primaryKeyword": "Cerebral Perfusion Pressure calculator",
+      "secondaryKeywords": [
+        "Cerebral Perfusion Pressure",
+        "paediatric Cerebral Perfusion Pressure",
+        "Cerebral Perfusion Pressure formula",
+        "how to calculate cerebral perfusion pressure"
+      ]
+    },
+    {
+      "slug": "henderson-hasselbalch",
+      "title": "Henderson-Hasselbalch",
+      "subtitle": "pH from HCO₃⁻ and PaCO₂",
+      "category": "Calculators & Tools",
+      "seoTitle": "Henderson-Hasselbalch Calculator",
+      "primaryKeyword": "Henderson-Hasselbalch calculator",
+      "secondaryKeywords": [
+        "Henderson-Hasselbalch",
+        "neonatal Henderson-Hasselbalch",
+        "Henderson-Hasselbalch formula",
+        "how to calculate henderson-hasselbalch"
+      ]
+    },
+    {
+      "slug": "total-body-water",
+      "title": "Total Body Water",
+      "subtitle": "Age-based TBW estimate",
+      "category": "Calculators & Tools",
+      "seoTitle": "Total Body Water Calculator",
+      "primaryKeyword": "Total Body Water calculator",
+      "secondaryKeywords": [
+        "Total Body Water",
+        "neonatal Total Body Water",
+        "Total Body Water formula",
+        "how to calculate total body water"
+      ]
+    },
+    {
+      "slug": "urine-output-and-fluid-balance",
+      "title": "Urine Output & Fluid Balance",
+      "subtitle": "mL/kg/h with oliguria thresholds",
+      "category": "Calculators & Tools",
+      "seoTitle": "Urine Output & Fluid Balance Calculator",
+      "primaryKeyword": "Urine Output & Fluid Balance calculator",
+      "secondaryKeywords": [
+        "Urine Output & Fluid Balance",
+        "neonatal Urine Output & Fluid Balance",
+        "Urine Output & Fluid Balance formula",
+        "how to calculate urine output & fluid balance"
+      ]
+    },
+    {
+      "slug": "predicted-pefr",
+      "title": "Predicted PEFR",
+      "subtitle": "Height-based peak flow + % predicted",
+      "category": "Calculators & Tools",
+      "seoTitle": "Predicted PEFR Calculator",
+      "primaryKeyword": "Predicted PEFR calculator",
+      "secondaryKeywords": [
+        "Predicted PEFR",
+        "paediatric Predicted PEFR",
+        "Predicted PEFR formula",
+        "how to calculate predicted pefr"
+      ]
+    },
+    {
+      "slug": "cardiac-output-fick",
+      "title": "Cardiac Output (Fick)",
+      "subtitle": "VO₂ and A-V O₂ difference",
+      "category": "Calculators & Tools",
+      "seoTitle": "Cardiac Output (Fick) Calculator",
+      "primaryKeyword": "Cardiac Output (Fick) calculator",
+      "secondaryKeywords": [
+        "Cardiac Output (Fick)",
+        "paediatric Cardiac Output (Fick)",
+        "Cardiac Output (Fick) formula",
+        "how to calculate cardiac output (fick)"
+      ]
+    },
+    {
+      "slug": "mean-arterial-pressure",
+      "title": "Mean Arterial Pressure",
+      "subtitle": "MAP + pulse pressure",
+      "category": "Calculators & Tools",
+      "seoTitle": "Mean Arterial Pressure Calculator",
+      "primaryKeyword": "Mean Arterial Pressure calculator",
+      "secondaryKeywords": [
+        "Mean Arterial Pressure",
+        "neonatal Mean Arterial Pressure",
+        "Mean Arterial Pressure formula",
+        "how to calculate mean arterial pressure"
+      ]
+    },
+    {
+      "slug": "fractional-excretion-of-mg",
+      "title": "Fractional Excretion of Mg",
+      "subtitle": "Renal vs extra-renal Mg loss",
+      "category": "Calculators & Tools",
+      "seoTitle": "Fractional Excretion of Mg Calculator",
+      "primaryKeyword": "Fractional Excretion of Mg calculator",
+      "secondaryKeywords": [
+        "Fractional Excretion of Mg",
+        "paediatric Fractional Excretion of Mg",
+        "Fractional Excretion of Mg formula",
+        "how to calculate fractional excretion of mg"
+      ]
+    },
+    {
+      "slug": "reticulocyte-count-rpi",
+      "title": "Reticulocyte Count / RPI",
+      "subtitle": "Absolute · corrected · production index",
+      "category": "Calculators & Tools",
+      "seoTitle": "Reticulocyte Count / RPI Calculator",
+      "primaryKeyword": "Reticulocyte Count / RPI calculator",
+      "secondaryKeywords": [
+        "Reticulocyte Count / RPI",
+        "paediatric Reticulocyte Count / RPI",
+        "Reticulocyte Count / RPI formula",
+        "how to calculate reticulocyte count / rpi"
+      ]
+    },
+    {
+      "slug": "cryoprecipitate-dosing",
+      "title": "Cryoprecipitate Dosing",
+      "subtitle": "Fibrinogen replacement",
+      "category": "Calculators & Tools",
+      "seoTitle": "Cryoprecipitate Dosing Calculator",
+      "primaryKeyword": "Cryoprecipitate Dosing calculator",
+      "secondaryKeywords": [
+        "Cryoprecipitate Dosing",
+        "paediatric Cryoprecipitate Dosing",
+        "Cryoprecipitate Dosing formula",
+        "how to calculate cryoprecipitate dosing"
+      ]
+    },
+    {
+      "slug": "ideal-body-weight",
+      "title": "Ideal Body Weight",
+      "subtitle": "Traub-Johnson IBW + adjusted weight",
+      "category": "Calculators & Tools",
+      "seoTitle": "Ideal Body Weight Calculator",
+      "primaryKeyword": "Ideal Body Weight calculator",
+      "secondaryKeywords": [
+        "Ideal Body Weight",
+        "paediatric Ideal Body Weight",
+        "Ideal Body Weight formula",
+        "how to calculate ideal body weight"
+      ]
+    },
+    {
+      "slug": "bmr-energy-requirement",
+      "title": "BMR / Energy Requirement",
+      "subtitle": "Schofield equations",
+      "category": "Calculators & Tools",
+      "seoTitle": "BMR / Energy Requirement Calculator",
+      "primaryKeyword": "BMR / Energy Requirement calculator",
+      "secondaryKeywords": [
+        "BMR / Energy Requirement",
+        "paediatric BMR / Energy Requirement",
+        "BMR / Energy Requirement formula",
+        "how to calculate bmr / energy requirement"
+      ]
+    },
+    {
+      "slug": "total-iron-deficit",
+      "title": "Total Iron Deficit",
+      "subtitle": "Ganzoni formula",
+      "category": "Calculators & Tools",
+      "seoTitle": "Total Iron Deficit Calculator",
+      "primaryKeyword": "Total Iron Deficit calculator",
+      "secondaryKeywords": [
+        "Total Iron Deficit",
+        "paediatric Total Iron Deficit",
+        "Total Iron Deficit formula",
+        "how to calculate total iron deficit"
+      ]
+    },
+    {
+      "slug": "iv-drip-rate",
+      "title": "IV Drip Rate",
+      "subtitle": "mL/hour and drops/minute",
+      "category": "Calculators & Tools",
+      "seoTitle": "IV Drip Rate Calculator",
+      "primaryKeyword": "IV Drip Rate calculator",
+      "secondaryKeywords": [
+        "IV Drip Rate",
+        "neonatal IV Drip Rate",
+        "IV Drip Rate formula",
+        "how to calculate iv drip rate"
+      ]
+    },
+    {
+      "slug": "calcium-salt-equivalents",
+      "title": "Calcium Salt Equivalents",
+      "subtitle": "Gluconate ↔ chloride",
+      "category": "Calculators & Tools",
+      "seoTitle": "Calcium Salt Equivalents Calculator",
+      "primaryKeyword": "Calcium Salt Equivalents calculator",
+      "secondaryKeywords": [
+        "Calcium Salt Equivalents",
+        "neonatal Calcium Salt Equivalents",
+        "Calcium Salt Equivalents formula",
+        "how to calculate calcium salt equivalents"
+      ]
+    },
+    {
+      "slug": "unit-converter",
+      "title": "Unit Converter",
+      "subtitle": "SI · mg/dL ↔ mmol/L · °C↔°F · kg↔lb",
+      "category": "Calculators & Tools",
+      "seoTitle": "Unit Converter Calculator",
+      "primaryKeyword": "Unit Converter calculator",
+      "secondaryKeywords": [
+        "Unit Converter",
+        "neonatal Unit Converter",
+        "Unit Converter formula",
+        "how to calculate unit converter"
+      ]
     }
   ]
 }

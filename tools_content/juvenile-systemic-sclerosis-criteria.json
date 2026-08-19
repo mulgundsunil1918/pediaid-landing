@@ -1,0 +1,41 @@
+{
+  "slug": "juvenile-systemic-sclerosis-criteria",
+  "intro": "The Juvenile Systemic Sclerosis Criteria is a rheumatology scoring tool used in paediatric practice. PRES/ACR/EULAR paediatric criteria - the mandatory major criterion plus ≥2 of 20 minor criteria. It scores 11 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in rheumatology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 11 criteria: MAJOR (mandatory) - Proximal skin sclerosis/induration of the skin proximal to MCP or MTP joints; Cutaneous - sclerodactyly; Vascular - Raynaud phenomenon; Vascular - nailfold capillary abnormalities or digital-tip ulcers; Gastrointestinal - dysphagia or gastro-oesophageal reflux; Renal - renal crisis or new-onset arterial hypertension; Cardiac - arrhythmia or heart failure; Respiratory - pulmonary fibrosis on HRCT/radiograph, reduced DLCO, or pulmonary hypertension; Musculoskeletal - tendon friction rubs, arthritis or myositis; Neurological - neuropathy or carpal tunnel syndrome; Serological - antinuclear antibodies, or SSc-selective antibodies (anti-centromere, anti-topoisomerase I/Scl-70, anti-RNA polymerase, anti-fibrillarin, anti-PM-Scl). Totals are then banded: any score - Criteria not met: the major criterion (proximal skin sclerosis) is mandatory - without it juvenile systemic sclerosis cannot be classified; 4 criteria or more - Major only: major criterion present but fewer than 2 minor criteria - at least 2 minor criteria are required; 6 criteria or more - Criteria MET: major criterion plus ≥2 minor criteria - classifies as juvenile systemic sclerosis (sensitivity 90%, specificity 96%). Screen for pulmonary, cardiac and renal involvement at baseline.",
+  "guidelineRefs": [
+    "Onset must be before the 16th birthday for the juvenile classification.",
+    "Source: Zulian F et al. The Pediatric Rheumatology European Society/ACR/EULAR provisional classification criteria for juvenile systemic sclerosis. Arthritis Rheum 2007;57:203-12."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Juvenile Systemic Sclerosis Criteria use?",
+      "a": "11. They are MAJOR (mandatory) - Proximal skin sclerosis/induration of the skin proximal to MCP or MTP joints; Cutaneous - sclerodactyly; Vascular - Raynaud phenomenon; Vascular - nailfold capillary abnormalities or digital-tip ulcers; Gastrointestinal - dysphagia or gastro-oesophageal reflux; Renal - renal crisis or new-onset arterial hypertension; and others."
+    },
+    {
+      "q": "What do the bands of the Juvenile Systemic Sclerosis Criteria mean?",
+      "a": "The total is interpreted as: any score - Criteria not met: the major criterion (proximal skin sclerosis) is mandatory - without it juvenile systemic sclerosis cannot be classified; 4 criteria or more - Major only: major criterion present but fewer than 2 minor criteria - at least 2 minor criteria are required; 6 criteria or more - Criteria MET: major criterion plus ≥2 minor criteria - classifies as juvenile systemic sclerosis (sensitivity 90%, specificity 96%). Screen for pulmonary, cardiac and renal involvement at baseline."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Onset must be before the 16th birthday for the juvenile classification."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

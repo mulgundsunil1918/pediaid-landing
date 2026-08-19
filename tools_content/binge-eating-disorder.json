@@ -1,0 +1,41 @@
+{
+  "slug": "binge-eating-disorder",
+  "intro": "The Binge Eating Disorder is a psychosocial scoring tool used in paediatric practice. DSM-5 criteria - recurrent binge eating without regular compensatory behaviour. It scores 5 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in psychosocial",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 5 criteria: Eating much more rapidly than normal; Eating until feeling uncomfortably full; Eating large amounts when not physically hungry; Eating alone because of embarrassment about how much one is eating; Feeling disgusted, depressed or very guilty afterwards. Totals are then banded: any score - Below threshold: fewer than 3 features endorsed; 3 criteria met or more - Threshold met: ≥3 features, with binge episodes ≥1×/week for 3 months, marked distress, and NO regular compensatory behaviour - consistent with binge eating disorder.",
+  "guidelineRefs": [
+    "DSM-5 threshold: 3 or more of the 5 criteria listed.",
+    "A diagnosis also requires clinically significant distress or impairment, the required duration, and exclusion of substance use or another condition. Screening aid only - not a diagnosis."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Binge Eating Disorder use?",
+      "a": "5. They are Eating much more rapidly than normal; Eating until feeling uncomfortably full; Eating large amounts when not physically hungry; Eating alone because of embarrassment about how much one is eating; Feeling disgusted, depressed or very guilty afterwards."
+    },
+    {
+      "q": "What do the bands of the Binge Eating Disorder mean?",
+      "a": "The total is interpreted as: any score - Below threshold: fewer than 3 features endorsed; 3 criteria met or more - Threshold met: ≥3 features, with binge episodes ≥1×/week for 3 months, marked distress, and NO regular compensatory behaviour - consistent with binge eating disorder."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "DSM-5 threshold: 3 or more of the 5 criteria listed."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

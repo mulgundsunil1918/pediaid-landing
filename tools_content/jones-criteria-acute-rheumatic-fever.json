@@ -1,0 +1,42 @@
+{
+  "slug": "jones-criteria-acute-rheumatic-fever",
+  "intro": "The Jones Criteria (Acute Rheumatic Fever) is a cardiac scoring tool used in paediatric practice. Revised 2015 Jones criteria - MODERATE/HIGH-risk population thresholds (applicable to India). It scores 9 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in cardiac",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 9 criteria: MAJOR - Carditis (clinical and/or subclinical on echo); MAJOR - Arthritis: mono- or polyarthritis, or polyarthralgia; MAJOR - Chorea; MAJOR - Erythema marginatum; MAJOR - Subcutaneous nodules; MINOR - Monoarthralgia; MINOR - Fever ≥ 38 °C; MINOR - ESR ≥ 30 mm/h and/or CRP ≥ 3 mg/dL; MINOR - Prolonged PR interval for age. Totals are then banded: any score - Criteria not met: does not meet the revised Jones criteria. Note that ALL diagnoses additionally require evidence of preceding group A streptococcal infection (ASO/anti-DNase B rise, positive throat culture or RADT); 5 weighted points or more - Criteria met: meets Jones criteria (2 major, OR 1 major + 2 minor) - with evidence of preceding GAS infection this supports acute rheumatic fever. Start penicillin, anti-inflammatory therapy and echocardiography; plan secondary prophylaxis; 6 weighted points or more - Criteria met - multiple major: two or more major manifestations - acute rheumatic fever highly likely with evidence of preceding GAS infection. Echocardiography is mandatory; arrange cardiology review and secondary prophylaxis.",
+  "guidelineRefs": [
+    "India is a MODERATE/HIGH-risk population, so these relaxed thresholds apply: monoarthritis and polyarthralgia count as major; monoarthralgia, fever ≥38 °C and ESR ≥30 count as minor.",
+    "Diagnosis requires 2 major, or 1 major + 2 minor, PLUS evidence of preceding group A streptococcal infection.",
+    "Source: Gewitz MH et al. Revision of the Jones Criteria for the diagnosis of acute rheumatic fever in the era of Doppler echocardiography. AHA Scientific Statement. Circulation 2015;131:1806-18."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Jones Criteria (Acute Rheumatic Fever) use?",
+      "a": "9. They are MAJOR - Carditis (clinical and/or subclinical on echo); MAJOR - Arthritis: mono- or polyarthritis, or polyarthralgia; MAJOR - Chorea; MAJOR - Erythema marginatum; MAJOR - Subcutaneous nodules; MINOR - Monoarthralgia; and others."
+    },
+    {
+      "q": "What do the bands of the Jones Criteria (Acute Rheumatic Fever) mean?",
+      "a": "The total is interpreted as: any score - Criteria not met: does not meet the revised Jones criteria. Note that ALL diagnoses additionally require evidence of preceding group A streptococcal infection (ASO/anti-DNase B rise, positive throat culture or RADT); 5 weighted points or more - Criteria met: meets Jones criteria (2 major, OR 1 major + 2 minor) - with evidence of preceding GAS infection this supports acute rheumatic fever. Start penicillin, anti-inflammatory therapy and echocardiography; plan secondary prophylaxis; 6 weighted points or more - Criteria met - multiple major: two or more major manifestations - acute rheumatic fever highly likely with evidence of preceding GAS infection. Echocardiography is mandatory; arrange cardiology review and secondary prophylaxis."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "India is a MODERATE/HIGH-risk population, so these relaxed thresholds apply: monoarthritis and polyarthralgia count as major; monoarthralgia, fever ≥38 °C and ESR ≥30 count as minor."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

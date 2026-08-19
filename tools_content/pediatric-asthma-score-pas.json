@@ -1,0 +1,41 @@
+{
+  "slug": "pediatric-asthma-score-pas",
+  "intro": "The Pediatric Asthma Score (PAS) is a respiratory scoring tool used in paediatric practice. Five-domain severity score used to guide asthma pathway treatment. It scores 5 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in respiratory",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 5 criteria: Respiratory rate (for age); Oxygen requirement; Auscultation; Retractions; Dyspnoea (speech). Totals are then banded: 5 points or more - Mild: pAS 5-7 - mild. Short-acting beta-agonist, reassess; usually suitable for discharge with a plan; 8 points or more - Moderate: pAS 8-11 - moderate. Frequent bronchodilators, systemic corticosteroid, observe; 12 points or more - Severe: pAS 12-15 - severe. Continuous bronchodilators, steroids, oxygen, consider magnesium and critical-care input.",
+  "guidelineRefs": [
+    "Total range 5-15 (each domain scores 1-3).",
+    "Source: Kelly CS et al. / Pediatric asthma severity pathways - as implemented in paediatric asthma clinical pathways (e.g. Cincinnati Children’s)."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Pediatric Asthma Score (PAS) use?",
+      "a": "5. They are Respiratory rate (for age); Oxygen requirement; Auscultation; Retractions; Dyspnoea (speech)."
+    },
+    {
+      "q": "What do the bands of the Pediatric Asthma Score (PAS) mean?",
+      "a": "The total is interpreted as: 5 points or more - Mild: pAS 5-7 - mild. Short-acting beta-agonist, reassess; usually suitable for discharge with a plan; 8 points or more - Moderate: pAS 8-11 - moderate. Frequent bronchodilators, systemic corticosteroid, observe; 12 points or more - Severe: pAS 12-15 - severe. Continuous bronchodilators, steroids, oxygen, consider magnesium and critical-care input."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Total range 5-15 (each domain scores 1-3)."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "pucai-paediatric-ulcerative-colitis-activity-index",
+  "intro": "The PUCAI — Paediatric Ulcerative Colitis Activity Index is a GI & Liver scoring tool used in paediatric practice. Disease activity in paediatric ulcerative colitis; guides escalation in acute severe colitis. It scores 6 criteria and interprets the total across 4 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in GI & Liver",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 6 criteria: Abdominal pain; Rectal bleeding; Stool consistency of most stools; Number of stools per 24 hours; Nocturnal stools (any episode causing waking); Activity level. Totals are then banded: any score - Remission: pUCAI <10 - clinical remission; 10 points or more - Mild: pUCAI 10-34 - mild disease; 35 points or more - Moderate: pUCAI 35-64 - moderate disease. Optimise therapy and arrange close review; 65 points or more - Severe: pUCAI ≥65 - severe (acute severe colitis). Admit for IV corticosteroids; PUCAI >45 on day 3 and >65 on day 5 predicts steroid failure and should trigger second-line therapy planning.",
+  "guidelineRefs": [
+    "Total range 0-85.",
+    "Source: Turner D et al. Development, validation and evaluation of a paediatric ulcerative colitis activity index. Gastroenterology 2007;133:423-32."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the PUCAI — Paediatric Ulcerative Colitis Activity Index use?",
+      "a": "6. They are Abdominal pain; Rectal bleeding; Stool consistency of most stools; Number of stools per 24 hours; Nocturnal stools (any episode causing waking); Activity level."
+    },
+    {
+      "q": "What do the bands of the PUCAI — Paediatric Ulcerative Colitis Activity Index mean?",
+      "a": "The total is interpreted as: any score - Remission: pUCAI <10 - clinical remission; 10 points or more - Mild: pUCAI 10-34 - mild disease; 35 points or more - Moderate: pUCAI 35-64 - moderate disease. Optimise therapy and arrange close review; 65 points or more - Severe: pUCAI ≥65 - severe (acute severe colitis). Admit for IV corticosteroids; PUCAI >45 on day 3 and >65 on day 5 predicts steroid failure and should trigger second-line therapy planning."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Total range 0-85."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

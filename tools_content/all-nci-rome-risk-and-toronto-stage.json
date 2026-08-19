@@ -1,0 +1,42 @@
+{
+  "slug": "all-nci-rome-risk-and-toronto-stage",
+  "intro": "The ALL — NCI/Rome Risk & Toronto Stage is a oncology scoring tool used in paediatric practice. Acute lymphoblastic leukaemia: NCI risk group plus Toronto CNS-based stage. It scores 3 criteria and interprets the total across 4 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in oncology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 3 criteria: Age at diagnosis; Presenting white cell count; CNS status (Toronto stage). Totals are then banded: any score - Standard risk · Stage I: nCI standard risk (age 1-9.99 y AND WBC <50 000) with no CNS disease - Toronto Stage I. Best prognosis; standard-intensity therapy; 1 risk point or more - Standard risk · CNS involvement: nCI standard risk but with CNS blasts - Toronto Stage II. Intensified CNS-directed therapy required; 2 risk points or more - High risk: nCI high risk (age <1 or ≥10 years, or WBC ≥50 000). Augmented therapy; check cytogenetics and MRD response; 3 risk points or more - High risk · CNS involvement: nCI high risk with CNS disease - Toronto Stage II. Most intensive therapy including CNS-directed treatment; MRD-guided escalation.",
+  "guidelineRefs": [
+    "Toronto Tier-1 stage for ALL: Stage I = no CNS disease (CNS1/CNS2); Stage II = CNS disease (CNS3).",
+    "NCI/Rome criteria: standard risk requires BOTH age 1-9.99 years and WBC <50 000/µL.",
+    "Source (risk): Smith M et al. Uniform approach to risk classification and treatment assignment for children with ALL. J Clin Oncol 1996;14:18-24. Source: Gupta S, Aitken JF, Bartels U et al. Paediatric cancer stage in population-based cancer registries: the Toronto consensus principles and guidelines. Lancet Oncol 2016;17:e163-72."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the ALL — NCI/Rome Risk & Toronto Stage use?",
+      "a": "3. They are Age at diagnosis; Presenting white cell count; CNS status (Toronto stage)."
+    },
+    {
+      "q": "What do the bands of the ALL — NCI/Rome Risk & Toronto Stage mean?",
+      "a": "The total is interpreted as: any score - Standard risk · Stage I: nCI standard risk (age 1-9.99 y AND WBC <50 000) with no CNS disease - Toronto Stage I. Best prognosis; standard-intensity therapy; 1 risk point or more - Standard risk · CNS involvement: nCI standard risk but with CNS blasts - Toronto Stage II. Intensified CNS-directed therapy required; 2 risk points or more - High risk: nCI high risk (age <1 or ≥10 years, or WBC ≥50 000). Augmented therapy; check cytogenetics and MRD response; 3 risk points or more - High risk · CNS involvement: nCI high risk with CNS disease - Toronto Stage II. Most intensive therapy including CNS-directed treatment; MRD-guided escalation."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Toronto Tier-1 stage for ALL: Stage I = no CNS disease (CNS1/CNS2); Stage II = CNS disease (CNS3)."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

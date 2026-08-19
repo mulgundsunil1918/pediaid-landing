@@ -1,0 +1,41 @@
+{
+  "slug": "bulimia-nervosa",
+  "intro": "The Bulimia Nervosa is a psychosocial scoring tool used in paediatric practice. DSM-5 criteria - recurrent binge eating with compensatory behaviours. It scores 5 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in psychosocial",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 5 criteria: Recurrent episodes of binge eating (large amount in a discrete period + sense of lack of control); Recurrent inappropriate compensatory behaviour (vomiting, laxatives, fasting, excessive exercise); Binges and compensatory behaviours both occur ≥1×/week for 3 months; Self-evaluation unduly influenced by body shape and weight; Does not occur exclusively during episodes of anorexia nervosa. Totals are then banded: any score - Below threshold: not all criteria met; 5 criteria met or more - Threshold met: all criteria met - consistent with bulimia nervosa. Check electrolytes, dental erosion and cardiac status.",
+  "guidelineRefs": [
+    "DSM-5 threshold: 5 or more of the 5 criteria listed.",
+    "A diagnosis also requires clinically significant distress or impairment, the required duration, and exclusion of substance use or another condition. Screening aid only - not a diagnosis."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Bulimia Nervosa use?",
+      "a": "5. They are Recurrent episodes of binge eating (large amount in a discrete period + sense of lack of control); Recurrent inappropriate compensatory behaviour (vomiting, laxatives, fasting, excessive exercise); Binges and compensatory behaviours both occur ≥1×/week for 3 months; Self-evaluation unduly influenced by body shape and weight; Does not occur exclusively during episodes of anorexia nervosa."
+    },
+    {
+      "q": "What do the bands of the Bulimia Nervosa mean?",
+      "a": "The total is interpreted as: any score - Below threshold: not all criteria met; 5 criteria met or more - Threshold met: all criteria met - consistent with bulimia nervosa. Check electrolytes, dental erosion and cardiac status."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "DSM-5 threshold: 5 or more of the 5 criteria listed."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

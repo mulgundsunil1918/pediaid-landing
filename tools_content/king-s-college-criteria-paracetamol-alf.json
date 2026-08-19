@@ -1,0 +1,41 @@
+{
+  "slug": "king-s-college-criteria-paracetamol-alf",
+  "intro": "The King's College Criteria — Paracetamol ALF is a GI & Liver scoring tool used in paediatric practice. Predicts poor prognosis in paracetamol-induced acute liver failure - indication for transplant referral. It scores 5 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in GI & Liver",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 5 criteria: Arterial pH < 7.30 after adequate fluid resuscitation; Arterial lactate > 3.0 mmol/L after fluid resuscitation; INR > 6.5 (prothrombin time > 100 s); Serum creatinine > 3.4 mg/dL (300 µmol/L); Grade III-IV hepatic encephalopathy. Totals are then banded: any score - Criteria not met: transplant criteria not met on current values. Continue N-acetylcysteine and supportive care; repeat assessment - parameters can evolve rapidly; 3 criteria or more - Criteria MET: all three of INR >6.5, creatinine >3.4 mg/dL and grade III-IV encephalopathy - poor prognosis. Refer urgently to a liver transplant centre; 4 criteria or more - Criteria MET: pH <7.30 (or lactate >3.0) after resuscitation - poor prognosis independent of other values. Refer urgently to a liver transplant centre.",
+  "guidelineRefs": [
+    "Criteria are met by EITHER: arterial pH <7.30 (or lactate >3.0 after resuscitation) alone, OR all three of INR >6.5, creatinine >3.4 mg/dL and grade III-IV encephalopathy.",
+    "Source: O’Grady JG et al. Early indicators of prognosis in fulminant hepatic failure. Gastroenterology 1989;97:439-45."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the King's College Criteria — Paracetamol ALF use?",
+      "a": "5. They are Arterial pH < 7.30 after adequate fluid resuscitation; Arterial lactate > 3.0 mmol/L after fluid resuscitation; INR > 6.5 (prothrombin time > 100 s); Serum creatinine > 3.4 mg/dL (300 µmol/L); Grade III-IV hepatic encephalopathy."
+    },
+    {
+      "q": "What do the bands of the King's College Criteria — Paracetamol ALF mean?",
+      "a": "The total is interpreted as: any score - Criteria not met: transplant criteria not met on current values. Continue N-acetylcysteine and supportive care; repeat assessment - parameters can evolve rapidly; 3 criteria or more - Criteria MET: all three of INR >6.5, creatinine >3.4 mg/dL and grade III-IV encephalopathy - poor prognosis. Refer urgently to a liver transplant centre; 4 criteria or more - Criteria MET: pH <7.30 (or lactate >3.0) after resuscitation - poor prognosis independent of other values. Refer urgently to a liver transplant centre."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Criteria are met by EITHER: arterial pH <7.30 (or lactate >3.0 after resuscitation) alone, OR all three of INR >6.5, creatinine >3.4 mg/dL and grade III-IV encephalopathy."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "asthma-predictive-index-api",
+  "intro": "The Asthma Predictive Index (API) is a respiratory scoring tool used in paediatric practice. Predicts later school-age asthma in a preschool child with recurrent wheeze. It scores 6 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in respiratory",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 6 criteria: ≥3 episodes of wheezing per year during the first 3 years (required); MAJOR - parent with physician-diagnosed asthma; MAJOR - physician-diagnosed atopic dermatitis in the child; MINOR - peripheral blood eosinophilia ≥ 4 %; MINOR - wheezing apart from colds; MINOR - allergic rhinitis diagnosed in the child. Totals are then banded: any score - Negative: frequent-wheeze criterion plus ≥1 major OR ≥2 minor criteria are needed for a positive index; 6 criteria or more - Positive API: positive stringent API - substantially higher risk of asthma at school age (about 4-10× that of a negative index). Supports closer follow-up and a controller trial when symptoms warrant.",
+  "guidelineRefs": [
+    "Positive (stringent) API = frequent wheezing PLUS ≥1 major OR ≥2 minor criteria.",
+    "A negative API has a strong negative predictive value (~95%) for school-age asthma.",
+    "Source: Castro-Rodríguez JA et al. A clinical index to define risk of asthma in young children with recurrent wheezing. Am J Respir Crit Care Med 2000;162:1403-6."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Asthma Predictive Index (API) use?",
+      "a": "6. They are ≥3 episodes of wheezing per year during the first 3 years (required); MAJOR - parent with physician-diagnosed asthma; MAJOR - physician-diagnosed atopic dermatitis in the child; MINOR - peripheral blood eosinophilia ≥ 4 %; MINOR - wheezing apart from colds; MINOR - allergic rhinitis diagnosed in the child."
+    },
+    {
+      "q": "What do the bands of the Asthma Predictive Index (API) mean?",
+      "a": "The total is interpreted as: any score - Negative: frequent-wheeze criterion plus ≥1 major OR ≥2 minor criteria are needed for a positive index; 6 criteria or more - Positive API: positive stringent API - substantially higher risk of asthma at school age (about 4-10× that of a negative index). Supports closer follow-up and a controller trial when symptoms warrant."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Positive (stringent) API = frequent wheezing PLUS ≥1 major OR ≥2 minor criteria."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

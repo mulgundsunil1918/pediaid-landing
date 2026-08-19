@@ -1,0 +1,41 @@
+{
+  "slug": "bacterial-meningitis-score",
+  "intro": "The Bacterial Meningitis Score is a Neurology & trauma scoring tool used in paediatric practice. In a child with CSF pleocytosis, identifies very low risk of BACTERIAL (as opposed to aseptic) meningitis. It scores 5 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in Neurology & trauma",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 5 criteria: Positive CSF Gram stain; CSF absolute neutrophil count ≥ 1 000 cells/µL; CSF protein ≥ 80 mg/dL; Peripheral blood absolute neutrophil count ≥ 10 000 cells/µL; Seizure at or before presentation. Totals are then banded: any score - Very low risk: no predictors - very low risk of bacterial meningitis (sensitivity ~99-100%, NPV ~99.9%). Many protocols allow observation off antibiotics with close follow-up; 1 predictor or more - Not low risk: one or more predictors - NOT low risk. Treat as bacterial meningitis: empirical antibiotics and admission pending cultures.",
+  "guidelineRefs": [
+    "Applies to children aged 29 days-19 years with CSF pleocytosis who are not critically ill, not pre-treated with antibiotics, without purpura, immunosuppression, VP shunt or recent neurosurgery.",
+    "Source: Nigrovic LE et al. Clinical prediction rule for identifying children with CSF pleocytosis at very low risk of bacterial meningitis. JAMA 2007;297:52-60."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Bacterial Meningitis Score use?",
+      "a": "5. They are Positive CSF Gram stain; CSF absolute neutrophil count ≥ 1 000 cells/µL; CSF protein ≥ 80 mg/dL; Peripheral blood absolute neutrophil count ≥ 10 000 cells/µL; Seizure at or before presentation."
+    },
+    {
+      "q": "What do the bands of the Bacterial Meningitis Score mean?",
+      "a": "The total is interpreted as: any score - Very low risk: no predictors - very low risk of bacterial meningitis (sensitivity ~99-100%, NPV ~99.9%). Many protocols allow observation off antibiotics with close follow-up; 1 predictor or more - Not low risk: one or more predictors - NOT low risk. Treat as bacterial meningitis: empirical antibiotics and admission pending cultures."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Applies to children aged 29 days-19 years with CSF pleocytosis who are not critically ill, not pre-treated with antibiotics, without purpura, immunosuppression, VP shunt or recent neurosurgery."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "beh-et-disease-isg-criteria",
+  "intro": "The Behçet Disease — ISG Criteria is a rheumatology scoring tool used in paediatric practice. International Study Group criteria: recurrent oral ulceration is MANDATORY plus ≥2 other features. It scores 5 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in rheumatology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 5 criteria: MANDATORY - Recurrent oral ulceration ≥ 3 times in 12 months; Recurrent genital ulceration or scarring; Eye lesions - anterior/posterior uveitis, cells in vitreous, or retinal vasculitis; Skin lesions - erythema nodosum, pseudofolliculitis, papulopustular lesions, acneiform nodules; Positive pathergy test read at 24-48 hours. Totals are then banded: any score - Criteria not met: recurrent oral ulceration is mandatory - without it, Behçet disease cannot be classified by ISG criteria; 4 criteria or more - Oral ulcers only: mandatory oral ulceration present, but ≥2 additional features are required to classify; 6 criteria or more - Criteria MET: recurrent oral ulceration plus ≥2 additional criteria - classifies as Behçet disease. Assess for ocular, neurological and vascular involvement.",
+  "guidelineRefs": [
+    "Paediatric-specific PEDBD criteria also exist and may perform better in children.",
+    "Source: International Study Group for Behçet's Disease. Criteria for diagnosis of Behçet's disease. Lancet 1990;335:1078-80."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Behçet Disease — ISG Criteria use?",
+      "a": "5. They are MANDATORY - Recurrent oral ulceration ≥ 3 times in 12 months; Recurrent genital ulceration or scarring; Eye lesions - anterior/posterior uveitis, cells in vitreous, or retinal vasculitis; Skin lesions - erythema nodosum, pseudofolliculitis, papulopustular lesions, acneiform nodules; Positive pathergy test read at 24-48 hours."
+    },
+    {
+      "q": "What do the bands of the Behçet Disease — ISG Criteria mean?",
+      "a": "The total is interpreted as: any score - Criteria not met: recurrent oral ulceration is mandatory - without it, Behçet disease cannot be classified by ISG criteria; 4 criteria or more - Oral ulcers only: mandatory oral ulceration present, but ≥2 additional features are required to classify; 6 criteria or more - Criteria MET: recurrent oral ulceration plus ≥2 additional criteria - classifies as Behçet disease. Assess for ocular, neurological and vascular involvement."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Paediatric-specific PEDBD criteria also exist and may perform better in children."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

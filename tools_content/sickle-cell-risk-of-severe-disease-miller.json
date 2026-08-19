@@ -1,0 +1,41 @@
+{
+  "slug": "sickle-cell-risk-of-severe-disease-miller",
+  "intro": "The Sickle Cell — Risk of Severe Disease (Miller) is a haematology scoring tool used in paediatric practice. Predicts later severe sickle-cell disease from events in the first two years of life. It scores 3 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in haematology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 3 criteria: Dactylitis (hand-foot syndrome) before 1 year of age; Haemoglobin < 7 g/dL (baseline, steady state); Leucocytosis in the absence of infection. Totals are then banded: any score - Low risk: no predictors - low probability of severe disease in later childhood. Continue routine care: penicillin prophylaxis, vaccination, TCD screening; 1 risk factor or more - Intermediate: one predictor - intermediate risk. Maintain close follow-up and a low threshold for starting hydroxyurea; 2 risk factors or more - High risk: two or more predictors - high probability of severe disease (adverse outcome by age 10). Strongly consider early hydroxyurea and intensified monitoring.",
+  "guidelineRefs": [
+    "Derived in the Cooperative Study of Sickle Cell Disease infant cohort.",
+    "Source: Miller ST et al. Prediction of adverse outcomes in children with sickle cell disease. N Engl J Med 2000;342:83-9."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Sickle Cell — Risk of Severe Disease (Miller) use?",
+      "a": "3. They are Dactylitis (hand-foot syndrome) before 1 year of age; Haemoglobin < 7 g/dL (baseline, steady state); Leucocytosis in the absence of infection."
+    },
+    {
+      "q": "What do the bands of the Sickle Cell — Risk of Severe Disease (Miller) mean?",
+      "a": "The total is interpreted as: any score - Low risk: no predictors - low probability of severe disease in later childhood. Continue routine care: penicillin prophylaxis, vaccination, TCD screening; 1 risk factor or more - Intermediate: one predictor - intermediate risk. Maintain close follow-up and a low threshold for starting hydroxyurea; 2 risk factors or more - High risk: two or more predictors - high probability of severe disease (adverse outcome by age 10). Strongly consider early hydroxyurea and intensified monitoring."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Derived in the Cooperative Study of Sickle Cell Disease infant cohort."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

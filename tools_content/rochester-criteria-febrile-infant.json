@@ -1,0 +1,41 @@
+{
+  "slug": "rochester-criteria-febrile-infant",
+  "intro": "The Rochester Criteria (Febrile Infant) is a infectious scoring tool used in paediatric practice. Identifies febrile infants ≤60 days at LOW risk of serious bacterial infection. All criteria must be met. It scores 7 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in infectious",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 7 criteria: Infant appears generally well; Previously healthy - term (≥37 wk), no perinatal antibiotics, no underlying disease, not hospitalised longer than mother; No skin, soft-tissue, bone, joint or ear infection on examination; WBC 5 000-15 000 /µL; Absolute band count ≤ 1 500 /µL; Urine ≤ 10 WBC per high-power field; Stool ≤ 5 WBC per high-power field (only if diarrhoea). Totals are then banded: any score - NOT low risk: one or more low-risk criteria are not met - this infant is NOT low risk. Full sepsis evaluation, empirical antibiotics and admission per local protocol; 7 low-risk criteria met or more - Low risk: all criteria met - low risk of serious bacterial infection (negative predictive value ≈98.9%). Some protocols permit observation without empirical antibiotics; always follow local guidance and ensure reliable follow-up.",
+  "guidelineRefs": [
+    "ALL criteria must be satisfied to call an infant low risk - a partial count is not meaningful.",
+    "Source: Jaskiewicz JA et al. Febrile infants at low risk for serious bacterial infection. Pediatrics 1994;94:390-6."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Rochester Criteria (Febrile Infant) use?",
+      "a": "7. They are Infant appears generally well; Previously healthy - term (≥37 wk), no perinatal antibiotics, no underlying disease, not hospitalised longer than mother; No skin, soft-tissue, bone, joint or ear infection on examination; WBC 5 000-15 000 /µL; Absolute band count ≤ 1 500 /µL; Urine ≤ 10 WBC per high-power field; and others."
+    },
+    {
+      "q": "What do the bands of the Rochester Criteria (Febrile Infant) mean?",
+      "a": "The total is interpreted as: any score - NOT low risk: one or more low-risk criteria are not met - this infant is NOT low risk. Full sepsis evaluation, empirical antibiotics and admission per local protocol; 7 low-risk criteria met or more - Low risk: all criteria met - low risk of serious bacterial infection (negative predictive value ≈98.9%). Some protocols permit observation without empirical antibiotics; always follow local guidance and ensure reliable follow-up."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "ALL criteria must be satisfied to call an infant low risk - a partial count is not meaningful."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

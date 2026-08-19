@@ -1,0 +1,34 @@
+{
+  "slug": "cardiac-output-fick",
+  "intro": "The Cardiac Output (Fick) is a paediatric bedside calculator in PediAid. VO₂ and A-V O₂ difference. Inputs compute live as they are typed, and the result is shown with the formula it came from and the source it is based on, so the number can be checked rather than trusted blindly.",
+  "indications": [
+    "Calculating vO₂ and A-V O₂ difference at the bedside",
+    "Checking a value before prescribing or escalating",
+    "Documenting the figure and the formula it came from"
+  ],
+  "method": "Enter the required values; the result updates as you type. The calculator screen states the formula used and the source it is taken from, and flags the interpretation band where one applies.",
+  "guidelineRefs": [
+    "See the calculator screen in the app for its source."
+  ],
+  "faqs": [
+    {
+      "q": "What does the Cardiac Output (Fick) calculate?",
+      "a": "VO₂ and A-V O₂ difference."
+    },
+    {
+      "q": "Is the formula shown?",
+      "a": "Yes. Every calculator in PediAid displays the formula and its source alongside the result."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. The calculators are bundled with the app and need no connection."
+    },
+    {
+      "q": "Is this a substitute for clinical judgement?",
+      "a": "No. It is a calculation aid; the treating clinician remains responsible for the decision."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/calculators/"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "childhood-polyarteritis-nodosa-criteria",
+  "intro": "The Childhood Polyarteritis Nodosa Criteria is a rheumatology scoring tool used in paediatric practice. EULAR/PRINTO/PRES - mandatory histology or angiographic abnormality PLUS ≥1 of five features. It scores 6 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in rheumatology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 6 criteria: MANDATORY - Necrotising vasculitis on biopsy OR angiographic abnormality (aneurysm/stenosis/occlusion); Skin involvement - livedo reticularis, nodules, superficial or deep infarcts; Myalgia or muscle tenderness; Hypertension for age; Peripheral neuropathy - sensory or motor mononeuritis multiplex; Renal involvement - proteinuria, haematuria or impaired renal function. Totals are then banded: any score - Criteria not met: the mandatory histological or angiographic criterion is absent - childhood PAN cannot be classified; 4 criteria or more - Mandatory only: histology/angiography present but no additional feature yet - at least one of the five clinical criteria is required; 5 criteria or more - Criteria MET: classifies as childhood polyarteritis nodosa (sensitivity 89.6%, specificity 99.6%). Treat with corticosteroids plus cyclophosphamide in severe disease; assess for hepatitis B.",
+  "guidelineRefs": [
+    "Source: Ozen S et al. EULAR/PRINTO/PRES Ankara 2008 criteria. Ann Rheum Dis 2010;69:798-806."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Childhood Polyarteritis Nodosa Criteria use?",
+      "a": "6. They are MANDATORY - Necrotising vasculitis on biopsy OR angiographic abnormality (aneurysm/stenosis/occlusion); Skin involvement - livedo reticularis, nodules, superficial or deep infarcts; Myalgia or muscle tenderness; Hypertension for age; Peripheral neuropathy - sensory or motor mononeuritis multiplex; Renal involvement - proteinuria, haematuria or impaired renal function."
+    },
+    {
+      "q": "What do the bands of the Childhood Polyarteritis Nodosa Criteria mean?",
+      "a": "The total is interpreted as: any score - Criteria not met: the mandatory histological or angiographic criterion is absent - childhood PAN cannot be classified; 4 criteria or more - Mandatory only: histology/angiography present but no additional feature yet - at least one of the five clinical criteria is required; 5 criteria or more - Criteria MET: classifies as childhood polyarteritis nodosa (sensitivity 89.6%, specificity 99.6%). Treat with corticosteroids plus cyclophosphamide in severe disease; assess for hepatitis B."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Source: Ozen S et al. EULAR/PRINTO/PRES Ankara 2008 criteria. Ann Rheum Dis 2010;69:798-806."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

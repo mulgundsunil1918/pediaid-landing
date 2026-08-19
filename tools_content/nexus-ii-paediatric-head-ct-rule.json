@@ -1,0 +1,40 @@
+{
+  "slug": "nexus-ii-paediatric-head-ct-rule",
+  "intro": "The NEXUS II — Paediatric Head CT Rule is a radiology scoring tool used in paediatric practice. Identifies low-risk blunt head trauma where CT can be avoided. Any positive predictor = not low risk. It scores 7 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in radiology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 7 criteria: Evidence of significant skull fracture; Altered level of alertness; Neurological deficit; Persistent vomiting; Presence of scalp haematoma; Abnormal behaviour; Coagulopathy. Totals are then banded: any score - Low risk - CT may be avoided: no predictors - very low risk of clinically important intracranial injury (sensitivity ~98-100%). CT can reasonably be withheld with observation; 1 predictor or more - Not low risk: one or more predictors - NOT low risk. CT head is indicated, or observation with a low threshold to image.",
+  "guidelineRefs": [
+    "Source: Oman JA et al. Performance of a decision rule to predict need for computed tomography among children with blunt head trauma (NEXUS II). Pediatrics 2006;117:e238-46."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the NEXUS II — Paediatric Head CT Rule use?",
+      "a": "7. They are Evidence of significant skull fracture; Altered level of alertness; Neurological deficit; Persistent vomiting; Presence of scalp haematoma; Abnormal behaviour; and others."
+    },
+    {
+      "q": "What do the bands of the NEXUS II — Paediatric Head CT Rule mean?",
+      "a": "The total is interpreted as: any score - Low risk - CT may be avoided: no predictors - very low risk of clinically important intracranial injury (sensitivity ~98-100%). CT can reasonably be withheld with observation; 1 predictor or more - Not low risk: one or more predictors - NOT low risk. CT head is indicated, or observation with a low threshold to image."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Source: Oman JA et al. Performance of a decision rule to predict need for computed tomography among children with blunt head trauma (NEXUS II). Pediatrics 2006;117:e238-46."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

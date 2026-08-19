@@ -1,0 +1,41 @@
+{
+  "slug": "kocher-criteria-septic-arthritis",
+  "intro": "The Kocher Criteria (Septic Arthritis) is a infectious scoring tool used in paediatric practice. Differentiates septic arthritis of the hip from transient synovitis in a limping child. It scores 4 criteria and interprets the total across 5 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in infectious",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 4 criteria: Non-weight-bearing on the affected side; Temperature > 38.5 °C; ESR > 40 mm/hr; Serum WBC > 12 000 /µL. Totals are then banded: any score - < 0.2 % probability: 0 predictors - septic arthritis very unlikely (<0.2%). Transient synovitis more likely; reassess if the child deteriorates; 1 predictor or more - ≈ 3 % probability: 1 predictor - roughly 3% probability. Observe closely; consider ultrasound and repeat examination; 2 predictors or more - ≈ 40 % probability: 2 predictors - roughly 40% probability. Strongly consider joint aspiration and orthopaedic referral; 3 predictors or more - ≈ 93 % probability: 3 predictors - roughly 93% probability. Urgent orthopaedic referral and joint aspiration; 4 predictors or more - ≈ 99 % probability: all 4 predictors - approximately 99% probability of septic arthritis. Emergency orthopaedic referral for aspiration/washout.",
+  "guidelineRefs": [
+    "Derived for the paediatric hip; CRP >20 mg/L is a further independent predictor in later validation studies.",
+    "Source: Kocher MS, Zurakowski D, Kasser JR. Differentiating between septic arthritis and transient synovitis of the hip in children. J Bone Joint Surg Am 1999;81:1662-70."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Kocher Criteria (Septic Arthritis) use?",
+      "a": "4. They are Non-weight-bearing on the affected side; Temperature > 38.5 °C; ESR > 40 mm/hr; Serum WBC > 12 000 /µL."
+    },
+    {
+      "q": "What do the bands of the Kocher Criteria (Septic Arthritis) mean?",
+      "a": "The total is interpreted as: any score - < 0.2 % probability: 0 predictors - septic arthritis very unlikely (<0.2%). Transient synovitis more likely; reassess if the child deteriorates; 1 predictor or more - ≈ 3 % probability: 1 predictor - roughly 3% probability. Observe closely; consider ultrasound and repeat examination; 2 predictors or more - ≈ 40 % probability: 2 predictors - roughly 40% probability. Strongly consider joint aspiration and orthopaedic referral; 3 predictors or more - ≈ 93 % probability: 3 predictors - roughly 93% probability. Urgent orthopaedic referral and joint aspiration; 4 predictors or more - ≈ 99 % probability: all 4 predictors - approximately 99% probability of septic arthritis. Emergency orthopaedic referral for aspiration/washout."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Derived for the paediatric hip; CRP >20 mg/L is a further independent predictor in later validation studies."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

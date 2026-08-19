@@ -1,0 +1,41 @@
+{
+  "slug": "alvarado-score-mantrels",
+  "intro": "The Alvarado Score (MANTRELS) is a GI & Liver scoring tool used in paediatric practice. Classic clinical score for the likelihood of acute appendicitis. It scores 8 criteria and interprets the total across 4 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in GI & Liver",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 8 criteria: Migration of pain to RLQ; Anorexia; Nausea or vomiting; Tenderness in RLQ; Rebound pain; Elevated temperature ≥ 37.3 °C; Leucocytosis > 10 000 /µL; Shift to the left (neutrophils > 75 %). Totals are then banded: any score - Unlikely: score 0-4 - appendicitis unlikely. Consider discharge with safety-netting or an alternative diagnosis; 5 points or more - Possible: score 5-6 - compatible with appendicitis. Observation and/or imaging recommended; 7 points or more - Probable: score 7-8 - probable appendicitis. Surgical referral; 9 points or more - Very probable: score 9-10 - very probable appendicitis. Urgent surgical referral.",
+  "guidelineRefs": [
+    "Total range 0-10. Less well validated in young children than the Paediatric Appendicitis Score.",
+    "Source: Alvarado A. A practical score for the early diagnosis of acute appendicitis. Ann Emerg Med 1986;15:557-64."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Alvarado Score (MANTRELS) use?",
+      "a": "8. They are Migration of pain to RLQ; Anorexia; Nausea or vomiting; Tenderness in RLQ; Rebound pain; Elevated temperature ≥ 37.3 °C; and others."
+    },
+    {
+      "q": "What do the bands of the Alvarado Score (MANTRELS) mean?",
+      "a": "The total is interpreted as: any score - Unlikely: score 0-4 - appendicitis unlikely. Consider discharge with safety-netting or an alternative diagnosis; 5 points or more - Possible: score 5-6 - compatible with appendicitis. Observation and/or imaging recommended; 7 points or more - Probable: score 7-8 - probable appendicitis. Surgical referral; 9 points or more - Very probable: score 9-10 - very probable appendicitis. Urgent surgical referral."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Total range 0-10. Less well validated in young children than the Paediatric Appendicitis Score."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

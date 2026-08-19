@@ -1,0 +1,42 @@
+{
+  "slug": "ptsd-children-6-years-and-younger",
+  "intro": "The PTSD — Children 6 Years and Younger is a psychosocial scoring tool used in paediatric practice. DSM-5 preschool subtype criteria after exposure to actual/threatened death, serious injury or sexual violence. It scores 16 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in psychosocial",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 16 criteria: Recurrent involuntary intrusive distressing memories (may be expressed in play); Recurrent distressing dreams related to the event; Dissociative reactions / flashbacks (may be trauma-specific re-enactment in play); Intense or prolonged distress at exposure to reminders; Marked physiological reactions to reminders; Avoidance of activities, places or physical reminders; Avoidance of people, conversations or interpersonal situations that are reminders; Substantially increased frequency of negative emotional states (fear, guilt, sadness, shame, confusion); Markedly diminished interest or participation in significant activities, including play; Socially withdrawn behaviour; Persistent reduction in expression of positive emotions; Irritable behaviour and angry outbursts (including extreme tantrums); and 4 further criteria. Totals are then banded: any score - Below threshold: threshold not yet met - check the per-cluster minimums, not just the total; 3 criteria met or more - Threshold met: preschool PTSD needs ≥1 intrusion symptom (items 1-5), ≥1 avoidance OR negative-mood symptom (items 6-11), and ≥2 arousal symptoms (items 12-16), lasting >1 month.",
+  "guidelineRefs": [
+    "DSM-5 threshold: 3 or more of the 16 criteria listed.",
+    "A diagnosis also requires clinically significant distress or impairment, the required duration, and exclusion of substance use or another condition. Screening aid only - not a diagnosis.",
+    "Clusters: intrusion (1-5) ≥1 · avoidance/negative mood (6-11) ≥1 · arousal (12-16) ≥2."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the PTSD — Children 6 Years and Younger use?",
+      "a": "16. They are Recurrent involuntary intrusive distressing memories (may be expressed in play); Recurrent distressing dreams related to the event; Dissociative reactions / flashbacks (may be trauma-specific re-enactment in play); Intense or prolonged distress at exposure to reminders; Marked physiological reactions to reminders; Avoidance of activities, places or physical reminders; and others."
+    },
+    {
+      "q": "What do the bands of the PTSD — Children 6 Years and Younger mean?",
+      "a": "The total is interpreted as: any score - Below threshold: threshold not yet met - check the per-cluster minimums, not just the total; 3 criteria met or more - Threshold met: preschool PTSD needs ≥1 intrusion symptom (items 1-5), ≥1 avoidance OR negative-mood symptom (items 6-11), and ≥2 arousal symptoms (items 12-16), lasting >1 month."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "DSM-5 threshold: 3 or more of the 16 criteria listed."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

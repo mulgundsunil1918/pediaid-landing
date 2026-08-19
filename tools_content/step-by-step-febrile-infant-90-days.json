@@ -1,0 +1,41 @@
+{
+  "slug": "step-by-step-febrile-infant-90-days",
+  "intro": "The Step-by-Step (Febrile Infant ≤90 days) is a infectious scoring tool used in paediatric practice. Sequential European approach to the well-appearing febrile young infant. Work down in order - the first positive step decides risk. It scores 5 criteria and interprets the total across 5 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in infectious",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 5 criteria: Step 1 - Ill appearing; Step 2 - Age ≤ 21 days; Step 3 - Leukocyturia (positive urine dipstick/microscopy); Step 4 - Procalcitonin ≥ 0.5 ng/mL; Step 5 - CRP > 20 mg/L or ANC > 10 000 /µL. Totals are then banded: any score - Low risk: no flags - low risk of invasive bacterial infection (NPV ≈99.3%). Well infants >21 days with normal biomarkers may be managed without empirical antibiotics with close follow-up, per local policy; 1 risk flag or more - Intermediate risk: cRP >20 mg/L or ANC >10 000 only - intermediate risk. Observation ± admission; consider lumbar puncture and antibiotics per local protocol; 2 risk flags or more - High risk: leukocyturia or procalcitonin ≥0.5 - high risk. Full septic work-up including urine culture, blood culture ± LP, and empirical antibiotics; 4 risk flags or more - High risk - young age: age ≤21 days - treat as high risk regardless of biomarkers: full sepsis work-up including lumbar puncture, admit and start empirical antibiotics; 8 risk flags or more - High risk - ill appearing: ill-appearing infant - highest risk. Immediate full sepsis evaluation, empirical antibiotics and admission.",
+  "guidelineRefs": [
+    "Steps are hierarchical: assess in order and stop at the first positive step.",
+    "Source: Gomez B et al. Validation of the \"Step-by-Step\" approach in the management of young febrile infants. Pediatrics 2016;138:e20154381."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Step-by-Step (Febrile Infant ≤90 days) use?",
+      "a": "5. They are Step 1 - Ill appearing; Step 2 - Age ≤ 21 days; Step 3 - Leukocyturia (positive urine dipstick/microscopy); Step 4 - Procalcitonin ≥ 0.5 ng/mL; Step 5 - CRP > 20 mg/L or ANC > 10 000 /µL."
+    },
+    {
+      "q": "What do the bands of the Step-by-Step (Febrile Infant ≤90 days) mean?",
+      "a": "The total is interpreted as: any score - Low risk: no flags - low risk of invasive bacterial infection (NPV ≈99.3%). Well infants >21 days with normal biomarkers may be managed without empirical antibiotics with close follow-up, per local policy; 1 risk flag or more - Intermediate risk: cRP >20 mg/L or ANC >10 000 only - intermediate risk. Observation ± admission; consider lumbar puncture and antibiotics per local protocol; 2 risk flags or more - High risk: leukocyturia or procalcitonin ≥0.5 - high risk. Full septic work-up including urine culture, blood culture ± LP, and empirical antibiotics; 4 risk flags or more - High risk - young age: age ≤21 days - treat as high risk regardless of biomarkers: full sepsis work-up including lumbar puncture, admit and start empirical antibiotics; 8 risk flags or more - High risk - ill appearing: ill-appearing infant - highest risk. Immediate full sepsis evaluation, empirical antibiotics and admission."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Steps are hierarchical: assess in order and stop at the first positive step."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

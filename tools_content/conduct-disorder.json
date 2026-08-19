@@ -1,0 +1,41 @@
+{
+  "slug": "conduct-disorder",
+  "intro": "The Conduct Disorder is a psychosocial scoring tool used in paediatric practice. DSM-5 criteria - repetitive violation of others’ rights or major age-appropriate norms. It scores 15 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in psychosocial",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 15 criteria: Bullies, threatens or intimidates others; Initiates physical fights; Used a weapon that can cause serious harm; Physically cruel to people; Physically cruel to animals; Stolen while confronting a victim (mugging, extortion); Forced someone into sexual activity; Deliberately engaged in fire-setting with intent to cause damage; Deliberately destroyed others’ property (other than fire); Broken into someone’s house, building or car; Lies to obtain goods/favours or to avoid obligations (\"cons\"); Stolen items of nontrivial value without confronting a victim; and 3 further criteria. Totals are then banded: any score - Below threshold: fewer than 3 criteria in the past 12 months; 3 criteria met or more - Threshold met: ≥3 criteria in the past 12 months, with ≥1 in the past 6 months, supports conduct disorder. Specify childhood-onset (<10 y) or adolescent-onset.",
+  "guidelineRefs": [
+    "DSM-5 threshold: 3 or more of the 15 criteria listed.",
+    "A diagnosis also requires clinically significant distress or impairment, the required duration, and exclusion of substance use or another condition. Screening aid only - not a diagnosis."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Conduct Disorder use?",
+      "a": "15. They are Bullies, threatens or intimidates others; Initiates physical fights; Used a weapon that can cause serious harm; Physically cruel to people; Physically cruel to animals; Stolen while confronting a victim (mugging, extortion); and others."
+    },
+    {
+      "q": "What do the bands of the Conduct Disorder mean?",
+      "a": "The total is interpreted as: any score - Below threshold: fewer than 3 criteria in the past 12 months; 3 criteria met or more - Threshold met: ≥3 criteria in the past 12 months, with ≥1 in the past 6 months, supports conduct disorder. Specify childhood-onset (<10 y) or adolescent-onset."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "DSM-5 threshold: 3 or more of the 15 criteria listed."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

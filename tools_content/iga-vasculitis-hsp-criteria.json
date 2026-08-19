@@ -1,0 +1,41 @@
+{
+  "slug": "iga-vasculitis-hsp-criteria",
+  "intro": "The IgA Vasculitis (HSP) Criteria is a rheumatology scoring tool used in paediatric practice. EULAR/PRINTO/PRES paediatric criteria - purpura is MANDATORY plus ≥1 of the four other features. It scores 5 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in rheumatology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 5 criteria: MANDATORY - Palpable purpura or petechiae with lower-limb predominance, without thrombocytopenia; Diffuse abdominal pain of acute onset; Histopathology: leucocytoclastic vasculitis or proliferative glomerulonephritis with predominant IgA deposits; Arthritis or arthralgia of acute onset; Renal involvement - proteinuria and/or haematuria. Totals are then banded: any score - Criteria not met: purpura with lower-limb predominance is MANDATORY. Without it the criteria cannot be met - consider other causes of vasculitis or purpura; 4 criteria or more - Purpura only: mandatory purpura present but no additional criterion yet. At least one of abdominal pain, arthritis/arthralgia, renal involvement or typical histology is required; 5 criteria or more - Criteria MET: purpura plus ≥1 additional criterion - classifies as IgA vasculitis (HSP). Monitor blood pressure and urinalysis regularly for at least 6 months to detect nephritis.",
+  "guidelineRefs": [
+    "Sensitivity 100%, specificity 87% in the validation cohort.",
+    "Source: Ozen S et al. EULAR/PRINTO/PRES criteria for Henoch-Schönlein purpura, childhood polyarteritis nodosa, childhood Wegener granulomatosis and childhood Takayasu arteritis: Ankara 2008. Ann Rheum Dis 2010;69:798-806."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the IgA Vasculitis (HSP) Criteria use?",
+      "a": "5. They are MANDATORY - Palpable purpura or petechiae with lower-limb predominance, without thrombocytopenia; Diffuse abdominal pain of acute onset; Histopathology: leucocytoclastic vasculitis or proliferative glomerulonephritis with predominant IgA deposits; Arthritis or arthralgia of acute onset; Renal involvement - proteinuria and/or haematuria."
+    },
+    {
+      "q": "What do the bands of the IgA Vasculitis (HSP) Criteria mean?",
+      "a": "The total is interpreted as: any score - Criteria not met: purpura with lower-limb predominance is MANDATORY. Without it the criteria cannot be met - consider other causes of vasculitis or purpura; 4 criteria or more - Purpura only: mandatory purpura present but no additional criterion yet. At least one of abdominal pain, arthritis/arthralgia, renal involvement or typical histology is required; 5 criteria or more - Criteria MET: purpura plus ≥1 additional criterion - classifies as IgA vasculitis (HSP). Monitor blood pressure and urinalysis regularly for at least 6 months to detect nephritis."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Sensitivity 100%, specificity 87% in the validation cohort."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

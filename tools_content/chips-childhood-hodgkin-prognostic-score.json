@@ -1,0 +1,41 @@
+{
+  "slug": "chips-childhood-hodgkin-prognostic-score",
+  "intro": "The CHIPS — Childhood Hodgkin Prognostic Score is a oncology scoring tool used in paediatric practice. Predicts event-free survival in intermediate-risk paediatric Hodgkin lymphoma. It scores 4 criteria and interprets the total across 4 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in oncology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 4 criteria: Stage 4 disease; Large mediastinal mass; Serum albumin < 3.5 g/dL; Fever (B symptom). Totals are then banded: any score - Low risk: cHIPS 0 - approximately 93% 4-year event-free survival. Standard therapy; 1 point or more - Intermediate: cHIPS 1 - approximately 89% 4-year EFS; 2 points or more - Higher risk: cHIPS 2 - approximately 81% 4-year EFS. Consider response-adapted intensification; 3 points or more - High risk: cHIPS 3-4 - approximately 70% 4-year EFS. Higher-intensity therapy and close response assessment.",
+  "guidelineRefs": [
+    "Derived in COG AHOD0031 (intermediate-risk Hodgkin lymphoma).",
+    "Source: Schwartz CL et al. A risk-adapted, response-based approach for intermediate-risk Hodgkin lymphoma: CHIPS. Blood 2017;129:3193-3197."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the CHIPS — Childhood Hodgkin Prognostic Score use?",
+      "a": "4. They are Stage 4 disease; Large mediastinal mass; Serum albumin < 3.5 g/dL; Fever (B symptom)."
+    },
+    {
+      "q": "What do the bands of the CHIPS — Childhood Hodgkin Prognostic Score mean?",
+      "a": "The total is interpreted as: any score - Low risk: cHIPS 0 - approximately 93% 4-year event-free survival. Standard therapy; 1 point or more - Intermediate: cHIPS 1 - approximately 89% 4-year EFS; 2 points or more - Higher risk: cHIPS 2 - approximately 81% 4-year EFS. Consider response-adapted intensification; 3 points or more - High risk: cHIPS 3-4 - approximately 70% 4-year EFS. Higher-intensity therapy and close response assessment."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Derived in COG AHOD0031 (intermediate-risk Hodgkin lymphoma)."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

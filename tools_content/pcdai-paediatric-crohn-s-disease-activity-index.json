@@ -1,0 +1,41 @@
+{
+  "slug": "pcdai-paediatric-crohn-s-disease-activity-index",
+  "intro": "The PCDAI — Paediatric Crohn’s Disease Activity Index is a GI & Liver scoring tool used in paediatric practice. Abbreviated disease-activity index for paediatric Crohn’s disease. It scores 8 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in GI & Liver",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 8 criteria: Abdominal pain; Stools per day; General wellbeing; Weight; Height (at diagnosis) or height velocity (follow-up); Abdomen on examination; Peri-rectal disease; Extra-intestinal manifestations (fever, arthritis, uveitis, EN, PG). Totals are then banded: any score - Remission: pCDAI ≤10 - clinical remission (some authors use <10); 11 points or more - Mild: pCDAI 11-30 - mild disease activity; 31 points or more - Moderate-severe: pCDAI >30 - moderate to severe disease. Escalate therapy and involve paediatric gastroenterology.",
+  "guidelineRefs": [
+    "This is the abbreviated (clinical) PCDAI; the original also includes haematocrit, ESR and albumin.",
+    "Source: Hyams JS et al. Development and validation of a pediatric Crohn’s disease activity index. J Pediatr Gastroenterol Nutr 1991;12:439-47."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the PCDAI — Paediatric Crohn’s Disease Activity Index use?",
+      "a": "8. They are Abdominal pain; Stools per day; General wellbeing; Weight; Height (at diagnosis) or height velocity (follow-up); Abdomen on examination; and others."
+    },
+    {
+      "q": "What do the bands of the PCDAI — Paediatric Crohn’s Disease Activity Index mean?",
+      "a": "The total is interpreted as: any score - Remission: pCDAI ≤10 - clinical remission (some authors use <10); 11 points or more - Mild: pCDAI 11-30 - mild disease activity; 31 points or more - Moderate-severe: pCDAI >30 - moderate to severe disease. Escalate therapy and involve paediatric gastroenterology."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "This is the abbreviated (clinical) PCDAI; the original also includes haematocrit, ESR and albumin."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

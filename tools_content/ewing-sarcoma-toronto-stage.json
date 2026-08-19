@@ -1,0 +1,40 @@
+{
+  "slug": "ewing-sarcoma-toronto-stage",
+  "intro": "The Ewing Sarcoma — Toronto Stage is a oncology scoring tool used in paediatric practice. Staged by the presence of metastases at diagnosis. It scores 1 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in oncology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 1 criteria: Disease extent at diagnosis. Totals are then banded: 1 stage or more - Stage I - localised: localised Ewing sarcoma - approximately 70% survival with interval-compressed chemotherapy plus local control (surgery and/or radiotherapy); 2 stage or more - Stage II - metastatic: metastatic Ewing sarcoma - poorer prognosis; isolated lung metastases fare better than bone or marrow disease.",
+  "guidelineRefs": [
+    "Source: Gupta S, Aitken JF, Bartels U et al. Paediatric cancer stage in population-based cancer registries: the Toronto consensus principles and guidelines. Lancet Oncol 2016;17:e163-72."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Ewing Sarcoma — Toronto Stage use?",
+      "a": "1. They are Disease extent at diagnosis."
+    },
+    {
+      "q": "What do the bands of the Ewing Sarcoma — Toronto Stage mean?",
+      "a": "The total is interpreted as: 1 stage or more - Stage I - localised: localised Ewing sarcoma - approximately 70% survival with interval-compressed chemotherapy plus local control (surgery and/or radiotherapy); 2 stage or more - Stage II - metastatic: metastatic Ewing sarcoma - poorer prognosis; isolated lung metastases fare better than bone or marrow disease."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Source: Gupta S, Aitken JF, Bartels U et al. Paediatric cancer stage in population-based cancer registries: the Toronto consensus principles and guidelines. Lancet Oncol 2016;17:e163-72."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

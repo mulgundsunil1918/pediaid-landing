@@ -1,0 +1,40 @@
+{
+  "slug": "feverpain-score",
+  "intro": "The FeverPAIN Score is a infectious scoring tool used in paediatric practice. Streptococcal pharyngitis likelihood - used in NICE sore-throat guidance. It scores 5 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in infectious",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 5 criteria: Fever in the past 24 hours; Purulence (pus on tonsils); Attended rapidly - symptoms ≤3 days before presentation; Severely Inflamed tonsils; No cough or coryza. Totals are then banded: any score - Low (13-18 %): score 0-1 - 13-18% streptococcal likelihood. Antibiotics not indicated; give self-care advice; 2 points or more - Intermediate (34-40 %): score 2-3 - 34-40% likelihood. Consider a delayed (\"back-up\") antibiotic prescription; 4 points or more - High (62-65 %): score 4-5 - 62-65% likelihood. Consider immediate antibiotics if severely unwell.",
+  "guidelineRefs": [
+    "Source: Little P et al. PRISM study - clinical score and rapid antigen detection test to guide antibiotic use for sore throats. BMJ 2013;347:f5806. Adopted in NICE NG84."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the FeverPAIN Score use?",
+      "a": "5. They are Fever in the past 24 hours; Purulence (pus on tonsils); Attended rapidly - symptoms ≤3 days before presentation; Severely Inflamed tonsils; No cough or coryza."
+    },
+    {
+      "q": "What do the bands of the FeverPAIN Score mean?",
+      "a": "The total is interpreted as: any score - Low (13-18 %): score 0-1 - 13-18% streptococcal likelihood. Antibiotics not indicated; give self-care advice; 2 points or more - Intermediate (34-40 %): score 2-3 - 34-40% likelihood. Consider a delayed (\"back-up\") antibiotic prescription; 4 points or more - High (62-65 %): score 4-5 - 62-65% likelihood. Consider immediate antibiotics if severely unwell."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Source: Little P et al. PRISM study - clinical score and rapid antigen detection test to guide antibiotic use for sore throats. BMJ 2013;347:f5806. Adopted in NICE NG84."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

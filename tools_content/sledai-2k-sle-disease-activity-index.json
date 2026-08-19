@@ -1,0 +1,41 @@
+{
+  "slug": "sledai-2k-sle-disease-activity-index",
+  "intro": "The SLEDAI-2K — SLE Disease Activity Index is a rheumatology scoring tool used in paediatric practice. Disease activity in the preceding 10 days. Weighted descriptors. It scores 24 criteria and interprets the total across 5 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in rheumatology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 24 criteria: Seizure (recent onset, excluding metabolic/infectious/drug causes); Psychosis; Organic brain syndrome; Visual disturbance (retinal changes of SLE); Cranial nerve disorder; Lupus headache (severe, persistent, narcotic-resistant); Cerebrovascular accident; Vasculitis (ulceration, gangrene, nail-fold infarcts, biopsy-proven); Arthritis (≥2 joints with pain and inflammatory signs); Myositis (proximal weakness with raised CK/aldolase or typical EMG/biopsy); Urinary casts (heme-granular or red cell casts); Haematuria (> 5 RBC/hpf); and 12 further criteria. Totals are then banded: any score - No activity: sLEDAI 0 - no disease activity in the last 10 days; 1 point or more - Mild activity: sLEDAI 1-5 - mild activity. Usually managed with hydroxychloroquine ± low-dose steroid; 6 points or more - Moderate activity: sLEDAI 6-10 - moderate activity. Escalate immunosuppression; a change of ≥4 points indicates a clinically meaningful flare; 11 points or more - High activity: sLEDAI 11-19 - high activity. Intensive immunosuppression required; 20 points or more - Very high activity: sLEDAI ≥20 - very high activity, often with major organ involvement. Urgent intensive therapy and specialist input.",
+  "guidelineRefs": [
+    "Total possible 105. SLEDAI-2K differs from the original by allowing persistent (not only new) rash, alopecia, mucosal ulcers and proteinuria to score.",
+    "Source: Gladman DD, Ibañez D, Urowitz MB. Systemic lupus erythematosus disease activity index 2000. J Rheumatol 2002;29:288-91."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the SLEDAI-2K — SLE Disease Activity Index use?",
+      "a": "24. They are Seizure (recent onset, excluding metabolic/infectious/drug causes); Psychosis; Organic brain syndrome; Visual disturbance (retinal changes of SLE); Cranial nerve disorder; Lupus headache (severe, persistent, narcotic-resistant); and others."
+    },
+    {
+      "q": "What do the bands of the SLEDAI-2K — SLE Disease Activity Index mean?",
+      "a": "The total is interpreted as: any score - No activity: sLEDAI 0 - no disease activity in the last 10 days; 1 point or more - Mild activity: sLEDAI 1-5 - mild activity. Usually managed with hydroxychloroquine ± low-dose steroid; 6 points or more - Moderate activity: sLEDAI 6-10 - moderate activity. Escalate immunosuppression; a change of ≥4 points indicates a clinically meaningful flare; 11 points or more - High activity: sLEDAI 11-19 - high activity. Intensive immunosuppression required; 20 points or more - Very high activity: sLEDAI ≥20 - very high activity, often with major organ involvement. Urgent intensive therapy and specialist input."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Total possible 105. SLEDAI-2K differs from the original by allowing persistent (not only new) rash, alopecia, mucosal ulcers and proteinuria to score."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

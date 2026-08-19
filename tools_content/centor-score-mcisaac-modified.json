@@ -1,0 +1,41 @@
+{
+  "slug": "centor-score-mcisaac-modified",
+  "intro": "The Centor Score (McIsaac modified) is a infectious scoring tool used in paediatric practice. Likelihood of group A streptococcal pharyngitis. It scores 5 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in infectious",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 5 criteria: Tonsillar exudate or swelling; Tender / swollen anterior cervical nodes; History of fever > 38 °C; Cough; Age. Totals are then banded: any score - Low risk: score ≤1 - roughly 1-10% risk of strep. No testing or antibiotics required; 2 points or more - Intermediate: score 2-3 - roughly 11-35% risk. Perform rapid antigen test or throat culture and treat if positive; 4 points or more - High risk: score ≥4 - roughly 50% risk. Test and treat if positive; empirical antibiotics considered in some settings.",
+  "guidelineRefs": [
+    "The McIsaac modification adds the age adjustment (−1 point for age ≥45, not scored negatively here).",
+    "Source: McIsaac WJ et al. The validity of a sore throat score in family practice. CMAJ 2000;163:811-5."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Centor Score (McIsaac modified) use?",
+      "a": "5. They are Tonsillar exudate or swelling; Tender / swollen anterior cervical nodes; History of fever > 38 °C; Cough; Age."
+    },
+    {
+      "q": "What do the bands of the Centor Score (McIsaac modified) mean?",
+      "a": "The total is interpreted as: any score - Low risk: score ≤1 - roughly 1-10% risk of strep. No testing or antibiotics required; 2 points or more - Intermediate: score 2-3 - roughly 11-35% risk. Perform rapid antigen test or throat culture and treat if positive; 4 points or more - High risk: score ≥4 - roughly 50% risk. Test and treat if positive; empirical antibiotics considered in some settings."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "The McIsaac modification adds the age adjustment (−1 point for age ≥45, not scored negatively here)."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

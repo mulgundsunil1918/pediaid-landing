@@ -1,0 +1,41 @@
+{
+  "slug": "leipzig-score-wilson-disease",
+  "intro": "The Leipzig Score (Wilson Disease) is a GI & Liver scoring tool used in paediatric practice. Diagnostic scoring system for Wilson disease. It scores 8 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in GI & Liver",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 8 criteria: Kayser-Fleischer rings; Neurological symptoms or typical MRI brain changes; Serum caeruloplasmin; Coombs-negative haemolytic anaemia; Liver copper (in the absence of cholestasis); Rhodanine-positive granules (if copper unavailable); Urinary copper (in the absence of acute hepatitis); ATP7B mutation analysis. Totals are then banded: -1 points or more - Unlikely: score 0-1 - Wilson disease unlikely. Consider alternative causes of liver disease; 2 points or more - Possible: score 2-3 - possible Wilson disease; more investigations needed (24-h urinary copper, penicillamine challenge, liver biopsy, ATP7B sequencing); 4 points or more - Highly likely: score ≥4 - diagnosis of Wilson disease established. Start chelation/zinc therapy, screen siblings, and refer to hepatology.",
+  "guidelineRefs": [
+    "Agreed at the 8th International Meeting on Wilson Disease, Leipzig 2001.",
+    "Source: Ferenci P et al. Diagnosis and phenotypic classification of Wilson disease. Liver Int 2003;23:139-42."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Leipzig Score (Wilson Disease) use?",
+      "a": "8. They are Kayser-Fleischer rings; Neurological symptoms or typical MRI brain changes; Serum caeruloplasmin; Coombs-negative haemolytic anaemia; Liver copper (in the absence of cholestasis); Rhodanine-positive granules (if copper unavailable); and others."
+    },
+    {
+      "q": "What do the bands of the Leipzig Score (Wilson Disease) mean?",
+      "a": "The total is interpreted as: -1 points or more - Unlikely: score 0-1 - Wilson disease unlikely. Consider alternative causes of liver disease; 2 points or more - Possible: score 2-3 - possible Wilson disease; more investigations needed (24-h urinary copper, penicillamine challenge, liver biopsy, ATP7B sequencing); 4 points or more - Highly likely: score ≥4 - diagnosis of Wilson disease established. Start chelation/zinc therapy, screen siblings, and refer to hepatology."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Agreed at the 8th International Meeting on Wilson Disease, Leipzig 2001."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

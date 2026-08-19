@@ -1,0 +1,41 @@
+{
+  "slug": "disruptive-mood-dysregulation-disorder-dmdd",
+  "intro": "The Disruptive Mood Dysregulation Disorder (DMDD) is a psychosocial scoring tool used in paediatric practice. DSM-5 criteria - chronic severe irritability with temper outbursts. It scores 8 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in psychosocial",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 8 criteria: Severe recurrent temper outbursts (verbal and/or behavioural), grossly out of proportion; Outbursts inconsistent with developmental level; Outbursts occur ≥3 times per week on average; Mood between outbursts is persistently irritable/angry most of the day, nearly every day; Symptoms present ≥12 months, without a symptom-free period ≥3 months; Symptoms present in ≥2 settings (home, school, with peers) and severe in at least one; Age at diagnosis 6-18 years, with onset before age 10; No distinct period >1 day meeting full manic/hypomanic criteria. Totals are then banded: any score - Below threshold: not all required criteria are met - DMDD requires ALL of them; 8 criteria met or more - Threshold met: all criteria met - consistent with DMDD. Cannot coexist with ODD, intermittent explosive disorder or bipolar disorder (DMDD takes precedence over ODD).",
+  "guidelineRefs": [
+    "DSM-5 threshold: 8 or more of the 8 criteria listed.",
+    "A diagnosis also requires clinically significant distress or impairment, the required duration, and exclusion of substance use or another condition. Screening aid only - not a diagnosis."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Disruptive Mood Dysregulation Disorder (DMDD) use?",
+      "a": "8. They are Severe recurrent temper outbursts (verbal and/or behavioural), grossly out of proportion; Outbursts inconsistent with developmental level; Outbursts occur ≥3 times per week on average; Mood between outbursts is persistently irritable/angry most of the day, nearly every day; Symptoms present ≥12 months, without a symptom-free period ≥3 months; Symptoms present in ≥2 settings (home, school, with peers) and severe in at least one; and others."
+    },
+    {
+      "q": "What do the bands of the Disruptive Mood Dysregulation Disorder (DMDD) mean?",
+      "a": "The total is interpreted as: any score - Below threshold: not all required criteria are met - DMDD requires ALL of them; 8 criteria met or more - Threshold met: all criteria met - consistent with DMDD. Cannot coexist with ODD, intermittent explosive disorder or bipolar disorder (DMDD takes precedence over ODD)."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "DSM-5 threshold: 8 or more of the 8 criteria listed."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "apnoea-hypopnoea-index-paediatric-osa",
+  "intro": "The Apnoea–Hypopnoea Index (Paediatric OSA) is a sleep scoring tool used in paediatric practice. Severity of obstructive sleep apnoea in children - events per hour of sleep. It scores 1 criteria and interprets the total across 4 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in sleep",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 1 criteria: AHI - obstructive apnoeas + hypopnoeas per hour of sleep. Totals are then banded: any score - Normal: aHI <1/hour is normal in children - note that the paediatric threshold is far lower than the adult cut-off of 5; 1 severity band or more - Mild OSA: aHI 1-4.9 - mild paediatric OSA. Consider adenotonsillectomy if adenotonsillar hypertrophy is present, or intranasal steroids/montelukast; reassess; 2 severity band or more - Moderate OSA: aHI 5-9.9 - moderate OSA. Adenotonsillectomy is usually first-line; arrange post-operative reassessment; 3 severity band or more - Severe OSA: aHI ≥10 - severe OSA. High peri-operative risk: plan inpatient post-operative monitoring; consider CPAP if surgery is unsuitable or residual disease persists.",
+  "guidelineRefs": [
+    "Paediatric criteria differ from adults: an obstructive AHI ≥1/hour is already abnormal in a child.",
+    "Source: Marcus CL et al. Diagnosis and management of childhood obstructive sleep apnea syndrome. AAP Clinical Practice Guideline. Pediatrics 2012;130:e714-55."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Apnoea–Hypopnoea Index (Paediatric OSA) use?",
+      "a": "1. They are AHI - obstructive apnoeas + hypopnoeas per hour of sleep."
+    },
+    {
+      "q": "What do the bands of the Apnoea–Hypopnoea Index (Paediatric OSA) mean?",
+      "a": "The total is interpreted as: any score - Normal: aHI <1/hour is normal in children - note that the paediatric threshold is far lower than the adult cut-off of 5; 1 severity band or more - Mild OSA: aHI 1-4.9 - mild paediatric OSA. Consider adenotonsillectomy if adenotonsillar hypertrophy is present, or intranasal steroids/montelukast; reassess; 2 severity band or more - Moderate OSA: aHI 5-9.9 - moderate OSA. Adenotonsillectomy is usually first-line; arrange post-operative reassessment; 3 severity band or more - Severe OSA: aHI ≥10 - severe OSA. High peri-operative risk: plan inpatient post-operative monitoring; consider CPAP if surgery is unsuitable or residual disease persists."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Paediatric criteria differ from adults: an obstructive AHI ≥1/hour is already abnormal in a child."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

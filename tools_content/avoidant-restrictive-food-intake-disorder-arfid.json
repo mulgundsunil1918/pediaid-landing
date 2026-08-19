@@ -1,0 +1,42 @@
+{
+  "slug": "avoidant-restrictive-food-intake-disorder-arfid",
+  "intro": "The Avoidant/Restrictive Food Intake Disorder (ARFID) is a psychosocial scoring tool used in paediatric practice. DSM-5 criteria - eating disturbance without body-image disturbance. It scores 4 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in psychosocial",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 4 criteria: Significant weight loss or failure to achieve expected weight gain / faltering growth; Significant nutritional deficiency; Dependence on enteral feeding or oral nutritional supplements; Marked interference with psychosocial functioning. Totals are then banded: any score - Below threshold: no listed consequence - ARFID requires at least one; 1 criteria met or more - Threshold met: ≥1 consequence present with an eating/feeding disturbance - consistent with ARFID, provided there is no body-image disturbance and no lack of available food or culturally sanctioned practice.",
+  "guidelineRefs": [
+    "DSM-5 threshold: 1 or more of the 4 criteria listed.",
+    "A diagnosis also requires clinically significant distress or impairment, the required duration, and exclusion of substance use or another condition. Screening aid only - not a diagnosis.",
+    "Must NOT be explained by anorexia/bulimia (no disturbance in body weight or shape experience)."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Avoidant/Restrictive Food Intake Disorder (ARFID) use?",
+      "a": "4. They are Significant weight loss or failure to achieve expected weight gain / faltering growth; Significant nutritional deficiency; Dependence on enteral feeding or oral nutritional supplements; Marked interference with psychosocial functioning."
+    },
+    {
+      "q": "What do the bands of the Avoidant/Restrictive Food Intake Disorder (ARFID) mean?",
+      "a": "The total is interpreted as: any score - Below threshold: no listed consequence - ARFID requires at least one; 1 criteria met or more - Threshold met: ≥1 consequence present with an eating/feeding disturbance - consistent with ARFID, provided there is no body-image disturbance and no lack of available food or culturally sanctioned practice."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "DSM-5 threshold: 1 or more of the 4 criteria listed."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

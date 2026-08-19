@@ -1,0 +1,41 @@
+{
+  "slug": "nafld-activity-score-nas",
+  "intro": "The NAFLD Activity Score (NAS) is a GI & Liver scoring tool used in paediatric practice. Histological activity in non-alcoholic fatty liver disease (NASH CRN system). It scores 3 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in GI & Liver",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 3 criteria: Steatosis (% of hepatocytes involved); Lobular inflammation (foci per 200× field); Hepatocyte ballooning. Totals are then banded: any score - Not diagnostic of NASH: nAS 0-2 - largely not diagnostic of steatohepatitis; 3 points or more - Borderline: nAS 3-4 - borderline; correlate with the overall histological pattern rather than the score alone; 5 points or more - Consistent with NASH: nAS ≥5 - mostly diagnosed as steatohepatitis. Fibrosis is staged SEPARATELY (F0-F4) and is the strongest predictor of long-term outcome.",
+  "guidelineRefs": [
+    "Total range 0-8. NAS was designed to measure disease ACTIVITY for trials, not to replace a diagnostic pathology assessment. Paediatric NAFLD often shows a portal (type 2) pattern.",
+    "Source: Kleiner DE et al. Design and validation of a histological scoring system for nonalcoholic fatty liver disease. Hepatology 2005;41:1313-21."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the NAFLD Activity Score (NAS) use?",
+      "a": "3. They are Steatosis (% of hepatocytes involved); Lobular inflammation (foci per 200× field); Hepatocyte ballooning."
+    },
+    {
+      "q": "What do the bands of the NAFLD Activity Score (NAS) mean?",
+      "a": "The total is interpreted as: any score - Not diagnostic of NASH: nAS 0-2 - largely not diagnostic of steatohepatitis; 3 points or more - Borderline: nAS 3-4 - borderline; correlate with the overall histological pattern rather than the score alone; 5 points or more - Consistent with NASH: nAS ≥5 - mostly diagnosed as steatohepatitis. Fibrosis is staged SEPARATELY (F0-F4) and is the strongest predictor of long-term outcome."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Total range 0-8. NAS was designed to measure disease ACTIVITY for trials, not to replace a diagnostic pathology assessment. Paediatric NAFLD often shows a portal (type 2) pattern."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "retinoblastoma-toronto-stage",
+  "intro": "The Retinoblastoma — Toronto Stage is a oncology scoring tool used in paediatric practice. Post-enucleation staging of retinoblastoma. It scores 1 criteria and interprets the total across 5 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in oncology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 1 criteria: Extent of disease. Totals are then banded: 1 stage or more - Stage 0: stage 0 - eye-preserving therapy (systemic/intra-arterial chemotherapy, focal therapy). Excellent survival in high-income settings; 2 stage or more - Stage I: stage I - completely resected after enucleation. Usually no adjuvant therapy unless high-risk histology; 3 stage or more - Stage II: stage II - microscopic residual disease. Adjuvant chemotherapy indicated; 4 stage or more - Stage III: stage III - regional extension. Intensive chemotherapy plus orbital radiotherapy; 5 stage or more - Stage IV: stage IV - metastatic. High-dose chemotherapy with stem-cell rescue; CNS disease carries a very poor prognosis.",
+  "guidelineRefs": [
+    "Source: Gupta S, Aitken JF, Bartels U et al. Paediatric cancer stage in population-based cancer registries: the Toronto consensus principles and guidelines. Lancet Oncol 2016;17:e163-72."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Retinoblastoma — Toronto Stage use?",
+      "a": "1. They are Extent of disease."
+    },
+    {
+      "q": "What do the bands of the Retinoblastoma — Toronto Stage mean?",
+      "a": "The total is interpreted as: 1 stage or more - Stage 0: stage 0 - eye-preserving therapy (systemic/intra-arterial chemotherapy, focal therapy). Excellent survival in high-income settings; 2 stage or more - Stage I: stage I - completely resected after enucleation. Usually no adjuvant therapy unless high-risk histology; 3 stage or more - Stage II: stage II - microscopic residual disease. Adjuvant chemotherapy indicated; 4 stage or more - Stage III: stage III - regional extension. Intensive chemotherapy plus orbital radiotherapy; 5 stage or more - Stage IV: stage IV - metastatic. High-dose chemotherapy with stem-cell rescue; CNS disease carries a very poor prognosis."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Source: Gupta S, Aitken JF, Bartels U et al. Paediatric cancer stage in population-based cancer registries: the Toronto consensus principles and guidelines. Lancet Oncol 2016;17:e163-72."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

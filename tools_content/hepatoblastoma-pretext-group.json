@@ -1,0 +1,43 @@
+{
+  "slug": "hepatoblastoma-pretext-group",
+  "intro": "The Hepatoblastoma — PRETEXT Group is a oncology scoring tool used in paediatric practice. PRE-Treatment EXTent of tumour - number of contiguous liver sections FREE of tumour determines the group. It scores 1 criteria and interprets the total across 4 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in oncology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 1 criteria: Liver sections involved (of the four sections). Totals are then banded: 1 stage or more - PRETEXT I: pRETEXT I - upfront resection usually feasible; excellent prognosis; 2 stage or more - PRETEXT II: pRETEXT II - resectable at diagnosis or after neoadjuvant chemotherapy; 3 stage or more - PRETEXT III: pRETEXT III - neoadjuvant chemotherapy then re-evaluate (POST-TEXT); may need extended hepatectomy or transplant referral; 4 stage or more - PRETEXT IV: pRETEXT IV - all sections involved. Refer early for liver transplant evaluation alongside chemotherapy.",
+  "guidelineRefs": [
+    "Annotation factors modify risk: V (hepatic vein/IVC), P (portal vein), E (extrahepatic contiguous), F (multifocal), R (tumour rupture), C (caudate), N (nodes), M (distant metastases).",
+    "AFP <100 ng/mL at diagnosis is an adverse prognostic feature.",
+    "Source: Roebuck DJ et al. 2005 PRETEXT: a revised staging system for primary malignant liver tumours of childhood. Pediatr Radiol 2007;37:123-32.",
+    "Source: Gupta S, Aitken JF, Bartels U et al. Paediatric cancer stage in population-based cancer registries: the Toronto consensus principles and guidelines. Lancet Oncol 2016;17:e163-72."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Hepatoblastoma — PRETEXT Group use?",
+      "a": "1. They are Liver sections involved (of the four sections)."
+    },
+    {
+      "q": "What do the bands of the Hepatoblastoma — PRETEXT Group mean?",
+      "a": "The total is interpreted as: 1 stage or more - PRETEXT I: pRETEXT I - upfront resection usually feasible; excellent prognosis; 2 stage or more - PRETEXT II: pRETEXT II - resectable at diagnosis or after neoadjuvant chemotherapy; 3 stage or more - PRETEXT III: pRETEXT III - neoadjuvant chemotherapy then re-evaluate (POST-TEXT); may need extended hepatectomy or transplant referral; 4 stage or more - PRETEXT IV: pRETEXT IV - all sections involved. Refer early for liver transplant evaluation alongside chemotherapy."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Annotation factors modify risk: V (hepatic vein/IVC), P (portal vein), E (extrahepatic contiguous), F (multifocal), R (tumour rupture), C (caudate), N (nodes), M (distant metastases)."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "flacc-pain-scale",
+  "intro": "The FLACC Pain Scale is a pain scoring tool used in paediatric practice. Observational pain score for children aged 2 months-7 years, or any child unable to self-report. It scores 5 criteria and interprets the total across 4 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in pain",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 5 criteria: Face; Legs; Activity; Cry; Consolability. Totals are then banded: any score - No pain: fLACC 0 - relaxed and comfortable; 1 point or more - Mild discomfort: fLACC 1-3 - mild discomfort. Non-pharmacological comfort measures; reassess; 4 points or more - Moderate pain: fLACC 4-6 - moderate pain. Give analgesia and reassess within 30 minutes; 7 points or more - Severe pain: fLACC 7-10 - severe discomfort/pain. Give prompt analgesia (consider opioid) and reassess frequently.",
+  "guidelineRefs": [
+    "Total range 0-10. A revised FLACC exists for children with cognitive impairment.",
+    "Source: Merkel SI et al. The FLACC: a behavioral scale for scoring postoperative pain in young children. Pediatr Nurs 1997;23:293-7."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the FLACC Pain Scale use?",
+      "a": "5. They are Face; Legs; Activity; Cry; Consolability."
+    },
+    {
+      "q": "What do the bands of the FLACC Pain Scale mean?",
+      "a": "The total is interpreted as: any score - No pain: fLACC 0 - relaxed and comfortable; 1 point or more - Mild discomfort: fLACC 1-3 - mild discomfort. Non-pharmacological comfort measures; reassess; 4 points or more - Moderate pain: fLACC 4-6 - moderate pain. Give analgesia and reassess within 30 minutes; 7 points or more - Severe pain: fLACC 7-10 - severe discomfort/pain. Give prompt analgesia (consider opioid) and reassess frequently."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Total range 0-10. A revised FLACC exists for children with cognitive impairment."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

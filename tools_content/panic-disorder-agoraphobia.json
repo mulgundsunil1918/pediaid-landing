@@ -1,0 +1,42 @@
+{
+  "slug": "panic-disorder-agoraphobia",
+  "intro": "The Panic Disorder / Agoraphobia is a psychosocial scoring tool used in paediatric practice. DSM-5 panic-attack symptom list - abrupt surge of intense fear peaking within minutes. It scores 13 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in psychosocial",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 13 criteria: Palpitations, pounding heart or accelerated heart rate; Sweating; Trembling or shaking; Sensations of shortness of breath or smothering; Feelings of choking; Chest pain or discomfort; Nausea or abdominal distress; Feeling dizzy, unsteady, light-headed or faint; Chills or heat sensations; Paraesthesias (numbness or tingling); Derealisation or depersonalisation; Fear of losing control or going crazy; and 1 further criteria. Totals are then banded: any score - Below threshold: fewer than 4 symptoms - a limited-symptom attack rather than a full panic attack; 4 criteria met or more - Threshold met: ≥4 symptoms peaking within minutes = a panic attack. Panic DISORDER additionally requires recurrent unexpected attacks plus ≥1 month of persistent worry about further attacks or maladaptive behaviour change.",
+  "guidelineRefs": [
+    "DSM-5 threshold: 4 or more of the 13 criteria listed.",
+    "A diagnosis also requires clinically significant distress or impairment, the required duration, and exclusion of substance use or another condition. Screening aid only - not a diagnosis.",
+    "Agoraphobia: marked fear in ≥2 of - public transport, open spaces, enclosed places, queues/crowds, being outside the home alone."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Panic Disorder / Agoraphobia use?",
+      "a": "13. They are Palpitations, pounding heart or accelerated heart rate; Sweating; Trembling or shaking; Sensations of shortness of breath or smothering; Feelings of choking; Chest pain or discomfort; and others."
+    },
+    {
+      "q": "What do the bands of the Panic Disorder / Agoraphobia mean?",
+      "a": "The total is interpreted as: any score - Below threshold: fewer than 4 symptoms - a limited-symptom attack rather than a full panic attack; 4 criteria met or more - Threshold met: ≥4 symptoms peaking within minutes = a panic attack. Panic DISORDER additionally requires recurrent unexpected attacks plus ≥1 month of persistent worry about further attacks or maladaptive behaviour change."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "DSM-5 threshold: 4 or more of the 13 criteria listed."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

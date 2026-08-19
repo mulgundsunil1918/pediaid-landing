@@ -1,0 +1,41 @@
+{
+  "slug": "prifle-paediatric-acute-kidney-injury",
+  "intro": "The pRIFLE — Paediatric Acute Kidney Injury is a renal scoring tool used in paediatric practice. Paediatric-modified RIFLE criteria, staged on estimated creatinine clearance and urine output. It scores 3 criteria and interprets the total across 6 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in renal",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 3 criteria: Change in estimated creatinine clearance (eCCl); Urine output; Duration of failure (if applicable). Totals are then banded: any score - No AKI: neither creatinine-clearance nor urine-output criteria met - no AKI by pRIFLE; 1 point or more - RISK: pRIFLE class R (Risk). Review nephrotoxins, optimise perfusion and fluid balance, monitor creatinine and urine output closely; 2 points or more - INJURY: pRIFLE class I (Injury). Stop nephrotoxic drugs, adjust drug dosing for renal function, and involve nephrology; 3 points or more - FAILURE: pRIFLE class F (Failure). Urgent nephrology input; assess need for renal replacement therapy; 4 points or more - LOSS: class L (Loss) - persistent failure beyond 4 weeks. Ongoing renal replacement and long-term nephrology follow-up; 5 points or more - END-STAGE: class E (End-stage) - ESRD beyond 3 months. Long-term dialysis or transplant planning.",
+  "guidelineRefs": [
+    "Class is assigned by the WORSE of the two criteria (creatinine clearance or urine output).",
+    "Source: Akcan-Arikan A et al. Modified RIFLE criteria in critically ill children with acute kidney injury. Kidney Int 2007;71:1028-35."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the pRIFLE — Paediatric Acute Kidney Injury use?",
+      "a": "3. They are Change in estimated creatinine clearance (eCCl); Urine output; Duration of failure (if applicable)."
+    },
+    {
+      "q": "What do the bands of the pRIFLE — Paediatric Acute Kidney Injury mean?",
+      "a": "The total is interpreted as: any score - No AKI: neither creatinine-clearance nor urine-output criteria met - no AKI by pRIFLE; 1 point or more - RISK: pRIFLE class R (Risk). Review nephrotoxins, optimise perfusion and fluid balance, monitor creatinine and urine output closely; 2 points or more - INJURY: pRIFLE class I (Injury). Stop nephrotoxic drugs, adjust drug dosing for renal function, and involve nephrology; 3 points or more - FAILURE: pRIFLE class F (Failure). Urgent nephrology input; assess need for renal replacement therapy; 4 points or more - LOSS: class L (Loss) - persistent failure beyond 4 weeks. Ongoing renal replacement and long-term nephrology follow-up; 5 points or more - END-STAGE: class E (End-stage) - ESRD beyond 3 months. Long-term dialysis or transplant planning."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Class is assigned by the WORSE of the two criteria (creatinine clearance or urine output)."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

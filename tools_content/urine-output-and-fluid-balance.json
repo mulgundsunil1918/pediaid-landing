@@ -1,0 +1,34 @@
+{
+  "slug": "urine-output-and-fluid-balance",
+  "intro": "The Urine Output & Fluid Balance is a neonatal bedside calculator in PediAid. mL/kg/h with oliguria thresholds. Inputs compute live as they are typed, and the result is shown with the formula it came from and the source it is based on, so the number can be checked rather than trusted blindly.",
+  "indications": [
+    "Calculating mL/kg/h with oliguria thresholds at the bedside",
+    "Checking a value before prescribing or escalating",
+    "Documenting the figure and the formula it came from"
+  ],
+  "method": "Enter the required values; the result updates as you type. The calculator screen states the formula used and the source it is taken from, and flags the interpretation band where one applies.",
+  "guidelineRefs": [
+    "See the calculator screen in the app for its source."
+  ],
+  "faqs": [
+    {
+      "q": "What does the Urine Output & Fluid Balance calculate?",
+      "a": "mL/kg/h with oliguria thresholds."
+    },
+    {
+      "q": "Is the formula shown?",
+      "a": "Yes. Every calculator in PediAid displays the formula and its source alongside the result."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. The calculators are bundled with the app and need no connection."
+    },
+    {
+      "q": "Is this a substitute for clinical judgement?",
+      "a": "No. It is a calculation aid; the treating clinician remains responsible for the decision."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/calculators/"
+  ]
+}

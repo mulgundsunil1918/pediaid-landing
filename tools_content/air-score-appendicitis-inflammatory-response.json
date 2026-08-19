@@ -1,0 +1,41 @@
+{
+  "slug": "air-score-appendicitis-inflammatory-response",
+  "intro": "The AIR Score (Appendicitis Inflammatory Response) is a GI & Liver scoring tool used in paediatric practice. Inflammation-weighted appendicitis score, useful for risk stratification. It scores 7 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in GI & Liver",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 7 criteria: Vomiting; Pain in the right iliac fossa; Rebound tenderness or muscular defence; Body temperature ≥ 38.5 °C; Polymorphonuclear leucocytes; White blood cell count; C-reactive protein. Totals are then banded: any score - Low probability: aIR 0-4 - low probability. Outpatient follow-up if the patient is well; consider discharge with review; 5 points or more - Indeterminate: aIR 5-8 - indeterminate group. Admit for observation, serial examination and/or imaging; 9 points or more - High probability: aIR 9-12 - high probability of appendicitis. Surgical exploration is generally indicated.",
+  "guidelineRefs": [
+    "Total range 0-12. Performs well in children and adults, particularly for advanced appendicitis.",
+    "Source: Andersson M, Andersson RE. The appendicitis inflammatory response score. World J Surg 2008;32:1843-9."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the AIR Score (Appendicitis Inflammatory Response) use?",
+      "a": "7. They are Vomiting; Pain in the right iliac fossa; Rebound tenderness or muscular defence; Body temperature ≥ 38.5 °C; Polymorphonuclear leucocytes; White blood cell count; and others."
+    },
+    {
+      "q": "What do the bands of the AIR Score (Appendicitis Inflammatory Response) mean?",
+      "a": "The total is interpreted as: any score - Low probability: aIR 0-4 - low probability. Outpatient follow-up if the patient is well; consider discharge with review; 5 points or more - Indeterminate: aIR 5-8 - indeterminate group. Admit for observation, serial examination and/or imaging; 9 points or more - High probability: aIR 9-12 - high probability of appendicitis. Surgical exploration is generally indicated."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Total range 0-12. Performs well in children and adults, particularly for advanced appendicitis."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

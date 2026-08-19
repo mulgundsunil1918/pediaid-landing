@@ -1,0 +1,41 @@
+{
+  "slug": "sj-gren-syndrome-acr-eular-2016",
+  "intro": "The Sjögren Syndrome — ACR/EULAR 2016 is a rheumatology scoring tool used in paediatric practice. Weighted classification criteria; a total of ≥ 4 classifies primary Sjögren syndrome. It scores 5 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in rheumatology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 5 criteria: Labial salivary gland biopsy with focal lymphocytic sialadenitis, focus score ≥ 1 foci/4 mm²; Anti-SSA/Ro antibody positive; Ocular staining score ≥ 5 (or van Bijsterveld ≥ 4) in at least one eye; Schirmer test ≤ 5 mm/5 min in at least one eye; Unstimulated whole saliva flow rate ≤ 0.1 mL/min. Totals are then banded: any score - Does not classify: total <4 - does not classify as primary Sjögren syndrome; 4 points or more - Classifies as Sjögren: total ≥4 - classifies as primary Sjögren syndrome (sensitivity 96%, specificity 95%). In children, recurrent parotitis is a more common presentation than sicca symptoms.",
+  "guidelineRefs": [
+    "Applies to patients with at least one symptom of ocular or oral dryness, or suspicion from the ESSDAI. Exclusions include prior head/neck radiation, active hepatitis C, AIDS, sarcoidosis, amyloidosis, GVHD and IgG4-related disease.",
+    "Source: Shiboski CH et al. 2016 ACR/EULAR classification criteria for primary Sjögren's syndrome. Ann Rheum Dis 2017;76:9-16."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Sjögren Syndrome — ACR/EULAR 2016 use?",
+      "a": "5. They are Labial salivary gland biopsy with focal lymphocytic sialadenitis, focus score ≥ 1 foci/4 mm²; Anti-SSA/Ro antibody positive; Ocular staining score ≥ 5 (or van Bijsterveld ≥ 4) in at least one eye; Schirmer test ≤ 5 mm/5 min in at least one eye; Unstimulated whole saliva flow rate ≤ 0.1 mL/min."
+    },
+    {
+      "q": "What do the bands of the Sjögren Syndrome — ACR/EULAR 2016 mean?",
+      "a": "The total is interpreted as: any score - Does not classify: total <4 - does not classify as primary Sjögren syndrome; 4 points or more - Classifies as Sjögren: total ≥4 - classifies as primary Sjögren syndrome (sensitivity 96%, specificity 95%). In children, recurrent parotitis is a more common presentation than sicca symptoms."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Applies to patients with at least one symptom of ocular or oral dryness, or suspicion from the ESSDAI. Exclusions include prior head/neck radiation, active hepatitis C, AIDS, sarcoidosis, amyloidosis, GVHD and IgG4-related disease."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

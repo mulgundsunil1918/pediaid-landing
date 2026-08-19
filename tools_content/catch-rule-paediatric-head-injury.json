@@ -1,0 +1,42 @@
+{
+  "slug": "catch-rule-paediatric-head-injury",
+  "intro": "The CATCH Rule (Paediatric Head Injury) is a Neurology & trauma scoring tool used in paediatric practice. Canadian Assessment of Tomography for Childhood Head injury - who needs a CT after minor head injury. It scores 7 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in Neurology & trauma",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 7 criteria: HIGH - GCS < 15 at two hours after injury; HIGH - Suspected open or depressed skull fracture; HIGH - Worsening headache; HIGH - Irritability on examination; MEDIUM - Any sign of basal skull fracture; MEDIUM - Large, boggy scalp haematoma; MEDIUM - Dangerous mechanism of injury. Totals are then banded: any score - CT not indicated: no high- or medium-risk factors - CT head not indicated by the CATCH rule. Observe and give head-injury advice; 1 risk factor or more - Medium risk - consider CT: medium-risk factor present - CT is recommended to detect brain injury on imaging (sensitivity ~98% for the full rule); 4 risk factors or more - High risk - CT required: high-risk factor present - CT head required; predicts need for neurological intervention (sensitivity 100% in the derivation cohort).",
+  "guidelineRefs": [
+    "Applies to minor head injury: witnessed LOC, amnesia, disorientation, persistent vomiting or persistent irritability, with GCS 13-15.",
+    "Dangerous mechanism: MVC, fall from ≥0.9 m (3 ft) or 5 stairs, fall from a bicycle with no helmet.",
+    "Source: Osmond MH et al. CATCH: a clinical decision rule for the use of computed tomography in children with minor head injury. CMAJ 2010;182:341-8."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the CATCH Rule (Paediatric Head Injury) use?",
+      "a": "7. They are HIGH - GCS < 15 at two hours after injury; HIGH - Suspected open or depressed skull fracture; HIGH - Worsening headache; HIGH - Irritability on examination; MEDIUM - Any sign of basal skull fracture; MEDIUM - Large, boggy scalp haematoma; and others."
+    },
+    {
+      "q": "What do the bands of the CATCH Rule (Paediatric Head Injury) mean?",
+      "a": "The total is interpreted as: any score - CT not indicated: no high- or medium-risk factors - CT head not indicated by the CATCH rule. Observe and give head-injury advice; 1 risk factor or more - Medium risk - consider CT: medium-risk factor present - CT is recommended to detect brain injury on imaging (sensitivity ~98% for the full rule); 4 risk factors or more - High risk - CT required: high-risk factor present - CT head required; predicts need for neurological intervention (sensitivity 100% in the derivation cohort)."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Applies to minor head injury: witnessed LOC, amnesia, disorientation, persistent vomiting or persistent irritability, with GCS 13-15."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "modified-duke-criteria-endocarditis",
+  "intro": "The Modified Duke Criteria (Endocarditis) is a cardiac scoring tool used in paediatric practice. Diagnosis of infective endocarditis from major and minor criteria. It scores 7 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in cardiac",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 7 criteria: MAJOR - Typical organism from 2 separate blood cultures, or persistently positive cultures; MAJOR - Evidence of endocardial involvement (vegetation, abscess, new dehiscence, or new valvular regurgitation); MINOR - Predisposing heart condition or injection drug use; MINOR - Fever > 38 °C; MINOR - Vascular phenomena (emboli, septic infarcts, Janeway lesions, mycotic aneurysm); MINOR - Immunologic phenomena (glomerulonephritis, Osler nodes, Roth spots, rheumatoid factor); MINOR - Microbiological evidence not meeting a major criterion. Totals are then banded: any score - Not met: neither possible nor definite endocarditis by the modified Duke criteria - consider alternative diagnoses; 3 weighted points or more - Possible IE: pOSSIBLE infective endocarditis = 1 major + 1 minor, or 3 minor criteria. Continue cultures and repeat echocardiography; 6 weighted points or more - Definite IE: dEFINITE infective endocarditis = 2 major, OR 1 major + 3 minor, OR 5 minor criteria. Start therapy and involve cardiology/ID; consider surgical review.",
+  "guidelineRefs": [
+    "Weighting here: each major = 3 points, each minor = 1 point, so definite (2 major = 6; 1 major + 3 minor = 6; 5 minor = 5) and possible (1 major + 1 minor = 4; 3 minor = 3) fall into the bands shown. Always confirm against the published criteria.",
+    "Source: Li JS et al. Proposed modifications to the Duke criteria for the diagnosis of infective endocarditis. Clin Infect Dis 2000;30:633-8."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Modified Duke Criteria (Endocarditis) use?",
+      "a": "7. They are MAJOR - Typical organism from 2 separate blood cultures, or persistently positive cultures; MAJOR - Evidence of endocardial involvement (vegetation, abscess, new dehiscence, or new valvular regurgitation); MINOR - Predisposing heart condition or injection drug use; MINOR - Fever > 38 °C; MINOR - Vascular phenomena (emboli, septic infarcts, Janeway lesions, mycotic aneurysm); MINOR - Immunologic phenomena (glomerulonephritis, Osler nodes, Roth spots, rheumatoid factor); and others."
+    },
+    {
+      "q": "What do the bands of the Modified Duke Criteria (Endocarditis) mean?",
+      "a": "The total is interpreted as: any score - Not met: neither possible nor definite endocarditis by the modified Duke criteria - consider alternative diagnoses; 3 weighted points or more - Possible IE: pOSSIBLE infective endocarditis = 1 major + 1 minor, or 3 minor criteria. Continue cultures and repeat echocardiography; 6 weighted points or more - Definite IE: dEFINITE infective endocarditis = 2 major, OR 1 major + 3 minor, OR 5 minor criteria. Start therapy and involve cardiology/ID; consider surgical review."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Weighting here: each major = 3 points, each minor = 1 point, so definite (2 major = 6; 1 major + 3 minor = 6; 5 minor = 5) and possible (1 major + 1 minor = 4; 3 minor = 3) fall into the bands shown. Always confirm against the published criteria."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "rule-of-7s-lyme-meningitis",
+  "intro": "The Rule of 7s (Lyme Meningitis) is a infectious scoring tool used in paediatric practice. Distinguishes Lyme meningitis from aseptic meningitis in endemic areas. Low risk only if ALL three are absent. It scores 3 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in infectious",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 3 criteria: Headache for ≥ 7 days; CSF mononuclear cells ≥ 70 %; Seventh (or other) cranial-nerve palsy. Totals are then banded: any score - Low risk: none of the three present - low risk for Lyme meningitis (NPV ≈100%). Outpatient management pending serology may be reasonable in endemic areas; 1 risk factor or more - Not low risk: one or more present - not low risk. Send Lyme serology and manage as possible Lyme meningitis pending results.",
+  "guidelineRefs": [
+    "Applies to children in Lyme-endemic regions presenting with CSF pleocytosis. Not applicable in non-endemic settings.",
+    "Source: Garro AC et al. Prospective validation of a clinical prediction model for Lyme meningitis in children. Pediatrics 2009;123:e829-34."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Rule of 7s (Lyme Meningitis) use?",
+      "a": "3. They are Headache for ≥ 7 days; CSF mononuclear cells ≥ 70 %; Seventh (or other) cranial-nerve palsy."
+    },
+    {
+      "q": "What do the bands of the Rule of 7s (Lyme Meningitis) mean?",
+      "a": "The total is interpreted as: any score - Low risk: none of the three present - low risk for Lyme meningitis (NPV ≈100%). Outpatient management pending serology may be reasonable in endemic areas; 1 risk factor or more - Not low risk: one or more present - not low risk. Send Lyme serology and manage as possible Lyme meningitis pending results."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Applies to children in Lyme-endemic regions presenting with CSF pleocytosis. Not applicable in non-endemic settings."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

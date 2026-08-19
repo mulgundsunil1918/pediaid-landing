@@ -1,0 +1,41 @@
+{
+  "slug": "persistent-depressive-disorder-dysthymia",
+  "intro": "The Persistent Depressive Disorder (Dysthymia) is a psychosocial scoring tool used in paediatric practice. DSM-5 criteria - depressed mood for most of the day, more days than not, ≥1 year in children. It scores 6 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in psychosocial",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 6 criteria: Poor appetite or overeating; Insomnia or hypersomnia; Low energy or fatigue; Low self-esteem; Poor concentration or difficulty making decisions; Feelings of hopelessness. Totals are then banded: any score - Below threshold: fewer than 2 accompanying symptoms; 2 criteria met or more - Threshold met: ≥2 symptoms alongside depressed/irritable mood for ≥1 year (children & adolescents; ≥2 years in adults), never symptom-free >2 months.",
+  "guidelineRefs": [
+    "DSM-5 threshold: 2 or more of the 6 criteria listed.",
+    "A diagnosis also requires clinically significant distress or impairment, the required duration, and exclusion of substance use or another condition. Screening aid only - not a diagnosis."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Persistent Depressive Disorder (Dysthymia) use?",
+      "a": "6. They are Poor appetite or overeating; Insomnia or hypersomnia; Low energy or fatigue; Low self-esteem; Poor concentration or difficulty making decisions; Feelings of hopelessness."
+    },
+    {
+      "q": "What do the bands of the Persistent Depressive Disorder (Dysthymia) mean?",
+      "a": "The total is interpreted as: any score - Below threshold: fewer than 2 accompanying symptoms; 2 criteria met or more - Threshold met: ≥2 symptoms alongside depressed/irritable mood for ≥1 year (children & adolescents; ≥2 years in adults), never symptom-free >2 months."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "DSM-5 threshold: 2 or more of the 6 criteria listed."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

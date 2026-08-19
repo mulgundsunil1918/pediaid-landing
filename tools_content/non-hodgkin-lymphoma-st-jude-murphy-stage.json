@@ -1,0 +1,41 @@
+{
+  "slug": "non-hodgkin-lymphoma-st-jude-murphy-stage",
+  "intro": "The Non-Hodgkin Lymphoma — St Jude (Murphy) Stage is a oncology scoring tool used in paediatric practice. Paediatric NHL staging (Toronto Tier 1). It scores 1 criteria and interprets the total across 4 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in oncology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 1 criteria: Extent of disease. Totals are then banded: 1 stage or more - Stage I: stage I - limited disease; excellent prognosis with short-course therapy; 2 stage or more - Stage II: stage II - limited disease, generally treated on low-risk protocols; 3 stage or more - Stage III: stage III - advanced disease requiring intensified multi-agent chemotherapy; 4 stage or more - Stage IV: stage IV - CNS and/or marrow involvement. Highest-intensity therapy with CNS-directed treatment; marrow blasts ≥25 % is classified as leukaemia instead.",
+  "guidelineRefs": [
+    "Source (staging): Murphy SB. Classification, staging and end results of treatment of childhood non-Hodgkin lymphomas. Semin Oncol 1980;7:332-9.",
+    "Source: Gupta S, Aitken JF, Bartels U et al. Paediatric cancer stage in population-based cancer registries: the Toronto consensus principles and guidelines. Lancet Oncol 2016;17:e163-72."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Non-Hodgkin Lymphoma — St Jude (Murphy) Stage use?",
+      "a": "1. They are Extent of disease."
+    },
+    {
+      "q": "What do the bands of the Non-Hodgkin Lymphoma — St Jude (Murphy) Stage mean?",
+      "a": "The total is interpreted as: 1 stage or more - Stage I: stage I - limited disease; excellent prognosis with short-course therapy; 2 stage or more - Stage II: stage II - limited disease, generally treated on low-risk protocols; 3 stage or more - Stage III: stage III - advanced disease requiring intensified multi-agent chemotherapy; 4 stage or more - Stage IV: stage IV - CNS and/or marrow involvement. Highest-intensity therapy with CNS-directed treatment; marrow blasts ≥25 % is classified as leukaemia instead."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Source (staging): Murphy SB. Classification, staging and end results of treatment of childhood non-Hodgkin lymphomas. Semin Oncol 1980;7:332-9."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

@@ -51,9 +51,13 @@ _TITLE_QUALIFIER = {
 
 
 def seo_title_for(tool):
+    """Build the <title>. The " | PediAid" suffix is dropped when a clinical
+    name is already long — Google truncates around 65 characters, and losing
+    the end of "Eosinophilic Granulomatosis with Polyangiitis" to keep a brand
+    tag is the wrong trade."""
     explicit = tool.get("seoTitle")
     if explicit:
-        return f"{explicit} | PediAid"
+        return explicit if len(explicit) > 58 else f"{explicit} | PediAid"
     base = tool.get("primaryKeyword") or tool["title"]
     qual = _TITLE_QUALIFIER.get(tool.get("category", ""), "")
     # Don't produce "... Calculator Calculator".

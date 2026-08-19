@@ -1,0 +1,43 @@
+{
+  "slug": "manic-episode",
+  "intro": "The Manic Episode is a psychosocial scoring tool used in paediatric practice. DSM-5 criteria - distinct period of abnormally elevated/irritable mood and increased energy. It scores 7 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in psychosocial",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 7 criteria: Inflated self-esteem or grandiosity; Decreased need for sleep (rested after 3 hours); More talkative than usual or pressure to keep talking; Flight of ideas or racing thoughts; Distractibility; Increase in goal-directed activity or psychomotor agitation; Excessive involvement in activities with high risk of painful consequences. Totals are then banded: any score - Below threshold: fewer than 3 symptoms in the mood period; 3 criteria met or more - Threshold met: ≥3 symptoms (≥4 if mood is only irritable) during ≥1 week of elevated mood and increased energy - manic episode. Urgent psychiatric referral.",
+  "guidelineRefs": [
+    "DSM-5 threshold: 3 or more of the 7 criteria listed.",
+    "A diagnosis also requires clinically significant distress or impairment, the required duration, and exclusion of substance use or another condition. Screening aid only - not a diagnosis.",
+    "Mania: ≥1 week (or any duration if hospitalisation needed). Hypomania: ≥4 consecutive days without marked impairment or psychosis.",
+    "If mood is irritable rather than elevated, 4 symptoms are required."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Manic Episode use?",
+      "a": "7. They are Inflated self-esteem or grandiosity; Decreased need for sleep (rested after 3 hours); More talkative than usual or pressure to keep talking; Flight of ideas or racing thoughts; Distractibility; Increase in goal-directed activity or psychomotor agitation; and others."
+    },
+    {
+      "q": "What do the bands of the Manic Episode mean?",
+      "a": "The total is interpreted as: any score - Below threshold: fewer than 3 symptoms in the mood period; 3 criteria met or more - Threshold met: ≥3 symptoms (≥4 if mood is only irritable) during ≥1 week of elevated mood and increased energy - manic episode. Urgent psychiatric referral."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "DSM-5 threshold: 3 or more of the 7 criteria listed."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

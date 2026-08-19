@@ -1,0 +1,41 @@
+{
+  "slug": "pram-score",
+  "intro": "The PRAM Score is a respiratory scoring tool used in paediatric practice. Preschool Respiratory Assessment Measure - asthma exacerbation severity. It scores 5 criteria and interprets the total across 3 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in respiratory",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 5 criteria: Suprasternal retractions; Scalene muscle contraction; Air entry; Wheezing; Oxygen saturation on room air. Totals are then banded: any score - Mild: pRAM 0-3 - mild exacerbation. Inhaled short-acting beta-agonist; usually dischargeable after response; 4 points or more - Moderate: pRAM 4-7 - moderate exacerbation. Frequent bronchodilators plus systemic corticosteroid; observe for response; 8 points or more - Severe: pRAM 8-12 - severe exacerbation. Continuous bronchodilators, systemic steroid, consider magnesium sulphate, oxygen and admission/HDU.",
+  "guidelineRefs": [
+    "Total range 0-12. Validated for children aged roughly 2-17 years.",
+    "Source: Chalut DS, Ducharme FM, Davis GM. The Preschool Respiratory Assessment Measure (PRAM). J Pediatr 2000;137:762-8."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the PRAM Score use?",
+      "a": "5. They are Suprasternal retractions; Scalene muscle contraction; Air entry; Wheezing; Oxygen saturation on room air."
+    },
+    {
+      "q": "What do the bands of the PRAM Score mean?",
+      "a": "The total is interpreted as: any score - Mild: pRAM 0-3 - mild exacerbation. Inhaled short-acting beta-agonist; usually dischargeable after response; 4 points or more - Moderate: pRAM 4-7 - moderate exacerbation. Frequent bronchodilators plus systemic corticosteroid; observe for response; 8 points or more - Severe: pRAM 8-12 - severe exacerbation. Continuous bronchodilators, systemic steroid, consider magnesium sulphate, oxygen and admission/HDU."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Total range 0-12. Validated for children aged roughly 2-17 years."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

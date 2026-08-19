@@ -1,0 +1,41 @@
+{
+  "slug": "social-pragmatic-communication-disorder",
+  "intro": "The Social (Pragmatic) Communication Disorder is a psychosocial scoring tool used in paediatric practice. DSM-5 criteria - persistent difficulty with social use of verbal and nonverbal communication. It scores 8 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in psychosocial",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 8 criteria: Deficits using communication for social purposes (greeting, sharing information); Impaired ability to change communication to match context or listener; Difficulty following rules for conversation and storytelling (turn-taking, rephrasing); Difficulty understanding what is not explicitly stated (inference, idioms, humour, ambiguity); Deficits cause functional limitations in communication or social participation; Onset in the early developmental period; Not attributable to another medical/neurological condition or low structural language ability; Autism spectrum disorder has been ruled out (no restricted/repetitive behaviours). Totals are then banded: any score - Below threshold: not all criteria met - all are required for the diagnosis; 8 criteria met or more - Threshold met: all criteria met - consistent with social (pragmatic) communication disorder. ASD must be excluded before this diagnosis is used.",
+  "guidelineRefs": [
+    "DSM-5 threshold: 8 or more of the 8 criteria listed.",
+    "A diagnosis also requires clinically significant distress or impairment, the required duration, and exclusion of substance use or another condition. Screening aid only - not a diagnosis."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Social (Pragmatic) Communication Disorder use?",
+      "a": "8. They are Deficits using communication for social purposes (greeting, sharing information); Impaired ability to change communication to match context or listener; Difficulty following rules for conversation and storytelling (turn-taking, rephrasing); Difficulty understanding what is not explicitly stated (inference, idioms, humour, ambiguity); Deficits cause functional limitations in communication or social participation; Onset in the early developmental period; and others."
+    },
+    {
+      "q": "What do the bands of the Social (Pragmatic) Communication Disorder mean?",
+      "a": "The total is interpreted as: any score - Below threshold: not all criteria met - all are required for the diagnosis; 8 criteria met or more - Threshold met: all criteria met - consistent with social (pragmatic) communication disorder. ASD must be excluded before this diagnosis is used."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "DSM-5 threshold: 8 or more of the 8 criteria listed."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "rome-iv-cyclic-vomiting-syndrome",
+  "intro": "The Rome IV — Cyclic Vomiting Syndrome is a GI & Liver scoring tool used in paediatric practice. Stereotypical episodes of intense vomiting with well periods in between. It scores 4 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in GI & Liver",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 4 criteria: ≥ 2 periods of intense, unremitting nausea and paroxysmal vomiting lasting hours to days, within a 6-month period; Episodes are stereotypical in each patient; Episodes are separated by weeks to months with return to baseline health; Symptoms cannot be attributed to another medical condition after appropriate evaluation. Totals are then banded: any score - Criteria not met: all four criteria are required for a Rome IV diagnosis of cyclic vomiting syndrome; 4 criteria or more - Criteria met: all criteria met - cyclic vomiting syndrome. Consider prophylaxis (cyproheptadine <5 y, amitriptyline ≥5 y, propranolol) and an abortive plan with early rehydration.",
+  "guidelineRefs": [
+    "Source: Hyams JS et al. Rome IV - Functional disorders: children and adolescents. Gastroenterology 2016;150:1456-68."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the Rome IV — Cyclic Vomiting Syndrome use?",
+      "a": "4. They are ≥ 2 periods of intense, unremitting nausea and paroxysmal vomiting lasting hours to days, within a 6-month period; Episodes are stereotypical in each patient; Episodes are separated by weeks to months with return to baseline health; Symptoms cannot be attributed to another medical condition after appropriate evaluation."
+    },
+    {
+      "q": "What do the bands of the Rome IV — Cyclic Vomiting Syndrome mean?",
+      "a": "The total is interpreted as: any score - Criteria not met: all four criteria are required for a Rome IV diagnosis of cyclic vomiting syndrome; 4 criteria or more - Criteria met: all criteria met - cyclic vomiting syndrome. Consider prophylaxis (cyproheptadine <5 y, amitriptyline ≥5 y, propranolol) and an abortive plan with early rehydration."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Source: Hyams JS et al. Rome IV - Functional disorders: children and adolescents. Gastroenterology 2016;150:1456-68."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}

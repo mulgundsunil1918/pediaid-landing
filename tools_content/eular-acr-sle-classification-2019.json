@@ -1,0 +1,42 @@
+{
+  "slug": "eular-acr-sle-classification-2019",
+  "intro": "The EULAR/ACR SLE Classification (2019) is a rheumatology scoring tool used in paediatric practice. Entry criterion: ANA ≥ 1:80. Then weighted criteria - only the HIGHEST-weighted item in each domain counts; ≥10 points classifies SLE. It scores 11 criteria and interprets the total across 2 bands, so the number always arrives with the severity it implies rather than on its own. In PediAid each criterion is shown as a labelled option with the weight it carries, so the total can be checked rather than taken on trust.",
+  "indications": [
+    "Grading severity at the bedside in rheumatology",
+    "Recording an objective severity band in the case notes",
+    "Deciding when a total crosses the threshold for escalation",
+    "Re-scoring to track whether a child is improving or deteriorating",
+    "Checking the exact criteria of a score used infrequently"
+  ],
+  "method": "The score sums 11 criteria: ENTRY - ANA ≥ 1:80 on HEp-2 cells (required); Constitutional - fever; Haematological - leucopenia (2) / thrombocytopenia (4) / autoimmune haemolysis (4); Neuropsychiatric - delirium (2) / psychosis (3) / seizure (5); Mucocutaneous - non-scarring alopecia (2) / oral ulcers (2) / subacute or discoid lupus (4) / acute cutaneous lupus (6); Serosal - pleural or pericardial effusion (5) / acute pericarditis (6); Musculoskeletal - joint involvement (≥2 joints with synovitis or tenderness plus stiffness); Renal - proteinuria > 0.5 g/24 h (4) / class II or V nephritis (8) / class III or IV nephritis (10); Antiphospholipid antibodies - anticardiolipin, anti-β2GP1 or lupus anticoagulant; Complement - low C3 OR low C4 (3) / low C3 AND low C4 (4); SLE-specific antibodies - anti-dsDNA or anti-Smith. Totals are then banded: any score - Does not classify: fewer than 10 points, or ANA negative. Without a positive ANA (≥1:80) the criteria cannot be applied at all; 10 points or more - Classifies as SLE: ≥10 points with a positive ANA and at least one clinical criterion - classifies as SLE (sensitivity 96%, specificity 93%). Classification supports, but does not replace, clinical diagnosis.",
+  "guidelineRefs": [
+    "Each toggle here carries the HIGHEST weight in its domain - deselect and use clinical judgement if only a lower-weighted item in that domain is present.",
+    "At least one CLINICAL criterion is required; criteria need not occur simultaneously. Do not count a criterion if a more likely explanation exists.",
+    "Source: Aringer M et al. 2019 EULAR/ACR classification criteria for systemic lupus erythematosus. Ann Rheum Dis 2019;78:1151-9."
+  ],
+  "faqs": [
+    {
+      "q": "How many criteria does the EULAR/ACR SLE Classification (2019) use?",
+      "a": "11. They are ENTRY - ANA ≥ 1:80 on HEp-2 cells (required); Constitutional - fever; Haematological - leucopenia (2) / thrombocytopenia (4) / autoimmune haemolysis (4); Neuropsychiatric - delirium (2) / psychosis (3) / seizure (5); Mucocutaneous - non-scarring alopecia (2) / oral ulcers (2) / subacute or discoid lupus (4) / acute cutaneous lupus (6); Serosal - pleural or pericardial effusion (5) / acute pericarditis (6); and others."
+    },
+    {
+      "q": "What do the bands of the EULAR/ACR SLE Classification (2019) mean?",
+      "a": "The total is interpreted as: any score - Does not classify: fewer than 10 points, or ANA negative. Without a positive ANA (≥1:80) the criteria cannot be applied at all; 10 points or more - Classifies as SLE: ≥10 points with a positive ANA and at least one clinical criterion - classifies as SLE (sensitivity 96%, specificity 93%). Classification supports, but does not replace, clinical diagnosis."
+    },
+    {
+      "q": "Does the score replace clinical judgement?",
+      "a": "No. It is a structured way to record and communicate severity. A clinician concerned about a child should act on that concern regardless of the total."
+    },
+    {
+      "q": "Where does this score come from?",
+      "a": "Each toggle here carries the HIGHEST weight in its domain - deselect and use clinical judgement if only a lower-weighted item in that domain is present."
+    },
+    {
+      "q": "Does it work offline?",
+      "a": "Yes. Score definitions are bundled with the PediAid app, so the score computes without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/scores/"
+  ]
+}
