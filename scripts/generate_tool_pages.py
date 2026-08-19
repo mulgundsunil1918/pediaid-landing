@@ -35,6 +35,34 @@ def load_catalog():
     return data["site"], data["tools"]
 
 
+# Category-aware <title>. The old template was "{title} | PediAid", which
+# repeated the H1 and targeted nobody's search phrasing. A tool may override it
+# with an explicit "seoTitle" in tools_data.json; otherwise the category picks a
+# qualifier that matches how clinicians actually search.
+_TITLE_QUALIFIER = {
+    "Calculators & Tools": "Calculator",
+    "Charts": "Chart — Percentiles & Z-Scores",
+    "Drug Formulary": "Dosing Reference",
+    "Emergency": "Protocol",
+    "Guides": "Guide",
+    "Lab Reference": "Normal Values",
+    "Academics": "",
+}
+
+
+def seo_title_for(tool):
+    explicit = tool.get("seoTitle")
+    if explicit:
+        return f"{explicit} | PediAid"
+    base = tool.get("primaryKeyword") or tool["title"]
+    qual = _TITLE_QUALIFIER.get(tool.get("category", ""), "")
+    # Don't produce "... Calculator Calculator".
+    if qual and qual.split()[0].lower() in base.lower():
+        qual = ""
+    head = f"{base} {qual}".strip() if qual else base
+    return f"{head} | PediAid"
+
+
 def load_content(slug):
     f = CONTENT_DIR / f"{slug}.json"
     if not f.exists():
@@ -154,7 +182,7 @@ PAGE_TEMPLATE = """<!doctype html>
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>{title} | PediAid</title>
+<title>{seo_title}</title>
 <meta name="description" content="{meta_description}" />
 <link rel="canonical" href="{canonical_url}" />
 <meta name="theme-color" content="#1e3a5f" />
@@ -277,6 +305,7 @@ def main():
 
     for tool in tools:
         content = load_content(tool["slug"])
+        seo_title = seo_title_for(tool)
         if content is None:
             skipped.append(tool["slug"])
             continue
@@ -292,6 +321,7 @@ def main():
 
         page = PAGE_TEMPLATE.format(
             title=esc(tool["title"]),
+            seo_title=esc(seo_title),
             meta_description=esc(meta_description),
             canonical_url=canonical_url,
             site_domain=site["domain"],

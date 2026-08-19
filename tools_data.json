@@ -6,96 +6,970 @@
     "orgName": "PediAid"
   },
   "tools": [
-    { "slug": "gestational-age-edd-calculator", "title": "Gestational Age & EDD Calculator", "subtitle": "EDD, GA & Antenatal Dates", "category": "Calculators & Tools", "primaryKeyword": "Gestational Age Calculator", "secondaryKeywords": ["EDD calculator", "LMP due date calculator", "Naegele's rule calculator", "USG dating calculator", "estimated delivery date"] },
-    { "slug": "ponderal-index-calculator", "title": "Ponderal Index Calculator", "subtitle": "IUGR & Nutritional Status", "category": "Calculators & Tools", "primaryKeyword": "Ponderal Index Calculator", "secondaryKeywords": ["IUGR calculator", "fetal growth restriction calculator", "symmetrical vs asymmetrical IUGR", "newborn nutritional status"] },
-    { "slug": "bsa-calculator-pediatric", "title": "Pediatric BSA Calculator", "subtitle": "Mosteller Formula", "category": "Calculators & Tools", "primaryKeyword": "Pediatric BSA Calculator", "secondaryKeywords": ["Mosteller formula calculator", "body surface area calculator children", "chemotherapy dose BSA"] },
-    { "slug": "nutritional-audit-calculator", "title": "Nutritional Audit Calculator", "subtitle": "ESPGHAN 2022", "category": "Calculators & Tools", "primaryKeyword": "ESPGHAN Nutritional Audit Calculator", "secondaryKeywords": ["neonatal feed calorie calculator", "preterm nutrition audit", "enteral feed protein calculator"] },
-    { "slug": "tpn-calculator-neonatal", "title": "Neonatal TPN Calculator", "subtitle": "Stock & Multi-Line TPN", "category": "Calculators & Tools", "primaryKeyword": "Neonatal TPN Calculator", "secondaryKeywords": ["total parenteral nutrition calculator", "TPN dextrose amino acid lipid calculator", "NICU TPN prescription"] },
-    { "slug": "cga-pma-calculator", "title": "Corrected Gestational Age Calculator", "subtitle": "Age Correction for Prematurity", "category": "Calculators & Tools", "primaryKeyword": "Corrected Gestational Age Calculator", "secondaryKeywords": ["CGA calculator", "PMA calculator", "postmenstrual age calculator", "preterm corrected age"] },
-    { "slug": "gir-calculator-neonatal", "title": "GIR Calculator", "subtitle": "Glucose Infusion Rate", "category": "Calculators & Tools", "primaryKeyword": "GIR Calculator", "secondaryKeywords": ["glucose infusion rate calculator", "neonatal dextrose calculator", "mg/kg/min glucose calculator"] },
-    { "slug": "schwartz-egfr-calculator", "title": "Schwartz eGFR Calculator", "subtitle": "Creatinine Clearance", "category": "Calculators & Tools", "primaryKeyword": "Schwartz eGFR Calculator", "secondaryKeywords": ["bedside Schwartz formula", "pediatric GFR calculator", "pediatric creatinine clearance"] },
-    { "slug": "blood-gas-analyser", "title": "Blood Gas Analyser", "subtitle": "7-Step ABG Interpretation", "category": "Calculators & Tools", "primaryKeyword": "Blood Gas Analyzer", "secondaryKeywords": ["ABG interpretation tool", "acid base disorder calculator", "pediatric blood gas interpretation"] },
-    { "slug": "double-volume-exchange-transfusion-calculator", "title": "Double Volume Exchange Transfusion Calculator", "subtitle": "DVET for Severe Jaundice", "category": "Calculators & Tools", "primaryKeyword": "Double Volume Exchange Transfusion Calculator", "secondaryKeywords": ["DVET calculator", "exchange transfusion volume calculator", "neonatal exchange transfusion"] },
-    { "slug": "ventilator-parameters-calculator", "title": "Ventilator Parameters Calculator", "subtitle": "OI, OSI, MAP, HFOV", "category": "Calculators & Tools", "primaryKeyword": "Oxygenation Index Calculator", "secondaryKeywords": ["OI OSI calculator", "mean airway pressure calculator", "HFOV settings calculator", "ventilator parameters neonatal"] },
-    { "slug": "bpd-estimator-nichd", "title": "BPD Estimator", "subtitle": "Bronchopulmonary Dysplasia — NICHD", "category": "Calculators & Tools", "primaryKeyword": "BPD Risk Estimator", "secondaryKeywords": ["NICHD BPD calculator", "bronchopulmonary dysplasia risk tool", "chronic lung disease of prematurity risk"], "externalUrl": "https://neonatal.rti.org/index.cfm?fuseaction=BPD_Calculator2.start" },
-    { "slug": "pediatric-blood-pressure-calculator", "title": "Pediatric Blood Pressure Calculator", "subtitle": "Neonatal & Pediatric BP Centiles", "category": "Calculators & Tools", "primaryKeyword": "Pediatric Blood Pressure Percentile Calculator", "secondaryKeywords": ["AAP BP percentile calculator", "child BP by height percentile", "pediatric hypertension calculator"] },
-    { "slug": "neonatal-jaundice-bilirubin-calculator", "title": "Neonatal Jaundice Bilirubin Calculator", "subtitle": "AAP 2022 Bilirubin Tool", "category": "Calculators & Tools", "primaryKeyword": "AAP 2022 Bilirubin Calculator", "secondaryKeywords": ["neonatal bilirubin calculator", "hyperbilirubinemia calculator", "phototherapy threshold calculator", "Bhutani nomogram calculator"] },
-    { "slug": "maintenance-fluid-calculator-pediatric", "title": "Pediatric Maintenance Fluid Calculator", "subtitle": "Neonatal & Pediatric Fluids", "category": "Calculators & Tools", "primaryKeyword": "Pediatric Maintenance Fluid Calculator", "secondaryKeywords": ["Holliday-Segar calculator", "4-2-1 rule calculator", "neonatal fluid requirement calculator"] },
-    { "slug": "parkland-formula-calculator", "title": "Parkland Formula Calculator", "subtitle": "Burns Fluid Resuscitation", "category": "Calculators & Tools", "primaryKeyword": "Parkland Formula Calculator", "secondaryKeywords": ["burn fluid resuscitation calculator", "modified Parkland formula", "TBSA fluid calculator"] },
-    { "slug": "lund-browder-chart-calculator", "title": "Lund and Browder Chart Calculator", "subtitle": "Burn Surface Area Estimation", "category": "Calculators & Tools", "primaryKeyword": "Lund and Browder Chart Calculator", "secondaryKeywords": ["pediatric TBSA calculator", "burn surface area chart", "burn percentage calculator children"] },
-    { "slug": "partial-exchange-transfusion-calculator", "title": "Partial Exchange Transfusion Calculator", "subtitle": "Polycythemia — PET Calculator", "category": "Calculators & Tools", "primaryKeyword": "Partial Exchange Transfusion Calculator", "secondaryKeywords": ["PET calculator neonatal", "polycythemia exchange calculator", "hematocrit exchange volume calculator"] },
-    { "slug": "burn-mortality-calculator-baux", "title": "Revised Baux Score Calculator", "subtitle": "Burn Mortality Prediction", "category": "Calculators & Tools", "primaryKeyword": "Revised Baux Score Calculator", "secondaryKeywords": ["burn mortality calculator", "burn survival prediction", "inhalation injury mortality score"] },
-
-    { "slug": "who-growth-charts", "title": "WHO Growth Chart Calculator", "subtitle": "0 to 5 Years — Boys & Girls", "category": "Charts", "primaryKeyword": "WHO Growth Chart Calculator", "secondaryKeywords": ["WHO weight for age chart", "WHO height for age percentile", "child growth standards calculator", "WHO BMI for age"] },
-    { "slug": "iap-growth-charts", "title": "IAP Growth Chart 2015", "subtitle": "5 to 18 Years — Indian Reference", "category": "Charts", "primaryKeyword": "IAP Growth Chart 2015", "secondaryKeywords": ["Indian growth chart calculator", "IAP height weight chart", "Indian pediatric BMI chart"] },
-    { "slug": "fenton-growth-chart", "title": "Fenton Growth Chart", "subtitle": "22 to 50 Weeks PMA — SGA / AGA / LGA", "category": "Charts", "primaryKeyword": "Fenton Growth Chart", "secondaryKeywords": ["Fenton preterm growth chart calculator", "Fenton 2013 chart", "preterm growth percentile calculator", "NICU growth chart"] },
-    { "slug": "intergrowth-21-charts", "title": "INTERGROWTH-21st Growth Chart", "subtitle": "Neonatal Growth Charts — Oxford", "category": "Charts", "primaryKeyword": "INTERGROWTH-21st Chart", "secondaryKeywords": ["INTERGROWTH newborn size chart", "INTERGROWTH postnatal growth chart"], "externalUrl": "https://intergrowth21.ndog.ox.ac.uk/en/ManualEntry" },
-
-    { "slug": "pediatric-drug-formulary", "title": "Pediatric Drug Formulary", "subtitle": "500+ Drugs — Neofax & Harriet Lane", "category": "Drug Formulary", "primaryKeyword": "Pediatric Drug Formulary", "secondaryKeywords": ["Neofax dosing app", "Harriet Lane drug dosing", "neonatal drug dose calculator"] },
-
-    { "slug": "fetal-development-week-by-week", "title": "Fetal Development Week by Week", "subtitle": "Week-by-Week from LMP", "category": "Guides", "primaryKeyword": "Fetal Development Week by Week", "secondaryKeywords": ["fetal development chart", "pregnancy week by week organogenesis"] },
-    { "slug": "nrp-algorithm-neonatal-resuscitation", "title": "NRP Algorithm", "subtitle": "Neonatal Resuscitation Program", "category": "Guides", "primaryKeyword": "NRP Algorithm", "secondaryKeywords": ["neonatal resuscitation algorithm", "NRP flowchart", "delivery room resuscitation guide"] },
-    { "slug": "iap-immunization-schedule", "title": "IAP Immunization Schedule", "subtitle": "IAP 2022 & National (NIS)", "category": "Guides", "primaryKeyword": "IAP Immunization Schedule 2022", "secondaryKeywords": ["India vaccine schedule", "national immunization schedule calculator", "child vaccination chart India"] },
-    { "slug": "neonatal-scoring-systems", "title": "Neonatal Scoring Systems", "subtitle": "Apgar · Downes · Sarnat · Thompson", "category": "Guides", "primaryKeyword": "Neonatal Scoring Systems", "secondaryKeywords": ["Apgar score calculator", "Downes score calculator", "Sarnat staging HIE", "Thompson score calculator"] },
-    { "slug": "nichd-hie-assessment-tool", "title": "NICHD HIE Assessment Tool", "subtitle": "Cooling Eligibility & Assessment", "category": "Guides", "primaryKeyword": "NICHD HIE Assessment Tool", "secondaryKeywords": ["therapeutic hypothermia eligibility", "cooling criteria neonatal HIE", "birth asphyxia assessment tool"] },
-    { "slug": "modified-ballard-score-calculator", "title": "Modified Ballard Score Calculator", "subtitle": "Gestational Age Assessment", "category": "Guides", "primaryKeyword": "Modified Ballard Score Calculator", "secondaryKeywords": ["new Ballard score", "gestational age assessment newborn", "neuromuscular maturity scoring"] },
-    { "slug": "pals-algorithms", "title": "PALS Algorithms", "subtitle": "Pediatric Advanced Life Support", "category": "Guides", "primaryKeyword": "PALS Algorithms", "secondaryKeywords": ["pediatric cardiac arrest algorithm", "PALS bradycardia algorithm", "pediatric resuscitation flowchart"] },
-    { "slug": "neonatal-echo-tnecho-guide", "title": "Targeted Neonatal Echocardiography Guide", "subtitle": "TnECHO & Neonatal Hemodynamics", "category": "Guides", "primaryKeyword": "Targeted Neonatal Echocardiography (TnECHO)", "secondaryKeywords": ["TnECHO guide", "neonatal hemodynamics assessment", "PDA PPHN echo assessment"], "externalUrl": "https://www.neocardiolab.com/tnecho-and-neonatal-hemodynamics" },
-    { "slug": "pediatric-equipment-parameters", "title": "Pediatric Equipment Size Chart", "subtitle": "Parameters & Equipment — Harriet Lane", "category": "Guides", "primaryKeyword": "Pediatric Equipment Size Chart", "secondaryKeywords": ["ETT size by age", "pediatric equipment sizing chart", "weight based equipment sizes"] },
-    { "slug": "neonatal-polycythemia-management", "title": "Neonatal Polycythemia Management", "subtitle": "Management Algorithm — AIIMS Protocol", "category": "Guides", "primaryKeyword": "Neonatal Polycythemia Management", "secondaryKeywords": ["polycythemia newborn treatment", "hyperviscosity syndrome neonate", "partial exchange transfusion protocol"] },
-    { "slug": "pofras-feeding-readiness-scale", "title": "POFRAS Scale", "subtitle": "Preterm Oral Feeding Readiness Assessment", "category": "Guides", "primaryKeyword": "POFRAS Scale", "secondaryKeywords": ["preterm oral feeding readiness", "non-nutritive sucking assessment", "preterm feeding readiness tool"] },
-    { "slug": "can-score-nutrition-assessment", "title": "CAN Score Calculator", "subtitle": "Clinical Assessment of Nutrition at Birth", "category": "Guides", "primaryKeyword": "CAN Score Calculator", "secondaryKeywords": ["clinical assessment of nutritional status", "fetal malnutrition score", "Metcoff CAN score"] },
-
-    { "slug": "pediatric-lab-reference-values", "title": "Pediatric Lab Reference Values", "subtitle": "Normal Values — Pediatric & Neonatal", "category": "Lab Reference", "primaryKeyword": "Pediatric Lab Reference Values", "secondaryKeywords": ["neonatal normal lab values", "pediatric CBC reference range", "age based lab normal values"] },
-
-    { "slug": "anion-gap-calculator", "title": "Anion Gap Calculator", "subtitle": "Na − (Cl + HCO₃)", "category": "Calculators & Tools", "primaryKeyword": "Anion Gap Calculator", "secondaryKeywords": ["HAGMA NAGMA calculator", "metabolic acidosis anion gap", "high anion gap calculator"] },
-    { "slug": "corrected-anion-gap-calculator", "title": "Albumin Corrected Anion Gap Calculator", "subtitle": "Albumin-Corrected AG", "category": "Calculators & Tools", "primaryKeyword": "Albumin Corrected Anion Gap Calculator", "secondaryKeywords": ["corrected AG hypoalbuminemia", "anion gap albumin correction formula"] },
-    { "slug": "urine-anion-gap-calculator", "title": "Urine Anion Gap Calculator", "subtitle": "UAG — Distal RTA Workup", "category": "Calculators & Tools", "primaryKeyword": "Urine Anion Gap Calculator", "secondaryKeywords": ["UAG calculator", "distal RTA diagnosis calculator", "renal tubular acidosis workup"] },
-    { "slug": "sodium-correction-calculator", "title": "Sodium Correction Calculator", "subtitle": "Hyponatremia & Hypernatremia", "category": "Calculators & Tools", "primaryKeyword": "Sodium Correction Calculator", "secondaryKeywords": ["hyponatremia correction calculator", "3% saline calculator", "sodium deficit calculator"] },
-    { "slug": "corrected-sodium-calculator-glucose", "title": "Corrected Sodium Calculator", "subtitle": "Hyperglycemia & TG Correction", "category": "Calculators & Tools", "primaryKeyword": "Corrected Sodium Calculator", "secondaryKeywords": ["pseudohyponatremia calculator", "glucose corrected sodium formula"] },
-    { "slug": "free-water-deficit-calculator", "title": "Free Water Deficit Calculator", "subtitle": "Hypernatremia Rehydration", "category": "Calculators & Tools", "primaryKeyword": "Free Water Deficit Calculator", "secondaryKeywords": ["hypernatremia rehydration calculator", "water deficit formula calculator"] },
-    { "slug": "potassium-correction-calculator", "title": "Potassium Correction Calculator", "subtitle": "Hypokalemia & Hyperkalemia", "category": "Calculators & Tools", "primaryKeyword": "Potassium Correction Calculator", "secondaryKeywords": ["hypokalemia treatment calculator", "hyperkalemia management calculator", "KCl replacement calculator"] },
-    { "slug": "calcium-correction-calculator", "title": "Calcium Correction Calculator", "subtitle": "Hypocalcemia / Albumin-Corrected", "category": "Calculators & Tools", "primaryKeyword": "Calcium Correction Calculator", "secondaryKeywords": ["corrected calcium calculator", "neonatal hypocalcemia calculator", "ionised calcium correction"] },
-    { "slug": "magnesium-correction-calculator", "title": "Magnesium Correction Calculator", "subtitle": "Hypomagnesemia", "category": "Calculators & Tools", "primaryKeyword": "Magnesium Correction Calculator", "secondaryKeywords": ["hypomagnesemia treatment calculator", "MgSO4 dosing calculator"] },
-    { "slug": "dextrose-bolus-calculator-hypoglycemia", "title": "Neonatal Hypoglycemia Dextrose Bolus Calculator", "subtitle": "D10/D25/D50 Bolus", "category": "Calculators & Tools", "primaryKeyword": "Neonatal Hypoglycemia Dextrose Bolus Calculator", "secondaryKeywords": ["dextrose minibolus calculator", "D10 bolus calculator neonate", "hypoglycemia treatment newborn"] },
-    { "slug": "serum-osmolality-calculator", "title": "Serum Osmolality Calculator", "subtitle": "2Na + Glucose/18 + BUN/2.8", "category": "Calculators & Tools", "primaryKeyword": "Serum Osmolality Calculator", "secondaryKeywords": ["osmolar gap calculator", "calculated osmolality formula"] },
-    { "slug": "pediatric-blood-volume-calculator", "title": "Estimated Blood Volume Calculator", "subtitle": "EBV by Age & Weight", "category": "Calculators & Tools", "primaryKeyword": "Estimated Blood Volume Calculator", "secondaryKeywords": ["pediatric EBV calculator", "neonatal blood volume calculator", "transfusion volume calculator"] },
-    { "slug": "ett-size-depth-calculator", "title": "ETT Size and Depth Calculator", "subtitle": "Endotracheal Tube — Age / NTL+1", "category": "Calculators & Tools", "primaryKeyword": "ETT Size and Depth Calculator", "secondaryKeywords": ["endotracheal tube size calculator", "NTL+1 formula calculator", "intubation depth calculator"] },
-    { "slug": "umbilical-catheter-depth-calculator", "title": "UVC UAC Depth Calculator", "subtitle": "Umbilical Catheter Insertion Length", "category": "Calculators & Tools", "primaryKeyword": "UVC UAC Depth Calculator", "secondaryKeywords": ["umbilical venous catheter depth", "Shukla formula calculator", "umbilical line insertion length"] },
-    { "slug": "neonatal-blood-pressure-calculator", "title": "Neonatal Blood Pressure Calculator", "subtitle": "GA & Day-of-Life Nomogram", "category": "Calculators & Tools", "primaryKeyword": "Neonatal Blood Pressure Calculator", "secondaryKeywords": ["Zubrow BP chart", "preterm BP nomogram", "neonatal hypotension calculator"] },
-    { "slug": "pediatric-echo-calculators", "title": "Pediatric Echocardiography Calculators", "subtitle": "Z-Scores, Shortening Fraction, EF, RVSP", "category": "Calculators & Tools", "primaryKeyword": "Pediatric Echocardiography Calculators", "secondaryKeywords": ["echo z-score calculator", "shortening fraction calculator", "RVSP calculator pediatric"] },
-
-    { "slug": "emergency-nicu-drugs", "title": "Emergency NICU Drug Doses", "subtitle": "14 Drugs — Live Weight-Based Prep", "category": "Emergency", "primaryKeyword": "Emergency NICU Drug Doses", "secondaryKeywords": ["NICU code drugs", "neonatal resuscitation drug doses", "NICU crash cart drugs"] },
-    { "slug": "emergency-picu-drugs", "title": "Emergency PICU Drug Doses", "subtitle": "STAT Bolus & Infusion Drugs", "category": "Emergency", "primaryKeyword": "Emergency PICU Drug Doses", "secondaryKeywords": ["pediatric code drugs", "PICU crash cart drugs", "pediatric emergency drug doses"] },
-    { "slug": "drug-formulary-v2", "title": "PediAid Drug Formulary 2.0", "subtitle": "Premium UI — Neonatology + Pediatrics", "category": "Drug Formulary", "primaryKeyword": "Pediatric Drug Formulary App", "secondaryKeywords": ["NICU drug reference app", "pediatric drug dosing app India"] },
-
-    { "slug": "acute-severe-asthma-management", "title": "Acute Severe Asthma Management", "subtitle": "Stepwise Management", "category": "Emergency", "primaryKeyword": "Acute Severe Asthma Management", "secondaryKeywords": ["status asthmaticus treatment", "pediatric asthma exacerbation protocol"] },
-    { "slug": "avpu-scale-calculator", "title": "AVPU Scale", "subtitle": "Level-of-Consciousness Scale", "category": "Emergency", "primaryKeyword": "AVPU Scale", "secondaryKeywords": ["AVPU consciousness assessment", "rapid neuro assessment scale"] },
-    { "slug": "pediatric-glasgow-coma-scale-calculator", "title": "Pediatric Glasgow Coma Scale Calculator", "subtitle": "Adult & Pediatric Versions", "category": "Emergency", "primaryKeyword": "Pediatric Glasgow Coma Scale Calculator", "secondaryKeywords": ["pediatric GCS calculator", "GCS score children"] },
-    { "slug": "pediatric-dka-algorithm", "title": "Pediatric DKA Management Algorithm", "subtitle": "Diabetic Ketoacidosis", "category": "Emergency", "primaryKeyword": "Pediatric DKA Management Algorithm", "secondaryKeywords": ["ISPAD DKA protocol", "pediatric DKA insulin infusion", "cerebral edema DKA management"] },
-    { "slug": "electrolyte-corrections-reference", "title": "Electrolyte Correction Reference", "subtitle": "Na, K, Ca, Mg, PO₄ Quick Reference", "category": "Emergency", "primaryKeyword": "Electrolyte Correction Reference", "secondaryKeywords": ["pediatric electrolyte correction guide", "electrolyte imbalance quick reference"] },
-    { "slug": "emergency-icu-drugs-reference", "title": "Emergency ICU Drug Dosing Reference", "subtitle": "Quick-Reference Dosing & Infusions", "category": "Emergency", "primaryKeyword": "Emergency ICU Drug Dosing Reference", "secondaryKeywords": ["ICU pressor dosing chart", "inotrope infusion reference"] },
-    { "slug": "pediatric-hypertensive-emergency-management", "title": "Pediatric Hypertensive Emergency Management", "subtitle": "BP Crisis — Stepwise Antihypertensives", "category": "Emergency", "primaryKeyword": "Pediatric Hypertensive Emergency Management", "secondaryKeywords": ["hypertensive crisis children treatment", "labetalol nicardipine infusion pediatric"] },
-    { "slug": "poisoning-antidotes-reference", "title": "Poisoning Antidotes Reference", "subtitle": "Common Poisons & Antidotes", "category": "Emergency", "primaryKeyword": "Poisoning Antidotes Reference", "secondaryKeywords": ["pediatric antidote chart", "paracetamol overdose NAC dosing", "organophosphate poisoning antidote"] },
-    { "slug": "rapid-sequence-intubation-guide", "title": "Rapid Sequence Intubation Guide", "subtitle": "RSI — Drugs, Doses & Checklist", "category": "Emergency", "primaryKeyword": "Rapid Sequence Intubation Guide", "secondaryKeywords": ["pediatric RSI drugs", "RSI checklist children", "intubation sedation paralysis protocol"] },
-    { "slug": "picu-sedation-paralytics-guide", "title": "PICU Sedation and Paralytics Guide", "subtitle": "Sedation & Paralytic Infusions", "category": "Emergency", "primaryKeyword": "PICU Sedation and Paralytics Guide", "secondaryKeywords": ["pediatric sedation infusion doses", "paralytic infusion PICU"] },
-    { "slug": "seizure-medication-status-epilepticus", "title": "Status Epilepticus Medication Guide", "subtitle": "Seizure Medications Pathway", "category": "Emergency", "primaryKeyword": "Status Epilepticus Medication Guide", "secondaryKeywords": ["pediatric seizure medication doses", "status epilepticus pathway children"] },
-    { "slug": "scorpion-sting-management", "title": "Scorpion Sting Management", "subtitle": "Prazosin Protocol", "category": "Emergency", "primaryKeyword": "Scorpion Sting Management", "secondaryKeywords": ["prazosin scorpion sting protocol", "scorpion envenomation treatment children"] },
-    { "slug": "snake-bite-envenomation-management", "title": "Snake Bite Management Protocol", "subtitle": "ASV Protocol & 20-Min WBCT", "category": "Emergency", "primaryKeyword": "Snake Bite Management Protocol", "secondaryKeywords": ["anti snake venom dosing children", "20 minute whole blood clotting test", "snake envenomation pediatric protocol"] },
-
-    { "slug": "birthweight-classification-elbw-vlbw-lbw", "title": "Birthweight Classification (ELBW, VLBW, LBW)", "subtitle": "LBW · VLBW · ELBW · Macrosomia", "category": "Guides", "primaryKeyword": "Birthweight Classification Calculator", "secondaryKeywords": ["low birth weight classification", "ELBW VLBW definition", "birthweight bands newborn"] },
-    { "slug": "gestational-age-classification", "title": "Gestational Age Classification", "subtitle": "Term · Preterm · Post-Term · WHO Bands", "category": "Guides", "primaryKeyword": "Gestational Age Classification", "secondaryKeywords": ["preterm classification WHO", "late preterm definition", "post term pregnancy classification"] },
-    { "slug": "neonatal-echo-measurements-tool", "title": "Neonatal Echo Measurement Tool", "subtitle": "23 Measurements with Cine Reference", "category": "Guides", "primaryKeyword": "Neonatal Echo Measurement Tool", "secondaryKeywords": ["neonatal echo measurements guide", "M-mode cardiac measurements neonate"] },
-    { "slug": "developmental-milestones-checker", "title": "Developmental Milestones Checker", "subtitle": "Smart View · List · Red Flags · DQ Calculator", "category": "Guides", "primaryKeyword": "Developmental Milestones Checker", "secondaryKeywords": ["child developmental milestones chart", "developmental delay red flags", "developmental quotient calculator"] },
-    { "slug": "trivandrum-developmental-screening-chart", "title": "Trivandrum Developmental Screening Chart", "subtitle": "TDSC — Intelligent Screening Assistant", "category": "Guides", "primaryKeyword": "Trivandrum Developmental Screening Chart", "secondaryKeywords": ["TDSC screening tool", "developmental screening chart India"] },
-
-    { "slug": "infant-blood-pressure-calculator", "title": "Infant Blood Pressure Calculator", "subtitle": "1-12 Months — Second Task Force 1987", "category": "Calculators & Tools", "primaryKeyword": "Infant Blood Pressure Calculator", "secondaryKeywords": ["infant BP percentile calculator", "baby blood pressure normal range", "second task force BP chart"] },
-
-    { "slug": "never-again-clinical-lessons", "title": "Never Again — Clinical Case Lessons", "subtitle": "Anonymous Peer-Learning from Real Clinical Mistakes", "category": "Academics", "primaryKeyword": "Pediatric Clinical Case Lessons", "secondaryKeywords": ["near miss learning pediatrics", "morbidity mortality case discussion"] },
-    { "slug": "pediatric-textbooks-guidelines-academics", "title": "Pediatric Textbooks and Guidelines", "subtitle": "Nelson · IAP STG · NNF CPG · Action Plan 2026", "category": "Academics", "primaryKeyword": "Pediatric Textbooks and Guidelines App", "secondaryKeywords": ["IAP standard treatment guidelines", "NNF clinical practice guidelines", "Nelson pediatrics reference app"] },
-    { "slug": "pediatric-cme-webinars", "title": "Pediatric CME and Webinars", "subtitle": "Upcoming Events, Archive, and Credits", "category": "Academics", "primaryKeyword": "Pediatric CME and Webinars", "secondaryKeywords": ["pediatric CME India", "NNF NeoUpdate webinars", "pediatric conference calendar"] },
-    { "slug": "pediaid-faq-help", "title": "PediAid FAQ", "subtitle": "Common Questions About PediAid", "category": "Academics", "primaryKeyword": "PediAid FAQ", "secondaryKeywords": ["PediAid help", "PediAid support"] },
-
-    { "slug": "mid-parental-height-calculator", "title": "Mid Parental Height Calculator", "subtitle": "Genetic Target Height & Range", "category": "Calculators & Tools", "primaryKeyword": "Mid Parental Height Calculator", "secondaryKeywords": ["target height calculator", "genetic height potential calculator", "MPH calculator pediatrics"] }
+    {
+      "slug": "gestational-age-edd-calculator",
+      "title": "Gestational Age & EDD Calculator",
+      "subtitle": "EDD, GA & Antenatal Dates",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Gestational Age Calculator",
+      "secondaryKeywords": [
+        "EDD calculator",
+        "LMP due date calculator",
+        "Naegele's rule calculator",
+        "USG dating calculator",
+        "estimated delivery date"
+      ],
+      "seoTitle": "Gestational Age & EDD Calculator — LMP and Ultrasound Dating"
+    },
+    {
+      "slug": "ponderal-index-calculator",
+      "title": "Ponderal Index Calculator",
+      "subtitle": "IUGR & Nutritional Status",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Ponderal Index Calculator",
+      "secondaryKeywords": [
+        "IUGR calculator",
+        "fetal growth restriction calculator",
+        "symmetrical vs asymmetrical IUGR",
+        "newborn nutritional status"
+      ]
+    },
+    {
+      "slug": "bsa-calculator-pediatric",
+      "title": "Pediatric BSA Calculator",
+      "subtitle": "Mosteller Formula",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Pediatric BSA Calculator",
+      "secondaryKeywords": [
+        "Mosteller formula calculator",
+        "body surface area calculator children",
+        "chemotherapy dose BSA"
+      ],
+      "seoTitle": "Body Surface Area Calculator for Children — Mosteller"
+    },
+    {
+      "slug": "nutritional-audit-calculator",
+      "title": "Nutritional Audit Calculator",
+      "subtitle": "ESPGHAN 2022",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "ESPGHAN Nutritional Audit Calculator",
+      "secondaryKeywords": [
+        "neonatal feed calorie calculator",
+        "preterm nutrition audit",
+        "enteral feed protein calculator"
+      ]
+    },
+    {
+      "slug": "tpn-calculator-neonatal",
+      "title": "Neonatal TPN Calculator",
+      "subtitle": "Stock & Multi-Line TPN",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Neonatal TPN Calculator",
+      "secondaryKeywords": [
+        "total parenteral nutrition calculator",
+        "TPN dextrose amino acid lipid calculator",
+        "NICU TPN prescription"
+      ]
+    },
+    {
+      "slug": "cga-pma-calculator",
+      "title": "Corrected Gestational Age Calculator",
+      "subtitle": "Age Correction for Prematurity",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Corrected Gestational Age Calculator",
+      "secondaryKeywords": [
+        "CGA calculator",
+        "PMA calculator",
+        "postmenstrual age calculator",
+        "preterm corrected age"
+      ],
+      "seoTitle": "Corrected Gestational Age Calculator — CGA & PMA"
+    },
+    {
+      "slug": "gir-calculator-neonatal",
+      "title": "GIR Calculator",
+      "subtitle": "Glucose Infusion Rate",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "GIR Calculator",
+      "secondaryKeywords": [
+        "glucose infusion rate calculator",
+        "neonatal dextrose calculator",
+        "mg/kg/min glucose calculator"
+      ],
+      "seoTitle": "GIR Calculator — Glucose Infusion Rate for Neonates"
+    },
+    {
+      "slug": "schwartz-egfr-calculator",
+      "title": "Schwartz eGFR Calculator",
+      "subtitle": "Creatinine Clearance",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Schwartz eGFR Calculator",
+      "secondaryKeywords": [
+        "bedside Schwartz formula",
+        "pediatric GFR calculator",
+        "pediatric creatinine clearance"
+      ],
+      "seoTitle": "Schwartz eGFR Calculator for Children — Bedside Formula"
+    },
+    {
+      "slug": "blood-gas-analyser",
+      "title": "Blood Gas Analyser",
+      "subtitle": "7-Step ABG Interpretation",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Blood Gas Analyzer",
+      "secondaryKeywords": [
+        "ABG interpretation tool",
+        "acid base disorder calculator",
+        "pediatric blood gas interpretation"
+      ]
+    },
+    {
+      "slug": "double-volume-exchange-transfusion-calculator",
+      "title": "Double Volume Exchange Transfusion Calculator",
+      "subtitle": "DVET for Severe Jaundice",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Double Volume Exchange Transfusion Calculator",
+      "secondaryKeywords": [
+        "DVET calculator",
+        "exchange transfusion volume calculator",
+        "neonatal exchange transfusion"
+      ]
+    },
+    {
+      "slug": "ventilator-parameters-calculator",
+      "title": "Ventilator Parameters Calculator",
+      "subtitle": "OI, OSI, MAP, HFOV",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Oxygenation Index Calculator",
+      "secondaryKeywords": [
+        "OI OSI calculator",
+        "mean airway pressure calculator",
+        "HFOV settings calculator",
+        "ventilator parameters neonatal"
+      ]
+    },
+    {
+      "slug": "bpd-estimator-nichd",
+      "title": "BPD Estimator",
+      "subtitle": "Bronchopulmonary Dysplasia — NICHD",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "BPD Risk Estimator",
+      "secondaryKeywords": [
+        "NICHD BPD calculator",
+        "bronchopulmonary dysplasia risk tool",
+        "chronic lung disease of prematurity risk"
+      ],
+      "externalUrl": "https://neonatal.rti.org/index.cfm?fuseaction=BPD_Calculator2.start"
+    },
+    {
+      "slug": "pediatric-blood-pressure-calculator",
+      "title": "Pediatric Blood Pressure Calculator",
+      "subtitle": "Neonatal & Pediatric BP Centiles",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Pediatric Blood Pressure Percentile Calculator",
+      "secondaryKeywords": [
+        "AAP BP percentile calculator",
+        "child BP by height percentile",
+        "pediatric hypertension calculator"
+      ],
+      "seoTitle": "Paediatric Blood Pressure Percentile Calculator — AAP 2017"
+    },
+    {
+      "slug": "neonatal-jaundice-bilirubin-calculator",
+      "title": "Neonatal Jaundice Bilirubin Calculator",
+      "subtitle": "AAP 2022 Bilirubin Tool",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "AAP 2022 Bilirubin Calculator",
+      "secondaryKeywords": [
+        "neonatal bilirubin calculator",
+        "hyperbilirubinemia calculator",
+        "phototherapy threshold calculator",
+        "Bhutani nomogram calculator"
+      ]
+    },
+    {
+      "slug": "maintenance-fluid-calculator-pediatric",
+      "title": "Pediatric Maintenance Fluid Calculator",
+      "subtitle": "Neonatal & Pediatric Fluids",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Pediatric Maintenance Fluid Calculator",
+      "secondaryKeywords": [
+        "Holliday-Segar calculator",
+        "4-2-1 rule calculator",
+        "neonatal fluid requirement calculator"
+      ],
+      "seoTitle": "Paediatric Maintenance Fluid Calculator — Holliday-Segar"
+    },
+    {
+      "slug": "parkland-formula-calculator",
+      "title": "Parkland Formula Calculator",
+      "subtitle": "Burns Fluid Resuscitation",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Parkland Formula Calculator",
+      "secondaryKeywords": [
+        "burn fluid resuscitation calculator",
+        "modified Parkland formula",
+        "TBSA fluid calculator"
+      ]
+    },
+    {
+      "slug": "lund-browder-chart-calculator",
+      "title": "Lund and Browder Chart Calculator",
+      "subtitle": "Burn Surface Area Estimation",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Lund and Browder Chart Calculator",
+      "secondaryKeywords": [
+        "pediatric TBSA calculator",
+        "burn surface area chart",
+        "burn percentage calculator children"
+      ]
+    },
+    {
+      "slug": "partial-exchange-transfusion-calculator",
+      "title": "Partial Exchange Transfusion Calculator",
+      "subtitle": "Polycythemia — PET Calculator",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Partial Exchange Transfusion Calculator",
+      "secondaryKeywords": [
+        "PET calculator neonatal",
+        "polycythemia exchange calculator",
+        "hematocrit exchange volume calculator"
+      ]
+    },
+    {
+      "slug": "burn-mortality-calculator-baux",
+      "title": "Revised Baux Score Calculator",
+      "subtitle": "Burn Mortality Prediction",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Revised Baux Score Calculator",
+      "secondaryKeywords": [
+        "burn mortality calculator",
+        "burn survival prediction",
+        "inhalation injury mortality score"
+      ]
+    },
+    {
+      "slug": "who-growth-charts",
+      "title": "WHO Growth Chart Calculator",
+      "subtitle": "0 to 5 Years — Boys & Girls",
+      "category": "Charts",
+      "primaryKeyword": "WHO Growth Chart Calculator",
+      "secondaryKeywords": [
+        "WHO weight for age chart",
+        "WHO height for age percentile",
+        "child growth standards calculator",
+        "WHO BMI for age"
+      ],
+      "seoTitle": "WHO Growth Chart Calculator 0–5 Years — Percentiles"
+    },
+    {
+      "slug": "iap-growth-charts",
+      "title": "IAP Growth Chart 2015",
+      "subtitle": "5 to 18 Years — Indian Reference",
+      "category": "Charts",
+      "primaryKeyword": "IAP Growth Chart 2015",
+      "secondaryKeywords": [
+        "Indian growth chart calculator",
+        "IAP height weight chart",
+        "Indian pediatric BMI chart"
+      ],
+      "seoTitle": "IAP Growth Chart Calculator 5–18 Years — Indian Percentiles"
+    },
+    {
+      "slug": "fenton-growth-chart",
+      "title": "Fenton Growth Chart",
+      "subtitle": "22 to 50 Weeks PMA — SGA / AGA / LGA",
+      "category": "Charts",
+      "primaryKeyword": "Fenton Growth Chart",
+      "secondaryKeywords": [
+        "Fenton preterm growth chart calculator",
+        "Fenton 2013 chart",
+        "preterm growth percentile calculator",
+        "NICU growth chart"
+      ],
+      "seoTitle": "Fenton 2025 Preterm Growth Chart — Z-Scores & Percentiles"
+    },
+    {
+      "slug": "intergrowth-21-charts",
+      "title": "INTERGROWTH-21st Growth Chart",
+      "subtitle": "Neonatal Growth Charts — Oxford",
+      "category": "Charts",
+      "primaryKeyword": "INTERGROWTH-21st Chart",
+      "secondaryKeywords": [
+        "INTERGROWTH newborn size chart",
+        "INTERGROWTH postnatal growth chart"
+      ],
+      "externalUrl": "https://intergrowth21.ndog.ox.ac.uk/en/ManualEntry",
+      "seoTitle": "INTERGROWTH-21st Newborn Size Calculator — Percentiles"
+    },
+    {
+      "slug": "pediatric-drug-formulary",
+      "title": "Pediatric Drug Formulary",
+      "subtitle": "500+ Drugs — Neofax & Harriet Lane",
+      "category": "Drug Formulary",
+      "primaryKeyword": "Pediatric Drug Formulary",
+      "secondaryKeywords": [
+        "Neofax dosing app",
+        "Harriet Lane drug dosing",
+        "neonatal drug dose calculator"
+      ],
+      "seoTitle": "Paediatric & Neonatal Drug Dosage Reference"
+    },
+    {
+      "slug": "fetal-development-week-by-week",
+      "title": "Fetal Development Week by Week",
+      "subtitle": "Week-by-Week from LMP",
+      "category": "Guides",
+      "primaryKeyword": "Fetal Development Week by Week",
+      "secondaryKeywords": [
+        "fetal development chart",
+        "pregnancy week by week organogenesis"
+      ]
+    },
+    {
+      "slug": "nrp-algorithm-neonatal-resuscitation",
+      "title": "NRP Algorithm",
+      "subtitle": "Neonatal Resuscitation Program",
+      "category": "Guides",
+      "primaryKeyword": "NRP Algorithm",
+      "secondaryKeywords": [
+        "neonatal resuscitation algorithm",
+        "NRP flowchart",
+        "delivery room resuscitation guide"
+      ]
+    },
+    {
+      "slug": "iap-immunization-schedule",
+      "title": "IAP Immunization Schedule",
+      "subtitle": "IAP 2022 & National (NIS)",
+      "category": "Guides",
+      "primaryKeyword": "IAP Immunization Schedule 2022",
+      "secondaryKeywords": [
+        "India vaccine schedule",
+        "national immunization schedule calculator",
+        "child vaccination chart India"
+      ]
+    },
+    {
+      "slug": "neonatal-scoring-systems",
+      "title": "Neonatal Scoring Systems",
+      "subtitle": "Apgar · Downes · Sarnat · Thompson",
+      "category": "Guides",
+      "primaryKeyword": "Neonatal Scoring Systems",
+      "secondaryKeywords": [
+        "Apgar score calculator",
+        "Downes score calculator",
+        "Sarnat staging HIE",
+        "Thompson score calculator"
+      ],
+      "seoTitle": "Neonatal Scoring Systems — Apgar, Ballard, Sarnat, Downes"
+    },
+    {
+      "slug": "nichd-hie-assessment-tool",
+      "title": "NICHD HIE Assessment Tool",
+      "subtitle": "Cooling Eligibility & Assessment",
+      "category": "Guides",
+      "primaryKeyword": "NICHD HIE Assessment Tool",
+      "secondaryKeywords": [
+        "therapeutic hypothermia eligibility",
+        "cooling criteria neonatal HIE",
+        "birth asphyxia assessment tool"
+      ]
+    },
+    {
+      "slug": "modified-ballard-score-calculator",
+      "title": "Modified Ballard Score Calculator",
+      "subtitle": "Gestational Age Assessment",
+      "category": "Guides",
+      "primaryKeyword": "Modified Ballard Score Calculator",
+      "secondaryKeywords": [
+        "new Ballard score",
+        "gestational age assessment newborn",
+        "neuromuscular maturity scoring"
+      ]
+    },
+    {
+      "slug": "pals-algorithms",
+      "title": "PALS Algorithms",
+      "subtitle": "Pediatric Advanced Life Support",
+      "category": "Guides",
+      "primaryKeyword": "PALS Algorithms",
+      "secondaryKeywords": [
+        "pediatric cardiac arrest algorithm",
+        "PALS bradycardia algorithm",
+        "pediatric resuscitation flowchart"
+      ]
+    },
+    {
+      "slug": "neonatal-echo-tnecho-guide",
+      "title": "Targeted Neonatal Echocardiography Guide",
+      "subtitle": "TnECHO & Neonatal Hemodynamics",
+      "category": "Guides",
+      "primaryKeyword": "Targeted Neonatal Echocardiography (TnECHO)",
+      "secondaryKeywords": [
+        "TnECHO guide",
+        "neonatal hemodynamics assessment",
+        "PDA PPHN echo assessment"
+      ],
+      "externalUrl": "https://www.neocardiolab.com/tnecho-and-neonatal-hemodynamics"
+    },
+    {
+      "slug": "pediatric-equipment-parameters",
+      "title": "Pediatric Equipment Size Chart",
+      "subtitle": "Parameters & Equipment — Harriet Lane",
+      "category": "Guides",
+      "primaryKeyword": "Pediatric Equipment Size Chart",
+      "secondaryKeywords": [
+        "ETT size by age",
+        "pediatric equipment sizing chart",
+        "weight based equipment sizes"
+      ]
+    },
+    {
+      "slug": "neonatal-polycythemia-management",
+      "title": "Neonatal Polycythemia Management",
+      "subtitle": "Management Algorithm — AIIMS Protocol",
+      "category": "Guides",
+      "primaryKeyword": "Neonatal Polycythemia Management",
+      "secondaryKeywords": [
+        "polycythemia newborn treatment",
+        "hyperviscosity syndrome neonate",
+        "partial exchange transfusion protocol"
+      ]
+    },
+    {
+      "slug": "pofras-feeding-readiness-scale",
+      "title": "POFRAS Scale",
+      "subtitle": "Preterm Oral Feeding Readiness Assessment",
+      "category": "Guides",
+      "primaryKeyword": "POFRAS Scale",
+      "secondaryKeywords": [
+        "preterm oral feeding readiness",
+        "non-nutritive sucking assessment",
+        "preterm feeding readiness tool"
+      ]
+    },
+    {
+      "slug": "can-score-nutrition-assessment",
+      "title": "CAN Score Calculator",
+      "subtitle": "Clinical Assessment of Nutrition at Birth",
+      "category": "Guides",
+      "primaryKeyword": "CAN Score Calculator",
+      "secondaryKeywords": [
+        "clinical assessment of nutritional status",
+        "fetal malnutrition score",
+        "Metcoff CAN score"
+      ]
+    },
+    {
+      "slug": "pediatric-lab-reference-values",
+      "title": "Pediatric Lab Reference Values",
+      "subtitle": "Normal Values — Pediatric & Neonatal",
+      "category": "Lab Reference",
+      "primaryKeyword": "Pediatric Lab Reference Values",
+      "secondaryKeywords": [
+        "neonatal normal lab values",
+        "pediatric CBC reference range",
+        "age based lab normal values"
+      ]
+    },
+    {
+      "slug": "anion-gap-calculator",
+      "title": "Anion Gap Calculator",
+      "subtitle": "Na − (Cl + HCO₃)",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Anion Gap Calculator",
+      "secondaryKeywords": [
+        "HAGMA NAGMA calculator",
+        "metabolic acidosis anion gap",
+        "high anion gap calculator"
+      ]
+    },
+    {
+      "slug": "corrected-anion-gap-calculator",
+      "title": "Albumin Corrected Anion Gap Calculator",
+      "subtitle": "Albumin-Corrected AG",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Albumin Corrected Anion Gap Calculator",
+      "secondaryKeywords": [
+        "corrected AG hypoalbuminemia",
+        "anion gap albumin correction formula"
+      ]
+    },
+    {
+      "slug": "urine-anion-gap-calculator",
+      "title": "Urine Anion Gap Calculator",
+      "subtitle": "UAG — Distal RTA Workup",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Urine Anion Gap Calculator",
+      "secondaryKeywords": [
+        "UAG calculator",
+        "distal RTA diagnosis calculator",
+        "renal tubular acidosis workup"
+      ]
+    },
+    {
+      "slug": "sodium-correction-calculator",
+      "title": "Sodium Correction Calculator",
+      "subtitle": "Hyponatremia & Hypernatremia",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Sodium Correction Calculator",
+      "secondaryKeywords": [
+        "hyponatremia correction calculator",
+        "3% saline calculator",
+        "sodium deficit calculator"
+      ]
+    },
+    {
+      "slug": "corrected-sodium-calculator-glucose",
+      "title": "Corrected Sodium Calculator",
+      "subtitle": "Hyperglycemia & TG Correction",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Corrected Sodium Calculator",
+      "secondaryKeywords": [
+        "pseudohyponatremia calculator",
+        "glucose corrected sodium formula"
+      ]
+    },
+    {
+      "slug": "free-water-deficit-calculator",
+      "title": "Free Water Deficit Calculator",
+      "subtitle": "Hypernatremia Rehydration",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Free Water Deficit Calculator",
+      "secondaryKeywords": [
+        "hypernatremia rehydration calculator",
+        "water deficit formula calculator"
+      ]
+    },
+    {
+      "slug": "potassium-correction-calculator",
+      "title": "Potassium Correction Calculator",
+      "subtitle": "Hypokalemia & Hyperkalemia",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Potassium Correction Calculator",
+      "secondaryKeywords": [
+        "hypokalemia treatment calculator",
+        "hyperkalemia management calculator",
+        "KCl replacement calculator"
+      ]
+    },
+    {
+      "slug": "calcium-correction-calculator",
+      "title": "Calcium Correction Calculator",
+      "subtitle": "Hypocalcemia / Albumin-Corrected",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Calcium Correction Calculator",
+      "secondaryKeywords": [
+        "corrected calcium calculator",
+        "neonatal hypocalcemia calculator",
+        "ionised calcium correction"
+      ]
+    },
+    {
+      "slug": "magnesium-correction-calculator",
+      "title": "Magnesium Correction Calculator",
+      "subtitle": "Hypomagnesemia",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Magnesium Correction Calculator",
+      "secondaryKeywords": [
+        "hypomagnesemia treatment calculator",
+        "MgSO4 dosing calculator"
+      ]
+    },
+    {
+      "slug": "dextrose-bolus-calculator-hypoglycemia",
+      "title": "Neonatal Hypoglycemia Dextrose Bolus Calculator",
+      "subtitle": "D10/D25/D50 Bolus",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Neonatal Hypoglycemia Dextrose Bolus Calculator",
+      "secondaryKeywords": [
+        "dextrose minibolus calculator",
+        "D10 bolus calculator neonate",
+        "hypoglycemia treatment newborn"
+      ]
+    },
+    {
+      "slug": "serum-osmolality-calculator",
+      "title": "Serum Osmolality Calculator",
+      "subtitle": "2Na + Glucose/18 + BUN/2.8",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Serum Osmolality Calculator",
+      "secondaryKeywords": [
+        "osmolar gap calculator",
+        "calculated osmolality formula"
+      ]
+    },
+    {
+      "slug": "pediatric-blood-volume-calculator",
+      "title": "Estimated Blood Volume Calculator",
+      "subtitle": "EBV by Age & Weight",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Estimated Blood Volume Calculator",
+      "secondaryKeywords": [
+        "pediatric EBV calculator",
+        "neonatal blood volume calculator",
+        "transfusion volume calculator"
+      ]
+    },
+    {
+      "slug": "ett-size-depth-calculator",
+      "title": "ETT Size and Depth Calculator",
+      "subtitle": "Endotracheal Tube — Age / NTL+1",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "ETT Size and Depth Calculator",
+      "secondaryKeywords": [
+        "endotracheal tube size calculator",
+        "NTL+1 formula calculator",
+        "intubation depth calculator"
+      ]
+    },
+    {
+      "slug": "umbilical-catheter-depth-calculator",
+      "title": "UVC UAC Depth Calculator",
+      "subtitle": "Umbilical Catheter Insertion Length",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "UVC UAC Depth Calculator",
+      "secondaryKeywords": [
+        "umbilical venous catheter depth",
+        "Shukla formula calculator",
+        "umbilical line insertion length"
+      ]
+    },
+    {
+      "slug": "neonatal-blood-pressure-calculator",
+      "title": "Neonatal Blood Pressure Calculator",
+      "subtitle": "GA & Day-of-Life Nomogram",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Neonatal Blood Pressure Calculator",
+      "secondaryKeywords": [
+        "Zubrow BP chart",
+        "preterm BP nomogram",
+        "neonatal hypotension calculator"
+      ],
+      "seoTitle": "Neonatal Blood Pressure Calculator — Gestation-Adjusted"
+    },
+    {
+      "slug": "pediatric-echo-calculators",
+      "title": "Pediatric Echocardiography Calculators",
+      "subtitle": "Z-Scores, Shortening Fraction, EF, RVSP",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Pediatric Echocardiography Calculators",
+      "secondaryKeywords": [
+        "echo z-score calculator",
+        "shortening fraction calculator",
+        "RVSP calculator pediatric"
+      ]
+    },
+    {
+      "slug": "emergency-nicu-drugs",
+      "title": "Emergency NICU Drug Doses",
+      "subtitle": "14 Drugs — Live Weight-Based Prep",
+      "category": "Emergency",
+      "primaryKeyword": "Emergency NICU Drug Doses",
+      "secondaryKeywords": [
+        "NICU code drugs",
+        "neonatal resuscitation drug doses",
+        "NICU crash cart drugs"
+      ]
+    },
+    {
+      "slug": "emergency-picu-drugs",
+      "title": "Emergency PICU Drug Doses",
+      "subtitle": "STAT Bolus & Infusion Drugs",
+      "category": "Emergency",
+      "primaryKeyword": "Emergency PICU Drug Doses",
+      "secondaryKeywords": [
+        "pediatric code drugs",
+        "PICU crash cart drugs",
+        "pediatric emergency drug doses"
+      ]
+    },
+    {
+      "slug": "drug-formulary-v2",
+      "title": "PediAid Drug Formulary 2.0",
+      "subtitle": "Premium UI — Neonatology + Pediatrics",
+      "category": "Drug Formulary",
+      "primaryKeyword": "Pediatric Drug Formulary App",
+      "secondaryKeywords": [
+        "NICU drug reference app",
+        "pediatric drug dosing app India"
+      ]
+    },
+    {
+      "slug": "acute-severe-asthma-management",
+      "title": "Acute Severe Asthma Management",
+      "subtitle": "Stepwise Management",
+      "category": "Emergency",
+      "primaryKeyword": "Acute Severe Asthma Management",
+      "secondaryKeywords": [
+        "status asthmaticus treatment",
+        "pediatric asthma exacerbation protocol"
+      ]
+    },
+    {
+      "slug": "avpu-scale-calculator",
+      "title": "AVPU Scale",
+      "subtitle": "Level-of-Consciousness Scale",
+      "category": "Emergency",
+      "primaryKeyword": "AVPU Scale",
+      "secondaryKeywords": [
+        "AVPU consciousness assessment",
+        "rapid neuro assessment scale"
+      ]
+    },
+    {
+      "slug": "pediatric-glasgow-coma-scale-calculator",
+      "title": "Pediatric Glasgow Coma Scale Calculator",
+      "subtitle": "Adult & Pediatric Versions",
+      "category": "Emergency",
+      "primaryKeyword": "Pediatric Glasgow Coma Scale Calculator",
+      "secondaryKeywords": [
+        "pediatric GCS calculator",
+        "GCS score children"
+      ]
+    },
+    {
+      "slug": "pediatric-dka-algorithm",
+      "title": "Pediatric DKA Management Algorithm",
+      "subtitle": "Diabetic Ketoacidosis",
+      "category": "Emergency",
+      "primaryKeyword": "Pediatric DKA Management Algorithm",
+      "secondaryKeywords": [
+        "ISPAD DKA protocol",
+        "pediatric DKA insulin infusion",
+        "cerebral edema DKA management"
+      ]
+    },
+    {
+      "slug": "electrolyte-corrections-reference",
+      "title": "Electrolyte Correction Reference",
+      "subtitle": "Na, K, Ca, Mg, PO₄ Quick Reference",
+      "category": "Emergency",
+      "primaryKeyword": "Electrolyte Correction Reference",
+      "secondaryKeywords": [
+        "pediatric electrolyte correction guide",
+        "electrolyte imbalance quick reference"
+      ]
+    },
+    {
+      "slug": "emergency-icu-drugs-reference",
+      "title": "Emergency ICU Drug Dosing Reference",
+      "subtitle": "Quick-Reference Dosing & Infusions",
+      "category": "Emergency",
+      "primaryKeyword": "Emergency ICU Drug Dosing Reference",
+      "secondaryKeywords": [
+        "ICU pressor dosing chart",
+        "inotrope infusion reference"
+      ]
+    },
+    {
+      "slug": "pediatric-hypertensive-emergency-management",
+      "title": "Pediatric Hypertensive Emergency Management",
+      "subtitle": "BP Crisis — Stepwise Antihypertensives",
+      "category": "Emergency",
+      "primaryKeyword": "Pediatric Hypertensive Emergency Management",
+      "secondaryKeywords": [
+        "hypertensive crisis children treatment",
+        "labetalol nicardipine infusion pediatric"
+      ]
+    },
+    {
+      "slug": "poisoning-antidotes-reference",
+      "title": "Poisoning Antidotes Reference",
+      "subtitle": "Common Poisons & Antidotes",
+      "category": "Emergency",
+      "primaryKeyword": "Poisoning Antidotes Reference",
+      "secondaryKeywords": [
+        "pediatric antidote chart",
+        "paracetamol overdose NAC dosing",
+        "organophosphate poisoning antidote"
+      ]
+    },
+    {
+      "slug": "rapid-sequence-intubation-guide",
+      "title": "Rapid Sequence Intubation Guide",
+      "subtitle": "RSI — Drugs, Doses & Checklist",
+      "category": "Emergency",
+      "primaryKeyword": "Rapid Sequence Intubation Guide",
+      "secondaryKeywords": [
+        "pediatric RSI drugs",
+        "RSI checklist children",
+        "intubation sedation paralysis protocol"
+      ]
+    },
+    {
+      "slug": "picu-sedation-paralytics-guide",
+      "title": "PICU Sedation and Paralytics Guide",
+      "subtitle": "Sedation & Paralytic Infusions",
+      "category": "Emergency",
+      "primaryKeyword": "PICU Sedation and Paralytics Guide",
+      "secondaryKeywords": [
+        "pediatric sedation infusion doses",
+        "paralytic infusion PICU"
+      ]
+    },
+    {
+      "slug": "seizure-medication-status-epilepticus",
+      "title": "Status Epilepticus Medication Guide",
+      "subtitle": "Seizure Medications Pathway",
+      "category": "Emergency",
+      "primaryKeyword": "Status Epilepticus Medication Guide",
+      "secondaryKeywords": [
+        "pediatric seizure medication doses",
+        "status epilepticus pathway children"
+      ]
+    },
+    {
+      "slug": "scorpion-sting-management",
+      "title": "Scorpion Sting Management",
+      "subtitle": "Prazosin Protocol",
+      "category": "Emergency",
+      "primaryKeyword": "Scorpion Sting Management",
+      "secondaryKeywords": [
+        "prazosin scorpion sting protocol",
+        "scorpion envenomation treatment children"
+      ]
+    },
+    {
+      "slug": "snake-bite-envenomation-management",
+      "title": "Snake Bite Management Protocol",
+      "subtitle": "ASV Protocol & 20-Min WBCT",
+      "category": "Emergency",
+      "primaryKeyword": "Snake Bite Management Protocol",
+      "secondaryKeywords": [
+        "anti snake venom dosing children",
+        "20 minute whole blood clotting test",
+        "snake envenomation pediatric protocol"
+      ]
+    },
+    {
+      "slug": "birthweight-classification-elbw-vlbw-lbw",
+      "title": "Birthweight Classification (ELBW, VLBW, LBW)",
+      "subtitle": "LBW · VLBW · ELBW · Macrosomia",
+      "category": "Guides",
+      "primaryKeyword": "Birthweight Classification Calculator",
+      "secondaryKeywords": [
+        "low birth weight classification",
+        "ELBW VLBW definition",
+        "birthweight bands newborn"
+      ]
+    },
+    {
+      "slug": "gestational-age-classification",
+      "title": "Gestational Age Classification",
+      "subtitle": "Term · Preterm · Post-Term · WHO Bands",
+      "category": "Guides",
+      "primaryKeyword": "Gestational Age Classification",
+      "secondaryKeywords": [
+        "preterm classification WHO",
+        "late preterm definition",
+        "post term pregnancy classification"
+      ]
+    },
+    {
+      "slug": "neonatal-echo-measurements-tool",
+      "title": "Neonatal Echo Measurement Tool",
+      "subtitle": "23 Measurements with Cine Reference",
+      "category": "Guides",
+      "primaryKeyword": "Neonatal Echo Measurement Tool",
+      "secondaryKeywords": [
+        "neonatal echo measurements guide",
+        "M-mode cardiac measurements neonate"
+      ]
+    },
+    {
+      "slug": "developmental-milestones-checker",
+      "title": "Developmental Milestones Checker",
+      "subtitle": "Smart View · List · Red Flags · DQ Calculator",
+      "category": "Guides",
+      "primaryKeyword": "Developmental Milestones Checker",
+      "secondaryKeywords": [
+        "child developmental milestones chart",
+        "developmental delay red flags",
+        "developmental quotient calculator"
+      ]
+    },
+    {
+      "slug": "trivandrum-developmental-screening-chart",
+      "title": "Trivandrum Developmental Screening Chart",
+      "subtitle": "TDSC — Intelligent Screening Assistant",
+      "category": "Guides",
+      "primaryKeyword": "Trivandrum Developmental Screening Chart",
+      "secondaryKeywords": [
+        "TDSC screening tool",
+        "developmental screening chart India"
+      ]
+    },
+    {
+      "slug": "infant-blood-pressure-calculator",
+      "title": "Infant Blood Pressure Calculator",
+      "subtitle": "1-12 Months — Second Task Force 1987",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Infant Blood Pressure Calculator",
+      "secondaryKeywords": [
+        "infant BP percentile calculator",
+        "baby blood pressure normal range",
+        "second task force BP chart"
+      ]
+    },
+    {
+      "slug": "never-again-clinical-lessons",
+      "title": "Never Again — Clinical Case Lessons",
+      "subtitle": "Anonymous Peer-Learning from Real Clinical Mistakes",
+      "category": "Academics",
+      "primaryKeyword": "Pediatric Clinical Case Lessons",
+      "secondaryKeywords": [
+        "near miss learning pediatrics",
+        "morbidity mortality case discussion"
+      ]
+    },
+    {
+      "slug": "pediatric-textbooks-guidelines-academics",
+      "title": "Pediatric Textbooks and Guidelines",
+      "subtitle": "Nelson · IAP STG · NNF CPG · Action Plan 2026",
+      "category": "Academics",
+      "primaryKeyword": "Pediatric Textbooks and Guidelines App",
+      "secondaryKeywords": [
+        "IAP standard treatment guidelines",
+        "NNF clinical practice guidelines",
+        "Nelson pediatrics reference app"
+      ]
+    },
+    {
+      "slug": "pediatric-cme-webinars",
+      "title": "Pediatric CME and Webinars",
+      "subtitle": "Upcoming Events, Archive, and Credits",
+      "category": "Academics",
+      "primaryKeyword": "Pediatric CME and Webinars",
+      "secondaryKeywords": [
+        "pediatric CME India",
+        "NNF NeoUpdate webinars",
+        "pediatric conference calendar"
+      ]
+    },
+    {
+      "slug": "pediaid-faq-help",
+      "title": "PediAid FAQ",
+      "subtitle": "Common Questions About PediAid",
+      "category": "Academics",
+      "primaryKeyword": "PediAid FAQ",
+      "secondaryKeywords": [
+        "PediAid help",
+        "PediAid support"
+      ]
+    },
+    {
+      "slug": "mid-parental-height-calculator",
+      "title": "Mid Parental Height Calculator",
+      "subtitle": "Genetic Target Height & Range",
+      "category": "Calculators & Tools",
+      "primaryKeyword": "Mid Parental Height Calculator",
+      "secondaryKeywords": [
+        "target height calculator",
+        "genetic height potential calculator",
+        "MPH calculator pediatrics"
+      ]
+    }
   ]
 }
