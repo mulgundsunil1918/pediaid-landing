@@ -380,9 +380,9 @@ def main():
 
 <section class="tool-hero">
   <div class="wrap narrow">
-    <span class="eyebrow"><span class="dot"></span> {len(generated)} Tools</span>
-    <h1>Every PediAid calculator, chart and guide</h1>
-    <p class="lead">Free, offline-friendly clinical tools for paediatric and neonatal practice — organised by category.</p>
+    <span class="eyebrow"><span class="dot"></span> {len(generated)} tool guides</span>
+    <h1>PediAid calculators, charts and guides</h1>
+    <p class="lead">Free, offline-friendly clinical tools for paediatric and neonatal practice — organised by category. These pages cover the most-used tools; the app itself carries the full set, including the paediatric score library and immunisation catch-up planner.</p>
   </div>
 </section>
 
