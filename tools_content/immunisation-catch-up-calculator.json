@@ -1,0 +1,43 @@
+{
+  "slug": "immunisation-catch-up-calculator",
+  "intro": "The Immunisation Catch-up Planner takes a child's date of birth and whatever doses they have already received, and works out what is due today, what is not yet due, and what can no longer be given. It is built for the common Indian clinic problem of a child who arrives partly immunised with an incomplete card. The core principle is that a valid dose is never wasted: the planner continues an existing series rather than restarting it, however late the child presents.",
+  "indications": [
+    "A child presenting with an incomplete or missing immunisation card",
+    "Deciding whether a dose given early still counts towards the series",
+    "Planning the next visit date when several vaccines are overdue at once",
+    "Checking whether a child has aged out of a time-limited vaccine such as rotavirus",
+    "Confirming the minimum interval before the next dose of a partly given series"
+  ],
+  "method": "Each vaccine carries a minimum age for the first dose, minimum intervals between consecutive doses, and age bands that decide how many doses are still required when the series is started late. A four-day grace period is applied to minimum ages and minimum intervals, following standard practice, but not to absolute limits: rotavirus must be started by about 15 weeks and completed by about 8 months, and the hepatitis B final dose must be at least 16 weeks after dose 1 and given at 24 weeks of age or later. Two live injectable vaccines must be given on the same day or at least 28 days apart, and the planner defers the second one automatically. Doses that fail a minimum age or interval are shown with the reason rather than silently ignored.",
+  "guidelineRefs": [
+    "Indian Academy of Pediatrics ACVIP Recommended Immunization Schedule (2025)",
+    "Minimum ages and intervals cross-checked against the CDC/immunize.org catch-up schedule"
+  ],
+  "faqs": [
+    {
+      "q": "Does a late child have to restart the whole series?",
+      "a": "No. A previously valid dose stays valid however long the gap. The planner continues from the documented history and only counts doses that met the minimum age and minimum interval at the time they were given."
+    },
+    {
+      "q": "What happens if a dose was given too early?",
+      "a": "It is not counted, and the planner says so explicitly — naming the dose, the age or gap it was given at, and the minimum it needed — so you can see why the number of remaining doses looks higher than expected."
+    },
+    {
+      "q": "Can rotavirus be started in a child who missed it?",
+      "a": "Only within its age window. The first dose must be given by roughly 15 weeks and no dose at all after about 8 months. Past that the planner marks it no longer eligible rather than scheduling a dose that should not be given."
+    },
+    {
+      "q": "Why is a vaccine shown as not yet due when the interval has passed?",
+      "a": "Some doses carry a minimum age as well as a minimum interval. A PCV or Hib booster for a child who started at 7–11 months cannot be given before 12 months of age no matter how long ago the previous dose was."
+    },
+    {
+      "q": "How many HPV doses does the planner schedule?",
+      "a": "For an immunocompetent girl aged 9–15 it schedules a single dose, following the IAP ACVIP 2025 recommendation. Boys, anyone aged 15 or over, and high-risk or immunocompromised children are scheduled for the two- or three-dose course."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/vaccines/catchup/catchup_engine.dart",
+    "lib/screens/scores/",
+    "lib/screens/calculators/"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "pews-score-calculator",
+  "intro": "The Paediatric Early Warning Score is a bedside tool for spotting a deteriorating child on the ward before an arrest. It converts behaviour, cardiovascular and respiratory observations into a single number, with escalation attached to bands rather than to any single abnormal observation.",
+  "indications": [
+    "Routine observation rounds on a paediatric ward",
+    "Deciding whether a child needs senior or critical-care review",
+    "Handover, where a trend in score carries more information than isolated vitals",
+    "Documenting an objective trigger for escalation"
+  ],
+  "method": "Behavioural, cardiovascular and respiratory components are each scored and summed. The app bands the total as low concern, caution, urgent review or emergency, and states the escalation implied by the band. A rising trend matters as much as any single total, so the score is designed to be repeated rather than taken once.",
+  "guidelineRefs": [
+    "Monaghan A. Detecting and managing deterioration in children. Paediatr Nurs. 2005"
+  ],
+  "faqs": [
+    {
+      "q": "What PEWS total should trigger escalation?",
+      "a": "The app bands the total and names the response for each band. Local policy sets the exact trigger, so the banding should be read alongside your unit's escalation protocol."
+    },
+    {
+      "q": "Is a single high score enough to act on?",
+      "a": "A high total warrants review, but so does a rising trend across observations. PEWS is intended to be tracked over time rather than used as a one-off number."
+    },
+    {
+      "q": "Does PEWS replace clinical judgement?",
+      "a": "No. It is a safety net for structured observation. A clinician concerned about a child should escalate regardless of the score."
+    },
+    {
+      "q": "Are there different versions of PEWS?",
+      "a": "Yes — several variants exist and units adopt local versions. The app states the components it scores so you can check it against your own chart."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/vaccines/catchup/catchup_engine.dart",
+    "lib/screens/scores/",
+    "lib/screens/calculators/"
+  ]
+}

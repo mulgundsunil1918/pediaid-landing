@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Immunisation Catch-up Calculator — IAP Schedule (India) | PediAid</title>
+<meta name="description" content="The Immunisation Catch-up Planner takes a child&#x27;s date of birth and whatever doses they have already received, and works out what is due today, what is…" />
+<link rel="canonical" href="https://info.pediaid.bridgr.co.in/tools/immunisation-catch-up-calculator/" />
+<meta name="theme-color" content="#1e3a5f" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Immunisation Catch-up Planner | PediAid" />
+<meta property="og:description" content="The Immunisation Catch-up Planner takes a child&#x27;s date of birth and whatever doses they have already received, and works out what is due today, what is…" />
+<meta property="og:url" content="https://info.pediaid.bridgr.co.in/tools/immunisation-catch-up-calculator/" />
+<meta property="og:site_name" content="PediAid" />
+<meta property="og:image" content="https://info.pediaid.bridgr.co.in/assets/pediaid-logo.png" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Immunisation Catch-up Planner | PediAid" />
+<meta name="twitter:description" content="The Immunisation Catch-up Planner takes a child&#x27;s date of birth and whatever doses they have already received, and works out what is due today, what is…" />
+<meta name="twitter:image" content="https://info.pediaid.bridgr.co.in/assets/pediaid-logo.png" />
+
+<link rel="icon" type="image/png" href="../../assets/pediaid-logo.png"/>
+<link rel="apple-touch-icon" href="../../assets/pediaid-logo.png" />
+<link rel="stylesheet" href="../../assets/tools.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://info.pediaid.bridgr.co.in/tools/immunisation-catch-up-calculator/#webpage",
+      "url": "https://info.pediaid.bridgr.co.in/tools/immunisation-catch-up-calculator/",
+      "name": "Immunisation Catch-up Planner | PediAid",
+      "description": "The Immunisation Catch-up Planner takes a child's date of birth and whatever doses they have already received, and works out what is due today, what is not yet due, and what can no longer be given. It is built for the common Indian clinic problem of a child who arrives partly immunised with an incom",
+      "inLanguage": "en",
+      "about": {
+        "@type": "MedicalEntity",
+        "name": "Immunisation Catch-up Planner"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "PediAid",
+        "url": "https://pediaid.bridgr.co.in"
+      },
+      "lastReviewed": "2026-08-19"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "PediAid — Immunisation Catch-up Planner",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Web, Android, iOS",
+      "url": "https://pediaid.bridgr.co.in/#immunisation-catch-up-calculator",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://info.pediaid.bridgr.co.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://info.pediaid.bridgr.co.in/#tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Immunisation Catch-up Planner",
+          "item": "https://info.pediaid.bridgr.co.in/tools/immunisation-catch-up-calculator/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does a late child have to restart the whole series?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A previously valid dose stays valid however long the gap. The planner continues from the documented history and only counts doses that met the minimum age and minimum interval at the time they were given."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if a dose was given too early?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is not counted, and the planner says so explicitly — naming the dose, the age or gap it was given at, and the minimum it needed — so you can see why the number of remaining doses looks higher than expected."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can rotavirus be started in a child who missed it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only within its age window. The first dose must be given by roughly 15 weeks and no dose at all after about 8 months. Past that the planner marks it no longer eligible rather than scheduling a dose that should not be given."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is a vaccine shown as not yet due when the interval has passed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some doses carry a minimum age as well as a minimum interval. A PCV or Hib booster for a child who started at 7–11 months cannot be given before 12 months of age no matter how long ago the previous dose was."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many HPV doses does the planner schedule?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For an immunocompetent girl aged 9–15 it schedules a single dose, following the IAP ACVIP 2025 recommendation. Boys, anyone aged 15 or over, and high-risk or immunocompromised children are scheduled for the two- or three-dose course."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav class="nav glass">
+  <a class="brand" href="../../index.html">
+    <span class="brand-logo" aria-hidden="true"><img src="../../assets/pediaid-logo.png" alt="PediAid" /></span>
+    PediAid
+  </a>
+  <div class="nav-spacer"></div>
+  <div class="nav-links">
+    <a href="../../index.html#features">Features</a>
+    <a href="../../index.html#tools">Tools</a>
+    <a href="../../index.html#download">Get the app</a>
+  </div>
+  <a class="nav-cta" href="https://pediaid.bridgr.co.in" target="_blank" rel="noopener">Open web app &rarr;</a>
+</nav>
+
+<div class="wrap">
+  <div class="breadcrumb">
+    <a href="../../index.html">Home</a><span class="sep">/</span>
+    <a href="../../index.html#tools">Tools</a><span class="sep">/</span>
+    <span class="current">Immunisation Catch-up Planner</span>
+  </div>
+</div>
+
+<section class="tool-hero">
+  <div class="wrap narrow">
+    <span class="eyebrow"><span class="dot"></span> Guides</span>
+    <h1>Immunisation Catch-up Planner</h1>
+    <p class="lead">Works out what is due for an under-immunised child</p>
+    <div class="tool-hero-ctas">
+      <a class="btn btn-primary" href="https://pediaid.bridgr.co.in/#immunisation-catch-up-calculator" target="_blank" rel="noopener">Open in PediAid &rarr;</a>
+      <a class="btn btn-ghost" href="../../index.html#tools">&larr; All tools</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap narrow">
+
+    <div class="content-card glass">
+      <h2><span class="num">1</span> What is the Immunisation Catch-up Planner?</h2>
+      <p>The Immunisation Catch-up Planner takes a child&#x27;s date of birth and whatever doses they have already received, and works out what is due today, what is not yet due, and what can no longer be given. It is built for the common Indian clinic problem of a child who arrives partly immunised with an incomplete card. The core principle is that a valid dose is never wasted: the planner continues an existing series rather than restarting it, however late the child presents.</p>
+    </div>
+
+    <div class="content-card glass">
+      <h2><span class="num">2</span> When to use it</h2>
+      <ul class="plain">
+        <li>A child presenting with an incomplete or missing immunisation card</li>
+        <li>Deciding whether a dose given early still counts towards the series</li>
+        <li>Planning the next visit date when several vaccines are overdue at once</li>
+        <li>Checking whether a child has aged out of a time-limited vaccine such as rotavirus</li>
+        <li>Confirming the minimum interval before the next dose of a partly given series</li>
+      </ul>
+    </div>
+
+    <div class="content-card glass">
+      <h2><span class="num">3</span> Formula &amp; method</h2>
+      <div class="callout formula">Each vaccine carries a minimum age for the first dose, minimum intervals between consecutive doses, and age bands that decide how many doses are still required when the series is started late. A four-day grace period is applied to minimum ages and minimum intervals, following standard practice, but not to absolute limits: rotavirus must be started by about 15 weeks and completed by about 8 months, and the hepatitis B final dose must be at least 16 weeks after dose 1 and given at 24 weeks of age or later. Two live injectable vaccines must be given on the same day or at least 28 days apart, and the planner defers the second one automatically. Doses that fail a minimum age or interval are shown with the reason rather than silently ignored.</div>
+      <ul class="callout-refs">
+        <li>Indian Academy of Pediatrics ACVIP Recommended Immunization Schedule (2025)</li>
+        <li>Minimum ages and intervals cross-checked against the CDC/immunize.org catch-up schedule</li>
+      </ul>
+    </div>
+
+    <div class="content-card glass">
+      <h2><span class="num">4</span> Frequently asked questions</h2>
+      <div class="faq-item">
+        <h3>Does a late child have to restart the whole series?</h3>
+        <p>No. A previously valid dose stays valid however long the gap. The planner continues from the documented history and only counts doses that met the minimum age and minimum interval at the time they were given.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What happens if a dose was given too early?</h3>
+        <p>It is not counted, and the planner says so explicitly — naming the dose, the age or gap it was given at, and the minimum it needed — so you can see why the number of remaining doses looks higher than expected.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Can rotavirus be started in a child who missed it?</h3>
+        <p>Only within its age window. The first dose must be given by roughly 15 weeks and no dose at all after about 8 months. Past that the planner marks it no longer eligible rather than scheduling a dose that should not be given.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Why is a vaccine shown as not yet due when the interval has passed?</h3>
+        <p>Some doses carry a minimum age as well as a minimum interval. A PCV or Hib booster for a child who started at 7–11 months cannot be given before 12 months of age no matter how long ago the previous dose was.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How many HPV doses does the planner schedule?</h3>
+        <p>For an immunocompetent girl aged 9–15 it schedules a single dose, following the IAP ACVIP 2025 recommendation. Boys, anyone aged 15 or over, and high-risk or immunocompromised children are scheduled for the two- or three-dose course.</p>
+      </div>
+    </div>
+
+    <div class="content-card glass">
+      <h2><span class="num">5</span> Related tools</h2>
+      <div class="related-grid">
+        <a class="related-tool" href="../fetal-development-week-by-week/">
+          <h4>Fetal Development Week by Week</h4>
+          <p>Week-by-Week from LMP</p>
+        </a>
+        <a class="related-tool" href="../nrp-algorithm-neonatal-resuscitation/">
+          <h4>NRP Algorithm</h4>
+          <p>Neonatal Resuscitation Program</p>
+        </a>
+        <a class="related-tool" href="../iap-immunization-schedule/">
+          <h4>IAP Immunization Schedule</h4>
+          <p>IAP 2022 &amp; National (NIS)</p>
+        </a>
+        <a class="related-tool" href="../neonatal-scoring-systems/">
+          <h4>Neonatal Scoring Systems</h4>
+          <p>Apgar · Downes · Sarnat · Thompson</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="disclaimer">
+      <strong>For qualified clinicians.</strong> This page and the PediAid app are a clinical
+      aid only. Calculations and reference data must be verified against the patient's
+      clinical context, the source guideline and your local protocols before any
+      treatment decision is made.
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-row glass">
+      <div>
+        <strong style="color:var(--navy);">PediAid</strong> &middot; Paediatric &amp; Neonatal Clinical Reference
+        <div class="muted" style="margin-top:2px;">&copy; 2026 PediAid. All rights reserved.</div>
+      </div>
+      <div>
+        <a href="https://pediaid.bridgr.co.in" target="_blank" rel="noopener">Open the app</a>
+        <a href="../../privacy.html">Privacy</a>
+        <a href="mailto:help@bridgr.co.in">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

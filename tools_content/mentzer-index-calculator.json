@@ -1,0 +1,36 @@
+{
+  "slug": "mentzer-index-calculator",
+  "intro": "The Mentzer index divides the mean corpuscular volume by the red cell count to help separate beta-thalassaemia trait from iron deficiency in a child with microcytic anaemia. It is a screening aid, useful in settings where both conditions are common.",
+  "indications": [
+    "A child with microcytic anaemia on a routine full blood count",
+    "Deciding whether to pursue haemoglobin electrophoresis or iron studies first",
+    "Population screening where thalassaemia trait is prevalent"
+  ],
+  "method": "The index is MCV divided by the red blood cell count. Thalassaemia trait typically produces a relatively preserved or raised red cell count with a low MCV, giving a low index; iron deficiency reduces the red cell count alongside the MCV, giving a higher index. The app states which pattern the entered values suggest.",
+  "guidelineRefs": [
+    "Mentzer WC. Differentiation of iron deficiency from thalassaemia trait. Lancet. 1973"
+  ],
+  "faqs": [
+    {
+      "q": "Is the Mentzer index diagnostic?",
+      "a": "No. It is a discrimination aid that suggests which line of investigation to pursue. Confirmation needs iron studies or haemoglobin electrophoresis and HbA2."
+    },
+    {
+      "q": "Can a child have both conditions?",
+      "a": "Yes, and coexisting iron deficiency and thalassaemia trait is common in India. Combined disease blunts the index and can make it misleading."
+    },
+    {
+      "q": "Does it work in young infants?",
+      "a": "It is less reliable in the first months of life, when red cell indices are changing physiologically."
+    },
+    {
+      "q": "Are there other discrimination indices?",
+      "a": "Several exist, including the Green & King and Srivastava indices. None is reliable enough to replace confirmatory testing."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/vaccines/catchup/catchup_engine.dart",
+    "lib/screens/scores/",
+    "lib/screens/calculators/"
+  ]
+}

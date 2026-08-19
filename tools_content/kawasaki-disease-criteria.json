@@ -1,0 +1,37 @@
+{
+  "slug": "kawasaki-disease-criteria",
+  "intro": "A checklist for the diagnosis of Kawasaki disease. Classic Kawasaki disease requires fever for five days or more together with at least four of the five principal clinical features. The tool counts the features present and states whether the classic criteria are met.",
+  "indications": [
+    "A child with prolonged unexplained fever",
+    "Documenting which principal features are present and which are absent",
+    "Considering incomplete Kawasaki disease when fewer than four features are present",
+    "Supporting the decision to start IVIG within the first ten days of illness"
+  ],
+  "method": "The five principal features are bilateral non-exudative conjunctival injection, oral mucous membrane changes, cervical lymphadenopathy, extremity changes and polymorphous rash. With fever of at least five days, four or more features meets the classic definition. Fewer features does not exclude the diagnosis: incomplete Kawasaki disease is recognised, particularly in infants, and is assessed with laboratory criteria and echocardiography.",
+  "guidelineRefs": [
+    "McCrindle BW et al. Diagnosis, Treatment, and Long-Term Management of Kawasaki Disease. AHA Scientific Statement. Circulation. 2017"
+  ],
+  "faqs": [
+    {
+      "q": "What if the child has fewer than four features?",
+      "a": "Incomplete Kawasaki disease should be considered, especially in infants under one year, who are both more likely to present incompletely and at higher risk of coronary involvement. Laboratory criteria and echocardiography guide that assessment."
+    },
+    {
+      "q": "Does the fever have to last five full days?",
+      "a": "Five days is the classic threshold, but treatment may be started on day four when the diagnosis is otherwise clear, and earlier in some infants."
+    },
+    {
+      "q": "Why does timing matter so much?",
+      "a": "IVIG given within the first ten days of illness substantially reduces the risk of coronary artery aneurysm, so the diagnosis is time-critical."
+    },
+    {
+      "q": "Does a negative checklist exclude Kawasaki disease?",
+      "a": "No. The checklist tests the classic definition only. A child not meeting it may still have incomplete disease and needs clinical assessment."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/vaccines/catchup/catchup_engine.dart",
+    "lib/screens/scores/",
+    "lib/screens/calculators/"
+  ]
+}

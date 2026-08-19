@@ -1,0 +1,36 @@
+{
+  "slug": "fena-calculator",
+  "intro": "Calculates the fractional excretion of sodium, the proportion of filtered sodium that appears in the urine. It helps separate a prerenal picture, where sodium is avidly reabsorbed, from intrinsic tubular injury, where it is not.",
+  "indications": [
+    "Distinguishing prerenal azotaemia from acute tubular necrosis",
+    "Assessing oliguria of unclear cause",
+    "Interpreting acute kidney injury before deciding on fluid challenge"
+  ],
+  "method": "FeNa is calculated from paired urine and serum sodium and creatinine. A low value indicates avid tubular sodium reabsorption, consistent with a prerenal state; a higher value suggests tubular injury. The result is unreliable after diuretics, which force sodium excretion regardless of volume status — in that situation the fractional excretion of urea is more informative.",
+  "guidelineRefs": [
+    "Espinel CH. The FeNa test: use in the differential diagnosis of acute renal failure. JAMA. 1976"
+  ],
+  "faqs": [
+    {
+      "q": "Does FeNa work if the patient has had furosemide?",
+      "a": "No. Diuretics increase sodium excretion independent of volume status and invalidate the test. Fractional excretion of urea is preferred in that setting."
+    },
+    {
+      "q": "What values suggest prerenal disease?",
+      "a": "A low fractional excretion indicates preserved tubular sodium handling and points towards a prerenal cause; the app states the interpretation band for the value entered."
+    },
+    {
+      "q": "Is FeNa reliable in neonates?",
+      "a": "It is harder to interpret. Preterm infants have immature tubular sodium handling and physiologically higher fractional sodium excretion."
+    },
+    {
+      "q": "What else raises FeNa apart from tubular injury?",
+      "a": "Chronic kidney disease, obstruction and salt-wasting states can all raise it, so it should be read alongside the clinical picture."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/vaccines/catchup/catchup_engine.dart",
+    "lib/screens/scores/",
+    "lib/screens/calculators/"
+  ]
+}

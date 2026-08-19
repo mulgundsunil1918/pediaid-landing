@@ -1,0 +1,37 @@
+{
+  "slug": "child-pugh-score-calculator",
+  "intro": "The Child-Pugh score grades the severity of chronic liver disease from five variables and sorts patients into class A, B or C. It remains widely used for prognosis in cirrhosis and for judging the risk of surgery and of certain drugs in hepatic impairment.",
+  "indications": [
+    "Grading severity in a child or adolescent with established cirrhosis",
+    "Assessing peri-operative risk in chronic liver disease",
+    "Deciding dose adjustment for drugs cleared by the liver",
+    "Serial assessment of a patient with progressive liver disease"
+  ],
+  "method": "Five variables are each scored 1 to 3: total bilirubin, serum albumin, INR, ascites and hepatic encephalopathy. The total sorts into class A, class B or class C, with rising class indicating worse hepatic reserve and prognosis. Ascites and encephalopathy are graded clinically, which introduces some inter-observer variation.",
+  "guidelineRefs": [
+    "Pugh RNH, Murray-Lyon IM, Dawson JL, Pietroni MC, Williams R. Transection of the oesophagus for bleeding oesophageal varices. Br J Surg. 1973"
+  ],
+  "faqs": [
+    {
+      "q": "What do the classes mean?",
+      "a": "Class A indicates well-compensated disease, class B significant functional compromise and class C decompensated disease. The app names the class from the total."
+    },
+    {
+      "q": "Is Child-Pugh or MELD better?",
+      "a": "They answer different questions. MELD and PELD are used for transplant prioritisation and are purely laboratory-based; Child-Pugh includes clinical variables and remains common for surgical risk and drug dosing."
+    },
+    {
+      "q": "Can it be used in children?",
+      "a": "It is used in paediatric hepatology, though PELD is the standard for transplant allocation in children under 12."
+    },
+    {
+      "q": "Why do two clinicians get different scores?",
+      "a": "Ascites and encephalopathy are clinical gradings rather than measurements, so they can be scored differently by different assessors."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/vaccines/catchup/catchup_engine.dart",
+    "lib/screens/scores/",
+    "lib/screens/calculators/"
+  ]
+}

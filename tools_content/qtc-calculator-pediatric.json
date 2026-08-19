@@ -1,0 +1,37 @@
+{
+  "slug": "qtc-calculator-pediatric",
+  "intro": "Calculates the corrected QT interval from the measured QT and the heart rate using Bazett's formula. Correction is necessary because the QT interval shortens as heart rate rises, so an uncorrected QT cannot be compared against a reference range.",
+  "indications": [
+    "Screening an ECG before starting a QT-prolonging drug",
+    "Assessing a child with syncope, seizures or a family history of sudden death",
+    "Monitoring during treatment with antiarrhythmics, macrolides or antipsychotics",
+    "Evaluating a possible long QT syndrome"
+  ],
+  "method": "Bazett's formula divides the measured QT interval by the square root of the RR interval in seconds. The correction over- and under-estimates at the extremes of heart rate, which matters in paediatrics because infants are commonly tachycardic; at very high rates Bazett tends to overestimate QTc.",
+  "guidelineRefs": [
+    "Bazett HC. An analysis of the time-relations of electrocardiograms. Heart. 1920"
+  ],
+  "faqs": [
+    {
+      "q": "What QTc is considered prolonged in children?",
+      "a": "Thresholds differ by age and sex and by the reference used, so the measured value should be interpreted against an appropriate paediatric reference rather than an adult cut-off."
+    },
+    {
+      "q": "Why does Bazett over-correct in tachycardia?",
+      "a": "The square-root relationship does not hold well at rate extremes. In a markedly tachycardic infant it can produce a falsely high QTc, so the ECG should be repeated when the rate settles."
+    },
+    {
+      "q": "Which lead should the QT be measured in?",
+      "a": "Conventionally the lead with the clearest T wave offset, commonly lead II or V5. The calculator uses whatever QT you measure."
+    },
+    {
+      "q": "Are other correction formulas available?",
+      "a": "Fridericia, Framingham and Hodges are alternatives that behave better at rate extremes. This tool implements Bazett, which remains the most widely reported."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/vaccines/catchup/catchup_engine.dart",
+    "lib/screens/scores/",
+    "lib/screens/calculators/"
+  ]
+}

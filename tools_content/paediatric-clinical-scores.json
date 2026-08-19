@@ -1,0 +1,37 @@
+{
+  "slug": "paediatric-clinical-scores",
+  "intro": "A library of 110 scoring systems used in paediatric and neonatal practice — 14 neonatal scores and 96 paediatric ones — each presented as a tap-through form that computes the total, names the severity band and states what that band implies. Scores can be browsed by body system or alphabetically, and every one carries the citation for the paper or guideline it comes from.",
+  "indications": [
+    "Scoring severity at the bedside without a paper chart or a textbook",
+    "Documenting an objective severity band in the case notes",
+    "Teaching or examination revision on paediatric scoring systems",
+    "Checking the exact criteria of a score you use infrequently"
+  ],
+  "method": "Each score presents its criteria as labelled buttons with the weight each option carries, so the score is auditable rather than a black box. The running total is pinned to the bottom of the screen and updates as you answer, and the result card gives the band and the advice attached to it. A reset action clears the form for the next patient.",
+  "guidelineRefs": [
+    "Each score cites its own original publication or guideline in the app"
+  ],
+  "faqs": [
+    {
+      "q": "Which scores are included?",
+      "a": "Neonatal scores include Apgar, Modified Ballard, Downes, Silverman-Anderson, Sarnat, Thompson, LATCH and POFRAS. Paediatric scores are grouped by system and include PEWS, Westley croup, Kawasaki criteria, PECARN, Child-Pugh, PUCAI and DSM-5 screening tools."
+    },
+    {
+      "q": "Are the scores validated?",
+      "a": "The scores are established published instruments and each screen names its source. The app computes and interprets them; it does not modify the underlying criteria."
+    },
+    {
+      "q": "Can I find a score without knowing its system?",
+      "a": "Yes. The hub has a search box and an A–Z toggle alongside the by-system grouping."
+    },
+    {
+      "q": "Do the scores work offline?",
+      "a": "Yes — score definitions are bundled with the app, so they compute without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/vaccines/catchup/catchup_engine.dart",
+    "lib/screens/scores/",
+    "lib/screens/calculators/"
+  ]
+}

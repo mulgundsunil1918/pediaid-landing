@@ -970,6 +970,156 @@
         "genetic height potential calculator",
         "MPH calculator pediatrics"
       ]
+    },
+    {
+      "slug": "immunisation-catch-up-calculator",
+      "title": "Immunisation Catch-up Planner",
+      "subtitle": "Works out what is due for an under-immunised child",
+      "category": "Guides",
+      "seoTitle": "Immunisation Catch-up Calculator — IAP Schedule (India)",
+      "primaryKeyword": "immunisation catch-up calculator",
+      "secondaryKeywords": [
+        "vaccination catch up schedule India",
+        "catch up immunization IAP",
+        "missed vaccine schedule calculator",
+        "delayed immunisation planner",
+        "unimmunised child vaccine schedule"
+      ]
+    },
+    {
+      "slug": "iap-immunisation-schedule",
+      "title": "IAP & National Immunisation Schedule",
+      "subtitle": "IAP 2022 and National (NIS) schedules side by side",
+      "category": "Guides",
+      "seoTitle": "IAP Immunisation Schedule 2022 & National Schedule (NIS) India",
+      "primaryKeyword": "IAP immunisation schedule",
+      "secondaryKeywords": [
+        "IAP vaccination chart",
+        "national immunisation schedule India",
+        "NIS vaccine schedule",
+        "child vaccination chart India",
+        "IAP 2022 immunization schedule"
+      ]
+    },
+    {
+      "slug": "paediatric-clinical-scores",
+      "title": "Paediatric Clinical Scores",
+      "subtitle": "110 neonatal and paediatric scoring systems",
+      "category": "Guides",
+      "seoTitle": "Paediatric Clinical Scoring Systems — 110 Scores & Calculators",
+      "primaryKeyword": "paediatric clinical scores",
+      "secondaryKeywords": [
+        "pediatric scoring systems",
+        "clinical score calculator children",
+        "neonatal scores",
+        "paediatric severity scores",
+        "pediatric assessment scales"
+      ]
+    },
+    {
+      "slug": "pews-score-calculator",
+      "title": "PEWS — Paediatric Early Warning Score",
+      "subtitle": "Bedside score to detect clinical deterioration on the ward",
+      "category": "Calculators & Tools",
+      "seoTitle": "PEWS Calculator — Paediatric Early Warning Score",
+      "primaryKeyword": "PEWS score calculator",
+      "secondaryKeywords": [
+        "paediatric early warning score",
+        "pediatric early warning system",
+        "PEWS chart",
+        "child deterioration score",
+        "paediatric escalation score"
+      ]
+    },
+    {
+      "slug": "westley-croup-score",
+      "title": "Westley Croup Score",
+      "subtitle": "Severity of croup (laryngotracheobronchitis)",
+      "category": "Calculators & Tools",
+      "seoTitle": "Westley Croup Score Calculator — Croup Severity",
+      "primaryKeyword": "Westley croup score",
+      "secondaryKeywords": [
+        "croup severity score",
+        "croup score calculator",
+        "laryngotracheobronchitis severity",
+        "stridor severity score",
+        "croup assessment tool"
+      ]
+    },
+    {
+      "slug": "kawasaki-disease-criteria",
+      "title": "Kawasaki Disease Criteria",
+      "subtitle": "Classic KD = fever ≥5 days plus ≥4 of the 5 principal features",
+      "category": "Calculators & Tools",
+      "seoTitle": "Kawasaki Disease Diagnostic Criteria Checker",
+      "primaryKeyword": "Kawasaki disease criteria",
+      "secondaryKeywords": [
+        "Kawasaki diagnostic criteria",
+        "incomplete Kawasaki disease",
+        "KD principal clinical features",
+        "Kawasaki checklist",
+        "AHA Kawasaki criteria"
+      ]
+    },
+    {
+      "slug": "child-pugh-score-calculator",
+      "title": "Child-Pugh Score",
+      "subtitle": "Severity of chronic liver disease and prognosis in cirrhosis",
+      "category": "Calculators & Tools",
+      "seoTitle": "Child-Pugh Score Calculator — Class A, B, C",
+      "primaryKeyword": "Child-Pugh score calculator",
+      "secondaryKeywords": [
+        "Child Pugh class A B C",
+        "cirrhosis severity score",
+        "liver disease prognosis score",
+        "Child-Turcotte-Pugh",
+        "hepatic function classification"
+      ]
+    },
+    {
+      "slug": "qtc-calculator-pediatric",
+      "title": "QTc Calculator (Bazett)",
+      "subtitle": "Corrected QT interval from QT and heart rate",
+      "category": "Calculators & Tools",
+      "seoTitle": "QTc Calculator — Bazett Formula for Children",
+      "primaryKeyword": "QTc calculator",
+      "secondaryKeywords": [
+        "Bazett formula calculator",
+        "corrected QT interval",
+        "long QT children",
+        "QTc paediatric normal",
+        "QT interval correction"
+      ]
+    },
+    {
+      "slug": "fena-calculator",
+      "title": "FeNa Calculator",
+      "subtitle": "Fractional excretion of sodium in acute kidney injury",
+      "category": "Calculators & Tools",
+      "seoTitle": "FeNa Calculator — Fractional Excretion of Sodium",
+      "primaryKeyword": "FeNa calculator",
+      "secondaryKeywords": [
+        "fractional excretion of sodium",
+        "prerenal vs intrinsic AKI",
+        "FENa formula",
+        "acute kidney injury urine sodium",
+        "renal failure index"
+      ]
+    },
+    {
+      "slug": "mentzer-index-calculator",
+      "title": "Mentzer Index",
+      "subtitle": "Thalassaemia trait versus iron deficiency in microcytosis",
+      "category": "Calculators & Tools",
+      "seoTitle": "Mentzer Index Calculator — Thalassaemia vs Iron Deficiency",
+      "primaryKeyword": "Mentzer index calculator",
+      "secondaryKeywords": [
+        "thalassaemia trait vs iron deficiency",
+        "MCV RBC ratio",
+        "microcytic anaemia discrimination index",
+        "beta thalassaemia screening",
+        "Mentzer index formula"
+      ]
     }
   ]
 }

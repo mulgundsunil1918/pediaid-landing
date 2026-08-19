@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>QTc Calculator — Bazett Formula for Children | PediAid</title>
+<meta name="description" content="Calculates the corrected QT interval from the measured QT and the heart rate using Bazett&#x27;s formula. Correction is necessary because the QT interval…" />
+<link rel="canonical" href="https://info.pediaid.bridgr.co.in/tools/qtc-calculator-pediatric/" />
+<meta name="theme-color" content="#1e3a5f" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="QTc Calculator (Bazett) | PediAid" />
+<meta property="og:description" content="Calculates the corrected QT interval from the measured QT and the heart rate using Bazett&#x27;s formula. Correction is necessary because the QT interval…" />
+<meta property="og:url" content="https://info.pediaid.bridgr.co.in/tools/qtc-calculator-pediatric/" />
+<meta property="og:site_name" content="PediAid" />
+<meta property="og:image" content="https://info.pediaid.bridgr.co.in/assets/pediaid-logo.png" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="QTc Calculator (Bazett) | PediAid" />
+<meta name="twitter:description" content="Calculates the corrected QT interval from the measured QT and the heart rate using Bazett&#x27;s formula. Correction is necessary because the QT interval…" />
+<meta name="twitter:image" content="https://info.pediaid.bridgr.co.in/assets/pediaid-logo.png" />
+
+<link rel="icon" type="image/png" href="../../assets/pediaid-logo.png"/>
+<link rel="apple-touch-icon" href="../../assets/pediaid-logo.png" />
+<link rel="stylesheet" href="../../assets/tools.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://info.pediaid.bridgr.co.in/tools/qtc-calculator-pediatric/#webpage",
+      "url": "https://info.pediaid.bridgr.co.in/tools/qtc-calculator-pediatric/",
+      "name": "QTc Calculator (Bazett) | PediAid",
+      "description": "Calculates the corrected QT interval from the measured QT and the heart rate using Bazett's formula. Correction is necessary because the QT interval shortens as heart rate rises, so an uncorrected QT cannot be compared against a reference range.",
+      "inLanguage": "en",
+      "about": {
+        "@type": "MedicalEntity",
+        "name": "QTc Calculator (Bazett)"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "PediAid",
+        "url": "https://pediaid.bridgr.co.in"
+      },
+      "lastReviewed": "2026-08-19"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "PediAid — QTc Calculator (Bazett)",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Web, Android, iOS",
+      "url": "https://pediaid.bridgr.co.in/#qtc-calculator-pediatric",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://info.pediaid.bridgr.co.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://info.pediaid.bridgr.co.in/#tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "QTc Calculator (Bazett)",
+          "item": "https://info.pediaid.bridgr.co.in/tools/qtc-calculator-pediatric/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What QTc is considered prolonged in children?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Thresholds differ by age and sex and by the reference used, so the measured value should be interpreted against an appropriate paediatric reference rather than an adult cut-off."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does Bazett over-correct in tachycardia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The square-root relationship does not hold well at rate extremes. In a markedly tachycardic infant it can produce a falsely high QTc, so the ECG should be repeated when the rate settles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which lead should the QT be measured in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Conventionally the lead with the clearest T wave offset, commonly lead II or V5. The calculator uses whatever QT you measure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are other correction formulas available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fridericia, Framingham and Hodges are alternatives that behave better at rate extremes. This tool implements Bazett, which remains the most widely reported."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav class="nav glass">
+  <a class="brand" href="../../index.html">
+    <span class="brand-logo" aria-hidden="true"><img src="../../assets/pediaid-logo.png" alt="PediAid" /></span>
+    PediAid
+  </a>
+  <div class="nav-spacer"></div>
+  <div class="nav-links">
+    <a href="../../index.html#features">Features</a>
+    <a href="../../index.html#tools">Tools</a>
+    <a href="../../index.html#download">Get the app</a>
+  </div>
+  <a class="nav-cta" href="https://pediaid.bridgr.co.in" target="_blank" rel="noopener">Open web app &rarr;</a>
+</nav>
+
+<div class="wrap">
+  <div class="breadcrumb">
+    <a href="../../index.html">Home</a><span class="sep">/</span>
+    <a href="../../index.html#tools">Tools</a><span class="sep">/</span>
+    <span class="current">QTc Calculator (Bazett)</span>
+  </div>
+</div>
+
+<section class="tool-hero">
+  <div class="wrap narrow">
+    <span class="eyebrow"><span class="dot"></span> Calculators &amp; Tools</span>
+    <h1>QTc Calculator (Bazett)</h1>
+    <p class="lead">Corrected QT interval from QT and heart rate</p>
+    <div class="tool-hero-ctas">
+      <a class="btn btn-primary" href="https://pediaid.bridgr.co.in/#qtc-calculator-pediatric" target="_blank" rel="noopener">Open in PediAid &rarr;</a>
+      <a class="btn btn-ghost" href="../../index.html#tools">&larr; All tools</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap narrow">
+
+    <div class="content-card glass">
+      <h2><span class="num">1</span> What is the QTc Calculator (Bazett)?</h2>
+      <p>Calculates the corrected QT interval from the measured QT and the heart rate using Bazett&#x27;s formula. Correction is necessary because the QT interval shortens as heart rate rises, so an uncorrected QT cannot be compared against a reference range.</p>
+    </div>
+
+    <div class="content-card glass">
+      <h2><span class="num">2</span> When to use it</h2>
+      <ul class="plain">
+        <li>Screening an ECG before starting a QT-prolonging drug</li>
+        <li>Assessing a child with syncope, seizures or a family history of sudden death</li>
+        <li>Monitoring during treatment with antiarrhythmics, macrolides or antipsychotics</li>
+        <li>Evaluating a possible long QT syndrome</li>
+      </ul>
+    </div>
+
+    <div class="content-card glass">
+      <h2><span class="num">3</span> Formula &amp; method</h2>
+      <div class="callout formula">Bazett&#x27;s formula divides the measured QT interval by the square root of the RR interval in seconds. The correction over- and under-estimates at the extremes of heart rate, which matters in paediatrics because infants are commonly tachycardic; at very high rates Bazett tends to overestimate QTc.</div>
+      <ul class="callout-refs">
+        <li>Bazett HC. An analysis of the time-relations of electrocardiograms. Heart. 1920</li>
+      </ul>
+    </div>
+
+    <div class="content-card glass">
+      <h2><span class="num">4</span> Frequently asked questions</h2>
+      <div class="faq-item">
+        <h3>What QTc is considered prolonged in children?</h3>
+        <p>Thresholds differ by age and sex and by the reference used, so the measured value should be interpreted against an appropriate paediatric reference rather than an adult cut-off.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Why does Bazett over-correct in tachycardia?</h3>
+        <p>The square-root relationship does not hold well at rate extremes. In a markedly tachycardic infant it can produce a falsely high QTc, so the ECG should be repeated when the rate settles.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Which lead should the QT be measured in?</h3>
+        <p>Conventionally the lead with the clearest T wave offset, commonly lead II or V5. The calculator uses whatever QT you measure.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Are other correction formulas available?</h3>
+        <p>Fridericia, Framingham and Hodges are alternatives that behave better at rate extremes. This tool implements Bazett, which remains the most widely reported.</p>
+      </div>
+    </div>
+
+    <div class="content-card glass">
+      <h2><span class="num">5</span> Related tools</h2>
+      <div class="related-grid">
+        <a class="related-tool" href="../gestational-age-edd-calculator/">
+          <h4>Gestational Age &amp; EDD Calculator</h4>
+          <p>EDD, GA &amp; Antenatal Dates</p>
+        </a>
+        <a class="related-tool" href="../ponderal-index-calculator/">
+          <h4>Ponderal Index Calculator</h4>
+          <p>IUGR &amp; Nutritional Status</p>
+        </a>
+        <a class="related-tool" href="../bsa-calculator-pediatric/">
+          <h4>Pediatric BSA Calculator</h4>
+          <p>Mosteller Formula</p>
+        </a>
+        <a class="related-tool" href="../nutritional-audit-calculator/">
+          <h4>Nutritional Audit Calculator</h4>
+          <p>ESPGHAN 2022</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="disclaimer">
+      <strong>For qualified clinicians.</strong> This page and the PediAid app are a clinical
+      aid only. Calculations and reference data must be verified against the patient's
+      clinical context, the source guideline and your local protocols before any
+      treatment decision is made.
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-row glass">
+      <div>
+        <strong style="color:var(--navy);">PediAid</strong> &middot; Paediatric &amp; Neonatal Clinical Reference
+        <div class="muted" style="margin-top:2px;">&copy; 2026 PediAid. All rights reserved.</div>
+      </div>
+      <div>
+        <a href="https://pediaid.bridgr.co.in" target="_blank" rel="noopener">Open the app</a>
+        <a href="../../privacy.html">Privacy</a>
+        <a href="mailto:help@bridgr.co.in">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

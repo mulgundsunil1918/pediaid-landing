@@ -1,0 +1,38 @@
+{
+  "slug": "iap-immunisation-schedule",
+  "intro": "A side-by-side reference for the Indian Academy of Pediatrics schedule and the Government of India National Immunisation Schedule, covering birth through adolescence. Both are presented as a full table and as an age-driven view that shows only what is relevant for a child of a given age, so a clinic visit does not require reading the whole chart.",
+  "indications": [
+    "Checking which vaccines are due at a routine well-child visit",
+    "Comparing what the IAP schedule recommends against what the national programme provides",
+    "Counselling parents about optional vaccines outside the government schedule",
+    "Confirming dose, route and site for a vaccine before administration"
+  ],
+  "method": "The table lists each visit age against the vaccines due, with dose volume, route and injection site. The age-driven view filters the same data to the child's current age. For a child who is behind schedule, the catch-up planner should be used instead, since simply reading the next row of the routine schedule does not account for minimum intervals or age limits.",
+  "guidelineRefs": [
+    "Indian Academy of Pediatrics ACVIP Recommended Immunization Schedule",
+    "Government of India Universal Immunization Programme — National Immunisation Schedule"
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between the IAP and national schedules?",
+      "a": "The national schedule covers vaccines provided free through the Universal Immunization Programme. The IAP schedule additionally recommends vaccines that are available in the private sector, such as typhoid conjugate, hepatitis A and varicella."
+    },
+    {
+      "q": "Which schedule should I follow?",
+      "a": "Both are shown so the choice stays with the treating clinician and the family. The national schedule is the minimum; the IAP schedule reflects what the academy recommends where vaccines are accessible."
+    },
+    {
+      "q": "Does this cover catch-up for a child who is behind?",
+      "a": "No — the routine schedule assumes doses given on time. Use the catch-up planner for a child with missed or delayed doses, since it applies minimum intervals and age limits."
+    },
+    {
+      "q": "Is the schedule usable offline?",
+      "a": "Yes. The schedules are bundled with the app rather than fetched, so they work without a connection."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/vaccines/catchup/catchup_engine.dart",
+    "lib/screens/scores/",
+    "lib/screens/calculators/"
+  ]
+}

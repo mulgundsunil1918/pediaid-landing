@@ -1,0 +1,37 @@
+{
+  "slug": "westley-croup-score",
+  "intro": "The Westley Croup Score grades the severity of croup from five clinical observations, giving a total that separates mild croup treatable with a single dose of steroid from severe croup needing nebulised adrenaline and close observation.",
+  "indications": [
+    "Assessing a child presenting with barking cough and stridor",
+    "Deciding between oral steroid alone and nebulised adrenaline",
+    "Documenting severity before and after treatment",
+    "Deciding on observation period versus discharge"
+  ],
+  "method": "Five components are scored: level of consciousness, cyanosis, stridor, air entry and chest wall retractions. The app bands the total as mild, moderate, severe or impending respiratory failure, with the management implication for each band. Level of consciousness and cyanosis carry the heaviest weights, which is why a child who is drowsy or cyanosed scores into the severe range immediately.",
+  "guidelineRefs": [
+    "Westley CR, Cotton EK, Brooks JG. Nebulized racemic epinephrine by IPPB for the treatment of croup. Am J Dis Child. 1978"
+  ],
+  "faqs": [
+    {
+      "q": "What score counts as mild croup?",
+      "a": "The app bands the total and names the severity, with mild at the low end and impending respiratory failure at the top. Each band carries its management implication."
+    },
+    {
+      "q": "Does a mild score mean steroids are not needed?",
+      "a": "No. Corticosteroid is recommended across croup severities, including mild disease. The score guides the need for adrenaline and observation, not whether to give steroid."
+    },
+    {
+      "q": "Why is stridor at rest important?",
+      "a": "Stridor only on agitation scores lower than stridor at rest, which reflects a more significant degree of airway narrowing."
+    },
+    {
+      "q": "Can the score be used to decide discharge?",
+      "a": "It supports the decision alongside response to treatment and the observation period. A child whose score falls after adrenaline still needs observation, since the effect wears off."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/vaccines/catchup/catchup_engine.dart",
+    "lib/screens/scores/",
+    "lib/screens/calculators/"
+  ]
+}
