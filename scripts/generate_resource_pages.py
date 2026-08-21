@@ -12,6 +12,7 @@ with the link" folder) — this script does not upload or touch the
 files themselves, only generates the SEO landing pages that link to them.
 """
 import json
+import re
 import html
 import datetime
 import xml.etree.ElementTree as ET
@@ -202,12 +203,28 @@ PAGE_TEMPLATE = """<!doctype html>
 """
 
 
+def meta_description_for(res, limit=158):
+    """Complete sentences only -- the old code sliced at 155 characters and
+    appended an ellipsis, which reads as broken in a search result."""
+    text = re.sub(r"\s+", " ", res.get("description", "")).strip()
+    out = ""
+    for sentence in re.split(r"(?<=[.!?])\s+(?=[A-Z(])", text):
+        cand = f"{out} {sentence}".strip() if out else sentence
+        if len(cand) > limit:
+            break
+        out = cand
+    if out:
+        return out
+    head = text[:limit].rsplit(" ", 1)[0].rstrip(" ,;:-")
+    return (head + ".") if head else res["title"]
+
+
 def generate_pages(site, resources):
     OUT_DIR.mkdir(exist_ok=True)
     urls = []
     for res in resources:
         canonical_url = f'{site["domain"]}/resources/{res["slug"]}/'
-        meta_description = res["description"][:155].rsplit(" ", 1)[0] + "…" if len(res["description"]) > 155 else res["description"]
+        meta_description = meta_description_for(res)
         related = related_resources(res, resources, n=4)
         jsonld = build_jsonld(res, canonical_url, site)
 
@@ -351,12 +368,25 @@ def merge_sitemap(new_urls):
 
 def main():
     site = load_site()
-    resources = load_resources()
+    all_resources = load_resources()
+
+    # A Drive re-scrape adds entries with only slug/title/filename/driveId --
+    # no description and no keywords. Those are the raw mirror, not pages: a
+    # generated page for one would be a title, a category and a download
+    # button. Skipped for the same reason generate_tool_pages.py skips a tool
+    # with no content file, and reported so they can be filled in deliberately.
+    resources = [r for r in all_resources if r.get("description")]
+    pending = [r for r in all_resources if not r.get("description")]
+
     urls = generate_pages(site, resources)
     hub_url = generate_hub(site, resources)
     added, total = merge_sitemap(urls + [hub_url])
     print(f"Generated {len(urls)} resource pages + resources.html hub.")
     print(f"sitemap.xml: +{added} new URLs ({total} total)")
+    if pending:
+        print(f"Skipped {len(pending)} resources with no description yet:")
+        for r in pending:
+            print(f"  - {r['slug']}")
 
 
 if __name__ == "__main__":

@@ -22,3 +22,7 @@ GoogleService-Info.plist
 *serviceaccount*.json
 *-adminsdk-*.json
 .appstoreconnect/
+
+# Python bytecode from the page generators
+__pycache__/
+*.pyc

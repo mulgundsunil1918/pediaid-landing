@@ -1,6 +1,6 @@
 {
   "slug": "pediatric-equipment-parameters",
-  "intro": "PediAid's equipment size chart is badged in-app as the 'Harriet Lane Reference' and described as an 'age-based sizing guide for airway & vascular access.' Selecting one of 9 age bands, from Premie through greater than 16 Years, surfaces an estimated weight range plus a full table of airway and vascular equipment sizes for that age, with a footer reference to the Harriet Lane Handbook.",
+  "intro": "PediAid's equipment size chart is an age-based sizing guide for airway and vascular access. Selecting one of 9 age bands, from Premie through greater than 16 Years, surfaces an estimated weight range plus a full table of airway and vascular equipment sizes for that age, with a footer reference to the Harriet Lane Handbook.",
   "indications": [
     "Selecting correctly sized airway equipment (endotracheal tube, laryngoscope blade, LMA, oral/nasal airway) before intubating a child of known or estimated age",
     "Choosing an appropriate IV catheter, central line, or chest tube size for a procedure by age band",
@@ -9,13 +9,32 @@
     "Teaching trainees typical age-to-equipment-size relationships across the pediatric age spectrum"
   ],
   "method": "The user selects one of 9 age groups (Premie, Newborn, 6 Months, 1 Year, 2-3 Years, 4-6 Years, 7-10 Years, 11-15 Years, >16 Years) from a dropdown. The app then displays an estimated weight range in a highlighted card, followed by a table covering Bag Valve Mask, Nasal Airway, Oral Airway, Blade, ETT (endotracheal tube), LMA, Glidescope, IV Catheter, CVL, NGT/OGT, Chest Tube, and Foley catheter sizes for that age. For example, the Newborn band (3.5-4 kg) lists ETT 3.0-3.5 and Blade MIL 0, while the 1 Year band (10 kg) lists ETT 4.0-4.5.",
-  "guidelineRefs": ["Harriet Lane Handbook"],
-  "faqs": [
-    { "q": "What reference is PediAid's equipment size chart based on?", "a": "The screen is badged 'Harriet Lane Reference' in the app and its footer states 'Reference: Harriet Lane Handbook.'" },
-    { "q": "What age groups are available in the chart?", "a": "Premie, Newborn, 6 Months, 1 Year, 2-3 Years, 4-6 Years, 7-10 Years, 11-15 Years, and greater than 16 Years." },
-    { "q": "What equipment sizes are shown for each age group?", "a": "Bag Valve Mask, Nasal Airway, Oral Airway, laryngoscope Blade, ETT, LMA, Glidescope, IV Catheter, CVL, NGT/OGT, Chest Tube, and Foley catheter, alongside an estimated weight range." },
-    { "q": "What ETT size does PediAid suggest for a newborn?", "a": "For the Newborn band (estimated weight 3.5-4 kg), the chart lists ETT size 3.0-3.5 with a MIL 0 blade." },
-    { "q": "Does the chart also give an estimated weight for each age group?", "a": "Yes -- a highlighted 'Estimated Weight' card appears at the top of the results as soon as an age group is selected." }
+  "guidelineRefs": [
+    "Harriet Lane Handbook"
   ],
-  "sourceFilesRead": ["lib/screens/tools/paediatric_parameters_screen.dart"]
+  "faqs": [
+    {
+      "q": "What reference is PediAid's equipment size chart based on?",
+      "a": "The screen is badged 'Harriet Lane Reference' in the app and its footer states 'Reference: Harriet Lane Handbook.'"
+    },
+    {
+      "q": "What age groups are available in the chart?",
+      "a": "Premie, Newborn, 6 Months, 1 Year, 2-3 Years, 4-6 Years, 7-10 Years, 11-15 Years, and greater than 16 Years."
+    },
+    {
+      "q": "What equipment sizes are shown for each age group?",
+      "a": "Bag Valve Mask, Nasal Airway, Oral Airway, laryngoscope Blade, ETT, LMA, Glidescope, IV Catheter, CVL, NGT/OGT, Chest Tube, and Foley catheter, alongside an estimated weight range."
+    },
+    {
+      "q": "What ETT size does PediAid suggest for a newborn?",
+      "a": "For the Newborn band (estimated weight 3.5-4 kg), the chart lists ETT size 3.0-3.5 with a MIL 0 blade."
+    },
+    {
+      "q": "Does the chart also give an estimated weight for each age group?",
+      "a": "Yes -- a highlighted 'Estimated Weight' card appears at the top of the results as soon as an age group is selected."
+    }
+  ],
+  "sourceFilesRead": [
+    "lib/screens/tools/paediatric_parameters_screen.dart"
+  ]
 }

@@ -19,7 +19,8 @@
         "USG dating calculator",
         "estimated delivery date"
       ],
-      "seoTitle": "Gestational Age & EDD Calculator — LMP and Ultrasound Dating"
+      "seoTitle": "Gestational Age & EDD Calculator — LMP and Ultrasound Dating",
+      "hub": "calculators"
     },
     {
       "slug": "ponderal-index-calculator",
@@ -32,7 +33,8 @@
         "fetal growth restriction calculator",
         "symmetrical vs asymmetrical IUGR",
         "newborn nutritional status"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "bsa-calculator-pediatric",
@@ -45,7 +47,8 @@
         "body surface area calculator children",
         "chemotherapy dose BSA"
       ],
-      "seoTitle": "Body Surface Area Calculator for Children — Mosteller"
+      "seoTitle": "Body Surface Area Calculator for Children — Mosteller",
+      "hub": "calculators"
     },
     {
       "slug": "nutritional-audit-calculator",
@@ -57,7 +60,8 @@
         "neonatal feed calorie calculator",
         "preterm nutrition audit",
         "enteral feed protein calculator"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "tpn-calculator-neonatal",
@@ -69,7 +73,8 @@
         "total parenteral nutrition calculator",
         "TPN dextrose amino acid lipid calculator",
         "NICU TPN prescription"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "cga-pma-calculator",
@@ -83,7 +88,8 @@
         "postmenstrual age calculator",
         "preterm corrected age"
       ],
-      "seoTitle": "Corrected Gestational Age Calculator — CGA & PMA"
+      "seoTitle": "Corrected Gestational Age Calculator — CGA & PMA",
+      "hub": "calculators"
     },
     {
       "slug": "gir-calculator-neonatal",
@@ -96,7 +102,8 @@
         "neonatal dextrose calculator",
         "mg/kg/min glucose calculator"
       ],
-      "seoTitle": "GIR Calculator — Glucose Infusion Rate for Neonates"
+      "seoTitle": "GIR Calculator — Glucose Infusion Rate for Neonates",
+      "hub": "calculators"
     },
     {
       "slug": "schwartz-egfr-calculator",
@@ -109,7 +116,8 @@
         "pediatric GFR calculator",
         "pediatric creatinine clearance"
       ],
-      "seoTitle": "Schwartz eGFR Calculator for Children — Bedside Formula"
+      "seoTitle": "Schwartz eGFR Calculator for Children — Bedside Formula",
+      "hub": "calculators"
     },
     {
       "slug": "blood-gas-analyser",
@@ -121,7 +129,8 @@
         "ABG interpretation tool",
         "acid base disorder calculator",
         "pediatric blood gas interpretation"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "double-volume-exchange-transfusion-calculator",
@@ -133,7 +142,8 @@
         "DVET calculator",
         "exchange transfusion volume calculator",
         "neonatal exchange transfusion"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "ventilator-parameters-calculator",
@@ -146,7 +156,8 @@
         "mean airway pressure calculator",
         "HFOV settings calculator",
         "ventilator parameters neonatal"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "bpd-estimator-nichd",
@@ -159,7 +170,8 @@
         "bronchopulmonary dysplasia risk tool",
         "chronic lung disease of prematurity risk"
       ],
-      "externalUrl": "https://neonatal.rti.org/index.cfm?fuseaction=BPD_Calculator2.start"
+      "externalUrl": "https://neonatal.rti.org/index.cfm?fuseaction=BPD_Calculator2.start",
+      "hub": "calculators"
     },
     {
       "slug": "pediatric-blood-pressure-calculator",
@@ -172,7 +184,8 @@
         "child BP by height percentile",
         "pediatric hypertension calculator"
       ],
-      "seoTitle": "Paediatric Blood Pressure Percentile Calculator — AAP 2017"
+      "seoTitle": "Paediatric Blood Pressure Percentile Calculator — AAP 2017",
+      "hub": "calculators"
     },
     {
       "slug": "neonatal-jaundice-bilirubin-calculator",
@@ -185,7 +198,8 @@
         "hyperbilirubinemia calculator",
         "phototherapy threshold calculator",
         "Bhutani nomogram calculator"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "maintenance-fluid-calculator-pediatric",
@@ -198,7 +212,8 @@
         "4-2-1 rule calculator",
         "neonatal fluid requirement calculator"
       ],
-      "seoTitle": "Paediatric Maintenance Fluid Calculator — Holliday-Segar"
+      "seoTitle": "Paediatric Maintenance Fluid Calculator — Holliday-Segar",
+      "hub": "calculators"
     },
     {
       "slug": "parkland-formula-calculator",
@@ -210,7 +225,8 @@
         "burn fluid resuscitation calculator",
         "modified Parkland formula",
         "TBSA fluid calculator"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "lund-browder-chart-calculator",
@@ -222,7 +238,8 @@
         "pediatric TBSA calculator",
         "burn surface area chart",
         "burn percentage calculator children"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "partial-exchange-transfusion-calculator",
@@ -234,7 +251,8 @@
         "PET calculator neonatal",
         "polycythemia exchange calculator",
         "hematocrit exchange volume calculator"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "burn-mortality-calculator-baux",
@@ -246,7 +264,8 @@
         "burn mortality calculator",
         "burn survival prediction",
         "inhalation injury mortality score"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "who-growth-charts",
@@ -260,7 +279,8 @@
         "child growth standards calculator",
         "WHO BMI for age"
       ],
-      "seoTitle": "WHO Growth Chart Calculator 0–5 Years — Percentiles"
+      "seoTitle": "WHO Growth Chart Calculator 0–5 Years — Percentiles",
+      "hub": "charts"
     },
     {
       "slug": "iap-growth-charts",
@@ -273,7 +293,8 @@
         "IAP height weight chart",
         "Indian pediatric BMI chart"
       ],
-      "seoTitle": "IAP Growth Chart Calculator 5–18 Years — Indian Percentiles"
+      "seoTitle": "IAP Growth Chart Calculator 5–18 Years — Indian Percentiles",
+      "hub": "charts"
     },
     {
       "slug": "fenton-growth-chart",
@@ -287,7 +308,8 @@
         "preterm growth percentile calculator",
         "NICU growth chart"
       ],
-      "seoTitle": "Fenton 2025 Preterm Growth Chart — Z-Scores & Percentiles"
+      "seoTitle": "Fenton 2025 Preterm Growth Chart — Z-Scores & Percentiles",
+      "hub": "charts"
     },
     {
       "slug": "intergrowth-21-charts",
@@ -300,12 +322,13 @@
         "INTERGROWTH postnatal growth chart"
       ],
       "externalUrl": "https://intergrowth21.ndog.ox.ac.uk/en/ManualEntry",
-      "seoTitle": "INTERGROWTH-21st Newborn Size Calculator — Percentiles"
+      "seoTitle": "INTERGROWTH-21st Newborn Size Calculator — Percentiles",
+      "hub": "charts"
     },
     {
       "slug": "pediatric-drug-formulary",
       "title": "Pediatric Drug Formulary",
-      "subtitle": "500+ Drugs — Neofax & Harriet Lane",
+      "subtitle": "500+ Drugs — Neonatal & Paediatric",
       "category": "Drug Formulary",
       "primaryKeyword": "Pediatric Drug Formulary",
       "secondaryKeywords": [
@@ -313,7 +336,8 @@
         "Harriet Lane drug dosing",
         "neonatal drug dose calculator"
       ],
-      "seoTitle": "Paediatric & Neonatal Drug Dosage Reference"
+      "seoTitle": "Paediatric & Neonatal Drug Dosage Reference",
+      "hub": "reference"
     },
     {
       "slug": "fetal-development-week-by-week",
@@ -324,7 +348,8 @@
       "secondaryKeywords": [
         "fetal development chart",
         "pregnancy week by week organogenesis"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "nrp-algorithm-neonatal-resuscitation",
@@ -336,7 +361,8 @@
         "neonatal resuscitation algorithm",
         "NRP flowchart",
         "delivery room resuscitation guide"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "iap-immunization-schedule",
@@ -348,7 +374,8 @@
         "India vaccine schedule",
         "national immunization schedule calculator",
         "child vaccination chart India"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "neonatal-scoring-systems",
@@ -362,7 +389,8 @@
         "Sarnat staging HIE",
         "Thompson score calculator"
       ],
-      "seoTitle": "Neonatal Scoring Systems — Apgar, Ballard, Sarnat, Downes"
+      "seoTitle": "Neonatal Scoring Systems — Apgar, Ballard, Sarnat, Downes",
+      "hub": "guides"
     },
     {
       "slug": "nichd-hie-assessment-tool",
@@ -374,7 +402,8 @@
         "therapeutic hypothermia eligibility",
         "cooling criteria neonatal HIE",
         "birth asphyxia assessment tool"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "modified-ballard-score-calculator",
@@ -386,7 +415,8 @@
         "new Ballard score",
         "gestational age assessment newborn",
         "neuromuscular maturity scoring"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "pals-algorithms",
@@ -398,7 +428,8 @@
         "pediatric cardiac arrest algorithm",
         "PALS bradycardia algorithm",
         "pediatric resuscitation flowchart"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "neonatal-echo-tnecho-guide",
@@ -411,19 +442,21 @@
         "neonatal hemodynamics assessment",
         "PDA PPHN echo assessment"
       ],
-      "externalUrl": "https://www.neocardiolab.com/tnecho-and-neonatal-hemodynamics"
+      "externalUrl": "https://www.neocardiolab.com/tnecho-and-neonatal-hemodynamics",
+      "hub": "guides"
     },
     {
       "slug": "pediatric-equipment-parameters",
       "title": "Pediatric Equipment Size Chart",
-      "subtitle": "Parameters & Equipment — Harriet Lane",
+      "subtitle": "Age-Based Airway & Vascular Access Sizing",
       "category": "Guides",
       "primaryKeyword": "Pediatric Equipment Size Chart",
       "secondaryKeywords": [
         "ETT size by age",
         "pediatric equipment sizing chart",
         "weight based equipment sizes"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "neonatal-polycythemia-management",
@@ -435,7 +468,8 @@
         "polycythemia newborn treatment",
         "hyperviscosity syndrome neonate",
         "partial exchange transfusion protocol"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "pofras-feeding-readiness-scale",
@@ -447,7 +481,8 @@
         "preterm oral feeding readiness",
         "non-nutritive sucking assessment",
         "preterm feeding readiness tool"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "can-score-nutrition-assessment",
@@ -459,7 +494,8 @@
         "clinical assessment of nutritional status",
         "fetal malnutrition score",
         "Metcoff CAN score"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "pediatric-lab-reference-values",
@@ -471,7 +507,8 @@
         "neonatal normal lab values",
         "pediatric CBC reference range",
         "age based lab normal values"
-      ]
+      ],
+      "hub": "reference"
     },
     {
       "slug": "anion-gap-calculator",
@@ -483,7 +520,8 @@
         "HAGMA NAGMA calculator",
         "metabolic acidosis anion gap",
         "high anion gap calculator"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "corrected-anion-gap-calculator",
@@ -494,7 +532,8 @@
       "secondaryKeywords": [
         "corrected AG hypoalbuminemia",
         "anion gap albumin correction formula"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "urine-anion-gap-calculator",
@@ -506,7 +545,8 @@
         "UAG calculator",
         "distal RTA diagnosis calculator",
         "renal tubular acidosis workup"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "sodium-correction-calculator",
@@ -518,7 +558,8 @@
         "hyponatremia correction calculator",
         "3% saline calculator",
         "sodium deficit calculator"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "corrected-sodium-calculator-glucose",
@@ -529,7 +570,8 @@
       "secondaryKeywords": [
         "pseudohyponatremia calculator",
         "glucose corrected sodium formula"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "free-water-deficit-calculator",
@@ -540,7 +582,8 @@
       "secondaryKeywords": [
         "hypernatremia rehydration calculator",
         "water deficit formula calculator"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "potassium-correction-calculator",
@@ -552,7 +595,8 @@
         "hypokalemia treatment calculator",
         "hyperkalemia management calculator",
         "KCl replacement calculator"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "calcium-correction-calculator",
@@ -564,7 +608,8 @@
         "corrected calcium calculator",
         "neonatal hypocalcemia calculator",
         "ionised calcium correction"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "magnesium-correction-calculator",
@@ -575,7 +620,8 @@
       "secondaryKeywords": [
         "hypomagnesemia treatment calculator",
         "MgSO4 dosing calculator"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "dextrose-bolus-calculator-hypoglycemia",
@@ -587,7 +633,8 @@
         "dextrose minibolus calculator",
         "D10 bolus calculator neonate",
         "hypoglycemia treatment newborn"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "serum-osmolality-calculator",
@@ -598,7 +645,8 @@
       "secondaryKeywords": [
         "osmolar gap calculator",
         "calculated osmolality formula"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "pediatric-blood-volume-calculator",
@@ -610,7 +658,8 @@
         "pediatric EBV calculator",
         "neonatal blood volume calculator",
         "transfusion volume calculator"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "ett-size-depth-calculator",
@@ -622,7 +671,8 @@
         "endotracheal tube size calculator",
         "NTL+1 formula calculator",
         "intubation depth calculator"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "umbilical-catheter-depth-calculator",
@@ -634,7 +684,8 @@
         "umbilical venous catheter depth",
         "Shukla formula calculator",
         "umbilical line insertion length"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "neonatal-blood-pressure-calculator",
@@ -647,7 +698,8 @@
         "preterm BP nomogram",
         "neonatal hypotension calculator"
       ],
-      "seoTitle": "Neonatal Blood Pressure Calculator — Gestation-Adjusted"
+      "seoTitle": "Neonatal Blood Pressure Calculator — Gestation-Adjusted",
+      "hub": "calculators"
     },
     {
       "slug": "pediatric-echo-calculators",
@@ -659,7 +711,8 @@
         "echo z-score calculator",
         "shortening fraction calculator",
         "RVSP calculator pediatric"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "emergency-nicu-drugs",
@@ -671,7 +724,8 @@
         "NICU code drugs",
         "neonatal resuscitation drug doses",
         "NICU crash cart drugs"
-      ]
+      ],
+      "hub": "emergency"
     },
     {
       "slug": "emergency-picu-drugs",
@@ -683,7 +737,8 @@
         "pediatric code drugs",
         "PICU crash cart drugs",
         "pediatric emergency drug doses"
-      ]
+      ],
+      "hub": "emergency"
     },
     {
       "slug": "drug-formulary-v2",
@@ -694,7 +749,8 @@
       "secondaryKeywords": [
         "NICU drug reference app",
         "pediatric drug dosing app India"
-      ]
+      ],
+      "hub": "reference"
     },
     {
       "slug": "acute-severe-asthma-management",
@@ -705,7 +761,8 @@
       "secondaryKeywords": [
         "status asthmaticus treatment",
         "pediatric asthma exacerbation protocol"
-      ]
+      ],
+      "hub": "emergency"
     },
     {
       "slug": "avpu-scale-calculator",
@@ -716,7 +773,8 @@
       "secondaryKeywords": [
         "AVPU consciousness assessment",
         "rapid neuro assessment scale"
-      ]
+      ],
+      "hub": "emergency"
     },
     {
       "slug": "pediatric-glasgow-coma-scale-calculator",
@@ -727,7 +785,8 @@
       "secondaryKeywords": [
         "pediatric GCS calculator",
         "GCS score children"
-      ]
+      ],
+      "hub": "emergency"
     },
     {
       "slug": "pediatric-dka-algorithm",
@@ -739,7 +798,8 @@
         "ISPAD DKA protocol",
         "pediatric DKA insulin infusion",
         "cerebral edema DKA management"
-      ]
+      ],
+      "hub": "emergency"
     },
     {
       "slug": "electrolyte-corrections-reference",
@@ -750,7 +810,8 @@
       "secondaryKeywords": [
         "pediatric electrolyte correction guide",
         "electrolyte imbalance quick reference"
-      ]
+      ],
+      "hub": "emergency"
     },
     {
       "slug": "emergency-icu-drugs-reference",
@@ -761,7 +822,8 @@
       "secondaryKeywords": [
         "ICU pressor dosing chart",
         "inotrope infusion reference"
-      ]
+      ],
+      "hub": "emergency"
     },
     {
       "slug": "pediatric-hypertensive-emergency-management",
@@ -772,7 +834,8 @@
       "secondaryKeywords": [
         "hypertensive crisis children treatment",
         "labetalol nicardipine infusion pediatric"
-      ]
+      ],
+      "hub": "emergency"
     },
     {
       "slug": "poisoning-antidotes-reference",
@@ -784,7 +847,8 @@
         "pediatric antidote chart",
         "paracetamol overdose NAC dosing",
         "organophosphate poisoning antidote"
-      ]
+      ],
+      "hub": "emergency"
     },
     {
       "slug": "rapid-sequence-intubation-guide",
@@ -796,7 +860,8 @@
         "pediatric RSI drugs",
         "RSI checklist children",
         "intubation sedation paralysis protocol"
-      ]
+      ],
+      "hub": "emergency"
     },
     {
       "slug": "picu-sedation-paralytics-guide",
@@ -807,7 +872,8 @@
       "secondaryKeywords": [
         "pediatric sedation infusion doses",
         "paralytic infusion PICU"
-      ]
+      ],
+      "hub": "emergency"
     },
     {
       "slug": "seizure-medication-status-epilepticus",
@@ -818,7 +884,8 @@
       "secondaryKeywords": [
         "pediatric seizure medication doses",
         "status epilepticus pathway children"
-      ]
+      ],
+      "hub": "emergency"
     },
     {
       "slug": "scorpion-sting-management",
@@ -829,7 +896,8 @@
       "secondaryKeywords": [
         "prazosin scorpion sting protocol",
         "scorpion envenomation treatment children"
-      ]
+      ],
+      "hub": "emergency"
     },
     {
       "slug": "snake-bite-envenomation-management",
@@ -841,7 +909,8 @@
         "anti snake venom dosing children",
         "20 minute whole blood clotting test",
         "snake envenomation pediatric protocol"
-      ]
+      ],
+      "hub": "emergency"
     },
     {
       "slug": "birthweight-classification-elbw-vlbw-lbw",
@@ -853,7 +922,8 @@
         "low birth weight classification",
         "ELBW VLBW definition",
         "birthweight bands newborn"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "gestational-age-classification",
@@ -865,7 +935,8 @@
         "preterm classification WHO",
         "late preterm definition",
         "post term pregnancy classification"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "neonatal-echo-measurements-tool",
@@ -876,7 +947,8 @@
       "secondaryKeywords": [
         "neonatal echo measurements guide",
         "M-mode cardiac measurements neonate"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "developmental-milestones-checker",
@@ -888,7 +960,8 @@
         "child developmental milestones chart",
         "developmental delay red flags",
         "developmental quotient calculator"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "trivandrum-developmental-screening-chart",
@@ -899,7 +972,8 @@
       "secondaryKeywords": [
         "TDSC screening tool",
         "developmental screening chart India"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "infant-blood-pressure-calculator",
@@ -911,7 +985,8 @@
         "infant BP percentile calculator",
         "baby blood pressure normal range",
         "second task force BP chart"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "never-again-clinical-lessons",
@@ -922,7 +997,8 @@
       "secondaryKeywords": [
         "near miss learning pediatrics",
         "morbidity mortality case discussion"
-      ]
+      ],
+      "hub": "reference"
     },
     {
       "slug": "pediatric-textbooks-guidelines-academics",
@@ -934,7 +1010,8 @@
         "IAP standard treatment guidelines",
         "NNF clinical practice guidelines",
         "Nelson pediatrics reference app"
-      ]
+      ],
+      "hub": "reference"
     },
     {
       "slug": "pediatric-cme-webinars",
@@ -946,7 +1023,8 @@
         "pediatric CME India",
         "NNF NeoUpdate webinars",
         "pediatric conference calendar"
-      ]
+      ],
+      "hub": "reference"
     },
     {
       "slug": "pediaid-faq-help",
@@ -957,7 +1035,8 @@
       "secondaryKeywords": [
         "PediAid help",
         "PediAid support"
-      ]
+      ],
+      "hub": "reference"
     },
     {
       "slug": "mid-parental-height-calculator",
@@ -969,7 +1048,8 @@
         "target height calculator",
         "genetic height potential calculator",
         "MPH calculator pediatrics"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "immunisation-catch-up-calculator",
@@ -984,7 +1064,8 @@
         "missed vaccine schedule calculator",
         "delayed immunisation planner",
         "unimmunised child vaccine schedule"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "iap-immunisation-schedule",
@@ -999,7 +1080,8 @@
         "NIS vaccine schedule",
         "child vaccination chart India",
         "IAP 2022 immunization schedule"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "paediatric-clinical-scores",
@@ -1014,7 +1096,8 @@
         "neonatal scores",
         "paediatric severity scores",
         "pediatric assessment scales"
-      ]
+      ],
+      "hub": "guides"
     },
     {
       "slug": "pews-score-calculator",
@@ -1029,7 +1112,9 @@
         "PEWS chart",
         "child deterioration score",
         "paediatric escalation score"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Critical care"
     },
     {
       "slug": "westley-croup-score",
@@ -1044,7 +1129,9 @@
         "laryngotracheobronchitis severity",
         "stridor severity score",
         "croup assessment tool"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Infectious"
     },
     {
       "slug": "kawasaki-disease-criteria",
@@ -1059,7 +1146,9 @@
         "KD principal clinical features",
         "Kawasaki checklist",
         "AHA Kawasaki criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Infectious"
     },
     {
       "slug": "child-pugh-score-calculator",
@@ -1074,7 +1163,9 @@
         "liver disease prognosis score",
         "Child-Turcotte-Pugh",
         "hepatic function classification"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "qtc-calculator-pediatric",
@@ -1089,7 +1180,8 @@
         "long QT children",
         "QTc paediatric normal",
         "QT interval correction"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "fena-calculator",
@@ -1104,7 +1196,8 @@
         "FENa formula",
         "acute kidney injury urine sodium",
         "renal failure index"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "mentzer-index-calculator",
@@ -1119,7 +1212,8 @@
         "microcytic anaemia discrimination index",
         "beta thalassaemia screening",
         "Mentzer index formula"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "paediatric-sirs-sepsis-criteria",
@@ -1133,7 +1227,9 @@
         "Paediatric SIRS / Sepsis Criteria interpretation",
         "paediatric Critical care score",
         "Paediatric SIRS / Sepsis Criteria criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Critical care"
     },
     {
       "slug": "pecarn-head-injury-age-2-years",
@@ -1147,7 +1243,9 @@
         "PECARN Head Injury — Age < 2 years interpretation",
         "paediatric Neurology & trauma score",
         "PECARN Head Injury — Age < 2 years criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Neurology & trauma"
     },
     {
       "slug": "catch-rule-paediatric-head-injury",
@@ -1161,7 +1259,9 @@
         "CATCH Rule (Paediatric Head Injury) interpretation",
         "paediatric Neurology & trauma score",
         "CATCH Rule (Paediatric Head Injury) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Neurology & trauma"
     },
     {
       "slug": "palchak-uc-davis-rule",
@@ -1175,7 +1275,9 @@
         "Palchak (UC Davis) Rule interpretation",
         "paediatric Neurology & trauma score",
         "Palchak (UC Davis) Rule criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Neurology & trauma"
     },
     {
       "slug": "bacterial-meningitis-score",
@@ -1189,7 +1291,9 @@
         "Bacterial Meningitis Score interpretation",
         "paediatric Neurology & trauma score",
         "Bacterial Meningitis Score criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Neurology & trauma"
     },
     {
       "slug": "kocher-criteria-septic-arthritis",
@@ -1203,7 +1307,9 @@
         "Kocher Criteria (Septic Arthritis) interpretation",
         "paediatric infectious score",
         "Kocher Criteria (Septic Arthritis) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Infectious"
     },
     {
       "slug": "centor-score-mcisaac-modified",
@@ -1217,7 +1323,9 @@
         "Centor Score (McIsaac modified) interpretation",
         "paediatric infectious score",
         "Centor Score (McIsaac modified) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Infectious"
     },
     {
       "slug": "feverpain-score",
@@ -1231,7 +1339,9 @@
         "FeverPAIN Score interpretation",
         "paediatric infectious score",
         "FeverPAIN Score criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Infectious"
     },
     {
       "slug": "rochester-criteria-febrile-infant",
@@ -1245,7 +1355,9 @@
         "Rochester Criteria (Febrile Infant) interpretation",
         "paediatric infectious score",
         "Rochester Criteria (Febrile Infant) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Infectious"
     },
     {
       "slug": "step-by-step-febrile-infant-90-days",
@@ -1259,7 +1371,9 @@
         "Step-by-Step (Febrile Infant ≤90 days) interpretation",
         "paediatric infectious score",
         "Step-by-Step (Febrile Infant ≤90 days) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Infectious"
     },
     {
       "slug": "rule-of-7s-lyme-meningitis",
@@ -1273,7 +1387,9 @@
         "Rule of 7s (Lyme Meningitis) interpretation",
         "paediatric infectious score",
         "Rule of 7s (Lyme Meningitis) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Infectious"
     },
     {
       "slug": "silc-score-lyme-carditis",
@@ -1287,7 +1403,9 @@
         "SILC Score (Lyme Carditis) interpretation",
         "paediatric infectious score",
         "SILC Score (Lyme Carditis) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Infectious"
     },
     {
       "slug": "pram-score",
@@ -1301,7 +1419,9 @@
         "PRAM Score interpretation",
         "paediatric respiratory score",
         "PRAM Score criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Respiratory"
     },
     {
       "slug": "pass-pediatric-asthma-severity-score",
@@ -1315,7 +1435,9 @@
         "PASS — Pediatric Asthma Severity Score interpretation",
         "paediatric respiratory score",
         "PASS — Pediatric Asthma Severity Score criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Respiratory"
     },
     {
       "slug": "pediatric-asthma-score-pas",
@@ -1329,7 +1451,9 @@
         "Pediatric Asthma Score (PAS) interpretation",
         "paediatric respiratory score",
         "Pediatric Asthma Score (PAS) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Respiratory"
     },
     {
       "slug": "asthma-predictive-index-api",
@@ -1343,7 +1467,9 @@
         "Asthma Predictive Index (API) interpretation",
         "paediatric respiratory score",
         "Asthma Predictive Index (API) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Respiratory"
     },
     {
       "slug": "modified-api-mapi",
@@ -1357,7 +1483,9 @@
         "Modified API (mAPI) interpretation",
         "paediatric respiratory score",
         "Modified API (mAPI) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Respiratory"
     },
     {
       "slug": "modified-duke-criteria-endocarditis",
@@ -1371,7 +1499,9 @@
         "Modified Duke Criteria (Endocarditis) interpretation",
         "paediatric cardiac score",
         "Modified Duke Criteria (Endocarditis) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Cardiac"
     },
     {
       "slug": "jones-criteria-acute-rheumatic-fever",
@@ -1385,7 +1515,9 @@
         "Jones Criteria (Acute Rheumatic Fever) interpretation",
         "paediatric cardiac score",
         "Jones Criteria (Acute Rheumatic Fever) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Cardiac"
     },
     {
       "slug": "pediatric-appendicitis-score-pas",
@@ -1399,7 +1531,9 @@
         "Pediatric Appendicitis Score (PAS) interpretation",
         "paediatric GI & Liver score",
         "Pediatric Appendicitis Score (PAS) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "alvarado-score-mantrels",
@@ -1413,7 +1547,9 @@
         "Alvarado Score (MANTRELS) interpretation",
         "paediatric GI & Liver score",
         "Alvarado Score (MANTRELS) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "air-score-appendicitis-inflammatory-response",
@@ -1427,7 +1563,9 @@
         "AIR Score (Appendicitis Inflammatory Response) interpretation",
         "paediatric GI & Liver score",
         "AIR Score (Appendicitis Inflammatory Response) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "king-s-college-criteria-paracetamol-alf",
@@ -1441,7 +1579,9 @@
         "King's College Criteria — Paracetamol ALF interpretation",
         "paediatric GI & Liver score",
         "King's College Criteria — Paracetamol ALF criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "king-s-college-criteria-non-paracetamol-alf",
@@ -1455,7 +1595,9 @@
         "King's College Criteria — Non-Paracetamol ALF interpretation",
         "paediatric GI & Liver score",
         "King's College Criteria — Non-Paracetamol ALF criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "leipzig-score-wilson-disease",
@@ -1469,7 +1611,9 @@
         "Leipzig Score (Wilson Disease) interpretation",
         "paediatric GI & Liver score",
         "Leipzig Score (Wilson Disease) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "pucai-paediatric-ulcerative-colitis-activity-index",
@@ -1483,7 +1627,9 @@
         "PUCAI — Paediatric Ulcerative Colitis Activity Index interpretation",
         "paediatric GI & Liver score",
         "PUCAI — Paediatric Ulcerative Colitis Activity Index criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "pcdai-paediatric-crohn-s-disease-activity-index",
@@ -1497,7 +1643,9 @@
         "PCDAI — Paediatric Crohn’s Disease Activity Index interpretation",
         "paediatric GI & Liver score",
         "PCDAI — Paediatric Crohn’s Disease Activity Index criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "rome-iv-functional-constipation",
@@ -1511,7 +1659,9 @@
         "Rome IV — Functional Constipation interpretation",
         "paediatric GI & Liver score",
         "Rome IV — Functional Constipation criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "rome-iv-irritable-bowel-syndrome",
@@ -1525,7 +1675,9 @@
         "Rome IV — Irritable Bowel Syndrome interpretation",
         "paediatric GI & Liver score",
         "Rome IV — Irritable Bowel Syndrome criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "rome-iv-cyclic-vomiting-syndrome",
@@ -1539,7 +1691,9 @@
         "Rome IV — Cyclic Vomiting Syndrome interpretation",
         "paediatric GI & Liver score",
         "Rome IV — Cyclic Vomiting Syndrome criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "rome-iv-abdominal-migraine",
@@ -1553,7 +1707,9 @@
         "Rome IV — Abdominal Migraine interpretation",
         "paediatric GI & Liver score",
         "Rome IV — Abdominal Migraine criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "bristol-stool-form-scale",
@@ -1567,7 +1723,9 @@
         "Bristol Stool Form Scale interpretation",
         "paediatric GI & Liver score",
         "Bristol Stool Form Scale criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "chips-childhood-hodgkin-prognostic-score",
@@ -1581,7 +1739,9 @@
         "CHIPS — Childhood Hodgkin Prognostic Score interpretation",
         "paediatric oncology score",
         "CHIPS — Childhood Hodgkin Prognostic Score criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Oncology"
     },
     {
       "slug": "all-nci-rome-risk-and-toronto-stage",
@@ -1595,7 +1755,9 @@
         "ALL — NCI/Rome Risk & Toronto Stage interpretation",
         "paediatric oncology score",
         "ALL — NCI/Rome Risk & Toronto Stage criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Oncology"
     },
     {
       "slug": "aml-toronto-stage",
@@ -1609,7 +1771,9 @@
         "AML — Toronto Stage interpretation",
         "paediatric oncology score",
         "AML — Toronto Stage criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Oncology"
     },
     {
       "slug": "hodgkin-lymphoma-ann-arbor-stage",
@@ -1623,7 +1787,9 @@
         "Hodgkin Lymphoma — Ann Arbor Stage interpretation",
         "paediatric oncology score",
         "Hodgkin Lymphoma — Ann Arbor Stage criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Oncology"
     },
     {
       "slug": "non-hodgkin-lymphoma-st-jude-murphy-stage",
@@ -1637,7 +1803,9 @@
         "Non-Hodgkin Lymphoma — St Jude (Murphy) Stage interpretation",
         "paediatric oncology score",
         "Non-Hodgkin Lymphoma — St Jude (Murphy) Stage criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Oncology"
     },
     {
       "slug": "wilms-tumour-toronto-cog-stage",
@@ -1651,7 +1819,9 @@
         "Wilms Tumour — Toronto / COG Stage interpretation",
         "paediatric oncology score",
         "Wilms Tumour — Toronto / COG Stage criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Oncology"
     },
     {
       "slug": "neuroblastoma-inrgss-stage",
@@ -1665,7 +1835,9 @@
         "Neuroblastoma — INRGSS Stage interpretation",
         "paediatric oncology score",
         "Neuroblastoma — INRGSS Stage criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Oncology"
     },
     {
       "slug": "retinoblastoma-toronto-stage",
@@ -1679,7 +1851,9 @@
         "Retinoblastoma — Toronto Stage interpretation",
         "paediatric oncology score",
         "Retinoblastoma — Toronto Stage criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Oncology"
     },
     {
       "slug": "hepatoblastoma-pretext-group",
@@ -1693,7 +1867,9 @@
         "Hepatoblastoma — PRETEXT Group interpretation",
         "paediatric oncology score",
         "Hepatoblastoma — PRETEXT Group criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Oncology"
     },
     {
       "slug": "medulloblastoma-cns-embryonal-chang-m-stage",
@@ -1707,7 +1883,9 @@
         "Medulloblastoma / CNS Embryonal — Chang M-Stage interpretation",
         "paediatric oncology score",
         "Medulloblastoma / CNS Embryonal — Chang M-Stage criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Oncology"
     },
     {
       "slug": "ependymoma-toronto-stage",
@@ -1721,7 +1899,9 @@
         "Ependymoma — Toronto Stage interpretation",
         "paediatric oncology score",
         "Ependymoma — Toronto Stage criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Oncology"
     },
     {
       "slug": "osteosarcoma-toronto-stage",
@@ -1735,7 +1915,9 @@
         "Osteosarcoma — Toronto Stage interpretation",
         "paediatric oncology score",
         "Osteosarcoma — Toronto Stage criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Oncology"
     },
     {
       "slug": "ewing-sarcoma-toronto-stage",
@@ -1749,7 +1931,9 @@
         "Ewing Sarcoma — Toronto Stage interpretation",
         "paediatric oncology score",
         "Ewing Sarcoma — Toronto Stage criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Oncology"
     },
     {
       "slug": "rhabdomyosarcoma-irs-group",
@@ -1763,7 +1947,9 @@
         "Rhabdomyosarcoma — IRS Group interpretation",
         "paediatric oncology score",
         "Rhabdomyosarcoma — IRS Group criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Oncology"
     },
     {
       "slug": "non-rhabdomyosarcoma-soft-tissue-sarcoma-toronto-stage",
@@ -1777,7 +1963,9 @@
         "Non-Rhabdomyosarcoma Soft-Tissue Sarcoma — Toronto Stage interpretation",
         "paediatric oncology score",
         "Non-Rhabdomyosarcoma Soft-Tissue Sarcoma — Toronto Stage criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Oncology"
     },
     {
       "slug": "ovarian-tumour-toronto-figo-stage",
@@ -1791,7 +1979,9 @@
         "Ovarian Tumour — Toronto / FIGO Stage interpretation",
         "paediatric oncology score",
         "Ovarian Tumour — Toronto / FIGO Stage criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Oncology"
     },
     {
       "slug": "testicular-tumour-toronto-cog-stage",
@@ -1805,7 +1995,9 @@
         "Testicular Tumour — Toronto / COG Stage interpretation",
         "paediatric oncology score",
         "Testicular Tumour — Toronto / COG Stage criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Oncology"
     },
     {
       "slug": "iga-vasculitis-hsp-criteria",
@@ -1819,7 +2011,9 @@
         "IgA Vasculitis (HSP) Criteria interpretation",
         "paediatric rheumatology score",
         "IgA Vasculitis (HSP) Criteria criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Rheumatology"
     },
     {
       "slug": "eular-acr-sle-classification-2019",
@@ -1833,7 +2027,9 @@
         "EULAR/ACR SLE Classification (2019) interpretation",
         "paediatric rheumatology score",
         "EULAR/ACR SLE Classification (2019) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Rheumatology"
     },
     {
       "slug": "sledai-2k-sle-disease-activity-index",
@@ -1847,7 +2043,9 @@
         "SLEDAI-2K — SLE Disease Activity Index interpretation",
         "paediatric rheumatology score",
         "SLEDAI-2K — SLE Disease Activity Index criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Rheumatology"
     },
     {
       "slug": "childhood-polyarteritis-nodosa-criteria",
@@ -1861,7 +2059,9 @@
         "Childhood Polyarteritis Nodosa Criteria interpretation",
         "paediatric rheumatology score",
         "Childhood Polyarteritis Nodosa Criteria criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Rheumatology"
     },
     {
       "slug": "granulomatosis-with-polyangiitis-wegener",
@@ -1875,7 +2075,9 @@
         "Granulomatosis with Polyangiitis (Wegener) interpretation",
         "paediatric rheumatology score",
         "Granulomatosis with Polyangiitis (Wegener) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Rheumatology"
     },
     {
       "slug": "eosinophilic-granulomatosis-with-polyangiitis-churg-strauss",
@@ -1889,7 +2091,9 @@
         "Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss) interpretation",
         "paediatric rheumatology score",
         "Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Rheumatology"
     },
     {
       "slug": "beh-et-disease-isg-criteria",
@@ -1903,7 +2107,9 @@
         "Behçet Disease — ISG Criteria interpretation",
         "paediatric rheumatology score",
         "Behçet Disease — ISG Criteria criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Rheumatology"
     },
     {
       "slug": "juvenile-systemic-sclerosis-criteria",
@@ -1917,7 +2123,9 @@
         "Juvenile Systemic Sclerosis Criteria interpretation",
         "paediatric rheumatology score",
         "Juvenile Systemic Sclerosis Criteria criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Rheumatology"
     },
     {
       "slug": "sj-gren-syndrome-acr-eular-2016",
@@ -1931,7 +2139,9 @@
         "Sjögren Syndrome — ACR/EULAR 2016 interpretation",
         "paediatric rheumatology score",
         "Sjögren Syndrome — ACR/EULAR 2016 criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Rheumatology"
     },
     {
       "slug": "adhd-dsm-5-criteria",
@@ -1945,7 +2155,9 @@
         "ADHD — DSM-5 Criteria interpretation",
         "paediatric psychosocial score",
         "ADHD — DSM-5 Criteria criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "oppositional-defiant-disorder",
@@ -1959,7 +2171,9 @@
         "Oppositional Defiant Disorder interpretation",
         "paediatric psychosocial score",
         "Oppositional Defiant Disorder criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "conduct-disorder",
@@ -1973,7 +2187,9 @@
         "Conduct Disorder interpretation",
         "paediatric psychosocial score",
         "Conduct Disorder criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "disruptive-mood-dysregulation-disorder-dmdd",
@@ -1987,7 +2203,9 @@
         "Disruptive Mood Dysregulation Disorder (DMDD) interpretation",
         "paediatric psychosocial score",
         "Disruptive Mood Dysregulation Disorder (DMDD) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "social-pragmatic-communication-disorder",
@@ -2001,7 +2219,9 @@
         "Social (Pragmatic) Communication Disorder interpretation",
         "paediatric psychosocial score",
         "Social (Pragmatic) Communication Disorder criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "major-depressive-episode",
@@ -2015,7 +2235,9 @@
         "Major Depressive Episode interpretation",
         "paediatric psychosocial score",
         "Major Depressive Episode criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "persistent-depressive-disorder-dysthymia",
@@ -2029,7 +2251,9 @@
         "Persistent Depressive Disorder (Dysthymia) interpretation",
         "paediatric psychosocial score",
         "Persistent Depressive Disorder (Dysthymia) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "manic-episode",
@@ -2043,7 +2267,9 @@
         "Manic Episode interpretation",
         "paediatric psychosocial score",
         "Manic Episode criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "generalized-anxiety-disorder",
@@ -2057,7 +2283,9 @@
         "Generalized Anxiety Disorder interpretation",
         "paediatric psychosocial score",
         "Generalized Anxiety Disorder criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "separation-anxiety-disorder",
@@ -2071,7 +2299,9 @@
         "Separation Anxiety Disorder interpretation",
         "paediatric psychosocial score",
         "Separation Anxiety Disorder criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "social-anxiety-disorder-social-phobia",
@@ -2085,7 +2315,9 @@
         "Social Anxiety Disorder (Social Phobia) interpretation",
         "paediatric psychosocial score",
         "Social Anxiety Disorder (Social Phobia) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "panic-disorder-agoraphobia",
@@ -2099,7 +2331,9 @@
         "Panic Disorder / Agoraphobia interpretation",
         "paediatric psychosocial score",
         "Panic Disorder / Agoraphobia criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "ptsd-children-6-years-and-younger",
@@ -2113,7 +2347,9 @@
         "PTSD — Children 6 Years and Younger interpretation",
         "paediatric psychosocial score",
         "PTSD — Children 6 Years and Younger criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "anorexia-nervosa",
@@ -2127,7 +2363,9 @@
         "Anorexia Nervosa interpretation",
         "paediatric psychosocial score",
         "Anorexia Nervosa criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "bulimia-nervosa",
@@ -2141,7 +2379,9 @@
         "Bulimia Nervosa interpretation",
         "paediatric psychosocial score",
         "Bulimia Nervosa criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "binge-eating-disorder",
@@ -2155,7 +2395,9 @@
         "Binge Eating Disorder interpretation",
         "paediatric psychosocial score",
         "Binge Eating Disorder criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "avoidant-restrictive-food-intake-disorder-arfid",
@@ -2169,7 +2411,9 @@
         "Avoidant/Restrictive Food Intake Disorder (ARFID) interpretation",
         "paediatric psychosocial score",
         "Avoidant/Restrictive Food Intake Disorder (ARFID) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "body-dysmorphic-disorder",
@@ -2183,7 +2427,9 @@
         "Body Dysmorphic Disorder interpretation",
         "paediatric psychosocial score",
         "Body Dysmorphic Disorder criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Psychosocial"
     },
     {
       "slug": "sickle-cell-risk-of-severe-disease-miller",
@@ -2197,7 +2443,9 @@
         "Sickle Cell — Risk of Severe Disease (Miller) interpretation",
         "paediatric haematology score",
         "Sickle Cell — Risk of Severe Disease (Miller) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Haematology"
     },
     {
       "slug": "dutch-lipid-criteria-familial-hypercholesterolaemia",
@@ -2211,7 +2459,9 @@
         "Dutch Lipid Criteria — Familial Hypercholesterolaemia interpretation",
         "paediatric endocrine score",
         "Dutch Lipid Criteria — Familial Hypercholesterolaemia criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Endocrine"
     },
     {
       "slug": "prifle-paediatric-acute-kidney-injury",
@@ -2225,7 +2475,9 @@
         "pRIFLE — Paediatric Acute Kidney Injury interpretation",
         "paediatric renal score",
         "pRIFLE — Paediatric Acute Kidney Injury criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Renal"
     },
     {
       "slug": "flacc-pain-scale",
@@ -2239,7 +2491,9 @@
         "FLACC Pain Scale interpretation",
         "paediatric pain score",
         "FLACC Pain Scale criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Pain"
     },
     {
       "slug": "cheops-post-op-pain-1-7-years",
@@ -2253,7 +2507,9 @@
         "CHEOPS — Post-op Pain (1–7 years) interpretation",
         "paediatric pain score",
         "CHEOPS — Post-op Pain (1–7 years) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Pain"
     },
     {
       "slug": "nexus-ii-paediatric-head-ct-rule",
@@ -2267,7 +2523,9 @@
         "NEXUS II — Paediatric Head CT Rule interpretation",
         "paediatric radiology score",
         "NEXUS II — Paediatric Head CT Rule criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Radiology"
     },
     {
       "slug": "apnoea-hypopnoea-index-paediatric-osa",
@@ -2281,7 +2539,9 @@
         "Apnoea–Hypopnoea Index (Paediatric OSA) interpretation",
         "paediatric sleep score",
         "Apnoea–Hypopnoea Index (Paediatric OSA) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "Sleep"
     },
     {
       "slug": "glasgow-blatchford-score-upper-gi-bleed",
@@ -2295,7 +2555,9 @@
         "Glasgow-Blatchford Score (Upper GI Bleed) interpretation",
         "paediatric GI & Liver score",
         "Glasgow-Blatchford Score (Upper GI Bleed) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "rome-iv-functional-dyspepsia",
@@ -2309,7 +2571,9 @@
         "Rome IV — Functional Dyspepsia interpretation",
         "paediatric GI & Liver score",
         "Rome IV — Functional Dyspepsia criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "rome-iv-functional-abdominal-pain-nos",
@@ -2323,7 +2587,9 @@
         "Rome IV — Functional Abdominal Pain (NOS) interpretation",
         "paediatric GI & Liver score",
         "Rome IV — Functional Abdominal Pain (NOS) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "rome-iv-rumination-syndrome",
@@ -2337,7 +2603,9 @@
         "Rome IV — Rumination Syndrome interpretation",
         "paediatric GI & Liver score",
         "Rome IV — Rumination Syndrome criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "rome-iv-non-retentive-faecal-incontinence",
@@ -2351,7 +2619,9 @@
         "Rome IV — Non-Retentive Faecal Incontinence interpretation",
         "paediatric GI & Liver score",
         "Rome IV — Non-Retentive Faecal Incontinence criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "rome-iv-aerophagia",
@@ -2365,7 +2635,9 @@
         "Rome IV — Aerophagia interpretation",
         "paediatric GI & Liver score",
         "Rome IV — Aerophagia criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "rome-iv-functional-nausea-functional-vomiting",
@@ -2379,7 +2651,9 @@
         "Rome IV — Functional Nausea / Functional Vomiting interpretation",
         "paediatric GI & Liver score",
         "Rome IV — Functional Nausea / Functional Vomiting criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "nafld-activity-score-nas",
@@ -2393,7 +2667,9 @@
         "NAFLD Activity Score (NAS) interpretation",
         "paediatric GI & Liver score",
         "NAFLD Activity Score (NAS) criteria"
-      ]
+      ],
+      "hub": "scores",
+      "system": "GI & Liver"
     },
     {
       "slug": "body-surface-area",
@@ -2407,7 +2683,8 @@
         "neonatal Body Surface Area",
         "Body Surface Area formula",
         "how to calculate body surface area"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "tpn-calculator",
@@ -2421,7 +2698,8 @@
         "neonatal TPN Calculator",
         "TPN Calculator formula",
         "how to calculate tpn calculator"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "dvet-calculator",
@@ -2435,7 +2713,8 @@
         "neonatal DVET Calculator",
         "DVET Calculator formula",
         "how to calculate dvet calculator"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "maintenance-fluids",
@@ -2449,7 +2728,8 @@
         "neonatal Maintenance Fluids",
         "Maintenance Fluids formula",
         "how to calculate maintenance fluids"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "lund-and-browder-chart",
@@ -2463,7 +2743,8 @@
         "paediatric Lund & Browder Chart",
         "Lund & Browder Chart formula",
         "how to calculate lund & browder chart"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "burn-mortality",
@@ -2477,7 +2758,8 @@
         "paediatric Burn Mortality",
         "Burn Mortality formula",
         "how to calculate burn mortality"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "pet-calculator",
@@ -2491,7 +2773,8 @@
         "neonatal PET Calculator",
         "PET Calculator formula",
         "how to calculate pet calculator"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "2d-echo-calculators",
@@ -2505,7 +2788,8 @@
         "neonatal 2D Echo Calculators",
         "2D Echo Calculators formula",
         "how to calculate 2d echo calculators"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "corrected-ag-albumin",
@@ -2519,7 +2803,8 @@
         "neonatal Corrected AG (Albumin)",
         "Corrected AG (Albumin) formula",
         "how to calculate corrected ag (albumin)"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "corrected-na-hyperglycaemia",
@@ -2533,7 +2818,8 @@
         "neonatal Corrected Na (hyperglycaemia)",
         "Corrected Na (hyperglycaemia) formula",
         "how to calculate corrected na (hyperglycaemia)"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "blood-volume",
@@ -2547,7 +2833,8 @@
         "neonatal Blood Volume",
         "Blood Volume formula",
         "how to calculate blood volume"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "free-water-deficit-na",
@@ -2561,7 +2848,8 @@
         "neonatal Free Water Deficit (↑Na)",
         "Free Water Deficit (↑Na) formula",
         "how to calculate free water deficit (↑na)"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "na-correction-na",
@@ -2575,7 +2863,8 @@
         "neonatal Na Correction (↓Na)",
         "Na Correction (↓Na) formula",
         "how to calculate na correction (↓na)"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "k-correction-k",
@@ -2589,7 +2878,8 @@
         "neonatal K Correction (↓/↑K)",
         "K Correction (↓/↑K) formula",
         "how to calculate k correction (↓/↑k)"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "calcium-correction-ca",
@@ -2603,7 +2893,8 @@
         "neonatal Calcium Correction (↓Ca)",
         "Calcium Correction (↓Ca) formula",
         "how to calculate calcium correction (↓ca)"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "magnesium-correction-mg",
@@ -2617,7 +2908,8 @@
         "neonatal Magnesium Correction (↓Mg)",
         "Magnesium Correction (↓Mg) formula",
         "how to calculate magnesium correction (↓mg)"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "hypoglycaemia-bolus",
@@ -2631,7 +2923,8 @@
         "neonatal Hypoglycaemia Bolus",
         "Hypoglycaemia Bolus formula",
         "how to calculate hypoglycaemia bolus"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "glasgow-coma-scale",
@@ -2645,7 +2938,8 @@
         "paediatric Glasgow Coma Scale",
         "Glasgow Coma Scale formula",
         "how to calculate glasgow coma scale"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "absolute-counts-anc-aec-alc",
@@ -2659,7 +2953,8 @@
         "paediatric Absolute Counts (ANC / AEC / ALC)",
         "Absolute Counts (ANC / AEC / ALC) formula",
         "how to calculate absolute counts (anc / aec / alc)"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "corrected-qt-qtc",
@@ -2673,7 +2968,8 @@
         "paediatric Corrected QT (QTc)",
         "Corrected QT (QTc) formula",
         "how to calculate corrected qt (qtc)"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "fractional-excretion-of-na-fena",
@@ -2687,7 +2983,8 @@
         "paediatric Fractional Excretion of Na (FeNa)",
         "Fractional Excretion of Na (FeNa) formula",
         "how to calculate fractional excretion of na (fena)"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "apri-ast-to-platelet-ratio",
@@ -2701,7 +2998,8 @@
         "paediatric APRI (AST-to-Platelet Ratio)",
         "APRI (AST-to-Platelet Ratio) formula",
         "how to calculate apri (ast-to-platelet ratio)"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "fib-4-index",
@@ -2715,7 +3013,8 @@
         "paediatric FIB-4 Index",
         "FIB-4 Index formula",
         "how to calculate fib-4 index"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "peld-meld-score",
@@ -2729,7 +3028,8 @@
         "paediatric PELD / MELD Score",
         "PELD / MELD Score formula",
         "how to calculate peld / meld score"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "hba1c-eag",
@@ -2743,7 +3043,8 @@
         "paediatric HbA1c → eAG",
         "HbA1c → eAG formula",
         "how to calculate hba1c → eag"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "csf-wbc-correction",
@@ -2757,7 +3058,8 @@
         "paediatric CSF WBC Correction",
         "CSF WBC Correction formula",
         "how to calculate csf wbc correction"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "paracetamol-toxicity-nac",
@@ -2771,7 +3073,8 @@
         "paediatric Paracetamol Toxicity + NAC",
         "Paracetamol Toxicity + NAC formula",
         "how to calculate paracetamol toxicity + nac"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "body-mass-index-bmi",
@@ -2785,7 +3088,8 @@
         "paediatric Body Mass Index (BMI)",
         "Body Mass Index (BMI) formula",
         "how to calculate body mass index (bmi)"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "steroid-converter",
@@ -2799,7 +3103,8 @@
         "paediatric Steroid Converter",
         "Steroid Converter formula",
         "how to calculate steroid converter"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "a-a-gradient",
@@ -2813,7 +3118,8 @@
         "paediatric A–a Gradient",
         "A–a Gradient formula",
         "how to calculate a–a gradient"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "cerebral-perfusion-pressure",
@@ -2827,7 +3133,8 @@
         "paediatric Cerebral Perfusion Pressure",
         "Cerebral Perfusion Pressure formula",
         "how to calculate cerebral perfusion pressure"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "henderson-hasselbalch",
@@ -2841,7 +3148,8 @@
         "neonatal Henderson-Hasselbalch",
         "Henderson-Hasselbalch formula",
         "how to calculate henderson-hasselbalch"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "total-body-water",
@@ -2855,7 +3163,8 @@
         "neonatal Total Body Water",
         "Total Body Water formula",
         "how to calculate total body water"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "urine-output-and-fluid-balance",
@@ -2869,7 +3178,8 @@
         "neonatal Urine Output & Fluid Balance",
         "Urine Output & Fluid Balance formula",
         "how to calculate urine output & fluid balance"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "predicted-pefr",
@@ -2883,7 +3193,8 @@
         "paediatric Predicted PEFR",
         "Predicted PEFR formula",
         "how to calculate predicted pefr"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "cardiac-output-fick",
@@ -2897,7 +3208,8 @@
         "paediatric Cardiac Output (Fick)",
         "Cardiac Output (Fick) formula",
         "how to calculate cardiac output (fick)"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "mean-arterial-pressure",
@@ -2911,7 +3223,8 @@
         "neonatal Mean Arterial Pressure",
         "Mean Arterial Pressure formula",
         "how to calculate mean arterial pressure"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "fractional-excretion-of-mg",
@@ -2925,7 +3238,8 @@
         "paediatric Fractional Excretion of Mg",
         "Fractional Excretion of Mg formula",
         "how to calculate fractional excretion of mg"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "reticulocyte-count-rpi",
@@ -2939,7 +3253,8 @@
         "paediatric Reticulocyte Count / RPI",
         "Reticulocyte Count / RPI formula",
         "how to calculate reticulocyte count / rpi"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "cryoprecipitate-dosing",
@@ -2953,7 +3268,8 @@
         "paediatric Cryoprecipitate Dosing",
         "Cryoprecipitate Dosing formula",
         "how to calculate cryoprecipitate dosing"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "ideal-body-weight",
@@ -2967,7 +3283,8 @@
         "paediatric Ideal Body Weight",
         "Ideal Body Weight formula",
         "how to calculate ideal body weight"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "bmr-energy-requirement",
@@ -2981,7 +3298,8 @@
         "paediatric BMR / Energy Requirement",
         "BMR / Energy Requirement formula",
         "how to calculate bmr / energy requirement"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "total-iron-deficit",
@@ -2995,7 +3313,8 @@
         "paediatric Total Iron Deficit",
         "Total Iron Deficit formula",
         "how to calculate total iron deficit"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "iv-drip-rate",
@@ -3009,7 +3328,8 @@
         "neonatal IV Drip Rate",
         "IV Drip Rate formula",
         "how to calculate iv drip rate"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "calcium-salt-equivalents",
@@ -3023,7 +3343,8 @@
         "neonatal Calcium Salt Equivalents",
         "Calcium Salt Equivalents formula",
         "how to calculate calcium salt equivalents"
-      ]
+      ],
+      "hub": "calculators"
     },
     {
       "slug": "unit-converter",
@@ -3037,7 +3358,8 @@
         "neonatal Unit Converter",
         "Unit Converter formula",
         "how to calculate unit converter"
-      ]
+      ],
+      "hub": "calculators"
     }
   ]
 }
