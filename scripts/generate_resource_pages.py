@@ -111,9 +111,11 @@ PAGE_TEMPLATE = """<!doctype html>
 <meta property="og:description" content="{meta_description}" />
 <meta property="og:url" content="{canonical_url}" />
 <meta property="og:site_name" content="PediAid" />
-<meta property="og:image" content="{site_domain}/assets/pediaid-logo.png" />
+<meta property="og:image" content="{site_domain}/assets/og-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{title} | PediAid Resources" />
 <meta name="twitter:description" content="{meta_description}" />
 
@@ -283,6 +285,20 @@ def generate_hub(site, resources):
 <meta name="description" content="Free downloadable PDFs for paediatric and neonatal practice — growth charts, BP charts, scoring systems, guidelines and teaching templates, organised by category." />
 <link rel="canonical" href="{canonical}" />
 <meta name="theme-color" content="#1e3a5f" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Downloadable Resources &mdash; PediAid" />
+<meta property="og:description" content="Free downloadable PDFs for paediatric and neonatal practice &mdash; growth charts, BP charts, scoring systems, guidelines and teaching templates." />
+<meta property="og:url" content="{canonical}" />
+<meta property="og:site_name" content="PediAid" />
+<meta property="og:image" content="{site["domain"]}/assets/og-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Downloadable Resources &mdash; PediAid" />
+<meta name="twitter:image" content="{site["domain"]}/assets/og-image.jpg" />
+
 <link rel="icon" type="image/png" href="assets/pediaid-logo.png"/>
 <link rel="stylesheet" href="assets/tools.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">

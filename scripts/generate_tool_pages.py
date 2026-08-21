@@ -390,12 +390,14 @@ HUB_TEMPLATE = """<!doctype html>
 <meta property="og:description" content="{meta_description}" />
 <meta property="og:url" content="{canonical_url}" />
 <meta property="og:site_name" content="PediAid" />
-<meta property="og:image" content="{site_domain}/assets/pediaid-logo.png" />
+<meta property="og:image" content="{site_domain}/assets/og-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{og_title}" />
 <meta name="twitter:description" content="{meta_description}" />
-<meta name="twitter:image" content="{site_domain}/assets/pediaid-logo.png" />
+<meta name="twitter:image" content="{site_domain}/assets/og-image.jpg" />
 
 <link rel="icon" type="image/png" href="../assets/pediaid-logo.png"/>
 <link rel="apple-touch-icon" href="../assets/pediaid-logo.png" />
@@ -620,12 +622,14 @@ PAGE_TEMPLATE = """<!doctype html>
 <meta property="og:description" content="{meta_description}" />
 <meta property="og:url" content="{canonical_url}" />
 <meta property="og:site_name" content="PediAid" />
-<meta property="og:image" content="{site_domain}/assets/pediaid-logo.png" />
+<meta property="og:image" content="{site_domain}/assets/og-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{title} | PediAid" />
 <meta name="twitter:description" content="{meta_description}" />
-<meta name="twitter:image" content="{site_domain}/assets/pediaid-logo.png" />
+<meta name="twitter:image" content="{site_domain}/assets/og-image.jpg" />
 
 <link rel="icon" type="image/png" href="../../assets/pediaid-logo.png"/>
 <link rel="apple-touch-icon" href="../../assets/pediaid-logo.png" />
@@ -810,6 +814,20 @@ def main():
 <meta name="description" content="Every calculator, growth chart and clinical guide in PediAid — {len(generated)} free paediatric and neonatal tools, organised by category." />
 <link rel="canonical" href="{all_tools_canonical}" />
 <meta name="theme-color" content="#1e3a5f" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="All Tools &mdash; PediAid Calculators, Charts &amp; Guides" />
+<meta property="og:description" content="Every calculator, growth chart and clinical guide in PediAid &mdash; {len(generated)} free paediatric and neonatal tools, organised by category." />
+<meta property="og:url" content="{all_tools_canonical}" />
+<meta property="og:site_name" content="PediAid" />
+<meta property="og:image" content="{site["domain"]}/assets/og-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="All Tools &mdash; PediAid Calculators, Charts &amp; Guides" />
+<meta name="twitter:image" content="{site["domain"]}/assets/og-image.jpg" />
+
 <link rel="icon" type="image/png" href="assets/pediaid-logo.png"/>
 <link rel="stylesheet" href="assets/tools.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
