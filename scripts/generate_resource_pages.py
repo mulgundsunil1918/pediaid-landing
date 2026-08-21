@@ -121,6 +121,7 @@ PAGE_TEMPLATE = """<!doctype html>
 
 <link rel="icon" type="image/png" href="../../assets/pediaid-logo.png"/>
 <link rel="stylesheet" href="../../assets/tools.css" />
+<script src="../../assets/share.js" defer></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -161,6 +162,7 @@ PAGE_TEMPLATE = """<!doctype html>
     <div class="tool-hero-ctas">
       <a class="btn btn-primary" href="{drive_url}" target="_blank" rel="noopener">Download PDF &rarr;</a>
       <a class="btn btn-ghost" href="../../resources.html">&larr; All resources</a>
+      <button type="button" class="btn btn-share" data-pediaid-share data-share-mode="copy"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>Share with a colleague</button>
     </div>
   </div>
 </section>
@@ -301,6 +303,7 @@ def generate_hub(site, resources):
 
 <link rel="icon" type="image/png" href="assets/pediaid-logo.png"/>
 <link rel="stylesheet" href="assets/tools.css" />
+<script src="assets/share.js" defer></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -333,6 +336,9 @@ def generate_hub(site, resources):
     <span class="eyebrow"><span class="dot"></span> {len(resources)} Downloads</span>
     <h1>Downloadable clinical resources</h1>
     <p class="lead">Free PDFs for paediatric and neonatal practice — growth charts, BP charts, scoring systems, official guidelines and teaching templates.</p>
+    <div class="tool-hero-ctas">
+      <button type="button" class="btn btn-share" data-pediaid-share data-share-mode="copy"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>Share with a colleague</button>
+    </div>
   </div>
 </section>
 

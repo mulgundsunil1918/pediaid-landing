@@ -75,7 +75,9 @@
       "url": "https://info.pediaid.bridgr.co.in/",
       "name": "PediAid",
       "inLanguage": "en",
-      "publisher": { "@id": "https://info.pediaid.bridgr.co.in/#organization" }
+      "publisher": {
+        "@id": "https://info.pediaid.bridgr.co.in/#organization"
+      }
     },
     {
       "@type": "MobileApplication",
@@ -85,8 +87,14 @@
       "applicationCategory": "MedicalApplication",
       "url": "https://apps.apple.com/us/app/pediaid-pediatrics-neonatology/id6777623709",
       "installUrl": "https://apps.apple.com/us/app/pediaid-pediatrics-neonatology/id6777623709",
-      "publisher": { "@id": "https://info.pediaid.bridgr.co.in/#organization" },
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      "publisher": {
+        "@id": "https://info.pediaid.bridgr.co.in/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
     },
     {
       "@type": "MobileApplication",
@@ -96,8 +104,84 @@
       "applicationCategory": "MedicalApplication",
       "url": "https://play.google.com/store/apps/details?id=com.pediaid.pediaid",
       "installUrl": "https://play.google.com/store/apps/details?id=com.pediaid.pediaid",
-      "publisher": { "@id": "https://info.pediaid.bridgr.co.in/#organization" },
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      "publisher": {
+        "@id": "https://info.pediaid.bridgr.co.in/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://info.pediaid.bridgr.co.in/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is PediAid free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, completely. Every calculator, clinical score, growth chart, drug entry and PDF resource is free to use, with no subscription, no trial and no paywall. It is paid for out of pocket by one paediatrician."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does PediAid work offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The clinical tools do. Calculators, clinical scores, growth charts, the drug formulary and lab reference values are bundled with the app and compute without a connection, which is the point on a ward round with no signal. The Academics sections — trial reviews, guideline notes and CME listings — need a connection because they update."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which platforms is PediAid available on?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "iOS, Android and the web. The iOS and Android apps are free on the App Store and Google Play, and the same app runs in a browser at pediaid.bridgr.co.in with nothing to install."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many calculators and clinical scores does it include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "62 calculators and 110 clinical scores — 96 paediatric scores across 15 specialties and 14 neonatal scores. Every score shows its exact criteria, the weight each one carries, the severity bands and the publication it comes from."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which growth charts does PediAid include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WHO, IAP 2015, Fenton 2025 for preterm infants, and INTERGROWTH-21st. Each plots weight, length and head circumference, returns the percentile and Z-score, and exports the plotted chart as a PDF for the record."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does it handle immunisation catch-up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Both Indian schedules are included — IAP and the National Immunisation Schedule — along with a catch-up planner that takes a child's age and the doses already given, and works out what is due, what still counts and what can be given today."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need an account to use it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not for the clinical tools. Calculators, scores, charts, the formulary and lab values all work without signing in. An account is only needed for the parts that keep track of your own activity — saving a trial to read later, or submitting an event to CME."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who makes PediAid, and where does the clinical content come from?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PediAid is built by Dr Sunil Mulgund, a paediatrician. Every tool names the guideline or publication it is based on — AAP, NICE, WHO, IAP, NNF and the original papers behind each score — on the screen where it is used, so the source can be checked rather than taken on trust."
+          }
+        }
+      ]
     }
   ]
 }
@@ -733,7 +817,81 @@
     .eco-go { font-size: 10.5px; padding: 3px 9px; white-space: nowrap; flex: 0 0 auto; }
     .eco-go svg { width: 12px; height: 12px; }
   }
+  /* ─── FAQ ────────────────────────────────────────────────────────────
+     Built on the native details/summary elements, so the accordion needs
+     no JavaScript and stays open to Ctrl-F and to crawlers. An
+     aria-driven div starting at display:none would hide the answers from
+     both, and a FAQPage whose answers are hidden is a violation. */
+  .faq-list { display: grid; gap: 10px; max-width: 860px; margin: 0 auto; }
+  .faq-q {
+    background: var(--glass-bg-strong);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    box-shadow: var(--glass-shadow);
+    overflow: hidden;
+  }
+  .faq-q summary {
+    list-style: none; cursor: pointer;
+    padding: 17px 52px 17px 22px; position: relative;
+    font-weight: 700; font-size: 15.5px; color: var(--navy);
+    transition: background 160ms ease;
+  }
+  .faq-q summary::-webkit-details-marker { display: none; }
+  .faq-q summary:hover { background: rgba(49, 130, 206, 0.06); }
+  .faq-q summary:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+  .faq-q summary::after {
+    content: ""; position: absolute; right: 22px; top: 50%;
+    width: 9px; height: 9px; margin-top: -6px;
+    border-right: 2.2px solid var(--accent);
+    border-bottom: 2.2px solid var(--accent);
+    transform: rotate(45deg);
+    transition: transform 200ms ease;
+  }
+  .faq-q[open] summary::after { transform: rotate(-135deg); margin-top: -2px; }
+  .faq-a { padding: 0 22px 18px; }
+  .faq-a p { margin: 0; font-size: 14.5px; line-height: 1.62; color: var(--ink); }
+
+  .faq-share {
+    max-width: 860px; margin: 20px auto 0;
+    padding: 18px 22px; border-radius: 18px;
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 18px; flex-wrap: wrap;
+  }
+  .btn-share {
+    background: rgba(56, 161, 105, 0.10);
+    color: #276749;
+    border: 1px solid rgba(56, 161, 105, 0.30);
+  }
+  .btn-share:hover {
+    background: rgba(56, 161, 105, 0.16);
+    color: #22543d; transform: translateY(-1px);
+  }
+  .pediaid-share-toast {
+    position: fixed; left: 50%; bottom: 28px;
+    transform: translate(-50%, 14px); z-index: 9999;
+    max-width: min(92vw, 460px); padding: 13px 20px; border-radius: 14px;
+    background: rgba(30, 58, 95, 0.96); color: #fff;
+    font-size: 14.5px; font-weight: 600;
+    box-shadow: 0 18px 40px -14px rgba(15, 35, 70, 0.55);
+    opacity: 0; pointer-events: none;
+    transition: opacity 240ms ease, transform 240ms ease;
+  }
+  .pediaid-share-toast.is-in { opacity: 1; transform: translate(-50%, 0); }
+
+  @media (max-width: 560px) {
+    .faq-share { flex-direction: column; align-items: stretch; text-align: center; }
+    .faq-share .btn { justify-content: center; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .faq-q summary::after, .btn-share:hover { transition: none; transform: none; }
+    .faq-q[open] summary::after { transform: rotate(-135deg); }
+    .pediaid-share-toast { transition: opacity 1ms linear; }
+  }
+
 </style>
+<script src="assets/share.js" defer></script>
 </head>
 
 <body>
@@ -767,6 +925,7 @@
     <a href="#tools">Tools</a>
     <a href="resources.html">Resources</a>
     <a href="#why">Why PediAid</a>
+    <a href="#faq">FAQ</a>
   </div>
     <a class="nav-cta" href="#download" title="Get PediAid on the App Store or Google Play">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px; margin-right:7px;"><path d="M12 3v12m0 0l-4-4m4 4l4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>Get the app
@@ -1378,6 +1537,65 @@
   </div>
 </section>
 
+
+
+<!-- ═══ FAQ ═══ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow"><span class="dot"></span> Questions</span>
+      <h2>Frequently asked.</h2>
+      <p class="lead">The things people ask before they install it.</p>
+    </div>
+
+    <div class="faq-list">
+        <details class="faq-q">
+          <summary>Is PediAid free?</summary>
+          <div class="faq-a"><p>Yes, completely. Every calculator, clinical score, growth chart, drug entry and PDF resource is free to use, with no subscription, no trial and no paywall. It is paid for out of pocket by one paediatrician.</p></div>
+        </details>
+        <details class="faq-q">
+          <summary>Does PediAid work offline?</summary>
+          <div class="faq-a"><p>The clinical tools do. Calculators, clinical scores, growth charts, the drug formulary and lab reference values are bundled with the app and compute without a connection, which is the point on a ward round with no signal. The Academics sections — trial reviews, guideline notes and CME listings — need a connection because they update.</p></div>
+        </details>
+        <details class="faq-q">
+          <summary>Which platforms is PediAid available on?</summary>
+          <div class="faq-a"><p>iOS, Android and the web. The iOS and Android apps are free on the App Store and Google Play, and the same app runs in a browser at pediaid.bridgr.co.in with nothing to install.</p></div>
+        </details>
+        <details class="faq-q">
+          <summary>How many calculators and clinical scores does it include?</summary>
+          <div class="faq-a"><p>62 calculators and 110 clinical scores — 96 paediatric scores across 15 specialties and 14 neonatal scores. Every score shows its exact criteria, the weight each one carries, the severity bands and the publication it comes from.</p></div>
+        </details>
+        <details class="faq-q">
+          <summary>Which growth charts does PediAid include?</summary>
+          <div class="faq-a"><p>WHO, IAP 2015, Fenton 2025 for preterm infants, and INTERGROWTH-21st. Each plots weight, length and head circumference, returns the percentile and Z-score, and exports the plotted chart as a PDF for the record.</p></div>
+        </details>
+        <details class="faq-q">
+          <summary>Does it handle immunisation catch-up?</summary>
+          <div class="faq-a"><p>Yes. Both Indian schedules are included — IAP and the National Immunisation Schedule — along with a catch-up planner that takes a child's age and the doses already given, and works out what is due, what still counts and what can be given today.</p></div>
+        </details>
+        <details class="faq-q">
+          <summary>Do I need an account to use it?</summary>
+          <div class="faq-a"><p>Not for the clinical tools. Calculators, scores, charts, the formulary and lab values all work without signing in. An account is only needed for the parts that keep track of your own activity — saving a trial to read later, or submitting an event to CME.</p></div>
+        </details>
+        <details class="faq-q">
+          <summary>Who makes PediAid, and where does the clinical content come from?</summary>
+          <div class="faq-a"><p>PediAid is built by Dr Sunil Mulgund, a paediatrician. Every tool names the guideline or publication it is based on — AAP, NICE, WHO, IAP, NNF and the original papers behind each score — on the screen where it is used, so the source can be checked rather than taken on trust.</p></div>
+        </details>
+    </div>
+
+    <div class="faq-share glass">
+      <div>
+        <strong style="color:var(--navy); font-size:16.5px;">Know someone who would use this?</strong>
+        <div class="muted" style="margin-top:3px; font-size:13.5px;">
+          Sends the full summary — tools, charts, resources and both store links.
+        </div>
+      </div>
+      <button type="button" class="btn btn-share" data-pediaid-share data-share-mode="copy">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px; margin-right:7px;"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>Share with a colleague
+      </button>
+    </div>
+  </div>
+</section>
 
 <!-- ═══ FOOTER ═══ -->
 <footer>

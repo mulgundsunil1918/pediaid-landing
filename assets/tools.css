@@ -313,3 +313,43 @@ footer {
   .feature, .tool, .btn-primary, .btn-ghost, .related-tool { transition: none; }
   html { scroll-behavior: auto; }
 }
+
+/* ─── Share with a colleague ──────────────────────────────────────────────
+   The button reuses .btn sizing; only the skin differs. The toast is fixed
+   to the viewport bottom so it never has to reason about page layout. */
+.btn-share {
+  background: rgba(56, 161, 105, 0.10);
+  color: #276749;
+  border: 1px solid rgba(56, 161, 105, 0.30);
+}
+.btn-share:hover {
+  background: rgba(56, 161, 105, 0.16);
+  color: #22543d;
+  transform: translateY(-1px);
+}
+.btn-share svg { vertical-align: -3px; margin-right: 8px; }
+
+.pediaid-share-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  transform: translate(-50%, 14px);
+  z-index: 9999;
+  max-width: min(92vw, 460px);
+  padding: 13px 20px;
+  border-radius: 14px;
+  background: rgba(30, 58, 95, 0.96);
+  color: #fff;
+  font-size: 14.5px;
+  font-weight: 600;
+  box-shadow: 0 18px 40px -14px rgba(15, 35, 70, 0.55);
+  opacity: 0;
+  transition: opacity 240ms ease, transform 240ms ease;
+  pointer-events: none;
+}
+.pediaid-share-toast.is-in { opacity: 1; transform: translate(-50%, 0); }
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-share:hover { transform: none; }
+  .pediaid-share-toast { transition: opacity 1ms linear; }
+}

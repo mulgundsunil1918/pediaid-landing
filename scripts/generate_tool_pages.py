@@ -402,6 +402,7 @@ HUB_TEMPLATE = """<!doctype html>
 <link rel="icon" type="image/png" href="../assets/pediaid-logo.png"/>
 <link rel="apple-touch-icon" href="../assets/pediaid-logo.png" />
 <link rel="stylesheet" href="../assets/tools.css" />
+<script src="../assets/share.js" defer></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -441,6 +442,7 @@ HUB_TEMPLATE = """<!doctype html>
     <div class="tool-hero-ctas">
       <a class="btn btn-primary" href="{app_domain}" target="_blank" rel="noopener">Open in PediAid &rarr;</a>
       <a class="btn btn-ghost" href="../all-tools.html">&larr; All tools</a>
+      <button type="button" class="btn btn-share" data-pediaid-share data-share-mode="copy"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>Share with a colleague</button>
     </div>
   </div>
 </section>
@@ -634,6 +636,7 @@ PAGE_TEMPLATE = """<!doctype html>
 <link rel="icon" type="image/png" href="../../assets/pediaid-logo.png"/>
 <link rel="apple-touch-icon" href="../../assets/pediaid-logo.png" />
 <link rel="stylesheet" href="../../assets/tools.css" />
+<script src="../../assets/share.js" defer></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -674,6 +677,7 @@ PAGE_TEMPLATE = """<!doctype html>
     <div class="tool-hero-ctas">
       <a class="btn btn-primary" href="{deep_link}" target="_blank" rel="noopener">{cta_label} &rarr;</a>
       <a class="btn btn-ghost" href="../../{hub_slug}/">&larr; All {hub_name_lower}</a>
+      <button type="button" class="btn btn-share" data-pediaid-share data-share-mode="copy"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>Share with a colleague</button>
     </div>
   </div>
 </section>
@@ -830,6 +834,7 @@ def main():
 
 <link rel="icon" type="image/png" href="assets/pediaid-logo.png"/>
 <link rel="stylesheet" href="assets/tools.css" />
+<script src="assets/share.js" defer></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -862,6 +867,7 @@ def main():
     <span class="eyebrow"><span class="dot"></span> {len(generated)} tool guides</span>
     <h1>PediAid calculators, charts and guides</h1>
     <p class="lead">Free, offline-friendly clinical tools for paediatric and neonatal practice — organised by category. These pages cover the most-used tools; the app itself carries the full set, including the paediatric score library and immunisation catch-up planner.</p>
+    <div class="tool-hero-ctas"><button type="button" class="btn btn-share" data-pediaid-share data-share-mode="copy"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>Share with a colleague</button></div>
   </div>
 </section>
 
