@@ -101,7 +101,7 @@ PAGE_TEMPLATE = """<!doctype html>
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>{title} | PediAid Resources</title>
+<title>{seo_title}</title>
 <meta name="description" content="{meta_description}" />
 <link rel="canonical" href="{canonical_url}" />
 <meta name="theme-color" content="#1e3a5f" />
@@ -228,7 +228,11 @@ def generate_pages(site, resources):
         related = related_resources(res, resources, n=4)
         jsonld = build_jsonld(res, canonical_url, site)
 
+        kw = (res.get("primaryKeyword") or "").strip()
+        seo_title = f"{kw} | PediAid" if kw else f'{res["title"]} | PediAid Resources'
+
         page = PAGE_TEMPLATE.format(
+            seo_title=esc(seo_title),
             title=esc(res["title"]),
             meta_description=esc(meta_description),
             canonical_url=canonical_url,

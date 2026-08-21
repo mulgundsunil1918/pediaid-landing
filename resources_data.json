@@ -1,515 +1,675 @@
 {
- "_comment": "Downloadable resources hosted on Google Drive (folder: 11edxdHOJOP3JguyvK71cwWg25zsbPP9q). Full folder mirrored as of 2026-08-19 — the three previously withheld titles (NeoFax, Frank Shann Drug Doses, NRP 9th Edition) are now included at Sunil's explicit instruction.",
- "resources": [
-  {
-   "slug": "who-iap-growth-charts-pdf",
-   "title": "WHO & IAP Growth Charts PDF",
-   "filename": "Growth charts WHO & IAP (1).pdf",
-   "driveId": "1r3lMy7gRckpSkzAabWVFrEKHoMu4SS7g",
-   "category": "Growth Charts",
-   "primaryKeyword": "WHO IAP Growth Chart PDF Download",
-   "secondaryKeywords": [
-    "WHO growth chart PDF",
-    "IAP growth chart PDF",
-    "weight for age chart download",
-    "height for age Z score chart"
-   ],
-   "description": "Combined 63-page reference of WHO growth standard charts (boys & girls, 0-19 years, weight/height/BMI-for-age, Z-scores) alongside IAP references, in one printable PDF."
-  },
-  {
-   "slug": "fenton-2025-growth-chart-boys-pdf",
-   "title": "Fenton 2025 Growth Chart PDF (Boys)",
-   "filename": "Fentons 2025 - boys.pdf",
-   "driveId": "1Qu1CntSMS7lkVGXtfiOrO91vGUgiQBpD",
-   "category": "Growth Charts",
-   "primaryKeyword": "Fenton Growth Chart PDF Download Boys",
-   "secondaryKeywords": [
-    "Fenton 2025 chart PDF",
-    "preterm growth chart printable",
-    "Fenton boys chart"
-   ],
-   "description": "Printable Fenton preterm growth chart for boys, 22-50 weeks postmenstrual age."
-  },
-  {
-   "slug": "fenton-2025-growth-chart-girls-pdf",
-   "title": "Fenton 2025 Growth Chart PDF (Girls)",
-   "filename": "Fentons 2025 - girls.pdf",
-   "driveId": "1pN-2dyuG-WsxWvE6Iv4d5FTYpYAEAsPa",
-   "category": "Growth Charts",
-   "primaryKeyword": "Fenton Growth Chart PDF Download Girls",
-   "secondaryKeywords": [
-    "Fenton 2025 chart PDF",
-    "preterm growth chart printable",
-    "Fenton girls chart"
-   ],
-   "description": "Printable Fenton preterm growth chart for girls, 22-50 weeks postmenstrual age."
-  },
-  {
-   "slug": "aap-2017-bp-charts-pdf",
-   "title": "AAP 2017 Pediatric BP Chart PDF",
-   "filename": "AAP 2017 BP charts.pdf",
-   "driveId": "1Q1MmyPDjnn7x2vdszreX33Aiu-nXkES2",
-   "category": "BP Charts",
-   "primaryKeyword": "AAP 2017 BP Chart PDF Download",
-   "secondaryKeywords": [
-    "pediatric blood pressure table PDF",
-    "BP percentile chart by height",
-    "AAP hypertension guideline chart"
-   ],
-   "description": "AAP 2017 pediatric blood pressure tables (Table 4) — BP percentile by age, sex and height percentile, from Pediatrics Vol. 140."
-  },
-  {
-   "slug": "zubrow-neonatal-bp-chart-pdf",
-   "title": "Zubrow Neonatal BP Chart PDF",
-   "filename": "Zubrows BP charts.pdf",
-   "driveId": "1g0vcu8_Gxf7B3RzPKI8kPwEkHoh5XhhD",
-   "category": "BP Charts",
-   "primaryKeyword": "Zubrow BP Chart PDF Download",
-   "secondaryKeywords": [
-    "neonatal blood pressure nomogram PDF",
-    "preterm BP by gestational age",
-    "Zubrow chart printable"
-   ],
-   "description": "Blood pressure values by gestational age at birth (Day 1) — systolic, diastolic and mean pressure by percentile, in the Zubrow nomogram format."
-  },
-  {
-   "slug": "aap-2022-jaundice-guideline-pdf",
-   "title": "AAP 2022 Jaundice Guideline PDF",
-   "filename": "AAP Jaudince 2022.pdf",
-   "driveId": "1BFJwNLICCnTFlah1q-RyIryP58sDANQl",
-   "category": "Jaundice",
-   "primaryKeyword": "AAP 2022 Jaundice Guideline PDF Download",
-   "secondaryKeywords": [
-    "AAP hyperbilirubinemia guideline PDF",
-    "neonatal jaundice guideline 2022",
-    "phototherapy threshold PDF"
-   ],
-   "description": "The AAP 2022 clinical practice guideline for hyperbilirubinemia management in newborns ≥35 weeks gestation."
-  },
-  {
-   "slug": "nice-cg98-preterm-jaundice-charts-pdf",
-   "title": "NICE CG98 Preterm Jaundice Charts PDF",
-   "filename": "NICE Jaudice preterm charts .pdf",
-   "driveId": "1ne9-ekD0_DjeGAoRMZYcgZEhf_JmytPG",
-   "category": "Jaundice",
-   "primaryKeyword": "NICE CG98 Jaundice Chart PDF Download",
-   "secondaryKeywords": [
-    "NICE preterm jaundice guideline PDF",
-    "phototherapy threshold chart preterm",
-    "neonatal jaundice NICE guideline"
-   ],
-   "description": "NICE clinical guideline 98 (2010) — neonatal jaundice treatment threshold graphs for preterm infants, 23-38+ weeks gestation."
-  },
-  {
-   "slug": "modified-ballard-score-sheet-pdf",
-   "title": "Modified Ballard Score Sheet PDF",
-   "filename": "BallardScore_scoresheet.pdf",
-   "driveId": "1Zv1Ki-5XHmU1RtXTa3dLZeux23En6ePn",
-   "category": "Scoring Systems",
-   "primaryKeyword": "Ballard Score Sheet PDF Download",
-   "secondaryKeywords": [
-    "New Ballard Score printable",
-    "gestational age assessment score sheet",
-    "neuromuscular maturity scoring PDF"
-   ],
-   "description": "Printable New Ballard Score sheet — neuromuscular and physical maturity signs for gestational age assessment."
-  },
-  {
-   "slug": "can-score-sheet-pdf",
-   "title": "CAN Score Sheet PDF",
-   "filename": "CAN score .pdf",
-   "driveId": "1gFtr0R4BsldDozp2gM_WGH4zTSkMHNHe",
-   "category": "Scoring Systems",
-   "primaryKeyword": "CAN Score PDF Download",
-   "secondaryKeywords": [
-    "Clinical Assessment of Nutrition score sheet",
-    "fetal malnutrition score PDF",
-    "CAN score printable"
-   ],
-   "description": "Clinical Assessment of Nutritional status (CAN) score sheet for evaluating fetal malnutrition at birth."
-  },
-  {
-   "slug": "thompson-hie-score-pdf",
-   "title": "Thompson HIE Scoring PDF",
-   "filename": "Thompson Scoring HIE.pdf",
-   "driveId": "1m93906S_nA3SK4BQJIhcyK2RDQvPK7Fd",
-   "category": "Scoring Systems",
-   "primaryKeyword": "Thompson HIE Score PDF Download",
-   "secondaryKeywords": [
-    "Thompson score printable",
-    "HIE severity scoring sheet",
-    "hypoxic ischemic encephalopathy score"
-   ],
-   "description": "Thompson scoring system reference for grading the severity of hypoxic-ischemic encephalopathy in newborns."
-  },
-  {
-   "slug": "sarnat-staging-pdf",
-   "title": "Sarnat and Sarnat HIE Staging PDF",
-   "filename": "Sarnat and Sarnat.pdf",
-   "driveId": "1wsbckCYsHda6CW33b5AKZmwhaRED7LWU",
-   "category": "Scoring Systems",
-   "primaryKeyword": "Sarnat Staging PDF Download",
-   "secondaryKeywords": [
-    "Sarnat and Sarnat HIE staging",
-    "HIE grading Sarnat printable",
-    "encephalopathy staging table"
-   ],
-   "description": "Sarnat and Sarnat clinical staging reference for hypoxic-ischemic encephalopathy (mild/moderate/severe)."
-  },
-  {
-   "slug": "pofras-score-sheet-pdf",
-   "title": "POFRAS Score Sheet PDF",
-   "filename": "POFRAS score.pdf",
-   "driveId": "1vd8Unkn6PPLHoCIg6XaGCph6cCYO0r6c",
-   "category": "Scoring Systems",
-   "primaryKeyword": "POFRAS Score PDF Download",
-   "secondaryKeywords": [
-    "Premature Oral Feeding Readiness Scale PDF",
-    "POFRAS printable",
-    "feeding readiness assessment scale"
-   ],
-   "description": "The Premature Oral Feeding Readiness Assessment Scale (POFRAS) — Fujinaga et al. — for assessing a preterm infant's readiness for oral feeds."
-  },
-  {
-   "slug": "latch-score-sheet-pdf",
-   "title": "LATCH Breastfeeding Score Sheet PDF",
-   "filename": "Latch score .pdf",
-   "driveId": "1w2mPkUm9mX8dOUrQ2uw5GhAvxrDdNvLF",
-   "category": "Scoring Systems",
-   "primaryKeyword": "LATCH Score PDF Download",
-   "secondaryKeywords": [
-    "LATCH breastfeeding assessment tool",
-    "breastfeeding score sheet printable"
-   ],
-   "description": "The LATCH breastfeeding assessment score sheet for evaluating latch, audible swallowing, nipple type, comfort and hold."
-  },
-  {
-   "slug": "nichd-hie-timebrain-assessment-pdf",
-   "title": "NICHD HIE / TIMEBRAIN Assessment PDF",
-   "filename": "NICHD Assessment TimeBrain May 2020.pdf",
-   "driveId": "1FMXB1_dDNr_euPYhQZwX1CKCLlB0awSt",
-   "category": "Scoring Systems",
-   "primaryKeyword": "NICHD HIE Assessment PDF Download",
-   "secondaryKeywords": [
-    "TIMEBRAIN cooling criteria PDF",
-    "therapeutic hypothermia eligibility sheet",
-    "NICHD encephalopathy assessment"
-   ],
-   "description": "NICHD-based encephalopathy risk and cooling-eligibility assessment reference (TIMEBRAIN, May 2020) — Apgar, resuscitation duration and acidosis criteria."
-  },
-  {
-   "slug": "hine-hnne-neuro-exam-pdf",
-   "title": "HINE, HNNE & Newborn Neuro Exam PDF",
-   "filename": "HINE , HNNE , CNS examination , Neurological assessment of newborns.pdf",
-   "driveId": "1ShGbKFA2CIrISfWdqY5vRMBYzxMGnpu6",
-   "category": "Neurological Assessment",
-   "primaryKeyword": "HINE HNNE Neuro Exam PDF Download",
-   "secondaryKeywords": [
-    "neurological assessment of newborn PDF",
-    "Hammersmith infant neurological exam",
-    "CNS examination newborn"
-   ],
-   "description": "47-page reference covering HINE, HNNE, CNS examination and structured neurological assessment of newborns."
-  },
-  {
-   "slug": "cranial-usg-reference-pdf",
-   "title": "Cranial USG Reference PDF",
-   "filename": "Cranial USG .pdf",
-   "driveId": "16HEfrmttQz01x2LVxD84gkzD2Vxe7SsW",
-   "category": "Neurological Assessment",
-   "primaryKeyword": "Neonatal Cranial USG PDF Download",
-   "secondaryKeywords": [
-    "cranial ultrasound newborn guide",
-    "neonatal head USG reference PDF"
-   ],
-   "description": "68-page reference guide to cranial ultrasound imaging in the neonate."
-  },
-  {
-   "slug": "iap-nis-vaccination-schedule-pdf",
-   "title": "IAP & NIS Vaccination Schedule PDF",
-   "filename": "IAP and NIS vaccination .pdf",
-   "driveId": "1klOuYQvRrUTYiXmhG2qJuPwbjhkAYvsX",
-   "category": "Vaccination",
-   "primaryKeyword": "IAP NIS Vaccination Schedule PDF Download",
-   "secondaryKeywords": [
-    "India immunization schedule PDF",
-    "national immunization schedule chart",
-    "IAP vaccine chart printable"
-   ],
-   "description": "Combined IAP + National Immunization Schedule (NIS) reference — vaccine, dose, route and age, in table form."
-  },
-  {
-   "slug": "iap-immunisation-schedule-2022-print-pdf",
-   "title": "IAP Immunisation Schedule 2022 (Print) PDF",
-   "filename": "Vaccination  FOR PRINT.pdf",
-   "driveId": "1JXWLV_chEsk5GXN9y7zRVBRZtQJLa2G6",
-   "category": "Vaccination",
-   "primaryKeyword": "IAP Immunisation Schedule 2022 PDF Download",
-   "secondaryKeywords": [
-    "IAP 2022 vaccine schedule printable",
-    "immunisation chart for clinic wall"
-   ],
-   "description": "IAP Immunisation Schedule 2022 formatted for printing — vaccine, dose, and brands available by age."
-  },
-  {
-   "slug": "targeted-neonatal-echocardiography-manual-pdf",
-   "title": "Targeted Neonatal Echocardiography Manual PDF",
-   "filename": "TargetedNeonatalEchocardiographyTeachingManual-NewEdition.pdf",
-   "driveId": "1_sDOOI8T_GG-3GgzGsYWo8oOETjoOgGY",
-   "category": "Echocardiography",
-   "primaryKeyword": "Neonatal Echocardiography Manual PDF Download",
-   "secondaryKeywords": [
-    "TnECHO teaching manual PDF",
-    "neonatal echo teaching manual"
-   ],
-   "description": "80-page teaching manual on targeted neonatal echocardiography (TnECHO) technique and interpretation."
-  },
-  {
-   "slug": "nursing-echo-reference-pdf",
-   "title": "Nursing & Echo Reference PDF",
-   "filename": "NSG AND ECHO.pdf",
-   "driveId": "1_tJmX1AFKXtWm0DigQ4313C4ob4J8uUU",
-   "category": "Echocardiography",
-   "primaryKeyword": "NICU Nursing Echo Reference PDF Download",
-   "secondaryKeywords": [
-    "neonatal nursing echo notes",
-    "NICU nursing reference PDF"
-   ],
-   "description": "41-page compiled nursing and echocardiography reference notes for NICU practice."
-  },
-  {
-   "slug": "mechanical-ventilation-manual-pdf",
-   "title": "Mechanical Ventilation Manual PDF",
-   "filename": "Mechanical Ventilation Manual.pdf",
-   "driveId": "1NTlbQs5LTBCwIkziGQzKhBZ73DdJy6rb",
-   "category": "Ventilation",
-   "primaryKeyword": "Neonatal Mechanical Ventilation Manual PDF Download",
-   "secondaryKeywords": [
-    "mechanical ventilation basics PDF",
-    "NICU ventilation manual"
-   ],
-   "description": "99-page manual covering the basics of mechanical ventilation in the NICU setting."
-  },
-  {
-   "slug": "neonatal-ventilation-basics-pdf",
-   "title": "Neonatal Ventilation Basics PDF",
-   "filename": "Neonatal-Ventilation.pdf",
-   "driveId": "1Kp8tPs2u3Ic96mG90TyQSnM4XTR7Zw7V",
-   "category": "Ventilation",
-   "primaryKeyword": "Neonatal Ventilation Basics PDF Download",
-   "secondaryKeywords": [
-    "neonatal ventilation guideline PDF",
-    "NICU ventilation basics reference"
-   ],
-   "description": "A neonatal ventilation basics guideline (Neonatal Guidelines Group), covering core mechanical ventilation concepts."
-  },
-  {
-   "slug": "nnf-ready-reckoner-pdf",
-   "title": "NNF Ready Reckoner PDF",
-   "filename": "NNF ready reckoner.pdf",
-   "driveId": "18ZkGozmhf0kBOhkYBvfCmDgibg_e4GUa",
-   "category": "Quick Reference",
-   "primaryKeyword": "NNF Ready Reckoner PDF Download",
-   "secondaryKeywords": [
-    "NNF quick reference PDF",
-    "neonatology ready reckoner India",
-    "ROP screening schedule PDF"
-   ],
-   "description": "Quick-reference tables including ROP screening schedules and other bedside NICU reckoners."
-  },
-  {
-   "slug": "iap-standard-treatment-guidelines-combined-pdf",
-   "title": "IAP Standard Treatment Guidelines — Combined PDF",
-   "filename": "COMBINED PDF STANDARD TREATMENT GUIDELINE UPTO 093.pdf",
-   "driveId": "1pib_nWnN2JRssBCvDNzO52r_1L_k-tIC",
-   "category": "Guidelines",
-   "primaryKeyword": "IAP Standard Treatment Guidelines PDF Download",
-   "secondaryKeywords": [
-    "IAP STG combined PDF",
-    "IAP treatment guidelines single PDF",
-    "pediatric standard treatment guideline India"
-   ],
-   "description": "601-page combined single-PDF edition of the IAP Standard Treatment Guideline chapters — the same content browsable chapter-by-chapter on PediAid's STG site, bundled for one-shot offline download."
-  },
-  {
-   "slug": "acute-neonate-case-proforma-pdf",
-   "title": "Acute Neonate Case Proforma PDF",
-   "filename": "Acute History neonate - Sunil.pdf",
-   "driveId": "18-_kzcUQql0qzzMQTQ03F217eTKUYXDq",
-   "category": "Teaching Templates",
-   "primaryKeyword": "Neonatal Case Presentation Proforma PDF Download",
-   "secondaryKeywords": [
-    "acute neonate case history template",
-    "NICU case presentation format PDF",
-    "ventilator case proforma"
-   ],
-   "description": "A structured 79-page case-presentation framework for acute neonates on respiratory support (ventilator/HFOV/CPAP/HFNC) — history, examination, diagnosis and plan, with presentation tips, for exam and ward-round preparation."
-  },
-  {
-   "slug": "growing-preterm-case-proforma-pdf",
-   "title": "Growing Preterm Case Proforma PDF",
-   "filename": "Growing Preterm Case Proforma Sunil.pdf",
-   "driveId": "1y-pb-PoXVDb1kxo6EGYtOU7RkpvRVbkC",
-   "category": "Teaching Templates",
-   "primaryKeyword": "Growing Preterm Case Proforma PDF Download",
-   "secondaryKeywords": [
-    "preterm case presentation template",
-    "growing preterm baby history format"
-   ],
-   "description": "A fill-in-the-blank case-presentation template for a growing preterm infant — antenatal history through systemic examination, structured for trainee case presentations."
-  },
-  {
-   "slug": "nutritional-audit-preterm-xlsx",
-   "title": "Nutritional Audit in Preterm Babies (Spreadsheet)",
-   "filename": "Nutritional Audit in Preterm babies.xlsx",
-   "driveId": "1TyyGLgEr0cAUfYwCZJ6lRQRf7sy37nN7",
-   "category": "Nutrition",
-   "primaryKeyword": "Preterm Nutritional Audit Spreadsheet Download",
-   "secondaryKeywords": [
-    "preterm feed audit excel",
-    "NICU nutrition audit tool"
-   ],
-   "description": "A working spreadsheet tool for auditing enteral nutrition intake in preterm babies."
-  },
-  {
-   "slug": "bls-choking-algorithms",
-   "title": "BLS & Choking Algorithms",
-   "filename": "BLS and CHOKING.pdf",
-   "driveId": "146RHWabJWdl6gyTJ5ZFWdRSOuFz8ViCI",
-   "category": "Guidelines"
-  },
-  {
-   "slug": "nrp-9th-edition-manual",
-   "title": "NRP 9th Edition Manual",
-   "filename": "NRP 9th edition.pdf",
-   "driveId": "1zgi3OyKiBIg4Z-lBYZya4fRaVeIOjyW6",
-   "category": "Guidelines"
-  },
-  {
-   "slug": "pals-algorithms-2020",
-   "title": "PALS Algorithms 2020",
-   "filename": "PALS-Algorithms-2020.pdf",
-   "driveId": "1F_0BTUc9BbU2C1Ef1JB41TLsvFH7-KBB",
-   "category": "Guidelines"
-  },
-  {
-   "slug": "neofax-nov-2024",
-   "title": "NeoFax (Nov 2024)",
-   "filename": "NEOFAX NOV. 2024.pdf",
-   "driveId": "1n-zeI8Duyn3cl-xOVPW03Vs203Djg2ro",
-   "category": "Drug References"
-  },
-  {
-   "slug": "frank-shann-drug-doses-2017",
-   "title": "Frank Shann Drug Doses (2017)",
-   "filename": "Drug_Dose_Frank_Shann_2017_pdf.pdf",
-   "driveId": "1tcJRA5e89lZSQhuqLJPbPxzEFX1O_FpY",
-   "category": "Drug References"
-  },
-  {
-   "slug": "immunisation-special-situations",
-   "title": "Immunisation in Special Situations",
-   "filename": "IMMUNIZATION  IN SPECIAL SITUATIONS..pptx",
-   "driveId": "10QcNd5CZm61lsZgzHdNHuwlCffH8VkPT",
-   "category": "Vaccination"
-  },
-  {
-   "slug": "paediatric-nutrition",
-   "title": "Paediatric Nutrition",
-   "filename": "PEDIATRIC NUTRITION .pdf",
-   "driveId": "13m-w6J6__1y545j_OYE4jVckRak5qYSj",
-   "category": "Nutrition"
-  },
-  {
-   "slug": "nutritive-value-common-foods",
-   "title": "Nutritive Value of Common Foods",
-   "filename": "NUTRITIVE VALUE OF COMMON FOODS.pptx",
-   "driveId": "1vVm6Yw0Em9tQSvRQjNwqcObXH3ltn8EV",
-   "category": "Nutrition"
-  },
-  {
-   "slug": "cerebral-palsy-case-presentation",
-   "title": "Cerebral Palsy Case Presentation",
-   "filename": "Cerebral palsy case presentation notes.pdf",
-   "driveId": "1KROf-QRzkIJ1HX9MG9Ov0zwlL3Q8zT66",
-   "category": "Teaching Templates"
-  },
-  {
-   "slug": "paediatric-case-format",
-   "title": "Paediatric Case Format",
-   "filename": "Pedia format.pdf",
-   "driveId": "1asI_XR4olS6QDeVLs0nVBd0c0Epe2cOT",
-   "category": "Teaching Templates"
-  },
-  {
-   "slug": "social-paediatrics",
-   "title": "Social Paediatrics",
-   "filename": "Social pediatrics.pdf",
-   "driveId": "1H8BPF06HeDC8Vhl3WkQV1snJq7FyS5tF",
-   "category": "Community Paediatrics"
-  },
-  {
-   "slug": "national-health-programmes-notes",
-   "title": "National Health Programmes — Brief Notes",
-   "filename": "BRIEF NOTES ON NATIONAL HEALTH PROGRAMS.pdf",
-   "driveId": "1cVxtjNFLLETB6CItJ6t_S2nK7CFMqQOt",
-   "category": "Community Paediatrics"
-  },
-  {
-   "slug": "sankalan-health-programmes-handbook",
-   "title": "Sankalan — National Health Programmes Handbook",
-   "filename": "Sankalan-National Health Programmes Handbook.pdf",
-   "driveId": "1HQXZ951u2v7tGnVTkXToGo5gotXKAbS8",
-   "category": "Community Paediatrics"
-  },
-  {
-   "slug": "nnf-fellowship-question-bank",
-   "title": "NNF Fellowship Question Bank (to 2026)",
-   "filename": "NNF Fellowship All QBANK till 2026.pdf",
-   "driveId": "1SCrguB_n4S8VV0LUUjvXjwBzTuRfEsZN",
-   "category": "Exam & Viva"
-  },
-  {
-   "slug": "md-paediatrics-question-papers",
-   "title": "MD Paediatrics Question Paper Compilation",
-   "filename": "M.D., Peds Qn. Paper Compilation.pdf",
-   "driveId": "1l7s9uso3GQu2L75ozx3K_QY1L1KZDyV_",
-   "category": "Exam & Viva"
-  },
-  {
-   "slug": "systemwise-question-bank",
-   "title": "System-wise Question Bank",
-   "filename": "Systemwise question bank-1-1.pdf (1).pdf",
-   "driveId": "18RKkAjF0tadrYsfDAUPPsW14xIih540x",
-   "category": "Exam & Viva"
-  },
-  {
-   "slug": "instruments-viva",
-   "title": "Instruments Viva",
-   "filename": "INSTRUMENTS VIVA.pptx",
-   "driveId": "12vLfM3D1whyNyHuY_M8qPMX9CGjGXj9A",
-   "category": "Exam & Viva"
-  },
-  {
-   "slug": "instruments-reference",
-   "title": "Instruments Reference",
-   "filename": "Instruments.pdf",
-   "driveId": "1WTgyAYQh07h-dZSvSBEMFy71nJQH_ETj",
-   "category": "Exam & Viva"
-  },
-  {
-   "slug": "final-year-xray-viva",
-   "title": "Final Year X-Ray Viva",
-   "filename": "final year X rays viva-1.pptx",
-   "driveId": "1rdpM0Mio1WKpN1FKg0KecBBke9HDHIw0",
-   "category": "Exam & Viva"
-  },
-  {
-   "slug": "xray-viva-pg",
-   "title": "X-Ray Viva — PG",
-   "filename": "xray-pg.pptx",
-   "driveId": "1XgQ_iZh0z8xK5U-cSi9AusWVPThiVzGj",
-   "category": "Exam & Viva"
-  }
- ]
+  "_comment": "Downloadable resources hosted on Google Drive (folder: 11edxdHOJOP3JguyvK71cwWg25zsbPP9q). Full folder mirrored as of 2026-08-19 — the three previously withheld titles (NeoFax, Frank Shann Drug Doses, NRP 9th Edition) are now included at Sunil's explicit instruction.",
+  "resources": [
+    {
+      "slug": "who-iap-growth-charts-pdf",
+      "title": "WHO & IAP Growth Charts PDF",
+      "filename": "Growth charts WHO & IAP (1).pdf",
+      "driveId": "1r3lMy7gRckpSkzAabWVFrEKHoMu4SS7g",
+      "category": "Growth Charts",
+      "primaryKeyword": "WHO IAP Growth Chart PDF Download",
+      "secondaryKeywords": [
+        "WHO growth chart PDF",
+        "IAP growth chart PDF",
+        "weight for age chart download",
+        "height for age Z score chart"
+      ],
+      "description": "Combined 63-page reference of WHO growth standard charts (boys & girls, 0-19 years, weight/height/BMI-for-age, Z-scores) alongside IAP references, in one printable PDF."
+    },
+    {
+      "slug": "fenton-2025-growth-chart-boys-pdf",
+      "title": "Fenton 2025 Growth Chart PDF (Boys)",
+      "filename": "Fentons 2025 - boys.pdf",
+      "driveId": "1Qu1CntSMS7lkVGXtfiOrO91vGUgiQBpD",
+      "category": "Growth Charts",
+      "primaryKeyword": "Fenton Growth Chart PDF Download Boys",
+      "secondaryKeywords": [
+        "Fenton 2025 chart PDF",
+        "preterm growth chart printable",
+        "Fenton boys chart"
+      ],
+      "description": "Printable Fenton preterm growth chart for boys, 22-50 weeks postmenstrual age."
+    },
+    {
+      "slug": "fenton-2025-growth-chart-girls-pdf",
+      "title": "Fenton 2025 Growth Chart PDF (Girls)",
+      "filename": "Fentons 2025 - girls.pdf",
+      "driveId": "1pN-2dyuG-WsxWvE6Iv4d5FTYpYAEAsPa",
+      "category": "Growth Charts",
+      "primaryKeyword": "Fenton Growth Chart PDF Download Girls",
+      "secondaryKeywords": [
+        "Fenton 2025 chart PDF",
+        "preterm growth chart printable",
+        "Fenton girls chart"
+      ],
+      "description": "Printable Fenton preterm growth chart for girls, 22-50 weeks postmenstrual age."
+    },
+    {
+      "slug": "aap-2017-bp-charts-pdf",
+      "title": "AAP 2017 Pediatric BP Chart PDF",
+      "filename": "AAP 2017 BP charts.pdf",
+      "driveId": "1Q1MmyPDjnn7x2vdszreX33Aiu-nXkES2",
+      "category": "BP Charts",
+      "primaryKeyword": "AAP 2017 BP Chart PDF Download",
+      "secondaryKeywords": [
+        "pediatric blood pressure table PDF",
+        "BP percentile chart by height",
+        "AAP hypertension guideline chart"
+      ],
+      "description": "AAP 2017 pediatric blood pressure tables (Table 4) — BP percentile by age, sex and height percentile, from Pediatrics Vol. 140."
+    },
+    {
+      "slug": "zubrow-neonatal-bp-chart-pdf",
+      "title": "Zubrow Neonatal BP Chart PDF",
+      "filename": "Zubrows BP charts.pdf",
+      "driveId": "1g0vcu8_Gxf7B3RzPKI8kPwEkHoh5XhhD",
+      "category": "BP Charts",
+      "primaryKeyword": "Zubrow BP Chart PDF Download",
+      "secondaryKeywords": [
+        "neonatal blood pressure nomogram PDF",
+        "preterm BP by gestational age",
+        "Zubrow chart printable"
+      ],
+      "description": "Blood pressure values by gestational age at birth (Day 1) — systolic, diastolic and mean pressure by percentile, in the Zubrow nomogram format."
+    },
+    {
+      "slug": "aap-2022-jaundice-guideline-pdf",
+      "title": "AAP 2022 Jaundice Guideline PDF",
+      "filename": "AAP Jaudince 2022.pdf",
+      "driveId": "1BFJwNLICCnTFlah1q-RyIryP58sDANQl",
+      "category": "Jaundice",
+      "primaryKeyword": "AAP 2022 Jaundice Guideline PDF Download",
+      "secondaryKeywords": [
+        "AAP hyperbilirubinemia guideline PDF",
+        "neonatal jaundice guideline 2022",
+        "phototherapy threshold PDF"
+      ],
+      "description": "The AAP 2022 clinical practice guideline for hyperbilirubinemia management in newborns ≥35 weeks gestation."
+    },
+    {
+      "slug": "nice-cg98-preterm-jaundice-charts-pdf",
+      "title": "NICE CG98 Preterm Jaundice Charts PDF",
+      "filename": "NICE Jaudice preterm charts .pdf",
+      "driveId": "1ne9-ekD0_DjeGAoRMZYcgZEhf_JmytPG",
+      "category": "Jaundice",
+      "primaryKeyword": "NICE CG98 Jaundice Chart PDF Download",
+      "secondaryKeywords": [
+        "NICE preterm jaundice guideline PDF",
+        "phototherapy threshold chart preterm",
+        "neonatal jaundice NICE guideline"
+      ],
+      "description": "NICE clinical guideline 98 (2010) — neonatal jaundice treatment threshold graphs for preterm infants, 23-38+ weeks gestation."
+    },
+    {
+      "slug": "modified-ballard-score-sheet-pdf",
+      "title": "Modified Ballard Score Sheet PDF",
+      "filename": "BallardScore_scoresheet.pdf",
+      "driveId": "1Zv1Ki-5XHmU1RtXTa3dLZeux23En6ePn",
+      "category": "Scoring Systems",
+      "primaryKeyword": "Ballard Score Sheet PDF Download",
+      "secondaryKeywords": [
+        "New Ballard Score printable",
+        "gestational age assessment score sheet",
+        "neuromuscular maturity scoring PDF"
+      ],
+      "description": "Printable New Ballard Score sheet — neuromuscular and physical maturity signs for gestational age assessment."
+    },
+    {
+      "slug": "can-score-sheet-pdf",
+      "title": "CAN Score Sheet PDF",
+      "filename": "CAN score .pdf",
+      "driveId": "1gFtr0R4BsldDozp2gM_WGH4zTSkMHNHe",
+      "category": "Scoring Systems",
+      "primaryKeyword": "CAN Score PDF Download",
+      "secondaryKeywords": [
+        "Clinical Assessment of Nutrition score sheet",
+        "fetal malnutrition score PDF",
+        "CAN score printable"
+      ],
+      "description": "Clinical Assessment of Nutritional status (CAN) score sheet for evaluating fetal malnutrition at birth."
+    },
+    {
+      "slug": "thompson-hie-score-pdf",
+      "title": "Thompson HIE Scoring PDF",
+      "filename": "Thompson Scoring HIE.pdf",
+      "driveId": "1m93906S_nA3SK4BQJIhcyK2RDQvPK7Fd",
+      "category": "Scoring Systems",
+      "primaryKeyword": "Thompson HIE Score PDF Download",
+      "secondaryKeywords": [
+        "Thompson score printable",
+        "HIE severity scoring sheet",
+        "hypoxic ischemic encephalopathy score"
+      ],
+      "description": "Thompson scoring system reference for grading the severity of hypoxic-ischemic encephalopathy in newborns."
+    },
+    {
+      "slug": "sarnat-staging-pdf",
+      "title": "Sarnat and Sarnat HIE Staging PDF",
+      "filename": "Sarnat and Sarnat.pdf",
+      "driveId": "1wsbckCYsHda6CW33b5AKZmwhaRED7LWU",
+      "category": "Scoring Systems",
+      "primaryKeyword": "Sarnat Staging PDF Download",
+      "secondaryKeywords": [
+        "Sarnat and Sarnat HIE staging",
+        "HIE grading Sarnat printable",
+        "encephalopathy staging table"
+      ],
+      "description": "Sarnat and Sarnat clinical staging reference for hypoxic-ischemic encephalopathy (mild/moderate/severe)."
+    },
+    {
+      "slug": "pofras-score-sheet-pdf",
+      "title": "POFRAS Score Sheet PDF",
+      "filename": "POFRAS score.pdf",
+      "driveId": "1vd8Unkn6PPLHoCIg6XaGCph6cCYO0r6c",
+      "category": "Scoring Systems",
+      "primaryKeyword": "POFRAS Score PDF Download",
+      "secondaryKeywords": [
+        "Premature Oral Feeding Readiness Scale PDF",
+        "POFRAS printable",
+        "feeding readiness assessment scale"
+      ],
+      "description": "The Premature Oral Feeding Readiness Assessment Scale (POFRAS) — Fujinaga et al. — for assessing a preterm infant's readiness for oral feeds."
+    },
+    {
+      "slug": "latch-score-sheet-pdf",
+      "title": "LATCH Breastfeeding Score Sheet PDF",
+      "filename": "Latch score .pdf",
+      "driveId": "1w2mPkUm9mX8dOUrQ2uw5GhAvxrDdNvLF",
+      "category": "Scoring Systems",
+      "primaryKeyword": "LATCH Score PDF Download",
+      "secondaryKeywords": [
+        "LATCH breastfeeding assessment tool",
+        "breastfeeding score sheet printable"
+      ],
+      "description": "The LATCH breastfeeding assessment score sheet for evaluating latch, audible swallowing, nipple type, comfort and hold."
+    },
+    {
+      "slug": "nichd-hie-timebrain-assessment-pdf",
+      "title": "NICHD HIE / TIMEBRAIN Assessment PDF",
+      "filename": "NICHD Assessment TimeBrain May 2020.pdf",
+      "driveId": "1FMXB1_dDNr_euPYhQZwX1CKCLlB0awSt",
+      "category": "Scoring Systems",
+      "primaryKeyword": "NICHD HIE Assessment PDF Download",
+      "secondaryKeywords": [
+        "TIMEBRAIN cooling criteria PDF",
+        "therapeutic hypothermia eligibility sheet",
+        "NICHD encephalopathy assessment"
+      ],
+      "description": "NICHD-based encephalopathy risk and cooling-eligibility assessment reference (TIMEBRAIN, May 2020) — Apgar, resuscitation duration and acidosis criteria."
+    },
+    {
+      "slug": "hine-hnne-neuro-exam-pdf",
+      "title": "HINE, HNNE & Newborn Neuro Exam PDF",
+      "filename": "HINE , HNNE , CNS examination , Neurological assessment of newborns.pdf",
+      "driveId": "1ShGbKFA2CIrISfWdqY5vRMBYzxMGnpu6",
+      "category": "Neurological Assessment",
+      "primaryKeyword": "HINE HNNE Neuro Exam PDF Download",
+      "secondaryKeywords": [
+        "neurological assessment of newborn PDF",
+        "Hammersmith infant neurological exam",
+        "CNS examination newborn"
+      ],
+      "description": "47-page reference covering HINE, HNNE, CNS examination and structured neurological assessment of newborns."
+    },
+    {
+      "slug": "cranial-usg-reference-pdf",
+      "title": "Cranial USG Reference PDF",
+      "filename": "Cranial USG .pdf",
+      "driveId": "16HEfrmttQz01x2LVxD84gkzD2Vxe7SsW",
+      "category": "Neurological Assessment",
+      "primaryKeyword": "Neonatal Cranial USG PDF Download",
+      "secondaryKeywords": [
+        "cranial ultrasound newborn guide",
+        "neonatal head USG reference PDF"
+      ],
+      "description": "68-page reference guide to cranial ultrasound imaging in the neonate."
+    },
+    {
+      "slug": "iap-nis-vaccination-schedule-pdf",
+      "title": "IAP & NIS Vaccination Schedule PDF",
+      "filename": "IAP and NIS vaccination .pdf",
+      "driveId": "1klOuYQvRrUTYiXmhG2qJuPwbjhkAYvsX",
+      "category": "Vaccination",
+      "primaryKeyword": "IAP NIS Vaccination Schedule PDF Download",
+      "secondaryKeywords": [
+        "India immunization schedule PDF",
+        "national immunization schedule chart",
+        "IAP vaccine chart printable"
+      ],
+      "description": "Combined IAP + National Immunization Schedule (NIS) reference — vaccine, dose, route and age, in table form."
+    },
+    {
+      "slug": "iap-immunisation-schedule-2022-print-pdf",
+      "title": "IAP Immunisation Schedule 2022 (Print) PDF",
+      "filename": "Vaccination  FOR PRINT.pdf",
+      "driveId": "1JXWLV_chEsk5GXN9y7zRVBRZtQJLa2G6",
+      "category": "Vaccination",
+      "primaryKeyword": "IAP Immunisation Schedule 2022 PDF Download",
+      "secondaryKeywords": [
+        "IAP 2022 vaccine schedule printable",
+        "immunisation chart for clinic wall"
+      ],
+      "description": "IAP Immunisation Schedule 2022 formatted for printing — vaccine, dose, and brands available by age."
+    },
+    {
+      "slug": "targeted-neonatal-echocardiography-manual-pdf",
+      "title": "Targeted Neonatal Echocardiography Manual PDF",
+      "filename": "TargetedNeonatalEchocardiographyTeachingManual-NewEdition.pdf",
+      "driveId": "1_sDOOI8T_GG-3GgzGsYWo8oOETjoOgGY",
+      "category": "Echocardiography",
+      "primaryKeyword": "Neonatal Echocardiography Manual PDF Download",
+      "secondaryKeywords": [
+        "TnECHO teaching manual PDF",
+        "neonatal echo teaching manual"
+      ],
+      "description": "80-page teaching manual on targeted neonatal echocardiography (TnECHO) technique and interpretation."
+    },
+    {
+      "slug": "nursing-echo-reference-pdf",
+      "title": "Nursing & Echo Reference PDF",
+      "filename": "NSG AND ECHO.pdf",
+      "driveId": "1_tJmX1AFKXtWm0DigQ4313C4ob4J8uUU",
+      "category": "Echocardiography",
+      "primaryKeyword": "NICU Nursing Echo Reference PDF Download",
+      "secondaryKeywords": [
+        "neonatal nursing echo notes",
+        "NICU nursing reference PDF"
+      ],
+      "description": "41-page compiled nursing and echocardiography reference notes for NICU practice."
+    },
+    {
+      "slug": "mechanical-ventilation-manual-pdf",
+      "title": "Mechanical Ventilation Manual PDF",
+      "filename": "Mechanical Ventilation Manual.pdf",
+      "driveId": "1NTlbQs5LTBCwIkziGQzKhBZ73DdJy6rb",
+      "category": "Ventilation",
+      "primaryKeyword": "Neonatal Mechanical Ventilation Manual PDF Download",
+      "secondaryKeywords": [
+        "mechanical ventilation basics PDF",
+        "NICU ventilation manual"
+      ],
+      "description": "99-page manual covering the basics of mechanical ventilation in the NICU setting."
+    },
+    {
+      "slug": "neonatal-ventilation-basics-pdf",
+      "title": "Neonatal Ventilation Basics PDF",
+      "filename": "Neonatal-Ventilation.pdf",
+      "driveId": "1Kp8tPs2u3Ic96mG90TyQSnM4XTR7Zw7V",
+      "category": "Ventilation",
+      "primaryKeyword": "Neonatal Ventilation Basics PDF Download",
+      "secondaryKeywords": [
+        "neonatal ventilation guideline PDF",
+        "NICU ventilation basics reference"
+      ],
+      "description": "A neonatal ventilation basics guideline (Neonatal Guidelines Group), covering core mechanical ventilation concepts."
+    },
+    {
+      "slug": "nnf-ready-reckoner-pdf",
+      "title": "NNF Ready Reckoner PDF",
+      "filename": "NNF ready reckoner.pdf",
+      "driveId": "18ZkGozmhf0kBOhkYBvfCmDgibg_e4GUa",
+      "category": "Quick Reference",
+      "primaryKeyword": "NNF Ready Reckoner PDF Download",
+      "secondaryKeywords": [
+        "NNF quick reference PDF",
+        "neonatology ready reckoner India",
+        "ROP screening schedule PDF"
+      ],
+      "description": "Quick-reference tables including ROP screening schedules and other bedside NICU reckoners."
+    },
+    {
+      "slug": "iap-standard-treatment-guidelines-combined-pdf",
+      "title": "IAP Standard Treatment Guidelines — Combined PDF",
+      "filename": "COMBINED PDF STANDARD TREATMENT GUIDELINE UPTO 093.pdf",
+      "driveId": "1pib_nWnN2JRssBCvDNzO52r_1L_k-tIC",
+      "category": "Guidelines",
+      "primaryKeyword": "IAP Standard Treatment Guidelines PDF Download",
+      "secondaryKeywords": [
+        "IAP STG combined PDF",
+        "IAP treatment guidelines single PDF",
+        "pediatric standard treatment guideline India"
+      ],
+      "description": "601-page combined single-PDF edition of the IAP Standard Treatment Guideline chapters — the same content browsable chapter-by-chapter on PediAid's STG site, bundled for one-shot offline download."
+    },
+    {
+      "slug": "acute-neonate-case-proforma-pdf",
+      "title": "Acute Neonate Case Proforma PDF",
+      "filename": "Acute History neonate - Sunil.pdf",
+      "driveId": "18-_kzcUQql0qzzMQTQ03F217eTKUYXDq",
+      "category": "Teaching Templates",
+      "primaryKeyword": "Neonatal Case Presentation Proforma PDF Download",
+      "secondaryKeywords": [
+        "acute neonate case history template",
+        "NICU case presentation format PDF",
+        "ventilator case proforma"
+      ],
+      "description": "A structured 79-page case-presentation framework for acute neonates on respiratory support (ventilator/HFOV/CPAP/HFNC) — history, examination, diagnosis and plan, with presentation tips, for exam and ward-round preparation."
+    },
+    {
+      "slug": "growing-preterm-case-proforma-pdf",
+      "title": "Growing Preterm Case Proforma PDF",
+      "filename": "Growing Preterm Case Proforma Sunil.pdf",
+      "driveId": "1y-pb-PoXVDb1kxo6EGYtOU7RkpvRVbkC",
+      "category": "Teaching Templates",
+      "primaryKeyword": "Growing Preterm Case Proforma PDF Download",
+      "secondaryKeywords": [
+        "preterm case presentation template",
+        "growing preterm baby history format"
+      ],
+      "description": "A fill-in-the-blank case-presentation template for a growing preterm infant — antenatal history through systemic examination, structured for trainee case presentations."
+    },
+    {
+      "slug": "nutritional-audit-preterm-xlsx",
+      "title": "Nutritional Audit in Preterm Babies (Spreadsheet)",
+      "filename": "Nutritional Audit in Preterm babies.xlsx",
+      "driveId": "1TyyGLgEr0cAUfYwCZJ6lRQRf7sy37nN7",
+      "category": "Nutrition",
+      "primaryKeyword": "Preterm Nutritional Audit Spreadsheet Download",
+      "secondaryKeywords": [
+        "preterm feed audit excel",
+        "NICU nutrition audit tool"
+      ],
+      "description": "A working spreadsheet tool for auditing enteral nutrition intake in preterm babies."
+    },
+    {
+      "slug": "bls-choking-algorithms",
+      "title": "BLS & Choking Algorithms",
+      "filename": "BLS and CHOKING.pdf",
+      "driveId": "146RHWabJWdl6gyTJ5ZFWdRSOuFz8ViCI",
+      "category": "Guidelines",
+      "description": "Basic life support and choking-relief algorithms for infants and children, set out as step-by-step flow charts. Covers the compression-to-ventilation ratios for one and two rescuers, back blows and chest thrusts in the infant, and abdominal thrusts in the older child.",
+      "primaryKeyword": "Paediatric BLS and Choking Algorithm PDF",
+      "secondaryKeywords": [
+        "infant BLS algorithm",
+        "child choking management",
+        "paediatric basic life support chart",
+        "back blows chest thrusts infant"
+      ]
+    },
+    {
+      "slug": "nrp-9th-edition-manual",
+      "title": "NRP 9th Edition Manual",
+      "filename": "NRP 9th edition.pdf",
+      "driveId": "1zgi3OyKiBIg4Z-lBYZya4fRaVeIOjyW6",
+      "category": "Guidelines",
+      "description": "The Neonatal Resuscitation Program manual, 9th edition — the delivery-room algorithm, positive-pressure ventilation and the MR SOPA corrective steps, airway management, chest compressions and medication in the newborn.",
+      "primaryKeyword": "NRP 9th Edition Neonatal Resuscitation Manual",
+      "secondaryKeywords": [
+        "NRP algorithm 9th edition",
+        "MR SOPA steps",
+        "delivery room resuscitation newborn",
+        "neonatal resuscitation program"
+      ]
+    },
+    {
+      "slug": "pals-algorithms-2020",
+      "title": "PALS Algorithms 2020",
+      "filename": "PALS-Algorithms-2020.pdf",
+      "driveId": "1F_0BTUc9BbU2C1Ef1JB41TLsvFH7-KBB",
+      "category": "Guidelines",
+      "description": "The 2020 Pediatric Advanced Life Support algorithm set — cardiac arrest, bradycardia and tachycardia with a pulse, shock and post-resuscitation care — in the single-page flow-chart form used for teaching and recertification.",
+      "primaryKeyword": "PALS Algorithms 2020 PDF",
+      "secondaryKeywords": [
+        "paediatric cardiac arrest algorithm",
+        "PALS bradycardia tachycardia",
+        "paediatric advanced life support chart",
+        "PALS 2020 update"
+      ]
+    },
+    {
+      "slug": "neofax-nov-2024",
+      "title": "NeoFax (Nov 2024)",
+      "filename": "NEOFAX NOV. 2024.pdf",
+      "driveId": "1n-zeI8Duyn3cl-xOVPW03Vs203Djg2ro",
+      "category": "Drug References",
+      "description": "A neonatal drug dosing reference, November 2024 edition, giving dose, interval, route, dilution and administration notes for medicines used in the NICU.",
+      "primaryKeyword": "Neonatal Drug Dosing Reference 2024",
+      "secondaryKeywords": [
+        "NICU drug doses",
+        "neonatal drug dilution reference",
+        "newborn medication dosing",
+        "neonatal formulary"
+      ]
+    },
+    {
+      "slug": "frank-shann-drug-doses-2017",
+      "title": "Frank Shann Drug Doses (2017)",
+      "filename": "Drug_Dose_Frank_Shann_2017_pdf.pdf",
+      "driveId": "1tcJRA5e89lZSQhuqLJPbPxzEFX1O_FpY",
+      "category": "Drug References",
+      "description": "Frank Shann's Drug Doses, 2017 edition — the compact paediatric and neonatal dosing booklet, listing per-kilogram doses for several hundred drugs in one alphabetical table.",
+      "primaryKeyword": "Frank Shann Drug Doses PDF",
+      "secondaryKeywords": [
+        "paediatric drug doses per kg",
+        "Frank Shann 2017",
+        "paediatric dosing booklet",
+        "children drug dose table"
+      ]
+    },
+    {
+      "slug": "immunisation-special-situations",
+      "title": "Immunisation in Special Situations",
+      "filename": "IMMUNIZATION  IN SPECIAL SITUATIONS..pptx",
+      "driveId": "10QcNd5CZm61lsZgzHdNHuwlCffH8VkPT",
+      "category": "Vaccination",
+      "description": "Immunisation in special situations — vaccinating the preterm infant, the immunocompromised or asplenic child, children on steroids or chemotherapy, and catch-up after an interrupted schedule.",
+      "primaryKeyword": "Immunisation in Special Situations",
+      "secondaryKeywords": [
+        "vaccination preterm infant",
+        "vaccines immunocompromised child",
+        "catch-up immunisation schedule",
+        "vaccination special circumstances"
+      ]
+    },
+    {
+      "slug": "paediatric-nutrition",
+      "title": "Paediatric Nutrition",
+      "filename": "PEDIATRIC NUTRITION .pdf",
+      "driveId": "13m-w6J6__1y545j_OYE4jVckRak5qYSj",
+      "category": "Nutrition",
+      "description": "Paediatric nutrition notes covering energy and protein requirements by age, assessment of nutritional status, feeding the malnourished child and the common micronutrient deficiencies.",
+      "primaryKeyword": "Paediatric Nutrition Notes PDF",
+      "secondaryKeywords": [
+        "child energy protein requirement",
+        "severe acute malnutrition feeding",
+        "paediatric nutritional assessment",
+        "micronutrient deficiency children"
+      ]
+    },
+    {
+      "slug": "nutritive-value-common-foods",
+      "title": "Nutritive Value of Common Foods",
+      "filename": "NUTRITIVE VALUE OF COMMON FOODS.pptx",
+      "driveId": "1vVm6Yw0Em9tQSvRQjNwqcObXH3ltn8EV",
+      "category": "Nutrition",
+      "description": "Nutritive value of common foods — energy, protein, fat and key micronutrient content by household measure, for dietary counselling and for checking a child's actual intake against requirement.",
+      "primaryKeyword": "Nutritive Value of Common Foods",
+      "secondaryKeywords": [
+        "food calorie protein chart",
+        "Indian food nutritive value",
+        "diet counselling children",
+        "household measure nutrition table"
+      ]
+    },
+    {
+      "slug": "cerebral-palsy-case-presentation",
+      "title": "Cerebral Palsy Case Presentation",
+      "filename": "Cerebral palsy case presentation notes.pdf",
+      "driveId": "1KROf-QRzkIJ1HX9MG9Ov0zwlL3Q8zT66",
+      "category": "Teaching Templates",
+      "description": "Case presentation notes for cerebral palsy: structuring the history, the neurological examination, classification by type and topography, the associated impairments to screen for, and the usual discussion points.",
+      "primaryKeyword": "Cerebral Palsy Case Presentation",
+      "secondaryKeywords": [
+        "cerebral palsy history examination",
+        "CP classification topography",
+        "paediatric neurology case presentation",
+        "cerebral palsy viva"
+      ]
+    },
+    {
+      "slug": "paediatric-case-format",
+      "title": "Paediatric Case Format",
+      "filename": "Pedia format.pdf",
+      "driveId": "1asI_XR4olS6QDeVLs0nVBd0c0Epe2cOT",
+      "category": "Teaching Templates",
+      "description": "A blank paediatric case-presentation format — history, birth and developmental history, immunisation, nutrition, examination and summary — in the order expected in clinical postings and examinations.",
+      "primaryKeyword": "Paediatric Case Presentation Format",
+      "secondaryKeywords": [
+        "paediatric history taking format",
+        "case sheet proforma paediatrics",
+        "clinical case presentation template",
+        "paediatric case record"
+      ]
+    },
+    {
+      "slug": "social-paediatrics",
+      "title": "Social Paediatrics",
+      "filename": "Social pediatrics.pdf",
+      "driveId": "1H8BPF06HeDC8Vhl3WkQV1snJq7FyS5tF",
+      "category": "Community Paediatrics",
+      "description": "Social paediatrics notes: the determinants of child health, growth monitoring and the under-five clinic, child labour and abuse, disability, and the social factors that shape outcomes alongside the clinical ones.",
+      "primaryKeyword": "Social Paediatrics Notes",
+      "secondaryKeywords": [
+        "determinants of child health",
+        "under five clinic growth monitoring",
+        "child abuse and labour",
+        "community child health notes"
+      ]
+    },
+    {
+      "slug": "national-health-programmes-notes",
+      "title": "National Health Programmes — Brief Notes",
+      "filename": "BRIEF NOTES ON NATIONAL HEALTH PROGRAMS.pdf",
+      "driveId": "1cVxtjNFLLETB6CItJ6t_S2nK7CFMqQOt",
+      "category": "Community Paediatrics",
+      "description": "Brief notes on the national health programmes relevant to child health, with the objectives, components and target groups of each set out compactly for revision.",
+      "primaryKeyword": "National Health Programmes Child Health Notes",
+      "secondaryKeywords": [
+        "RBSK RMNCH+A notes",
+        "national health programme objectives",
+        "community medicine child health",
+        "health programme revision notes"
+      ]
+    },
+    {
+      "slug": "sankalan-health-programmes-handbook",
+      "title": "Sankalan — National Health Programmes Handbook",
+      "filename": "Sankalan-National Health Programmes Handbook.pdf",
+      "driveId": "1HQXZ951u2v7tGnVTkXToGo5gotXKAbS8",
+      "category": "Community Paediatrics",
+      "description": "The Sankalan handbook of national health programmes — a consolidated reference to the programmes, their objectives, target groups, service components and monitoring indicators in one document.",
+      "primaryKeyword": "Sankalan National Health Programmes Handbook",
+      "secondaryKeywords": [
+        "national health programme handbook",
+        "health programme indicators",
+        "Sankalan handbook PDF",
+        "public health programmes India"
+      ]
+    },
+    {
+      "slug": "nnf-fellowship-question-bank",
+      "title": "NNF Fellowship Question Bank (to 2026)",
+      "filename": "NNF Fellowship All QBANK till 2026.pdf",
+      "driveId": "1SCrguB_n4S8VV0LUUjvXjwBzTuRfEsZN",
+      "category": "Exam & Viva",
+      "description": "NNF fellowship question bank covering papers up to 2026, collected by year — useful for seeing which neonatology topics recur and how questions are phrased.",
+      "primaryKeyword": "NNF Fellowship Question Bank",
+      "secondaryKeywords": [
+        "neonatology fellowship exam questions",
+        "NNF previous year papers",
+        "fellowship neonatology preparation",
+        "NNF exam question bank"
+      ]
+    },
+    {
+      "slug": "md-paediatrics-question-papers",
+      "title": "MD Paediatrics Question Paper Compilation",
+      "filename": "M.D., Peds Qn. Paper Compilation.pdf",
+      "driveId": "1l7s9uso3GQu2L75ozx3K_QY1L1KZDyV_",
+      "category": "Exam & Viva",
+      "description": "A compilation of MD Paediatrics university question papers, grouped so the themes that recur across years are visible at a glance.",
+      "primaryKeyword": "MD Paediatrics Question Papers",
+      "secondaryKeywords": [
+        "MD paediatrics previous papers",
+        "paediatrics university exam questions",
+        "postgraduate paediatrics papers",
+        "MD peds question compilation"
+      ]
+    },
+    {
+      "slug": "systemwise-question-bank",
+      "title": "System-wise Question Bank",
+      "filename": "Systemwise question bank-1-1.pdf (1).pdf",
+      "driveId": "18RKkAjF0tadrYsfDAUPPsW14xIih540x",
+      "category": "Exam & Viva",
+      "description": "A system-wise paediatric question bank — questions sorted by organ system rather than by year, so one topic can be revised end to end before moving on.",
+      "primaryKeyword": "Systemwise Paediatric Question Bank",
+      "secondaryKeywords": [
+        "paediatrics questions by system",
+        "organ system question bank",
+        "paediatric exam revision questions",
+        "topic wise paediatrics questions"
+      ]
+    },
+    {
+      "slug": "instruments-viva",
+      "title": "Instruments Viva",
+      "filename": "INSTRUMENTS VIVA.pptx",
+      "driveId": "12vLfM3D1whyNyHuY_M8qPMX9CGjGXj9A",
+      "category": "Exam & Viva",
+      "description": "Instruments viva deck covering the paediatric and neonatal instruments laid out in a practical examination, each with its identification, parts, uses, sizes and complications.",
+      "primaryKeyword": "Paediatric Instruments Viva",
+      "secondaryKeywords": [
+        "neonatal instruments identification",
+        "paediatric practical exam instruments",
+        "instrument uses complications viva",
+        "NICU instruments list"
+      ]
+    },
+    {
+      "slug": "instruments-reference",
+      "title": "Instruments Reference",
+      "filename": "Instruments.pdf",
+      "driveId": "1WTgyAYQh07h-dZSvSBEMFy71nJQH_ETj",
+      "category": "Exam & Viva",
+      "description": "An instruments reference for paediatric practical examinations — identification, indication, sizing and the standard follow-up questions for each instrument.",
+      "primaryKeyword": "Paediatric Instruments Reference",
+      "secondaryKeywords": [
+        "paediatric instruments chart",
+        "instrument sizes children",
+        "clinical instruments paediatrics",
+        "instruments identification guide"
+      ]
+    },
+    {
+      "slug": "final-year-xray-viva",
+      "title": "Final Year X-Ray Viva",
+      "filename": "final year X rays viva-1.pptx",
+      "driveId": "1rdpM0Mio1WKpN1FKg0KecBBke9HDHIw0",
+      "category": "Exam & Viva",
+      "description": "Final-year X-ray viva deck: the chest and abdominal radiographs that recur in undergraduate paediatric practicals, with the findings to describe and the diagnosis each points to.",
+      "primaryKeyword": "Paediatric X-ray Viva Final Year",
+      "secondaryKeywords": [
+        "paediatric chest x-ray viva",
+        "MBBS radiology viva paediatrics",
+        "x-ray findings children exam",
+        "paediatric radiograph interpretation"
+      ]
+    },
+    {
+      "slug": "xray-viva-pg",
+      "title": "X-Ray Viva — PG",
+      "filename": "xray-pg.pptx",
+      "driveId": "1XgQ_iZh0z8xK5U-cSi9AusWVPThiVzGj",
+      "category": "Exam & Viva",
+      "description": "Postgraduate paediatric X-ray viva deck — radiographs pitched at MD and DNB level, with systematic description, differential diagnosis and the discussion each film is meant to open.",
+      "primaryKeyword": "Paediatric X-ray Viva Postgraduate",
+      "secondaryKeywords": [
+        "MD paediatrics radiology viva",
+        "DNB paediatrics x-ray cases",
+        "postgraduate paediatric radiographs",
+        "paediatric imaging viva"
+      ]
+    }
+  ]
 }
