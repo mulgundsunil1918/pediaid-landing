@@ -890,6 +890,28 @@
     .pediaid-share-toast { transition: opacity 1ms linear; }
   }
 
+  /* Share strip inside the dark #download card — the button's light-green
+     skin has no contrast on glass-dark, so it is re-skinned for that ground
+     rather than left to disappear into it. */
+  .dl-share {
+    margin-top: 22px; padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.16);
+    display: flex; align-items: center; justify-content: center;
+    gap: 16px; flex-wrap: wrap;
+  }
+  .dl-share-text { color: rgba(255,255,255,0.82); font-size: 14.5px; font-weight: 600; }
+  .dl-share .btn-share {
+    background: rgba(154, 230, 180, 0.16);
+    color: #d8f5e3;
+    border: 1px solid rgba(154, 230, 180, 0.42);
+  }
+  .dl-share .btn-share:hover {
+    background: rgba(154, 230, 180, 0.26); color: #fff;
+  }
+  @media (max-width: 560px) {
+    .dl-share { flex-direction: column; gap: 12px; }
+  }
+
 </style>
 <script src="assets/share.js" defer></script>
 </head>
@@ -951,6 +973,9 @@
             <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;"><path d="M12 3v12m0 0l-4-4m4 4l4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
             Get the app
           </a>
+          <button type="button" class="btn btn-share" data-pediaid-share data-share-mode="copy">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px; margin-right:7px;"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>Share with colleagues
+          </button>
           <a href="https://pediaid.bridgr.co.in" target="_blank" rel="noopener"
              style="display:inline-flex; align-items:center; gap:6px; font-size:13px; font-weight:600; color:var(--navy); opacity:.72; text-decoration:underline; text-underline-offset:3px;">
             Open the web app
@@ -1505,6 +1530,13 @@
         PediAid is a clinical aid only. Calculations and reference data must be
         verified against the patient's clinical context, the source guideline
         and your local protocols before any treatment decision is made.
+      </div>
+
+      <div class="dl-share">
+        <span class="dl-share-text">Already using it? Pass it to someone who would.</span>
+        <button type="button" class="btn btn-share" data-pediaid-share data-share-mode="copy">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px; margin-right:7px;"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>Share with colleagues
+        </button>
       </div>
     </div>
   </div>
